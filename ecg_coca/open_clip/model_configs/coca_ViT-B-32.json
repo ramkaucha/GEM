@@ -6,19 +6,11 @@
     "layers": 12,
     "width": 768,
     "patch_size": 50,
-    "output_tokens": true
-  },
-  "signal_encoder": {
-    "seq_length": 5000,
-    "lead_num": 12,
-    "layers": 12,
-    "width": 768,
-    "patch_size": 50,
-    "output_tokens": true,
     "head_width": 64,
     "mlp_ratio": 4.0,
     "attn_pooler_queries": 256,
-    "attn_pooler_heads": 8
+    "attn_pooler_heads": 8,
+    "output_tokens": true
   },
   "text_cfg": {
     "context_length": 77,
