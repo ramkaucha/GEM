@@ -2,11 +2,11 @@
   {
     "id": "test-1",
     "image": "42149331.png",
-    "ecg": "42149331.hea",
-    "conversation": [
+    "ecg": "42149331",
+    "conversations": [
       {
         "from": "human",
-        "value": "Please interprety this ECG and explain the evidence."
+        "value": "<image>\nPlease interpret this ECG and explain the evidence."
       },
       {
         "from": "gpt",
