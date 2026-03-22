@@ -5,6 +5,7 @@ import json
 from tqdm import tqdm
 import shortuuid
 import numpy as np
+import time
 
 from llava.constants import IMAGE_TOKEN_INDEX, DEFAULT_IMAGE_TOKEN, DEFAULT_IM_START_TOKEN, DEFAULT_IM_END_TOKEN,IGNORE_INDEX
 from llava.conversation import conv_templates, SeparatorStyle
@@ -161,7 +162,7 @@ def eval_model(args):
             ecg = ecg[:, 0:seq_length]  
         ecg = ecg.half()
         
-            
+        start_gen = time.perf_counter()
         with torch.inference_mode():
             output_ids = model.generate(
                 input_ids,
@@ -174,6 +175,11 @@ def eval_model(args):
                 num_beams=args.num_beams,
                 max_new_tokens=args.max_new_tokens,
                 use_cache=True)
+        torch.cuda.syncrhonize()
+        end_gen = time.perf_counter()
+
+        print(f"Generation_latency_s={end_gen - start_gen:.4f}")
+
 
         outputs = tokenizer.batch_decode(output_ids, skip_special_tokens=True)[0].strip()
 
