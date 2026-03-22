@@ -1,0 +1,11 @@
+CUDA_VISIBLE_DEVICES=0 python llava/eval/model_ecg_resume.py \
+  --model-path "/media/tower1/DATA21/Ram/GEM/ecg_coca/open_clip/checkpoint/llava-vicuna-13b-finetune_lora" \
+  --model-base "/media/tower1/DATA21/Ram/models/vicuna-13b-v1.5" \
+  --image-folder "/media/tower1/DATA21/Ram/sample/p1001/p10018081/s42149331" \
+  --question-file "/media/tower1/DATA21/Ram/GEM/question.json" \
+  --answer-file "/media/tower1/DATA21/Ram/GEM/answer.jsonl" \
+  --conv-mode llava_v1 \
+  --ecg-folder "/media/tower1/DATA21/Ram/sample/p1001/p10018081/s42149331" \
+  --temperature 0 \
+  --num_beams 1 \
+  --max_new_tokens 512

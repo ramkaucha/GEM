@@ -1,0 +1,17 @@
+[
+  {
+    "id": "test-1",
+    "image": "42149331.png",
+    "ecg": "42149331.hea",
+    "conversation": [
+      {
+        "from": "human",
+        "value": "Please interprety this ECG and explain the evidence."
+      },
+      {
+        "from": "gpt",
+        "value": ""
+      }
+    ]
+  }
+]
