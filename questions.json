@@ -598,5 +598,1805 @@
         "value": ""
       }
     ]
+  },
+  {
+    "id": "41149570_q01",
+    "image": "41149570.png",
+    "ecg": "41149570",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhat is the heart rate in bpm?"
+      },
+      {
+        "from": "gpt",
+        "value": ""
+      }
+    ]
+  },
+  {
+    "id": "41149570_q02",
+    "image": "41149570.png",
+    "ecg": "41149570",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nIs the rhythm regular or irregular?"
+      },
+      {
+        "from": "gpt",
+        "value": ""
+      }
+    ]
+  },
+  {
+    "id": "41149570_q03",
+    "image": "41149570.png",
+    "ecg": "41149570",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhat is the most likely underlying rhythm?"
+      },
+      {
+        "from": "gpt",
+        "value": ""
+      }
+    ]
+  },
+  {
+    "id": "41149570_q04",
+    "image": "41149570.png",
+    "ecg": "41149570",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nAre P waves present before each QRS complex?"
+      },
+      {
+        "from": "gpt",
+        "value": ""
+      }
+    ]
+  },
+  {
+    "id": "41149570_q05",
+    "image": "41149570.png",
+    "ecg": "41149570",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nIs there evidence of sinus rhythm?"
+      },
+      {
+        "from": "gpt",
+        "value": ""
+      }
+    ]
+  },
+  {
+    "id": "41149570_q06",
+    "image": "41149570.png",
+    "ecg": "41149570",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nIs there evidence of atrial fibrillation?"
+      },
+      {
+        "from": "gpt",
+        "value": ""
+      }
+    ]
+  },
+  {
+    "id": "41149570_q07",
+    "image": "41149570.png",
+    "ecg": "41149570",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nIs there evidence of atrial flutter?"
+      },
+      {
+        "from": "gpt",
+        "value": ""
+      }
+    ]
+  },
+  {
+    "id": "41149570_q08",
+    "image": "41149570.png",
+    "ecg": "41149570",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nAre there premature beats present?"
+      },
+      {
+        "from": "gpt",
+        "value": ""
+      }
+    ]
+  },
+  {
+    "id": "41149570_q09",
+    "image": "41149570.png",
+    "ecg": "41149570",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nIs there any pause or dropped beat visible?"
+      },
+      {
+        "from": "gpt",
+        "value": ""
+      }
+    ]
+  },
+  {
+    "id": "41149570_q10",
+    "image": "41149570.png",
+    "ecg": "41149570",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nDoes this ECG suggest tachycardia, bradycardia, or a normal rate?"
+      },
+      {
+        "from": "gpt",
+        "value": ""
+      }
+    ]
+  },
+  {
+    "id": "41149570_q11",
+    "image": "41149570.png",
+    "ecg": "41149570",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nEstimate the PR interval and state whether it is normal, short, or prolonged."
+      },
+      {
+        "from": "gpt",
+        "value": ""
+      }
+    ]
+  },
+  {
+    "id": "41149570_q12",
+    "image": "41149570.png",
+    "ecg": "41149570",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nEstimate the QRS duration and state whether it is narrow or wide."
+      },
+      {
+        "from": "gpt",
+        "value": ""
+      }
+    ]
+  },
+  {
+    "id": "41149570_q13",
+    "image": "41149570.png",
+    "ecg": "41149570",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nEstimate the QT interval or QTc and say whether it appears prolonged."
+      },
+      {
+        "from": "gpt",
+        "value": ""
+      }
+    ]
+  },
+  {
+    "id": "41149570_q14",
+    "image": "41149570.png",
+    "ecg": "41149570",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nIs there evidence of first-degree AV block?"
+      },
+      {
+        "from": "gpt",
+        "value": ""
+      }
+    ]
+  },
+  {
+    "id": "41149570_q15",
+    "image": "41149570.png",
+    "ecg": "41149570",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nIs there evidence of second-degree AV block?"
+      },
+      {
+        "from": "gpt",
+        "value": ""
+      }
+    ]
+  },
+  {
+    "id": "41149570_q16",
+    "image": "41149570.png",
+    "ecg": "41149570",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nIs there evidence of third-degree AV block?"
+      },
+      {
+        "from": "gpt",
+        "value": ""
+      }
+    ]
+  },
+  {
+    "id": "41149570_q17",
+    "image": "41149570.png",
+    "ecg": "41149570",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nIs there evidence of right bundle branch block?"
+      },
+      {
+        "from": "gpt",
+        "value": ""
+      }
+    ]
+  },
+  {
+    "id": "41149570_q18",
+    "image": "41149570.png",
+    "ecg": "41149570",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nIs there evidence of left bundle branch block?"
+      },
+      {
+        "from": "gpt",
+        "value": ""
+      }
+    ]
+  },
+  {
+    "id": "41149570_q19",
+    "image": "41149570.png",
+    "ecg": "41149570",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhat is the likely frontal plane QRS axis: normal, left axis deviation, right axis deviation, or extreme axis deviation?"
+      },
+      {
+        "from": "gpt",
+        "value": ""
+      }
+    ]
+  },
+  {
+    "id": "41149570_q20",
+    "image": "41149570.png",
+    "ecg": "41149570",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nIs there any intraventricular conduction delay present?"
+      },
+      {
+        "from": "gpt",
+        "value": ""
+      }
+    ]
+  },
+  {
+    "id": "41149570_q21",
+    "image": "41149570.png",
+    "ecg": "41149570",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nAre there abnormal P-wave findings suggesting atrial enlargement?"
+      },
+      {
+        "from": "gpt",
+        "value": ""
+      }
+    ]
+  },
+  {
+    "id": "41149570_q22",
+    "image": "41149570.png",
+    "ecg": "41149570",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nAre there Q waves present, and if so are they pathologic?"
+      },
+      {
+        "from": "gpt",
+        "value": ""
+      }
+    ]
+  },
+  {
+    "id": "41149570_q23",
+    "image": "41149570.png",
+    "ecg": "41149570",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nIs there R-wave progression across the precordial leads, and is it normal?"
+      },
+      {
+        "from": "gpt",
+        "value": ""
+      }
+    ]
+  },
+  {
+    "id": "41149570_q24",
+    "image": "41149570.png",
+    "ecg": "41149570",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nIs there poor R-wave progression?"
+      },
+      {
+        "from": "gpt",
+        "value": ""
+      }
+    ]
+  },
+  {
+    "id": "41149570_q25",
+    "image": "41149570.png",
+    "ecg": "41149570",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nIs there ST-segment elevation present?"
+      },
+      {
+        "from": "gpt",
+        "value": ""
+      }
+    ]
+  },
+  {
+    "id": "41149570_q26",
+    "image": "41149570.png",
+    "ecg": "41149570",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nIs there ST-segment depression present?"
+      },
+      {
+        "from": "gpt",
+        "value": ""
+      }
+    ]
+  },
+  {
+    "id": "41149570_q27",
+    "image": "41149570.png",
+    "ecg": "41149570",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nAre there T-wave inversions present?"
+      },
+      {
+        "from": "gpt",
+        "value": ""
+      }
+    ]
+  },
+  {
+    "id": "41149570_q28",
+    "image": "41149570.png",
+    "ecg": "41149570",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nAre there peaked T waves or other signs of hyperkalemia?"
+      },
+      {
+        "from": "gpt",
+        "value": ""
+      }
+    ]
+  },
+  {
+    "id": "41149570_q29",
+    "image": "41149570.png",
+    "ecg": "41149570",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nAre there U waves present?"
+      },
+      {
+        "from": "gpt",
+        "value": ""
+      }
+    ]
+  },
+  {
+    "id": "41149570_q30",
+    "image": "41149570.png",
+    "ecg": "41149570",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nAre there signs of ventricular hypertrophy?"
+      },
+      {
+        "from": "gpt",
+        "value": ""
+      }
+    ]
+  },
+  {
+    "id": "41149570_q31",
+    "image": "41149570.png",
+    "ecg": "41149570",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhat is the most likely primary diagnosis from this ECG?"
+      },
+      {
+        "from": "gpt",
+        "value": ""
+      }
+    ]
+  },
+  {
+    "id": "41149570_q32",
+    "image": "41149570.png",
+    "ecg": "41149570",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nList the top 3 diagnostic considerations for this ECG."
+      },
+      {
+        "from": "gpt",
+        "value": ""
+      }
+    ]
+  },
+  {
+    "id": "41149570_q33",
+    "image": "41149570.png",
+    "ecg": "41149570",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhat are the key ECG findings supporting your interpretation?"
+      },
+      {
+        "from": "gpt",
+        "value": ""
+      }
+    ]
+  },
+  {
+    "id": "41149570_q34",
+    "image": "41149570.png",
+    "ecg": "41149570",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhich leads contain the most important abnormal findings?"
+      },
+      {
+        "from": "gpt",
+        "value": ""
+      }
+    ]
+  },
+  {
+    "id": "41149570_q35",
+    "image": "41149570.png",
+    "ecg": "41149570",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nIs there evidence of acute ischemia or infarction?"
+      },
+      {
+        "from": "gpt",
+        "value": ""
+      }
+    ]
+  },
+  {
+    "id": "41149570_q36",
+    "image": "41149570.png",
+    "ecg": "41149570",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nIf infarction is suspected, what territory is most likely involved?"
+      },
+      {
+        "from": "gpt",
+        "value": ""
+      }
+    ]
+  },
+  {
+    "id": "41149570_q37",
+    "image": "41149570.png",
+    "ecg": "41149570",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nIs this ECG more consistent with a supraventricular or ventricular process?"
+      },
+      {
+        "from": "gpt",
+        "value": ""
+      }
+    ]
+  },
+  {
+    "id": "41149570_q38",
+    "image": "41149570.png",
+    "ecg": "41149570",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nDoes this ECG appear normal or abnormal overall?"
+      },
+      {
+        "from": "gpt",
+        "value": ""
+      }
+    ]
+  },
+  {
+    "id": "41149570_q39",
+    "image": "41149570.png",
+    "ecg": "41149570",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nSummarize this ECG in 3 to 5 concise clinical statements."
+      },
+      {
+        "from": "gpt",
+        "value": ""
+      }
+    ]
+  },
+  {
+    "id": "41149570_q40",
+    "image": "41149570.png",
+    "ecg": "41149570",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nProvide a final impression as if writing an ECG report."
+      },
+      {
+        "from": "gpt",
+        "value": ""
+      }
+    ]
+  },
+  {
+    "id": "41423207_q01",
+    "image": "41423207.png",
+    "ecg": "41423207",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhat is the heart rate in bpm?"
+      },
+      {
+        "from": "gpt",
+        "value": ""
+      }
+    ]
+  },
+  {
+    "id": "41423207_q02",
+    "image": "41423207.png",
+    "ecg": "41423207",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nIs the rhythm regular or irregular?"
+      },
+      {
+        "from": "gpt",
+        "value": ""
+      }
+    ]
+  },
+  {
+    "id": "41423207_q03",
+    "image": "41423207.png",
+    "ecg": "41423207",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhat is the most likely underlying rhythm?"
+      },
+      {
+        "from": "gpt",
+        "value": ""
+      }
+    ]
+  },
+  {
+    "id": "41423207_q04",
+    "image": "41423207.png",
+    "ecg": "41423207",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nAre P waves present before each QRS complex?"
+      },
+      {
+        "from": "gpt",
+        "value": ""
+      }
+    ]
+  },
+  {
+    "id": "41423207_q05",
+    "image": "41423207.png",
+    "ecg": "41423207",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nIs there evidence of sinus rhythm?"
+      },
+      {
+        "from": "gpt",
+        "value": ""
+      }
+    ]
+  },
+  {
+    "id": "41423207_q06",
+    "image": "41423207.png",
+    "ecg": "41423207",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nIs there evidence of atrial fibrillation?"
+      },
+      {
+        "from": "gpt",
+        "value": ""
+      }
+    ]
+  },
+  {
+    "id": "41423207_q07",
+    "image": "41423207.png",
+    "ecg": "41423207",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nIs there evidence of atrial flutter?"
+      },
+      {
+        "from": "gpt",
+        "value": ""
+      }
+    ]
+  },
+  {
+    "id": "41423207_q08",
+    "image": "41423207.png",
+    "ecg": "41423207",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nAre there premature beats present?"
+      },
+      {
+        "from": "gpt",
+        "value": ""
+      }
+    ]
+  },
+  {
+    "id": "41423207_q09",
+    "image": "41423207.png",
+    "ecg": "41423207",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nIs there any pause or dropped beat visible?"
+      },
+      {
+        "from": "gpt",
+        "value": ""
+      }
+    ]
+  },
+  {
+    "id": "41423207_q10",
+    "image": "41423207.png",
+    "ecg": "41423207",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nDoes this ECG suggest tachycardia, bradycardia, or a normal rate?"
+      },
+      {
+        "from": "gpt",
+        "value": ""
+      }
+    ]
+  },
+  {
+    "id": "41423207_q11",
+    "image": "41423207.png",
+    "ecg": "41423207",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nEstimate the PR interval and state whether it is normal, short, or prolonged."
+      },
+      {
+        "from": "gpt",
+        "value": ""
+      }
+    ]
+  },
+  {
+    "id": "41423207_q12",
+    "image": "41423207.png",
+    "ecg": "41423207",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nEstimate the QRS duration and state whether it is narrow or wide."
+      },
+      {
+        "from": "gpt",
+        "value": ""
+      }
+    ]
+  },
+  {
+    "id": "41423207_q13",
+    "image": "41423207.png",
+    "ecg": "41423207",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nEstimate the QT interval or QTc and say whether it appears prolonged."
+      },
+      {
+        "from": "gpt",
+        "value": ""
+      }
+    ]
+  },
+  {
+    "id": "41423207_q14",
+    "image": "41423207.png",
+    "ecg": "41423207",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nIs there evidence of first-degree AV block?"
+      },
+      {
+        "from": "gpt",
+        "value": ""
+      }
+    ]
+  },
+  {
+    "id": "41423207_q15",
+    "image": "41423207.png",
+    "ecg": "41423207",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nIs there evidence of second-degree AV block?"
+      },
+      {
+        "from": "gpt",
+        "value": ""
+      }
+    ]
+  },
+  {
+    "id": "41423207_q16",
+    "image": "41423207.png",
+    "ecg": "41423207",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nIs there evidence of third-degree AV block?"
+      },
+      {
+        "from": "gpt",
+        "value": ""
+      }
+    ]
+  },
+  {
+    "id": "41423207_q17",
+    "image": "41423207.png",
+    "ecg": "41423207",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nIs there evidence of right bundle branch block?"
+      },
+      {
+        "from": "gpt",
+        "value": ""
+      }
+    ]
+  },
+  {
+    "id": "41423207_q18",
+    "image": "41423207.png",
+    "ecg": "41423207",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nIs there evidence of left bundle branch block?"
+      },
+      {
+        "from": "gpt",
+        "value": ""
+      }
+    ]
+  },
+  {
+    "id": "41423207_q19",
+    "image": "41423207.png",
+    "ecg": "41423207",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhat is the likely frontal plane QRS axis: normal, left axis deviation, right axis deviation, or extreme axis deviation?"
+      },
+      {
+        "from": "gpt",
+        "value": ""
+      }
+    ]
+  },
+  {
+    "id": "41423207_q20",
+    "image": "41423207.png",
+    "ecg": "41423207",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nIs there any intraventricular conduction delay present?"
+      },
+      {
+        "from": "gpt",
+        "value": ""
+      }
+    ]
+  },
+  {
+    "id": "41423207_q21",
+    "image": "41423207.png",
+    "ecg": "41423207",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nAre there abnormal P-wave findings suggesting atrial enlargement?"
+      },
+      {
+        "from": "gpt",
+        "value": ""
+      }
+    ]
+  },
+  {
+    "id": "41423207_q22",
+    "image": "41423207.png",
+    "ecg": "41423207",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nAre there Q waves present, and if so are they pathologic?"
+      },
+      {
+        "from": "gpt",
+        "value": ""
+      }
+    ]
+  },
+  {
+    "id": "41423207_q23",
+    "image": "41423207.png",
+    "ecg": "41423207",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nIs there R-wave progression across the precordial leads, and is it normal?"
+      },
+      {
+        "from": "gpt",
+        "value": ""
+      }
+    ]
+  },
+  {
+    "id": "41423207_q24",
+    "image": "41423207.png",
+    "ecg": "41423207",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nIs there poor R-wave progression?"
+      },
+      {
+        "from": "gpt",
+        "value": ""
+      }
+    ]
+  },
+  {
+    "id": "41423207_q25",
+    "image": "41423207.png",
+    "ecg": "41423207",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nIs there ST-segment elevation present?"
+      },
+      {
+        "from": "gpt",
+        "value": ""
+      }
+    ]
+  },
+  {
+    "id": "41423207_q26",
+    "image": "41423207.png",
+    "ecg": "41423207",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nIs there ST-segment depression present?"
+      },
+      {
+        "from": "gpt",
+        "value": ""
+      }
+    ]
+  },
+  {
+    "id": "41423207_q27",
+    "image": "41423207.png",
+    "ecg": "41423207",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nAre there T-wave inversions present?"
+      },
+      {
+        "from": "gpt",
+        "value": ""
+      }
+    ]
+  },
+  {
+    "id": "41423207_q28",
+    "image": "41423207.png",
+    "ecg": "41423207",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nAre there peaked T waves or other signs of hyperkalemia?"
+      },
+      {
+        "from": "gpt",
+        "value": ""
+      }
+    ]
+  },
+  {
+    "id": "41423207_q29",
+    "image": "41423207.png",
+    "ecg": "41423207",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nAre there U waves present?"
+      },
+      {
+        "from": "gpt",
+        "value": ""
+      }
+    ]
+  },
+  {
+    "id": "41423207_q30",
+    "image": "41423207.png",
+    "ecg": "41423207",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nAre there signs of ventricular hypertrophy?"
+      },
+      {
+        "from": "gpt",
+        "value": ""
+      }
+    ]
+  },
+  {
+    "id": "41423207_q31",
+    "image": "41423207.png",
+    "ecg": "41423207",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhat is the most likely primary diagnosis from this ECG?"
+      },
+      {
+        "from": "gpt",
+        "value": ""
+      }
+    ]
+  },
+  {
+    "id": "41423207_q32",
+    "image": "41423207.png",
+    "ecg": "41423207",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nList the top 3 diagnostic considerations for this ECG."
+      },
+      {
+        "from": "gpt",
+        "value": ""
+      }
+    ]
+  },
+  {
+    "id": "41423207_q33",
+    "image": "41423207.png",
+    "ecg": "41423207",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhat are the key ECG findings supporting your interpretation?"
+      },
+      {
+        "from": "gpt",
+        "value": ""
+      }
+    ]
+  },
+  {
+    "id": "41423207_q34",
+    "image": "41423207.png",
+    "ecg": "41423207",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhich leads contain the most important abnormal findings?"
+      },
+      {
+        "from": "gpt",
+        "value": ""
+      }
+    ]
+  },
+  {
+    "id": "41423207_q35",
+    "image": "41423207.png",
+    "ecg": "41423207",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nIs there evidence of acute ischemia or infarction?"
+      },
+      {
+        "from": "gpt",
+        "value": ""
+      }
+    ]
+  },
+  {
+    "id": "41423207_q36",
+    "image": "41423207.png",
+    "ecg": "41423207",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nIf infarction is suspected, what territory is most likely involved?"
+      },
+      {
+        "from": "gpt",
+        "value": ""
+      }
+    ]
+  },
+  {
+    "id": "41423207_q37",
+    "image": "41423207.png",
+    "ecg": "41423207",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nIs this ECG more consistent with a supraventricular or ventricular process?"
+      },
+      {
+        "from": "gpt",
+        "value": ""
+      }
+    ]
+  },
+  {
+    "id": "41423207_q38",
+    "image": "41423207.png",
+    "ecg": "41423207",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nDoes this ECG appear normal or abnormal overall?"
+      },
+      {
+        "from": "gpt",
+        "value": ""
+      }
+    ]
+  },
+  {
+    "id": "41423207_q39",
+    "image": "41423207.png",
+    "ecg": "41423207",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nSummarize this ECG in 3 to 5 concise clinical statements."
+      },
+      {
+        "from": "gpt",
+        "value": ""
+      }
+    ]
+  },
+  {
+    "id": "41423207_q40",
+    "image": "41423207.png",
+    "ecg": "41423207",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nProvide a final impression as if writing an ECG report."
+      },
+      {
+        "from": "gpt",
+        "value": ""
+      }
+    ]
+  },
+  {
+    "id": "45854712_q01",
+    "image": "45854712.png",
+    "ecg": "45854712",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhat is the heart rate in bpm?"
+      },
+      {
+        "from": "gpt",
+        "value": ""
+      }
+    ]
+  },
+  {
+    "id": "45854712_q02",
+    "image": "45854712.png",
+    "ecg": "45854712",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nIs the rhythm regular or irregular?"
+      },
+      {
+        "from": "gpt",
+        "value": ""
+      }
+    ]
+  },
+  {
+    "id": "45854712_q03",
+    "image": "45854712.png",
+    "ecg": "45854712",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhat is the most likely underlying rhythm?"
+      },
+      {
+        "from": "gpt",
+        "value": ""
+      }
+    ]
+  },
+  {
+    "id": "45854712_q04",
+    "image": "45854712.png",
+    "ecg": "45854712",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nAre P waves present before each QRS complex?"
+      },
+      {
+        "from": "gpt",
+        "value": ""
+      }
+    ]
+  },
+  {
+    "id": "45854712_q05",
+    "image": "45854712.png",
+    "ecg": "45854712",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nIs there evidence of sinus rhythm?"
+      },
+      {
+        "from": "gpt",
+        "value": ""
+      }
+    ]
+  },
+  {
+    "id": "45854712_q06",
+    "image": "45854712.png",
+    "ecg": "45854712",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nIs there evidence of atrial fibrillation?"
+      },
+      {
+        "from": "gpt",
+        "value": ""
+      }
+    ]
+  },
+  {
+    "id": "45854712_q07",
+    "image": "45854712.png",
+    "ecg": "45854712",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nIs there evidence of atrial flutter?"
+      },
+      {
+        "from": "gpt",
+        "value": ""
+      }
+    ]
+  },
+  {
+    "id": "45854712_q08",
+    "image": "45854712.png",
+    "ecg": "45854712",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nAre there premature beats present?"
+      },
+      {
+        "from": "gpt",
+        "value": ""
+      }
+    ]
+  },
+  {
+    "id": "45854712_q09",
+    "image": "45854712.png",
+    "ecg": "45854712",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nIs there any pause or dropped beat visible?"
+      },
+      {
+        "from": "gpt",
+        "value": ""
+      }
+    ]
+  },
+  {
+    "id": "45854712_q10",
+    "image": "45854712.png",
+    "ecg": "45854712",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nDoes this ECG suggest tachycardia, bradycardia, or a normal rate?"
+      },
+      {
+        "from": "gpt",
+        "value": ""
+      }
+    ]
+  },
+  {
+    "id": "45854712_q11",
+    "image": "45854712.png",
+    "ecg": "45854712",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nEstimate the PR interval and state whether it is normal, short, or prolonged."
+      },
+      {
+        "from": "gpt",
+        "value": ""
+      }
+    ]
+  },
+  {
+    "id": "45854712_q12",
+    "image": "45854712.png",
+    "ecg": "45854712",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nEstimate the QRS duration and state whether it is narrow or wide."
+      },
+      {
+        "from": "gpt",
+        "value": ""
+      }
+    ]
+  },
+  {
+    "id": "45854712_q13",
+    "image": "45854712.png",
+    "ecg": "45854712",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nEstimate the QT interval or QTc and say whether it appears prolonged."
+      },
+      {
+        "from": "gpt",
+        "value": ""
+      }
+    ]
+  },
+  {
+    "id": "45854712_q14",
+    "image": "45854712.png",
+    "ecg": "45854712",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nIs there evidence of first-degree AV block?"
+      },
+      {
+        "from": "gpt",
+        "value": ""
+      }
+    ]
+  },
+  {
+    "id": "45854712_q15",
+    "image": "45854712.png",
+    "ecg": "45854712",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nIs there evidence of second-degree AV block?"
+      },
+      {
+        "from": "gpt",
+        "value": ""
+      }
+    ]
+  },
+  {
+    "id": "45854712_q16",
+    "image": "45854712.png",
+    "ecg": "45854712",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nIs there evidence of third-degree AV block?"
+      },
+      {
+        "from": "gpt",
+        "value": ""
+      }
+    ]
+  },
+  {
+    "id": "45854712_q17",
+    "image": "45854712.png",
+    "ecg": "45854712",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nIs there evidence of right bundle branch block?"
+      },
+      {
+        "from": "gpt",
+        "value": ""
+      }
+    ]
+  },
+  {
+    "id": "45854712_q18",
+    "image": "45854712.png",
+    "ecg": "45854712",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nIs there evidence of left bundle branch block?"
+      },
+      {
+        "from": "gpt",
+        "value": ""
+      }
+    ]
+  },
+  {
+    "id": "45854712_q19",
+    "image": "45854712.png",
+    "ecg": "45854712",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhat is the likely frontal plane QRS axis: normal, left axis deviation, right axis deviation, or extreme axis deviation?"
+      },
+      {
+        "from": "gpt",
+        "value": ""
+      }
+    ]
+  },
+  {
+    "id": "45854712_q20",
+    "image": "45854712.png",
+    "ecg": "45854712",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nIs there any intraventricular conduction delay present?"
+      },
+      {
+        "from": "gpt",
+        "value": ""
+      }
+    ]
+  },
+  {
+    "id": "45854712_q21",
+    "image": "45854712.png",
+    "ecg": "45854712",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nAre there abnormal P-wave findings suggesting atrial enlargement?"
+      },
+      {
+        "from": "gpt",
+        "value": ""
+      }
+    ]
+  },
+  {
+    "id": "45854712_q22",
+    "image": "45854712.png",
+    "ecg": "45854712",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nAre there Q waves present, and if so are they pathologic?"
+      },
+      {
+        "from": "gpt",
+        "value": ""
+      }
+    ]
+  },
+  {
+    "id": "45854712_q23",
+    "image": "45854712.png",
+    "ecg": "45854712",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nIs there R-wave progression across the precordial leads, and is it normal?"
+      },
+      {
+        "from": "gpt",
+        "value": ""
+      }
+    ]
+  },
+  {
+    "id": "45854712_q24",
+    "image": "45854712.png",
+    "ecg": "45854712",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nIs there poor R-wave progression?"
+      },
+      {
+        "from": "gpt",
+        "value": ""
+      }
+    ]
+  },
+  {
+    "id": "45854712_q25",
+    "image": "45854712.png",
+    "ecg": "45854712",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nIs there ST-segment elevation present?"
+      },
+      {
+        "from": "gpt",
+        "value": ""
+      }
+    ]
+  },
+  {
+    "id": "45854712_q26",
+    "image": "45854712.png",
+    "ecg": "45854712",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nIs there ST-segment depression present?"
+      },
+      {
+        "from": "gpt",
+        "value": ""
+      }
+    ]
+  },
+  {
+    "id": "45854712_q27",
+    "image": "45854712.png",
+    "ecg": "45854712",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nAre there T-wave inversions present?"
+      },
+      {
+        "from": "gpt",
+        "value": ""
+      }
+    ]
+  },
+  {
+    "id": "45854712_q28",
+    "image": "45854712.png",
+    "ecg": "45854712",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nAre there peaked T waves or other signs of hyperkalemia?"
+      },
+      {
+        "from": "gpt",
+        "value": ""
+      }
+    ]
+  },
+  {
+    "id": "45854712_q29",
+    "image": "45854712.png",
+    "ecg": "45854712",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nAre there U waves present?"
+      },
+      {
+        "from": "gpt",
+        "value": ""
+      }
+    ]
+  },
+  {
+    "id": "45854712_q30",
+    "image": "45854712.png",
+    "ecg": "45854712",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nAre there signs of ventricular hypertrophy?"
+      },
+      {
+        "from": "gpt",
+        "value": ""
+      }
+    ]
+  },
+  {
+    "id": "45854712_q31",
+    "image": "45854712.png",
+    "ecg": "45854712",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhat is the most likely primary diagnosis from this ECG?"
+      },
+      {
+        "from": "gpt",
+        "value": ""
+      }
+    ]
+  },
+  {
+    "id": "45854712_q32",
+    "image": "45854712.png",
+    "ecg": "45854712",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nList the top 3 diagnostic considerations for this ECG."
+      },
+      {
+        "from": "gpt",
+        "value": ""
+      }
+    ]
+  },
+  {
+    "id": "45854712_q33",
+    "image": "45854712.png",
+    "ecg": "45854712",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhat are the key ECG findings supporting your interpretation?"
+      },
+      {
+        "from": "gpt",
+        "value": ""
+      }
+    ]
+  },
+  {
+    "id": "45854712_q34",
+    "image": "45854712.png",
+    "ecg": "45854712",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhich leads contain the most important abnormal findings?"
+      },
+      {
+        "from": "gpt",
+        "value": ""
+      }
+    ]
+  },
+  {
+    "id": "45854712_q35",
+    "image": "45854712.png",
+    "ecg": "45854712",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nIs there evidence of acute ischemia or infarction?"
+      },
+      {
+        "from": "gpt",
+        "value": ""
+      }
+    ]
+  },
+  {
+    "id": "45854712_q36",
+    "image": "45854712.png",
+    "ecg": "45854712",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nIf infarction is suspected, what territory is most likely involved?"
+      },
+      {
+        "from": "gpt",
+        "value": ""
+      }
+    ]
+  },
+  {
+    "id": "45854712_q37",
+    "image": "45854712.png",
+    "ecg": "45854712",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nIs this ECG more consistent with a supraventricular or ventricular process?"
+      },
+      {
+        "from": "gpt",
+        "value": ""
+      }
+    ]
+  },
+  {
+    "id": "45854712_q38",
+    "image": "45854712.png",
+    "ecg": "45854712",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nDoes this ECG appear normal or abnormal overall?"
+      },
+      {
+        "from": "gpt",
+        "value": ""
+      }
+    ]
+  },
+  {
+    "id": "45854712_q39",
+    "image": "45854712.png",
+    "ecg": "45854712",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nSummarize this ECG in 3 to 5 concise clinical statements."
+      },
+      {
+        "from": "gpt",
+        "value": ""
+      }
+    ]
+  },
+  {
+    "id": "45854712_q40",
+    "image": "45854712.png",
+    "ecg": "45854712",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nProvide a final impression as if writing an ECG report."
+      },
+      {
+        "from": "gpt",
+        "value": ""
+      }
+    ]
   }
 ]

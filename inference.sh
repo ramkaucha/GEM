@@ -1,6 +1,6 @@
 CUDA_VISIBLE_DEVICES=0 python llava/eval/model_ecg_resume.py \
   --model-path "/media/tower1/DATA21/Ram/models/GEM" \
-  --image-folder "/media/tower1/DATA21/Ram/sample/p1001/p10018081/s42149331" \
+  --image-folder "/media/tower1/DATA21/Ram/sample" \
   --question-file "/media/tower1/DATA21/Ram/GEM/question.json" \
   --answers-file "/media/tower1/DATA21/Ram/GEM/answer.jsonl" \
   --conv-mode llava_v1 \
