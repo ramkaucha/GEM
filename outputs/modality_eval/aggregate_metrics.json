@@ -1,0 +1,434 @@
+{
+  "num_usable_questions": 152,
+  "optional_dependencies": {
+    "semantic_similarity": false,
+    "matplotlib": true,
+    "rouge_score": false
+  },
+  "pairwise_modality_similarity": {
+    "img_vs_ecg": {
+      "exact_match": 0.03289473684210526,
+      "jaccard": 0.32079475464831275,
+      "sequence": 0.21798781832686984
+    },
+    "img_vs_both": {
+      "exact_match": 0.14473684210526316,
+      "jaccard": 0.5014518630672257,
+      "sequence": 0.4098399703983087
+    },
+    "ecg_vs_both": {
+      "exact_match": 0.06578947368421052,
+      "jaccard": 0.36316975863314027,
+      "sequence": 0.2584199474081012
+    }
+  },
+  "report_alignment": {
+    "image": {
+      "avg_jaccard_vs_report": 0.05810817486432182,
+      "avg_sequence_vs_report": 0.0746803916891414,
+      "micro_precision": 0.20987654320987653,
+      "micro_recall": 0.057432432432432436,
+      "micro_f1": 0.09018567639257294,
+      "macro_precision": 0.1199561403508772,
+      "macro_recall": 0.057456140350877184,
+      "macro_f1": 0.06989348370927317
+    },
+    "ecg": {
+      "avg_jaccard_vs_report": 0.06730740808262627,
+      "avg_sequence_vs_report": 0.07944544875003058,
+      "micro_precision": 0.4727272727272727,
+      "micro_recall": 0.13175675675675674,
+      "micro_f1": 0.20607661822985468,
+      "macro_precision": 0.3645833333333333,
+      "macro_recall": 0.16885964912280702,
+      "macro_f1": 0.22019632414369256
+    },
+    "both": {
+      "avg_jaccard_vs_report": 0.07321168155263531,
+      "avg_sequence_vs_report": 0.08186184653483108,
+      "micro_precision": 0.45893719806763283,
+      "micro_recall": 0.16047297297297297,
+      "micro_f1": 0.23779724655819776,
+      "macro_precision": 0.3048245614035088,
+      "macro_recall": 0.16337719298245612,
+      "macro_f1": 0.19957659299764563
+    }
+  },
+  "winner_counts": {
+    "tie": 80,
+    "both": 34,
+    "ecg": 33,
+    "image": 5
+  },
+  "disagreement_counts": {
+    "all_modalities_different": 61,
+    "both_adds_new_labels": 59,
+    "both_better_than_unimodal": 34,
+    "both_worse_than_unimodal": 6
+  },
+  "samples": {
+    "joined_rows": [
+      {
+        "question_id": "41149570_q01",
+        "study_id": 41149570,
+        "prompt": "What is the heart rate in bpm?",
+        "report": "sinus rhythm. rightward axis. borderline ecg.",
+        "answer_img": "100-150",
+        "answer_ecg": "60",
+        "answer_both": "100-150",
+        "report_normalized": "sinus rhythm. rightward axis. borderline ecg.",
+        "answer_img_normalized": "100-150",
+        "answer_ecg_normalized": "60",
+        "answer_both_normalized": "100-150"
+      },
+      {
+        "question_id": "41149570_q02",
+        "study_id": 41149570,
+        "prompt": "Is the rhythm regular or irregular?",
+        "report": "sinus rhythm. rightward axis. borderline ecg.",
+        "answer_img": "The rhythm is irregular, which is a characteristic feature of atrial fibrillation. In atrial fibrillation, the atria, or upper chambers of the heart, contract rapidly and irregularly, resulting in an irregular ventricular response. This is evident in the ECG tracing, where the R-R intervals are not consistent, indicating an irregular heart rhythm. The presence of atrial fibrillation is a significant finding, and it is likely to be the underlying cause of the patient's symptoms.",
+        "answer_ecg": "The rhythm is regular, as indicated by the presence of a consistent sinus rhythm. This suggests that the heartbeat is occurring at a regular interval, with each heartbeat following a predictable pattern. The absence of any irregularities or abnormalities in the rhythm further supports the conclusion that the rhythm is regular.",
+        "answer_both": "The rhythm is regular, as indicated by the presence of a consistent sinus rhythm. This suggests that the heartbeat is occurring at a regular interval, with each heartbeat following a predictable pattern. The absence of any irregularities or abnormalities in the rhythm further supports the conclusion that the rhythm is regular.",
+        "report_normalized": "sinus rhythm. rightward axis. borderline ecg.",
+        "answer_img_normalized": "the rhythm is irregular, which is a characteristic feature of atrial fibrillation. in atrial fibrillation, the atria, or upper chambers of the heart, contract rapidly and irregularly, resulting in an irregular ventricular response. this is evident in the ecg tracing, where the r-r intervals are not consistent, indicating an irregular heart rhythm. the presence of atrial fibrillation is a significant finding, and it is likely to be the underlying cause of the patient's symptoms.",
+        "answer_ecg_normalized": "the rhythm is regular, as indicated by the presence of a consistent sinus rhythm. this suggests that the heartbeat is occurring at a regular interval, with each heartbeat following a predictable pattern. the absence of any irregularities or abnormalities in the rhythm further supports the conclusion that the rhythm is regular.",
+        "answer_both_normalized": "the rhythm is regular, as indicated by the presence of a consistent sinus rhythm. this suggests that the heartbeat is occurring at a regular interval, with each heartbeat following a predictable pattern. the absence of any irregularities or abnormalities in the rhythm further supports the conclusion that the rhythm is regular."
+      },
+      {
+        "question_id": "41149570_q03",
+        "study_id": 41149570,
+        "prompt": "What is the most likely underlying rhythm?",
+        "report": "sinus rhythm. rightward axis. borderline ecg.",
+        "answer_img": "Sinus tachycardia",
+        "answer_ecg": "Sinus rhythm",
+        "answer_both": "Sinus rhythm",
+        "report_normalized": "sinus rhythm. rightward axis. borderline ecg.",
+        "answer_img_normalized": "sinus tachycardia",
+        "answer_ecg_normalized": "sinus rhythm",
+        "answer_both_normalized": "sinus rhythm"
+      }
+    ],
+    "label_rows": [
+      {
+        "question_id": "41149570_q01",
+        "study_id": 41149570,
+        "prompt": "What is the heart rate in bpm?",
+        "report": "sinus rhythm. rightward axis. borderline ecg.",
+        "report_labels": "sinus rhythm|right axis deviation|borderline ecg",
+        "answer_img": "100-150",
+        "image_jaccard_vs_report": 0.0,
+        "image_sequence_vs_report": 0.0,
+        "image_rouge_l_vs_report": null,
+        "image_labels": "",
+        "image_label_precision": 0.0,
+        "image_label_recall": 0.0,
+        "image_label_f1": 0.0,
+        "image_tp": 0.0,
+        "image_fp": 0.0,
+        "image_fn": 3.0,
+        "answer_ecg": "60",
+        "ecg_jaccard_vs_report": 0.0,
+        "ecg_sequence_vs_report": 0.0,
+        "ecg_rouge_l_vs_report": null,
+        "ecg_labels": "",
+        "ecg_label_precision": 0.0,
+        "ecg_label_recall": 0.0,
+        "ecg_label_f1": 0.0,
+        "ecg_tp": 0.0,
+        "ecg_fp": 0.0,
+        "ecg_fn": 3.0,
+        "answer_both": "100-150",
+        "both_jaccard_vs_report": 0.0,
+        "both_sequence_vs_report": 0.0,
+        "both_rouge_l_vs_report": null,
+        "both_labels": "",
+        "both_label_precision": 0.0,
+        "both_label_recall": 0.0,
+        "both_label_f1": 0.0,
+        "both_tp": 0.0,
+        "both_fp": 0.0,
+        "both_fn": 3.0
+      },
+      {
+        "question_id": "41149570_q02",
+        "study_id": 41149570,
+        "prompt": "Is the rhythm regular or irregular?",
+        "report": "sinus rhythm. rightward axis. borderline ecg.",
+        "report_labels": "sinus rhythm|right axis deviation|borderline ecg",
+        "answer_img": "The rhythm is irregular, which is a characteristic feature of atrial fibrillation. In atrial fibrillation, the atria, or upper chambers of the heart, contract rapidly and irregularly, resulting in an irregular ventricular response. This is evident in the ECG tracing, where the R-R intervals are not consistent, indicating an irregular heart rhythm. The presence of atrial fibrillation is a significant finding, and it is likely to be the underlying cause of the patient's symptoms.",
+        "image_jaccard_vs_report": 0.038461538461538464,
+        "image_sequence_vs_report": 0.12144212523719165,
+        "image_rouge_l_vs_report": null,
+        "image_labels": "atrial fibrillation",
+        "image_label_precision": 0.0,
+        "image_label_recall": 0.0,
+        "image_label_f1": 0.0,
+        "image_tp": 0.0,
+        "image_fp": 1.0,
+        "image_fn": 3.0,
+        "answer_ecg": "The rhythm is regular, as indicated by the presence of a consistent sinus rhythm. This suggests that the heartbeat is occurring at a regular interval, with each heartbeat following a predictable pattern. The absence of any irregularities or abnormalities in the rhythm further supports the conclusion that the rhythm is regular.",
+        "ecg_jaccard_vs_report": 0.05405405405405406,
+        "ecg_sequence_vs_report": 0.13404825737265416,
+        "ecg_rouge_l_vs_report": null,
+        "ecg_labels": "sinus rhythm",
+        "ecg_label_precision": 1.0,
+        "ecg_label_recall": 0.3333333333333333,
+        "ecg_label_f1": 0.5,
+        "ecg_tp": 1.0,
+        "ecg_fp": 0.0,
+        "ecg_fn": 2.0,
+        "answer_both": "The rhythm is regular, as indicated by the presence of a consistent sinus rhythm. This suggests that the heartbeat is occurring at a regular interval, with each heartbeat following a predictable pattern. The absence of any irregularities or abnormalities in the rhythm further supports the conclusion that the rhythm is regular.",
+        "both_jaccard_vs_report": 0.05405405405405406,
+        "both_sequence_vs_report": 0.13404825737265416,
+        "both_rouge_l_vs_report": null,
+        "both_labels": "sinus rhythm",
+        "both_label_precision": 1.0,
+        "both_label_recall": 0.3333333333333333,
+        "both_label_f1": 0.5,
+        "both_tp": 1.0,
+        "both_fp": 0.0,
+        "both_fn": 2.0
+      },
+      {
+        "question_id": "41149570_q03",
+        "study_id": 41149570,
+        "prompt": "What is the most likely underlying rhythm?",
+        "report": "sinus rhythm. rightward axis. borderline ecg.",
+        "report_labels": "sinus rhythm|right axis deviation|borderline ecg",
+        "answer_img": "Sinus tachycardia",
+        "image_jaccard_vs_report": 0.14285714285714285,
+        "image_sequence_vs_report": 0.3870967741935484,
+        "image_rouge_l_vs_report": null,
+        "image_labels": "sinus tachycardia",
+        "image_label_precision": 0.0,
+        "image_label_recall": 0.0,
+        "image_label_f1": 0.0,
+        "image_tp": 0.0,
+        "image_fp": 1.0,
+        "image_fn": 3.0,
+        "answer_ecg": "Sinus rhythm",
+        "ecg_jaccard_vs_report": 0.3333333333333333,
+        "ecg_sequence_vs_report": 0.42105263157894735,
+        "ecg_rouge_l_vs_report": null,
+        "ecg_labels": "sinus rhythm",
+        "ecg_label_precision": 1.0,
+        "ecg_label_recall": 0.3333333333333333,
+        "ecg_label_f1": 0.5,
+        "ecg_tp": 1.0,
+        "ecg_fp": 0.0,
+        "ecg_fn": 2.0,
+        "answer_both": "Sinus rhythm",
+        "both_jaccard_vs_report": 0.3333333333333333,
+        "both_sequence_vs_report": 0.42105263157894735,
+        "both_rouge_l_vs_report": null,
+        "both_labels": "sinus rhythm",
+        "both_label_precision": 1.0,
+        "both_label_recall": 0.3333333333333333,
+        "both_label_f1": 0.5,
+        "both_tp": 1.0,
+        "both_fp": 0.0,
+        "both_fn": 2.0
+      }
+    ],
+    "best_worst_examples": {
+      "image": {
+        "best": [
+          {
+            "question_id": "42149331_q32",
+            "study_id": 42149331,
+            "prompt": "List the top 3 diagnostic considerations for this ECG.",
+            "report": "atrial fibrillation with slow ventricular response with pvc(s) or aberrant ventricular conduction.. left axis deviation. anteroseptal infarct - age undetermined. left ventricular hypertrophy. inferior/lateral st-t changes may be due to hypertrophy and/or ischemia. abnormal ecg.",
+            "report_labels": "atrial fibrillation|pvc|left axis deviation|anterior infarct|lvh|abnormal ecg",
+            "answer_img": "1. Atrial fibrillation with rapid ventricular response.\n2. Left axis deviation.\n3. Possible anterior infarct of undetermined age.",
+            "image_labels": "atrial fibrillation|left axis deviation|anterior infarct",
+            "image_label_f1": 0.6666666666666666
+          },
+          {
+            "question_id": "41149570_q19",
+            "study_id": 41149570,
+            "prompt": "What is the likely frontal plane QRS axis: normal, left axis deviation, right axis deviation, or extreme axis deviation?",
+            "report": "sinus rhythm. rightward axis. borderline ecg.",
+            "report_labels": "sinus rhythm|right axis deviation|borderline ecg",
+            "answer_img": "right axis deviation",
+            "image_labels": "right axis deviation",
+            "image_label_f1": 0.5
+          },
+          {
+            "question_id": "41149570_q38",
+            "study_id": 41149570,
+            "prompt": "Does this ECG appear normal or abnormal overall?",
+            "report": "sinus rhythm. rightward axis. borderline ecg.",
+            "report_labels": "sinus rhythm|right axis deviation|borderline ecg",
+            "answer_img": "This ECG appears abnormal overall. The presence of atrial fibrillation with rapid ventricular response is an abnormal heart rhythm, which is a significant deviation from a normal ECG. Furthermore, the rightward axis and incomplete right bundle branch block are also abnormal findings. These abnormalities collectively indicate that the ECG is not normal, and a normal ECG would typically exhibit a regular sinus rhythm, a normal axis, and no conduction abnormalities. The presence of these abnormalities suggests that there may be underlying cardiac issues that require further evaluation and attention.",
+            "image_labels": "sinus rhythm|atrial fibrillation|right bundle branch block|right axis deviation|normal ecg",
+            "image_label_f1": 0.5
+          }
+        ],
+        "worst": [
+          {
+            "question_id": "45854712_q34",
+            "study_id": 45854712,
+            "prompt": "Which leads contain the most important abnormal findings?",
+            "report": "sinus bradycardia with 1st degree a-v block.. rightward axis. iv conduction defect. lateral infarct - age undetermined. tall r v1/v2 probably reflect the infarct. anteroseptal st-t changes suggest myocardial injury/ischemia. abnormal ecg.",
+            "report_labels": "sinus bradycardia|first degree av block|right axis deviation|lateral infarct|abnormal ecg",
+            "answer_img": "The most important abnormal findings are present in leads II, III, aVF, V2, V3, V4, V5, and V6. These leads exhibit significant deviations from normal, including ST segment elevation in leads II, III, and aVF, which is a critical indicator of acute myocardial infarction. Additionally, the presence of Q waves in leads V2-5 suggests prior myocardial damage. The T waves are also abnormal, further supporting the diagnosis of myocardial infarction. Overall, the combination of these abnormal findings in multiple leads strongly suggests an acute coronary event.",
+            "image_labels": "st elevation",
+            "image_label_f1": 0.0
+          },
+          {
+            "question_id": "45854712_q38",
+            "study_id": 45854712,
+            "prompt": "Does this ECG appear normal or abnormal overall?",
+            "report": "sinus bradycardia with 1st degree a-v block.. rightward axis. iv conduction defect. lateral infarct - age undetermined. tall r v1/v2 probably reflect the infarct. anteroseptal st-t changes suggest myocardial injury/ischemia. abnormal ecg.",
+            "report_labels": "sinus bradycardia|first degree av block|right axis deviation|lateral infarct|abnormal ecg",
+            "answer_img": "This ECG appears abnormal overall. The presence of ventricular extrasystoles, which are premature beats originating from the ventricles, indicates an irregularity in the heart's rhythm. Additionally, the sinus rhythm, which is the normal rhythm of the heart, is accompanied by a right type left posterior hemiblock, suggesting a conduction abnormality in the heart's electrical system. Furthermore, the QRS complex, which represents the ventricular depolarization, is abnormal, implying a disruption in the normal electrical activity of the ventricles. The combination of these abnormalities indicates that the ECG is not normal.",
+            "image_labels": "sinus rhythm|pvc",
+            "image_label_f1": 0.0
+          },
+          {
+            "question_id": "45854712_q39",
+            "study_id": 45854712,
+            "prompt": "Summarize this ECG in 3 to 5 concise clinical statements.",
+            "report": "sinus bradycardia with 1st degree a-v block.. rightward axis. iv conduction defect. lateral infarct - age undetermined. tall r v1/v2 probably reflect the infarct. anteroseptal st-t changes suggest myocardial injury/ischemia. abnormal ecg.",
+            "report_labels": "sinus bradycardia|first degree av block|right axis deviation|lateral infarct|abnormal ecg",
+            "answer_img": "The electrocardiogram (ECG) reveals a sinus rhythm with the presence of premature ventricular contractions (PVCs), indicating irregular heartbeats. The analysis is limited to leads aVF, V1-V6 due to suspected arm lead reversal, which may affect the accuracy of the results. The ECG also shows inferior and anteroseptal ST-T changes, which could be indicative of myocardial ischemia, a condition where the heart muscle does not receive sufficient blood flow.",
+            "image_labels": "sinus rhythm|pvc",
+            "image_label_f1": 0.0
+          }
+        ]
+      },
+      "ecg": {
+        "best": [
+          {
+            "question_id": "41423207_q38",
+            "study_id": 41423207,
+            "prompt": "Does this ECG appear normal or abnormal overall?",
+            "report": "sinus rhythm. septal t wave changes are nonspecific. borderline ecg.",
+            "report_labels": "sinus rhythm|borderline ecg",
+            "answer_ecg": "This ECG appears normal overall. The presence of a sinus rhythm indicates that the heart is functioning in a regular and normal manner, with the sinoatrial (SA) node, the heart's natural pacemaker, generating electrical impulses at a normal rate. The absence of any definitive pathology suggests that there are no significant abnormalities or diseases affecting the heart's electrical conduction system. While the T waves are slightly flattened in leads V4, V5, and V6, this finding is not sufficient to classify the ECG as abnormal. In fact, this flattening is likely a normal variant, and therefore, the overall appearance of the ECG remains normal.",
+            "ecg_labels": "sinus rhythm",
+            "ecg_label_f1": 0.6666666666666666
+          },
+          {
+            "question_id": "41423207_q39",
+            "study_id": 41423207,
+            "prompt": "Summarize this ECG in 3 to 5 concise clinical statements.",
+            "report": "sinus rhythm. septal t wave changes are nonspecific. borderline ecg.",
+            "report_labels": "sinus rhythm|borderline ecg",
+            "answer_ecg": "The electrocardiogram (ECG) reveals a normal sinus rhythm, indicating that the heart is beating at a regular rate and rhythm, with a normal P-wave, PR interval, QRS complex, and QT interval. The ECG tracing does not show any signs of arrhythmia, conduction abnormalities, or ischemic changes. The overall ECG is within normal limits, suggesting a normal cardiac electrical activity.",
+            "ecg_labels": "sinus rhythm",
+            "ecg_label_f1": 0.6666666666666666
+          },
+          {
+            "question_id": "41423207_q40",
+            "study_id": 41423207,
+            "prompt": "Provide a final impression as if writing an ECG report.",
+            "report": "sinus rhythm. septal t wave changes are nonspecific. borderline ecg.",
+            "report_labels": "sinus rhythm|borderline ecg",
+            "answer_ecg": "The electrocardiogram (ECG) reveals a normal sinus rhythm, indicating that the heart is beating in a regular and coordinated manner. The ECG tracing demonstrates a normal P-wave, PR interval, QRS complex, and ST segment, suggesting that the electrical conduction system of the heart is functioning properly. Overall, the ECG is within normal limits, with no evidence of any cardiac arrhythmias or conduction abnormalities.",
+            "ecg_labels": "sinus rhythm",
+            "ecg_label_f1": 0.6666666666666666
+          }
+        ],
+        "worst": [
+          {
+            "question_id": "45854712_q34",
+            "study_id": 45854712,
+            "prompt": "Which leads contain the most important abnormal findings?",
+            "report": "sinus bradycardia with 1st degree a-v block.. rightward axis. iv conduction defect. lateral infarct - age undetermined. tall r v1/v2 probably reflect the infarct. anteroseptal st-t changes suggest myocardial injury/ischemia. abnormal ecg.",
+            "report_labels": "sinus bradycardia|first degree av block|right axis deviation|lateral infarct|abnormal ecg",
+            "answer_ecg": "The most important abnormal findings are present in leads V2 and V3, where QS complexes are observed. This is a significant abnormality, as QS complexes in these leads are indicative of a possible anterior infarct, which is a crucial diagnosis. The presence of QS complexes in these leads suggests that there may be a lack of electrical activity in the anterior region of the heart, which can be a sign of myocardial infarction.",
+            "ecg_labels": "anterior infarct",
+            "ecg_label_f1": 0.0
+          },
+          {
+            "question_id": "45854712_q35",
+            "study_id": 45854712,
+            "prompt": "Is there evidence of acute ischemia or infarction?",
+            "report": "sinus bradycardia with 1st degree a-v block.. rightward axis. iv conduction defect. lateral infarct - age undetermined. tall r v1/v2 probably reflect the infarct. anteroseptal st-t changes suggest myocardial injury/ischemia. abnormal ecg.",
+            "report_labels": "sinus bradycardia|first degree av block|right axis deviation|lateral infarct|abnormal ecg",
+            "answer_ecg": "There is no evidence of acute ischemia or infarction. The ECG tracing reveals a sinus rhythm, which indicates a normal heart rate and rhythm. The presence of a first-degree AV block is noted, but it does not suggest any acute ischemic or infarcted areas. The overall ECG pattern is consistent with a normal tracing, without any signs of acute ischemia or infarction. The diagnosis of a first-degree AV block is a chronic condition and does not imply any acute cardiac event. Therefore, based on the ECG tracing, there is no indication of acute ischemia or infarction.",
+            "ecg_labels": "sinus rhythm",
+            "ecg_label_f1": 0.0
+          },
+          {
+            "question_id": "45854712_q38",
+            "study_id": 45854712,
+            "prompt": "Does this ECG appear normal or abnormal overall?",
+            "report": "sinus bradycardia with 1st degree a-v block.. rightward axis. iv conduction defect. lateral infarct - age undetermined. tall r v1/v2 probably reflect the infarct. anteroseptal st-t changes suggest myocardial injury/ischemia. abnormal ecg.",
+            "report_labels": "sinus bradycardia|first degree av block|right axis deviation|lateral infarct|abnormal ecg",
+            "answer_ecg": "Abnormal overall",
+            "ecg_labels": "",
+            "ecg_label_f1": 0.0
+          }
+        ]
+      },
+      "both": {
+        "best": [
+          {
+            "question_id": "42149331_q40",
+            "study_id": 42149331,
+            "prompt": "Provide a final impression as if writing an ECG report.",
+            "report": "atrial fibrillation with slow ventricular response with pvc(s) or aberrant ventricular conduction.. left axis deviation. anteroseptal infarct - age undetermined. left ventricular hypertrophy. inferior/lateral st-t changes may be due to hypertrophy and/or ischemia. abnormal ecg.",
+            "report_labels": "atrial fibrillation|pvc|left axis deviation|anterior infarct|lvh|abnormal ecg",
+            "answer_both": "The electrocardiogram (ECG) reveals atrial fibrillation with a slow ventricular response, accompanied by premature ventricular contractions (PVCs). Additionally, the ECG shows left axis deviation and suggests possible anteroseptal infarction of undetermined age, as well as left ventricular hypertrophy. The inferior and lateral ST-T changes are likely attributed to the ventricular hypertrophy, resulting in an abnormal ECG.",
+            "both_labels": "atrial fibrillation|pvc|left axis deviation|lvh|abnormal ecg",
+            "both_label_f1": 0.9090909090909091
+          },
+          {
+            "question_id": "42149331_q39",
+            "study_id": 42149331,
+            "prompt": "Summarize this ECG in 3 to 5 concise clinical statements.",
+            "report": "atrial fibrillation with slow ventricular response with pvc(s) or aberrant ventricular conduction.. left axis deviation. anteroseptal infarct - age undetermined. left ventricular hypertrophy. inferior/lateral st-t changes may be due to hypertrophy and/or ischemia. abnormal ecg.",
+            "report_labels": "atrial fibrillation|pvc|left axis deviation|anterior infarct|lvh|abnormal ecg",
+            "answer_both": "The electrocardiogram (ECG) reveals atrial fibrillation with a slow ventricular response, accompanied by premature ventricular contractions (PVCs). Additionally, the ECG shows left axis deviation and suggests possible anteroseptal infarction of undetermined age, as well as left ventricular hypertrophy. The inferior and lateral ST-T changes are likely attributed to the ventricular hypertrophy, resulting in an abnormal ECG.",
+            "both_labels": "atrial fibrillation|pvc|left axis deviation|lvh|abnormal ecg",
+            "both_label_f1": 0.9090909090909091
+          },
+          {
+            "question_id": "41149570_q04",
+            "study_id": 41149570,
+            "prompt": "Are P waves present before each QRS complex?",
+            "report": "sinus rhythm. rightward axis. borderline ecg.",
+            "report_labels": "sinus rhythm|right axis deviation|borderline ecg",
+            "answer_both": "The presence of P waves before each QRS complex is not explicitly confirmed. However, the diagnosis of sinus rhythm suggests that P waves are likely to be present, as they are a characteristic feature of sinus node activity. In a normal sinus rhythm, the P wave precedes the QRS complex, indicating that the electrical impulse originates from the sinoatrial (SA) node and travels through the atria before stimulating the ventricles. The absence of any abnormality in the ECG, aside from the right axis deviation, further supports the likelihood of P waves being present before each QRS complex. Nevertheless, a definitive conclusion cannot be drawn without additional information or further analysis.",
+            "both_labels": "sinus rhythm|right axis deviation",
+            "both_label_f1": 0.8
+          }
+        ],
+        "worst": [
+          {
+            "question_id": "45854712_q26",
+            "study_id": 45854712,
+            "prompt": "Is there ST-segment depression present?",
+            "report": "sinus bradycardia with 1st degree a-v block.. rightward axis. iv conduction defect. lateral infarct - age undetermined. tall r v1/v2 probably reflect the infarct. anteroseptal st-t changes suggest myocardial injury/ischemia. abnormal ecg.",
+            "report_labels": "sinus bradycardia|first degree av block|right axis deviation|lateral infarct|abnormal ecg",
+            "answer_both": "Yes, there is ST-segment depression present. The ECG reveals ST-segment depression in leads V1-4, which is a significant finding. This depression is accompanied by T-wave inversion in the same leads, suggesting a possible underlying cardiac issue. The presence of ST-segment depression in these leads may indicate myocardial ischaemia, although it is essential to consider other factors, such as the patient's age, to determine the clinical significance of this finding.",
+            "both_labels": "st depression|t wave inversion",
+            "both_label_f1": 0.0
+          },
+          {
+            "question_id": "45854712_q29",
+            "study_id": 45854712,
+            "prompt": "Are there U waves present?",
+            "report": "sinus bradycardia with 1st degree a-v block.. rightward axis. iv conduction defect. lateral infarct - age undetermined. tall r v1/v2 probably reflect the infarct. anteroseptal st-t changes suggest myocardial injury/ischemia. abnormal ecg.",
+            "report_labels": "sinus bradycardia|first degree av block|right axis deviation|lateral infarct|abnormal ecg",
+            "answer_both": "Actually, yes, there are U waves present. The ECG tracing exhibits U waves in leads V3-6, which is a notable finding. The presence of U waves in these specific leads suggests that there is a significant abnormality in the cardiac electrical activity. However, it is essential to note that the overall rhythm is sinus, indicating that the heart is beating in a regular, rhythmic pattern. The U waves in V3-6 do not appear to be affecting the overall sinus rhythm, but their presence is still a significant observation that warrants further investigation.",
+            "both_labels": "sinus rhythm",
+            "both_label_f1": 0.0
+          },
+          {
+            "question_id": "45854712_q34",
+            "study_id": 45854712,
+            "prompt": "Which leads contain the most important abnormal findings?",
+            "report": "sinus bradycardia with 1st degree a-v block.. rightward axis. iv conduction defect. lateral infarct - age undetermined. tall r v1/v2 probably reflect the infarct. anteroseptal st-t changes suggest myocardial injury/ischemia. abnormal ecg.",
+            "report_labels": "sinus bradycardia|first degree av block|right axis deviation|lateral infarct|abnormal ecg",
+            "answer_both": "The most important abnormal findings are present in leads V1-4, which is a significant indicator of cardiac pathology. Specifically, the presence of Q waves in these leads suggests an old anterior myocardial infarction, indicating that the patient has experienced a previous heart attack affecting the anterior region of the heart. This finding is crucial in understanding the patient's cardiac history and potential ongoing cardiac issues.",
+            "both_labels": "",
+            "both_label_f1": 0.0
+          }
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,4158 @@
+{
+  "unknown_ground_truth": [
+    {
+      "study_id": 41149570,
+      "question_id": "41149570_q07",
+      "prompt": "Is there evidence of atrial flutter?",
+      "question_type": "binary_classification",
+      "modality": "image",
+      "answer": "The ECG tracing exhibits a rapid, regular supraventricular tachycardia, which is consistent with atrial flutter. This type of arrhythmia is characterized by a rapid heart rate, typically between 250-350 beats per minute, with a regular rhythm. The presence of this feature in the ECG tracing suggests that atrial flutter is a likely diagnosis. However, it is essential to note that the ECG tracing is of a specific moment in time, and the diagnosis of atrial flutter is not definitive without further evaluation and clinical correlation. Nevertheless, the rapid, regular supraventricular tachycardia observed in the ECG tracing is a strong indication of atrial flutter.",
+      "warning": "Could not normalize binary answer.",
+      "notes": [
+        "Derived negative from absence of salient report finding."
+      ],
+      "derived_ground_truth": {
+        "question_key": "evidence_atrial_flutter",
+        "question_type": "binary_classification",
+        "report_labels": [
+          "sinus rhythm",
+          "right axis deviation",
+          "borderline ecg"
+        ],
+        "report_labels_non_generic": [
+          "sinus rhythm",
+          "right axis deviation"
+        ],
+        "scorable": true,
+        "weakly_scorable": false,
+        "warning": null,
+        "notes": [
+          "Derived negative from absence of salient report finding."
+        ],
+        "true_class": "no"
+      },
+      "evaluation": {
+        "scorable": false,
+        "warning": "Could not normalize binary answer.",
+        "notes": [],
+        "predicted_class": null,
+        "confidence": 0.0,
+        "true_class": "no"
+      }
+    },
+    {
+      "study_id": 41149570,
+      "question_id": "41149570_q11",
+      "prompt": "Estimate the PR interval and state whether it is normal, short, or prolonged.",
+      "question_type": "numeric",
+      "modality": "image",
+      "answer": "short",
+      "warning": "Report does not safely provide PR interval.",
+      "notes": [],
+      "derived_ground_truth": {
+        "question_key": "pr_interval",
+        "question_type": "numeric",
+        "report_labels": [
+          "sinus rhythm",
+          "right axis deviation",
+          "borderline ecg"
+        ],
+        "report_labels_non_generic": [
+          "sinus rhythm",
+          "right axis deviation"
+        ],
+        "scorable": false,
+        "weakly_scorable": false,
+        "warning": "Report does not safely provide PR interval.",
+        "notes": []
+      },
+      "evaluation": {
+        "scorable": false,
+        "warning": "Report does not safely provide PR interval.",
+        "notes": [],
+        "predicted_numeric": null,
+        "predicted_range": null,
+        "raw_numbers": [],
+        "true_numeric": null,
+        "true_range": null,
+        "true_descriptor": null,
+        "exact_match": null,
+        "tolerance_match": null
+      }
+    },
+    {
+      "study_id": 41149570,
+      "question_id": "41149570_q12",
+      "prompt": "Estimate the QRS duration and state whether it is narrow or wide.",
+      "question_type": "numeric",
+      "modality": "image",
+      "answer": "wide",
+      "warning": "Report does not safely provide QRS duration.",
+      "notes": [],
+      "derived_ground_truth": {
+        "question_key": "qrs_duration",
+        "question_type": "numeric",
+        "report_labels": [
+          "sinus rhythm",
+          "right axis deviation",
+          "borderline ecg"
+        ],
+        "report_labels_non_generic": [
+          "sinus rhythm",
+          "right axis deviation"
+        ],
+        "scorable": false,
+        "weakly_scorable": false,
+        "warning": "Report does not safely provide QRS duration.",
+        "notes": []
+      },
+      "evaluation": {
+        "scorable": false,
+        "warning": "Report does not safely provide QRS duration.",
+        "notes": [],
+        "predicted_numeric": null,
+        "predicted_range": null,
+        "raw_numbers": [],
+        "true_numeric": null,
+        "true_range": null,
+        "true_descriptor": null,
+        "exact_match": null,
+        "tolerance_match": null
+      }
+    },
+    {
+      "study_id": 41149570,
+      "question_id": "41149570_q13",
+      "prompt": "Estimate the QT interval or QTc and say whether it appears prolonged.",
+      "question_type": "numeric",
+      "modality": "image",
+      "answer": "The QT interval appears prolonged.",
+      "warning": "Report does not safely provide QT/QTc interval.",
+      "notes": [],
+      "derived_ground_truth": {
+        "question_key": "qt_interval",
+        "question_type": "numeric",
+        "report_labels": [
+          "sinus rhythm",
+          "right axis deviation",
+          "borderline ecg"
+        ],
+        "report_labels_non_generic": [
+          "sinus rhythm",
+          "right axis deviation"
+        ],
+        "scorable": false,
+        "weakly_scorable": false,
+        "warning": "Report does not safely provide QT/QTc interval.",
+        "notes": []
+      },
+      "evaluation": {
+        "scorable": false,
+        "warning": "Report does not safely provide QT/QTc interval.",
+        "notes": [],
+        "predicted_numeric": null,
+        "predicted_range": null,
+        "raw_numbers": [],
+        "true_numeric": null,
+        "true_range": null,
+        "true_descriptor": null,
+        "exact_match": null,
+        "tolerance_match": null
+      }
+    },
+    {
+      "study_id": 41149570,
+      "question_id": "41149570_q17",
+      "prompt": "Is there evidence of right bundle branch block?",
+      "question_type": "binary_classification",
+      "modality": "image",
+      "answer": "The presence of right bundle branch block is indeed evident. This diagnosis is explicitly stated, indicating that the ECG tracing exhibits characteristic features of this conduction abnormality. However, it is essential to note that the diagnosis is not accompanied by any definitive pathology, suggesting that the right bundle branch block is not necessarily indicative of any underlying disease or condition. Nonetheless, the diagnosis of right bundle branch block is a significant finding that warrants attention and further evaluation, particularly in the context of the patient's overall clinical presentation.",
+      "warning": "Could not normalize binary answer.",
+      "notes": [
+        "Derived negative from absence of salient report finding."
+      ],
+      "derived_ground_truth": {
+        "question_key": "right_bundle_branch_block",
+        "question_type": "binary_classification",
+        "report_labels": [
+          "sinus rhythm",
+          "right axis deviation",
+          "borderline ecg"
+        ],
+        "report_labels_non_generic": [
+          "sinus rhythm",
+          "right axis deviation"
+        ],
+        "scorable": true,
+        "weakly_scorable": false,
+        "warning": null,
+        "notes": [
+          "Derived negative from absence of salient report finding."
+        ],
+        "true_class": "no"
+      },
+      "evaluation": {
+        "scorable": false,
+        "warning": "Could not normalize binary answer.",
+        "notes": [],
+        "predicted_class": null,
+        "confidence": 0.0,
+        "true_class": "no"
+      }
+    },
+    {
+      "study_id": 41149570,
+      "question_id": "41149570_q22",
+      "prompt": "Are there Q waves present, and if so are they pathologic?",
+      "question_type": "multiclass_classification",
+      "modality": "image",
+      "answer": "Yes, the ECG exhibits Q waves, which are considered pathologic. The presence of Q waves in leads I and aVL suggests a possible lateral myocardial infarction, although the age of the infarction cannot be determined from this ECG alone. The Q waves in these leads may indicate a previous myocardial infarction, which could have resulted in damage to the heart muscle. However, it is essential to note that the Q waves may not be the only indicator of a myocardial infarction, and further evaluation is necessary to confirm the diagnosis.",
+      "warning": "Report does not safely determine Q-wave class.",
+      "notes": [],
+      "derived_ground_truth": {
+        "question_key": "q_waves",
+        "question_type": "multiclass_classification",
+        "report_labels": [
+          "sinus rhythm",
+          "right axis deviation",
+          "borderline ecg"
+        ],
+        "report_labels_non_generic": [
+          "sinus rhythm",
+          "right axis deviation"
+        ],
+        "scorable": false,
+        "weakly_scorable": false,
+        "warning": "Report does not safely determine Q-wave class.",
+        "notes": []
+      },
+      "evaluation": {
+        "scorable": false,
+        "warning": "Report does not safely determine Q-wave class.",
+        "notes": [],
+        "predicted_class": "q waves present",
+        "candidate_classes": [
+          "q waves present"
+        ],
+        "true_class": null
+      }
+    },
+    {
+      "study_id": 41149570,
+      "question_id": "41149570_q23",
+      "prompt": "Is there R-wave progression across the precordial leads, and is it normal?",
+      "question_type": "multiclass_classification",
+      "modality": "image",
+      "answer": "There is no R-wave progression across the precordial leads, and it is abnormal. The absence of R-wave progression suggests that the electrical activity of the heart is not propagating normally through the ventricles, which can be indicative of underlying cardiac pathology. This abnormality, combined with the presence of ST depression in leads V2-6, may be related to the suspected anterior myocardial infarction. The lack of R-wave progression is a significant finding that warrants further investigation and evaluation by a medical professional.",
+      "warning": "Report does not explicitly describe R-wave progression.",
+      "notes": [],
+      "derived_ground_truth": {
+        "question_key": "r_wave_progression",
+        "question_type": "multiclass_classification",
+        "report_labels": [
+          "sinus rhythm",
+          "right axis deviation",
+          "borderline ecg"
+        ],
+        "report_labels_non_generic": [
+          "sinus rhythm",
+          "right axis deviation"
+        ],
+        "scorable": false,
+        "weakly_scorable": false,
+        "warning": "Report does not explicitly describe R-wave progression.",
+        "notes": []
+      },
+      "evaluation": {
+        "scorable": false,
+        "warning": "Report does not explicitly describe R-wave progression.",
+        "notes": [],
+        "predicted_class": null,
+        "candidate_classes": [],
+        "true_class": null
+      }
+    },
+    {
+      "study_id": 41149570,
+      "question_id": "41149570_q34",
+      "prompt": "Which leads contain the most important abnormal findings?",
+      "question_type": "lead_based",
+      "modality": "image",
+      "answer": "The most important abnormal findings are present in leads V1-4, which is a significant indicator of cardiac pathology. Specifically, the presence of Q waves in these leads suggests an old anterior myocardial infarction, indicating that the patient has experienced a previous heart attack affecting the anterior region of the heart. This finding is crucial in understanding the patient's cardiac history and potential ongoing cardiac issues.",
+      "warning": "Report does not specify leads strongly enough for lead-based scoring.",
+      "notes": [],
+      "derived_ground_truth": {
+        "question_key": "lead_abnormalities",
+        "question_type": "lead_based",
+        "report_labels": [
+          "sinus rhythm",
+          "right axis deviation",
+          "borderline ecg"
+        ],
+        "report_labels_non_generic": [
+          "sinus rhythm",
+          "right axis deviation"
+        ],
+        "scorable": false,
+        "weakly_scorable": false,
+        "warning": "Report does not specify leads strongly enough for lead-based scoring.",
+        "notes": []
+      },
+      "evaluation": {
+        "scorable": false,
+        "warning": "Report does not specify leads strongly enough for lead-based scoring.",
+        "notes": [],
+        "predicted_leads": [
+          "V1",
+          "V2",
+          "V3",
+          "V4"
+        ],
+        "true_leads": []
+      }
+    },
+    {
+      "study_id": 41149570,
+      "question_id": "41149570_q36",
+      "prompt": "If infarction is suspected, what territory is most likely involved?",
+      "question_type": "multiclass_classification",
+      "modality": "image",
+      "answer": "The territory most likely involved is the inferior wall, as indicated by the presence of inferior ST elevation. This suggests that the infarction is likely to have occurred in the inferior region of the heart, which is supplied by the right coronary artery or the left circumflex artery. The inferior ST elevation is a key indicator of this, as it is a characteristic finding in inferior myocardial infarctions.",
+      "warning": "No infarct territory stated in report.",
+      "notes": [],
+      "derived_ground_truth": {
+        "question_key": "infarction_territory",
+        "question_type": "multiclass_classification",
+        "report_labels": [
+          "sinus rhythm",
+          "right axis deviation",
+          "borderline ecg"
+        ],
+        "report_labels_non_generic": [
+          "sinus rhythm",
+          "right axis deviation"
+        ],
+        "scorable": false,
+        "weakly_scorable": false,
+        "warning": "No infarct territory stated in report.",
+        "notes": []
+      },
+      "evaluation": {
+        "scorable": false,
+        "warning": "No infarct territory stated in report.",
+        "notes": [],
+        "predicted_class": "inferior",
+        "candidate_classes": [
+          "inferior"
+        ],
+        "true_class": null
+      }
+    },
+    {
+      "study_id": 41423207,
+      "question_id": "41423207_q11",
+      "prompt": "Estimate the PR interval and state whether it is normal, short, or prolonged.",
+      "question_type": "numeric",
+      "modality": "image",
+      "answer": "short",
+      "warning": "Report does not safely provide PR interval.",
+      "notes": [],
+      "derived_ground_truth": {
+        "question_key": "pr_interval",
+        "question_type": "numeric",
+        "report_labels": [
+          "sinus rhythm",
+          "borderline ecg"
+        ],
+        "report_labels_non_generic": [
+          "sinus rhythm"
+        ],
+        "scorable": false,
+        "weakly_scorable": false,
+        "warning": "Report does not safely provide PR interval.",
+        "notes": []
+      },
+      "evaluation": {
+        "scorable": false,
+        "warning": "Report does not safely provide PR interval.",
+        "notes": [],
+        "predicted_numeric": null,
+        "predicted_range": null,
+        "raw_numbers": [],
+        "true_numeric": null,
+        "true_range": null,
+        "true_descriptor": null,
+        "exact_match": null,
+        "tolerance_match": null
+      }
+    },
+    {
+      "study_id": 41423207,
+      "question_id": "41423207_q12",
+      "prompt": "Estimate the QRS duration and state whether it is narrow or wide.",
+      "question_type": "numeric",
+      "modality": "image",
+      "answer": "QRS duration is approximately 100-120 ms, which is considered narrow.",
+      "warning": "Report does not safely provide QRS duration.",
+      "notes": [],
+      "derived_ground_truth": {
+        "question_key": "qrs_duration",
+        "question_type": "numeric",
+        "report_labels": [
+          "sinus rhythm",
+          "borderline ecg"
+        ],
+        "report_labels_non_generic": [
+          "sinus rhythm"
+        ],
+        "scorable": false,
+        "weakly_scorable": false,
+        "warning": "Report does not safely provide QRS duration.",
+        "notes": []
+      },
+      "evaluation": {
+        "scorable": false,
+        "warning": "Report does not safely provide QRS duration.",
+        "notes": [],
+        "predicted_numeric": null,
+        "predicted_range": [
+          100.0,
+          120.0
+        ],
+        "raw_numbers": [
+          100.0,
+          120.0
+        ],
+        "true_numeric": null,
+        "true_range": null,
+        "true_descriptor": null,
+        "exact_match": null,
+        "tolerance_match": null
+      }
+    },
+    {
+      "study_id": 41423207,
+      "question_id": "41423207_q13",
+      "prompt": "Estimate the QT interval or QTc and say whether it appears prolonged.",
+      "question_type": "numeric",
+      "modality": "image",
+      "answer": "The QT interval appears prolonged.",
+      "warning": "Report does not safely provide QT/QTc interval.",
+      "notes": [],
+      "derived_ground_truth": {
+        "question_key": "qt_interval",
+        "question_type": "numeric",
+        "report_labels": [
+          "sinus rhythm",
+          "borderline ecg"
+        ],
+        "report_labels_non_generic": [
+          "sinus rhythm"
+        ],
+        "scorable": false,
+        "weakly_scorable": false,
+        "warning": "Report does not safely provide QT/QTc interval.",
+        "notes": []
+      },
+      "evaluation": {
+        "scorable": false,
+        "warning": "Report does not safely provide QT/QTc interval.",
+        "notes": [],
+        "predicted_numeric": null,
+        "predicted_range": null,
+        "raw_numbers": [],
+        "true_numeric": null,
+        "true_range": null,
+        "true_descriptor": null,
+        "exact_match": null,
+        "tolerance_match": null
+      }
+    },
+    {
+      "study_id": 41423207,
+      "question_id": "41423207_q22",
+      "prompt": "Are there Q waves present, and if so are they pathologic?",
+      "question_type": "multiclass_classification",
+      "modality": "image",
+      "answer": "Yes, the ECG exhibits Q waves, specifically in lead V2, which is considered a pathologic finding. The presence of Q waves in this lead suggests that there may be an underlying myocardial infarction, supporting the diagnosis of anteroseptal myocardial infarction. The Q waves in V2 are a significant indicator of cardiac damage, and their presence is not a normal variant.",
+      "warning": "Report does not safely determine Q-wave class.",
+      "notes": [],
+      "derived_ground_truth": {
+        "question_key": "q_waves",
+        "question_type": "multiclass_classification",
+        "report_labels": [
+          "sinus rhythm",
+          "borderline ecg"
+        ],
+        "report_labels_non_generic": [
+          "sinus rhythm"
+        ],
+        "scorable": false,
+        "weakly_scorable": false,
+        "warning": "Report does not safely determine Q-wave class.",
+        "notes": []
+      },
+      "evaluation": {
+        "scorable": false,
+        "warning": "Report does not safely determine Q-wave class.",
+        "notes": [],
+        "predicted_class": "q waves present",
+        "candidate_classes": [
+          "q waves present"
+        ],
+        "true_class": null
+      }
+    },
+    {
+      "study_id": 41423207,
+      "question_id": "41423207_q23",
+      "prompt": "Is there R-wave progression across the precordial leads, and is it normal?",
+      "question_type": "multiclass_classification",
+      "modality": "image",
+      "answer": "There is no R-wave progression across the precordial leads, and it is abnormal. The absence of R-wave progression suggests that the electrical activity of the heart is not propagating normally through the ventricles, which can be indicative of underlying cardiac pathology. This abnormality, combined with the depressed ST segments and low T waves in leads I, II, V4, V5, and V6, may be related to left ventricular (LV) strain or ischaemia, highlighting the importance of further evaluation to determine the underlying cause of these ECG findings.",
+      "warning": "Report does not explicitly describe R-wave progression.",
+      "notes": [],
+      "derived_ground_truth": {
+        "question_key": "r_wave_progression",
+        "question_type": "multiclass_classification",
+        "report_labels": [
+          "sinus rhythm",
+          "borderline ecg"
+        ],
+        "report_labels_non_generic": [
+          "sinus rhythm"
+        ],
+        "scorable": false,
+        "weakly_scorable": false,
+        "warning": "Report does not explicitly describe R-wave progression.",
+        "notes": []
+      },
+      "evaluation": {
+        "scorable": false,
+        "warning": "Report does not explicitly describe R-wave progression.",
+        "notes": [],
+        "predicted_class": null,
+        "candidate_classes": [],
+        "true_class": null
+      }
+    },
+    {
+      "study_id": 41423207,
+      "question_id": "41423207_q28",
+      "prompt": "Are there peaked T waves or other signs of hyperkalemia?",
+      "question_type": "binary_classification",
+      "modality": "image",
+      "answer": "The ECG does not exhibit peaked T waves, which is a characteristic feature of hyperkalemia. Instead, the T waves are described as low or flat in leads I, V4, V5, and V6, suggesting a different underlying cause. The presence of low or flat T waves in these specific leads is more consistent with ischemic heart disease, which is the likely underlying diagnosis. The absence of peaked T waves, therefore, rules out hyperkalemia as a possible explanation for the observed ECG changes.",
+      "warning": "Could not normalize binary answer.",
+      "notes": [
+        "Derived negative from absence of salient report finding."
+      ],
+      "derived_ground_truth": {
+        "question_key": "hyperkalemia_signs",
+        "question_type": "binary_classification",
+        "report_labels": [
+          "sinus rhythm",
+          "borderline ecg"
+        ],
+        "report_labels_non_generic": [
+          "sinus rhythm"
+        ],
+        "scorable": true,
+        "weakly_scorable": false,
+        "warning": null,
+        "notes": [
+          "Derived negative from absence of salient report finding."
+        ],
+        "true_class": "no"
+      },
+      "evaluation": {
+        "scorable": false,
+        "warning": "Could not normalize binary answer.",
+        "notes": [],
+        "predicted_class": null,
+        "confidence": 0.0,
+        "true_class": "no"
+      }
+    },
+    {
+      "study_id": 41423207,
+      "question_id": "41423207_q34",
+      "prompt": "Which leads contain the most important abnormal findings?",
+      "question_type": "lead_based",
+      "modality": "image",
+      "answer": "The most important abnormal findings are present in leads V2 and V3, where QS complexes are observed. This is a significant abnormality, as QS complexes in these leads are indicative of a myocardial infarction in the anteroseptal region. Additionally, the presence of QS complexes in these leads suggests a possible old anteroseptal infarct, which is a critical finding that warrants further evaluation.",
+      "warning": "Report does not specify leads strongly enough for lead-based scoring.",
+      "notes": [],
+      "derived_ground_truth": {
+        "question_key": "lead_abnormalities",
+        "question_type": "lead_based",
+        "report_labels": [
+          "sinus rhythm",
+          "borderline ecg"
+        ],
+        "report_labels_non_generic": [
+          "sinus rhythm"
+        ],
+        "scorable": false,
+        "weakly_scorable": false,
+        "warning": "Report does not specify leads strongly enough for lead-based scoring.",
+        "notes": []
+      },
+      "evaluation": {
+        "scorable": false,
+        "warning": "Report does not specify leads strongly enough for lead-based scoring.",
+        "notes": [],
+        "predicted_leads": [
+          "V2",
+          "V3"
+        ],
+        "true_leads": []
+      }
+    },
+    {
+      "study_id": 41423207,
+      "question_id": "41423207_q36",
+      "prompt": "If infarction is suspected, what territory is most likely involved?",
+      "question_type": "multiclass_classification",
+      "modality": "image",
+      "answer": "The territory most likely involved is the anteroseptal region, as indicated by the presence of ST and T abnormalities, which are suggestive of likely high lateral ischemia or left ventricular strain. This is further supported by the possibility of anteroseptal myocardial damage, implying that the affected area is in the anterior and septal regions of the heart.",
+      "warning": "No infarct territory stated in report.",
+      "notes": [],
+      "derived_ground_truth": {
+        "question_key": "infarction_territory",
+        "question_type": "multiclass_classification",
+        "report_labels": [
+          "sinus rhythm",
+          "borderline ecg"
+        ],
+        "report_labels_non_generic": [
+          "sinus rhythm"
+        ],
+        "scorable": false,
+        "weakly_scorable": false,
+        "warning": "No infarct territory stated in report.",
+        "notes": []
+      },
+      "evaluation": {
+        "scorable": false,
+        "warning": "No infarct territory stated in report.",
+        "notes": [],
+        "predicted_class": "anterior",
+        "candidate_classes": [
+          "anterior",
+          "anteroseptal",
+          "lateral"
+        ],
+        "true_class": null
+      }
+    },
+    {
+      "study_id": 42149331,
+      "question_id": "42149331_q11",
+      "prompt": "Estimate the PR interval and state whether it is normal, short, or prolonged.",
+      "question_type": "numeric",
+      "modality": "image",
+      "answer": "Prolonged",
+      "warning": "Report does not safely provide PR interval.",
+      "notes": [],
+      "derived_ground_truth": {
+        "question_key": "pr_interval",
+        "question_type": "numeric",
+        "report_labels": [
+          "atrial fibrillation",
+          "sinus bradycardia",
+          "pvc",
+          "left axis deviation",
+          "anterior infarct",
+          "lvh",
+          "ischemia",
+          "abnormal ecg"
+        ],
+        "report_labels_non_generic": [
+          "atrial fibrillation",
+          "sinus bradycardia",
+          "pvc",
+          "left axis deviation",
+          "anterior infarct",
+          "lvh",
+          "ischemia"
+        ],
+        "scorable": false,
+        "weakly_scorable": false,
+        "warning": "Report does not safely provide PR interval.",
+        "notes": []
+      },
+      "evaluation": {
+        "scorable": false,
+        "warning": "Report does not safely provide PR interval.",
+        "notes": [],
+        "predicted_numeric": null,
+        "predicted_range": null,
+        "raw_numbers": [],
+        "true_numeric": null,
+        "true_range": null,
+        "true_descriptor": null,
+        "exact_match": null,
+        "tolerance_match": null
+      }
+    },
+    {
+      "study_id": 42149331,
+      "question_id": "42149331_q12",
+      "prompt": "Estimate the QRS duration and state whether it is narrow or wide.",
+      "question_type": "numeric",
+      "modality": "image",
+      "answer": "wide",
+      "warning": "Report does not safely provide QRS duration.",
+      "notes": [],
+      "derived_ground_truth": {
+        "question_key": "qrs_duration",
+        "question_type": "numeric",
+        "report_labels": [
+          "atrial fibrillation",
+          "sinus bradycardia",
+          "pvc",
+          "left axis deviation",
+          "anterior infarct",
+          "lvh",
+          "ischemia",
+          "abnormal ecg"
+        ],
+        "report_labels_non_generic": [
+          "atrial fibrillation",
+          "sinus bradycardia",
+          "pvc",
+          "left axis deviation",
+          "anterior infarct",
+          "lvh",
+          "ischemia"
+        ],
+        "scorable": false,
+        "weakly_scorable": false,
+        "warning": "Report does not safely provide QRS duration.",
+        "notes": []
+      },
+      "evaluation": {
+        "scorable": false,
+        "warning": "Report does not safely provide QRS duration.",
+        "notes": [],
+        "predicted_numeric": null,
+        "predicted_range": null,
+        "raw_numbers": [],
+        "true_numeric": null,
+        "true_range": null,
+        "true_descriptor": null,
+        "exact_match": null,
+        "tolerance_match": null
+      }
+    },
+    {
+      "study_id": 42149331,
+      "question_id": "42149331_q13",
+      "prompt": "Estimate the QT interval or QTc and say whether it appears prolonged.",
+      "question_type": "numeric",
+      "modality": "image",
+      "answer": "The QT interval appears prolonged.",
+      "warning": "Report does not safely provide QT/QTc interval.",
+      "notes": [],
+      "derived_ground_truth": {
+        "question_key": "qt_interval",
+        "question_type": "numeric",
+        "report_labels": [
+          "atrial fibrillation",
+          "sinus bradycardia",
+          "pvc",
+          "left axis deviation",
+          "anterior infarct",
+          "lvh",
+          "ischemia",
+          "abnormal ecg"
+        ],
+        "report_labels_non_generic": [
+          "atrial fibrillation",
+          "sinus bradycardia",
+          "pvc",
+          "left axis deviation",
+          "anterior infarct",
+          "lvh",
+          "ischemia"
+        ],
+        "scorable": false,
+        "weakly_scorable": false,
+        "warning": "Report does not safely provide QT/QTc interval.",
+        "notes": []
+      },
+      "evaluation": {
+        "scorable": false,
+        "warning": "Report does not safely provide QT/QTc interval.",
+        "notes": [],
+        "predicted_numeric": null,
+        "predicted_range": null,
+        "raw_numbers": [],
+        "true_numeric": null,
+        "true_range": null,
+        "true_descriptor": null,
+        "exact_match": null,
+        "tolerance_match": null
+      }
+    },
+    {
+      "study_id": 42149331,
+      "question_id": "42149331_q23",
+      "prompt": "Is there R-wave progression across the precordial leads, and is it normal?",
+      "question_type": "multiclass_classification",
+      "modality": "image",
+      "answer": "The ECG tracing exhibits a sinus rhythm, which indicates a normal heart rhythm originating from the sinoatrial node. In terms of R-wave progression, it is noted that there is a poor R-wave progression, which suggests that the amplitude of the R-waves does not increase progressively from lead V1 to lead V6, as would be expected in a normal ECG. This poor R-wave progression is considered a probable normal variant, implying that it may not be a cause for concern. However, it is essential to consider this finding in conjunction with other ECG features and the patient's clinical presentation to rule out any underlying cardiac conditions.",
+      "warning": "Report does not explicitly describe R-wave progression.",
+      "notes": [],
+      "derived_ground_truth": {
+        "question_key": "r_wave_progression",
+        "question_type": "multiclass_classification",
+        "report_labels": [
+          "atrial fibrillation",
+          "sinus bradycardia",
+          "pvc",
+          "left axis deviation",
+          "anterior infarct",
+          "lvh",
+          "ischemia",
+          "abnormal ecg"
+        ],
+        "report_labels_non_generic": [
+          "atrial fibrillation",
+          "sinus bradycardia",
+          "pvc",
+          "left axis deviation",
+          "anterior infarct",
+          "lvh",
+          "ischemia"
+        ],
+        "scorable": false,
+        "weakly_scorable": false,
+        "warning": "Report does not explicitly describe R-wave progression.",
+        "notes": []
+      },
+      "evaluation": {
+        "scorable": false,
+        "warning": "Report does not explicitly describe R-wave progression.",
+        "notes": [],
+        "predicted_class": "poor r-wave progression",
+        "candidate_classes": [
+          "poor r-wave progression",
+          "normal progression"
+        ],
+        "true_class": null
+      }
+    },
+    {
+      "study_id": 42149331,
+      "question_id": "42149331_q37",
+      "prompt": "Is this ECG more consistent with a supraventricular or ventricular process?",
+      "question_type": "multiclass_classification",
+      "modality": "image",
+      "answer": "This ECG is more consistent with a supraventricular process. The presence of interpolated ventricular extrasystoles suggests that there are abnormal ventricular contractions, but the underlying rhythm is sinus, which is a normal rhythm originating from the sinoatrial node. The left type ST and T abnormality is likely related to the ventricular extrasystoles, rather than a primary ventricular issue. Additionally, the ECG does not show any signs of ventricular tachycardia or fibrillation, which are typically associated with ventricular processes. The overall pattern suggests that the primary issue is related to the supraventricular conduction system, rather than the ventricles themselves.",
+      "warning": "Report mixes supraventricular and ventricular clues.",
+      "notes": [],
+      "derived_ground_truth": {
+        "question_key": "supraventricular_vs_ventricular",
+        "question_type": "multiclass_classification",
+        "report_labels": [
+          "atrial fibrillation",
+          "sinus bradycardia",
+          "pvc",
+          "left axis deviation",
+          "anterior infarct",
+          "lvh",
+          "ischemia",
+          "abnormal ecg"
+        ],
+        "report_labels_non_generic": [
+          "atrial fibrillation",
+          "sinus bradycardia",
+          "pvc",
+          "left axis deviation",
+          "anterior infarct",
+          "lvh",
+          "ischemia"
+        ],
+        "scorable": false,
+        "weakly_scorable": false,
+        "warning": "Report mixes supraventricular and ventricular clues.",
+        "notes": []
+      },
+      "evaluation": {
+        "scorable": false,
+        "warning": "Report mixes supraventricular and ventricular clues.",
+        "notes": [],
+        "predicted_class": "supraventricular",
+        "candidate_classes": [
+          "supraventricular",
+          "ventricular"
+        ],
+        "true_class": null
+      }
+    },
+    {
+      "study_id": 45854712,
+      "question_id": "45854712_q13",
+      "prompt": "Estimate the QT interval or QTc and say whether it appears prolonged.",
+      "question_type": "numeric",
+      "modality": "image",
+      "answer": "The QT interval appears prolonged.",
+      "warning": "Report does not safely provide QT/QTc interval.",
+      "notes": [],
+      "derived_ground_truth": {
+        "question_key": "qt_interval",
+        "question_type": "numeric",
+        "report_labels": [
+          "sinus bradycardia",
+          "first degree av block",
+          "right axis deviation",
+          "intraventricular conduction delay",
+          "lateral infarct",
+          "ischemia",
+          "abnormal ecg"
+        ],
+        "report_labels_non_generic": [
+          "sinus bradycardia",
+          "first degree av block",
+          "right axis deviation",
+          "intraventricular conduction delay",
+          "lateral infarct",
+          "ischemia"
+        ],
+        "scorable": false,
+        "weakly_scorable": false,
+        "warning": "Report does not safely provide QT/QTc interval.",
+        "notes": []
+      },
+      "evaluation": {
+        "scorable": false,
+        "warning": "Report does not safely provide QT/QTc interval.",
+        "notes": [],
+        "predicted_numeric": null,
+        "predicted_range": null,
+        "raw_numbers": [],
+        "true_numeric": null,
+        "true_range": null,
+        "true_descriptor": null,
+        "exact_match": null,
+        "tolerance_match": null
+      }
+    },
+    {
+      "study_id": 45854712,
+      "question_id": "45854712_q23",
+      "prompt": "Is there R-wave progression across the precordial leads, and is it normal?",
+      "question_type": "multiclass_classification",
+      "modality": "image",
+      "answer": "There is no R-wave progression across the precordial leads, and it is abnormal. The ECG tracing exhibits a pattern of R-wave progression that is not typical, suggesting a possible underlying cardiac condition. The absence of normal R-wave progression is a significant finding that may be related to the suspected myocardial infarction in the lateral region, as indicated by the presence of ST elevation in leads V5 and V6. This abnormal R-wave progression may be a result of the myocardial damage caused by the infarction, leading to altered electrical conduction patterns in the heart.",
+      "warning": "Report does not explicitly describe R-wave progression.",
+      "notes": [],
+      "derived_ground_truth": {
+        "question_key": "r_wave_progression",
+        "question_type": "multiclass_classification",
+        "report_labels": [
+          "sinus bradycardia",
+          "first degree av block",
+          "right axis deviation",
+          "intraventricular conduction delay",
+          "lateral infarct",
+          "ischemia",
+          "abnormal ecg"
+        ],
+        "report_labels_non_generic": [
+          "sinus bradycardia",
+          "first degree av block",
+          "right axis deviation",
+          "intraventricular conduction delay",
+          "lateral infarct",
+          "ischemia"
+        ],
+        "scorable": false,
+        "weakly_scorable": false,
+        "warning": "Report does not explicitly describe R-wave progression.",
+        "notes": []
+      },
+      "evaluation": {
+        "scorable": false,
+        "warning": "Report does not explicitly describe R-wave progression.",
+        "notes": [],
+        "predicted_class": "normal progression",
+        "candidate_classes": [
+          "normal progression"
+        ],
+        "true_class": null
+      }
+    },
+    {
+      "study_id": 45854712,
+      "question_id": "45854712_q24",
+      "prompt": "Is there poor R-wave progression?",
+      "question_type": "binary_classification",
+      "modality": "image",
+      "answer": "The presence of poor R-wave progression is indicated, which suggests that the amplitude of the R-waves does not increase progressively from lead V1 to lead V6, as would be expected in a normal ECG. This abnormality is noted in conjunction with other findings, including right axis deviation, right ventricular hypertrophy, and ST-T changes, which collectively contribute to the overall pathological nature of the ECG. The poor R-wave progression may be related to the underlying cardiac condition, potentially indicating a disruption in the normal electrical conduction pathway of the heart.",
+      "warning": "Could not normalize binary answer.",
+      "notes": [
+        "Derived negative from absence of salient report finding."
+      ],
+      "derived_ground_truth": {
+        "question_key": "poor_r_wave_progression",
+        "question_type": "binary_classification",
+        "report_labels": [
+          "sinus bradycardia",
+          "first degree av block",
+          "right axis deviation",
+          "intraventricular conduction delay",
+          "lateral infarct",
+          "ischemia",
+          "abnormal ecg"
+        ],
+        "report_labels_non_generic": [
+          "sinus bradycardia",
+          "first degree av block",
+          "right axis deviation",
+          "intraventricular conduction delay",
+          "lateral infarct",
+          "ischemia"
+        ],
+        "scorable": true,
+        "weakly_scorable": false,
+        "warning": null,
+        "notes": [
+          "Derived negative from absence of salient report finding."
+        ],
+        "true_class": "no"
+      },
+      "evaluation": {
+        "scorable": false,
+        "warning": "Could not normalize binary answer.",
+        "notes": [],
+        "predicted_class": null,
+        "confidence": 0.0,
+        "true_class": "no"
+      }
+    }
+  ],
+  "parsing_failures": [
+    {
+      "study_id": 41149570,
+      "question_id": "41149570_q01",
+      "prompt": "What is the heart rate in bpm?",
+      "question_type": "numeric",
+      "modality": "image",
+      "answer": "100-150",
+      "warning": null,
+      "notes": [
+        "Derived only a normal rate range from report."
+      ],
+      "derived_ground_truth": {
+        "question_key": "heart_rate",
+        "question_type": "numeric",
+        "report_labels": [
+          "sinus rhythm",
+          "right axis deviation",
+          "borderline ecg"
+        ],
+        "report_labels_non_generic": [
+          "sinus rhythm",
+          "right axis deviation"
+        ],
+        "scorable": true,
+        "weakly_scorable": false,
+        "warning": null,
+        "notes": [
+          "Derived only a normal rate range from report."
+        ],
+        "true_range": [
+          60.0,
+          100.0
+        ],
+        "tolerance": 0.0
+      },
+      "evaluation": {
+        "scorable": true,
+        "warning": null,
+        "notes": [
+          "Derived only a normal rate range from report."
+        ],
+        "predicted_numeric": null,
+        "predicted_range": [
+          100.0,
+          150.0
+        ],
+        "raw_numbers": [
+          100.0,
+          150.0
+        ],
+        "true_numeric": null,
+        "true_range": [
+          60.0,
+          100.0
+        ],
+        "true_descriptor": null,
+        "exact_match": 0.0,
+        "tolerance_match": true,
+        "primary_score": 1.0
+      }
+    },
+    {
+      "study_id": 41149570,
+      "question_id": "41149570_q31",
+      "prompt": "What is the most likely primary diagnosis from this ECG?",
+      "question_type": "diagnosis_label",
+      "modality": "image",
+      "answer": "Ventricular tachycardia",
+      "warning": null,
+      "notes": [],
+      "derived_ground_truth": {
+        "question_key": "primary_diagnosis",
+        "question_type": "diagnosis_label",
+        "report_labels": [
+          "sinus rhythm",
+          "right axis deviation",
+          "borderline ecg"
+        ],
+        "report_labels_non_generic": [
+          "sinus rhythm",
+          "right axis deviation"
+        ],
+        "scorable": true,
+        "weakly_scorable": false,
+        "warning": null,
+        "notes": [],
+        "true_labels": [
+          "sinus rhythm"
+        ]
+      },
+      "evaluation": {
+        "scorable": true,
+        "warning": null,
+        "notes": [],
+        "predicted_labels": [],
+        "true_labels": [
+          "sinus rhythm"
+        ],
+        "tp": 0.0,
+        "fp": 0.0,
+        "fn": 1.0,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "jaccard": 0.0,
+        "sequence_similarity": 0.2647058823529412,
+        "primary_score": 0.0
+      }
+    },
+    {
+      "study_id": 41423207,
+      "question_id": "41423207_q01",
+      "prompt": "What is the heart rate in bpm?",
+      "question_type": "numeric",
+      "modality": "image",
+      "answer": "100-120",
+      "warning": null,
+      "notes": [
+        "Derived only a normal rate range from report."
+      ],
+      "derived_ground_truth": {
+        "question_key": "heart_rate",
+        "question_type": "numeric",
+        "report_labels": [
+          "sinus rhythm",
+          "borderline ecg"
+        ],
+        "report_labels_non_generic": [
+          "sinus rhythm"
+        ],
+        "scorable": true,
+        "weakly_scorable": false,
+        "warning": null,
+        "notes": [
+          "Derived only a normal rate range from report."
+        ],
+        "true_range": [
+          60.0,
+          100.0
+        ],
+        "tolerance": 0.0
+      },
+      "evaluation": {
+        "scorable": true,
+        "warning": null,
+        "notes": [
+          "Derived only a normal rate range from report."
+        ],
+        "predicted_numeric": null,
+        "predicted_range": [
+          100.0,
+          120.0
+        ],
+        "raw_numbers": [
+          100.0,
+          120.0
+        ],
+        "true_numeric": null,
+        "true_range": [
+          60.0,
+          100.0
+        ],
+        "true_descriptor": null,
+        "exact_match": 0.0,
+        "tolerance_match": true,
+        "primary_score": 1.0
+      }
+    },
+    {
+      "study_id": 42149331,
+      "question_id": "42149331_q01",
+      "prompt": "What is the heart rate in bpm?",
+      "question_type": "numeric",
+      "modality": "image",
+      "answer": "100-150",
+      "warning": null,
+      "notes": [
+        "Derived only a bradycardic rate range from report."
+      ],
+      "derived_ground_truth": {
+        "question_key": "heart_rate",
+        "question_type": "numeric",
+        "report_labels": [
+          "atrial fibrillation",
+          "sinus bradycardia",
+          "pvc",
+          "left axis deviation",
+          "anterior infarct",
+          "lvh",
+          "ischemia",
+          "abnormal ecg"
+        ],
+        "report_labels_non_generic": [
+          "atrial fibrillation",
+          "sinus bradycardia",
+          "pvc",
+          "left axis deviation",
+          "anterior infarct",
+          "lvh",
+          "ischemia"
+        ],
+        "scorable": true,
+        "weakly_scorable": false,
+        "warning": null,
+        "notes": [
+          "Derived only a bradycardic rate range from report."
+        ],
+        "true_range": [
+          0.0,
+          59.0
+        ],
+        "tolerance": 0.0
+      },
+      "evaluation": {
+        "scorable": true,
+        "warning": null,
+        "notes": [
+          "Derived only a bradycardic rate range from report."
+        ],
+        "predicted_numeric": null,
+        "predicted_range": [
+          100.0,
+          150.0
+        ],
+        "raw_numbers": [
+          100.0,
+          150.0
+        ],
+        "true_numeric": null,
+        "true_range": [
+          0.0,
+          59.0
+        ],
+        "true_descriptor": null,
+        "exact_match": 0.0,
+        "tolerance_match": false,
+        "primary_score": 0.0
+      }
+    },
+    {
+      "study_id": 45854712,
+      "question_id": "45854712_q01",
+      "prompt": "What is the heart rate in bpm?",
+      "question_type": "numeric",
+      "modality": "image",
+      "answer": "80-90",
+      "warning": null,
+      "notes": [
+        "Derived only a bradycardic rate range from report."
+      ],
+      "derived_ground_truth": {
+        "question_key": "heart_rate",
+        "question_type": "numeric",
+        "report_labels": [
+          "sinus bradycardia",
+          "first degree av block",
+          "right axis deviation",
+          "intraventricular conduction delay",
+          "lateral infarct",
+          "ischemia",
+          "abnormal ecg"
+        ],
+        "report_labels_non_generic": [
+          "sinus bradycardia",
+          "first degree av block",
+          "right axis deviation",
+          "intraventricular conduction delay",
+          "lateral infarct",
+          "ischemia"
+        ],
+        "scorable": true,
+        "weakly_scorable": false,
+        "warning": null,
+        "notes": [
+          "Derived only a bradycardic rate range from report."
+        ],
+        "true_range": [
+          0.0,
+          59.0
+        ],
+        "tolerance": 0.0
+      },
+      "evaluation": {
+        "scorable": true,
+        "warning": null,
+        "notes": [
+          "Derived only a bradycardic rate range from report."
+        ],
+        "predicted_numeric": null,
+        "predicted_range": [
+          80.0,
+          90.0
+        ],
+        "raw_numbers": [
+          80.0,
+          90.0
+        ],
+        "true_numeric": null,
+        "true_range": [
+          0.0,
+          59.0
+        ],
+        "true_descriptor": null,
+        "exact_match": 0.0,
+        "tolerance_match": false,
+        "primary_score": 0.0
+      }
+    },
+    {
+      "study_id": 45854712,
+      "question_id": "45854712_q11",
+      "prompt": "Estimate the PR interval and state whether it is normal, short, or prolonged.",
+      "question_type": "numeric",
+      "modality": "image",
+      "answer": "short",
+      "warning": null,
+      "notes": [
+        "Estimated PR lower bound from first-degree AV block wording; exact PR is unknown."
+      ],
+      "derived_ground_truth": {
+        "question_key": "pr_interval",
+        "question_type": "numeric",
+        "report_labels": [
+          "sinus bradycardia",
+          "first degree av block",
+          "right axis deviation",
+          "intraventricular conduction delay",
+          "lateral infarct",
+          "ischemia",
+          "abnormal ecg"
+        ],
+        "report_labels_non_generic": [
+          "sinus bradycardia",
+          "first degree av block",
+          "right axis deviation",
+          "intraventricular conduction delay",
+          "lateral infarct",
+          "ischemia"
+        ],
+        "scorable": true,
+        "weakly_scorable": false,
+        "warning": null,
+        "notes": [
+          "Estimated PR lower bound from first-degree AV block wording; exact PR is unknown."
+        ],
+        "true_range": [
+          200.0,
+          400.0
+        ],
+        "tolerance": 20.0,
+        "true_descriptor": "prolonged"
+      },
+      "evaluation": {
+        "scorable": true,
+        "warning": null,
+        "notes": [
+          "Estimated PR lower bound from first-degree AV block wording; exact PR is unknown."
+        ],
+        "predicted_numeric": null,
+        "predicted_range": null,
+        "raw_numbers": [],
+        "true_numeric": null,
+        "true_range": [
+          200.0,
+          400.0
+        ],
+        "true_descriptor": "prolonged",
+        "exact_match": null,
+        "tolerance_match": false,
+        "primary_score": 0.0
+      }
+    },
+    {
+      "study_id": 45854712,
+      "question_id": "45854712_q12",
+      "prompt": "Estimate the QRS duration and state whether it is narrow or wide.",
+      "question_type": "numeric",
+      "modality": "image",
+      "answer": "The QRS duration is approximately 120-130 ms, which is wide.",
+      "warning": null,
+      "notes": [
+        "Estimated wide-QRS range from conduction-abnormality wording; exact duration is unknown."
+      ],
+      "derived_ground_truth": {
+        "question_key": "qrs_duration",
+        "question_type": "numeric",
+        "report_labels": [
+          "sinus bradycardia",
+          "first degree av block",
+          "right axis deviation",
+          "intraventricular conduction delay",
+          "lateral infarct",
+          "ischemia",
+          "abnormal ecg"
+        ],
+        "report_labels_non_generic": [
+          "sinus bradycardia",
+          "first degree av block",
+          "right axis deviation",
+          "intraventricular conduction delay",
+          "lateral infarct",
+          "ischemia"
+        ],
+        "scorable": true,
+        "weakly_scorable": false,
+        "warning": null,
+        "notes": [
+          "Estimated wide-QRS range from conduction-abnormality wording; exact duration is unknown."
+        ],
+        "true_range": [
+          120.0,
+          220.0
+        ],
+        "tolerance": 20.0,
+        "true_descriptor": "wide"
+      },
+      "evaluation": {
+        "scorable": true,
+        "warning": null,
+        "notes": [
+          "Estimated wide-QRS range from conduction-abnormality wording; exact duration is unknown."
+        ],
+        "predicted_numeric": null,
+        "predicted_range": [
+          120.0,
+          130.0
+        ],
+        "raw_numbers": [
+          120.0,
+          130.0
+        ],
+        "true_numeric": null,
+        "true_range": [
+          120.0,
+          220.0
+        ],
+        "true_descriptor": "wide",
+        "exact_match": 0.0,
+        "tolerance_match": true,
+        "primary_score": 1.0
+      }
+    }
+  ],
+  "incorrect_predictions": [
+    {
+      "study_id": 41149570,
+      "question_id": "41149570_q02",
+      "prompt": "Is the rhythm regular or irregular?",
+      "question_type": "binary_classification",
+      "modality": "image",
+      "answer": "The rhythm is irregular, which is a characteristic feature of atrial fibrillation. In atrial fibrillation, the atria, or upper chambers of the heart, contract rapidly and irregularly, resulting in an irregular ventricular response. This is evident in the ECG tracing, where the R-R intervals are not consistent, indicating an irregular heart rhythm. The presence of atrial fibrillation is a significant finding, and it is likely to be the underlying cause of the patient's symptoms.",
+      "warning": null,
+      "notes": [],
+      "derived_ground_truth": {
+        "question_key": "rhythm_regularity",
+        "question_type": "binary_classification",
+        "report_labels": [
+          "sinus rhythm",
+          "right axis deviation",
+          "borderline ecg"
+        ],
+        "report_labels_non_generic": [
+          "sinus rhythm",
+          "right axis deviation"
+        ],
+        "scorable": true,
+        "weakly_scorable": false,
+        "warning": null,
+        "notes": [],
+        "true_class": "regular"
+      },
+      "evaluation": {
+        "scorable": true,
+        "warning": null,
+        "notes": [],
+        "predicted_class": "irregular",
+        "confidence": 1.0,
+        "true_class": "regular",
+        "correctness": 0.0,
+        "primary_score": 0.0
+      }
+    },
+    {
+      "study_id": 41149570,
+      "question_id": "41149570_q03",
+      "prompt": "What is the most likely underlying rhythm?",
+      "question_type": "diagnosis_label",
+      "modality": "image",
+      "answer": "Sinus tachycardia",
+      "warning": null,
+      "notes": [],
+      "derived_ground_truth": {
+        "question_key": "underlying_rhythm",
+        "question_type": "diagnosis_label",
+        "report_labels": [
+          "sinus rhythm",
+          "right axis deviation",
+          "borderline ecg"
+        ],
+        "report_labels_non_generic": [
+          "sinus rhythm",
+          "right axis deviation"
+        ],
+        "scorable": true,
+        "weakly_scorable": false,
+        "warning": null,
+        "notes": [],
+        "true_labels": [
+          "sinus rhythm"
+        ]
+      },
+      "evaluation": {
+        "scorable": true,
+        "warning": null,
+        "notes": [],
+        "predicted_labels": [
+          "sinus tachycardia"
+        ],
+        "true_labels": [
+          "sinus rhythm"
+        ],
+        "tp": 0.0,
+        "fp": 1.0,
+        "fn": 1.0,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "jaccard": 0.3333333333333333,
+        "sequence_similarity": 0.3870967741935484,
+        "primary_score": 0.0
+      }
+    },
+    {
+      "study_id": 41149570,
+      "question_id": "41149570_q04",
+      "prompt": "Are P waves present before each QRS complex?",
+      "question_type": "binary_classification",
+      "modality": "image",
+      "answer": "No, P waves are not present before each QRS complex. In fact, the ECG reveals the presence of atrial fibrillation, which is characterized by the absence of P waves. Instead, the ECG shows a rapid ventricular response, indicating that the ventricles are contracting rapidly and irregularly, without the normal preceding P wave. This is a hallmark feature of atrial fibrillation, where the atria quiver or fibrillate instead of contracting normally, resulting in the absence of P waves.",
+      "warning": null,
+      "notes": [],
+      "derived_ground_truth": {
+        "question_key": "p_waves_before_qrs",
+        "question_type": "binary_classification",
+        "report_labels": [
+          "sinus rhythm",
+          "right axis deviation",
+          "borderline ecg"
+        ],
+        "report_labels_non_generic": [
+          "sinus rhythm",
+          "right axis deviation"
+        ],
+        "scorable": true,
+        "weakly_scorable": false,
+        "warning": null,
+        "notes": [],
+        "true_class": "yes"
+      },
+      "evaluation": {
+        "scorable": true,
+        "warning": null,
+        "notes": [],
+        "predicted_class": "no",
+        "confidence": 1.0,
+        "true_class": "yes",
+        "correctness": 0.0,
+        "primary_score": 0.0
+      }
+    },
+    {
+      "study_id": 41149570,
+      "question_id": "41149570_q05",
+      "prompt": "Is there evidence of sinus rhythm?",
+      "question_type": "binary_classification",
+      "modality": "image",
+      "answer": "There is no evidence of sinus rhythm in this ECG tracing. Instead, the rhythm is characterized as atrial fibrillation, which is a type of abnormal heart rhythm. Specifically, it is a rapid ventricular response, indicating that the ventricles are beating at an accelerated rate. This is in contrast to a normal sinus rhythm, which is typically a regular, rhythmic heartbeat originating from the sinoatrial node. The presence of atrial fibrillation with rapid ventricular response suggests that the heart's normal electrical conduction system is disrupted, leading to an irregular and rapid heartbeat.",
+      "warning": null,
+      "notes": [],
+      "derived_ground_truth": {
+        "question_key": "evidence_sinus_rhythm",
+        "question_type": "binary_classification",
+        "report_labels": [
+          "sinus rhythm",
+          "right axis deviation",
+          "borderline ecg"
+        ],
+        "report_labels_non_generic": [
+          "sinus rhythm",
+          "right axis deviation"
+        ],
+        "scorable": true,
+        "weakly_scorable": false,
+        "warning": null,
+        "notes": [],
+        "true_class": "yes"
+      },
+      "evaluation": {
+        "scorable": true,
+        "warning": null,
+        "notes": [],
+        "predicted_class": "no",
+        "confidence": 1.0,
+        "true_class": "yes",
+        "correctness": 0.0,
+        "primary_score": 0.0
+      }
+    },
+    {
+      "study_id": 41149570,
+      "question_id": "41149570_q08",
+      "prompt": "Are there premature beats present?",
+      "question_type": "binary_classification",
+      "modality": "image",
+      "answer": "Yes, there are premature beats present, specifically premature atrial contractions (PACs). The presence of PACs indicates that the heart is experiencing irregular heartbeats, where the atria contract too early, disrupting the normal heart rhythm. This is evident from the ECG tracing, which shows that the premature beats are originating from the atria, rather than the ventricles. The PACs are occurring in addition to the underlying sinus tachycardia, which is a rapid heart rate that originates from the sinoatrial (SA) node.",
+      "warning": null,
+      "notes": [
+        "Derived negative from absence of salient report finding."
+      ],
+      "derived_ground_truth": {
+        "question_key": "premature_beats",
+        "question_type": "binary_classification",
+        "report_labels": [
+          "sinus rhythm",
+          "right axis deviation",
+          "borderline ecg"
+        ],
+        "report_labels_non_generic": [
+          "sinus rhythm",
+          "right axis deviation"
+        ],
+        "scorable": true,
+        "weakly_scorable": false,
+        "warning": null,
+        "notes": [
+          "Derived negative from absence of salient report finding."
+        ],
+        "true_class": "no"
+      },
+      "evaluation": {
+        "scorable": true,
+        "warning": null,
+        "notes": [],
+        "predicted_class": "yes",
+        "confidence": 1.0,
+        "true_class": "no",
+        "correctness": 0.0,
+        "primary_score": 0.0
+      }
+    },
+    {
+      "study_id": 41149570,
+      "question_id": "41149570_q10",
+      "prompt": "Does this ECG suggest tachycardia, bradycardia, or a normal rate?",
+      "question_type": "multiclass_classification",
+      "modality": "image",
+      "answer": "This ECG suggests tachycardia, as indicated by the presence of sinus tachycardia. The heart rate is abnormally fast, which is a characteristic of tachycardia. There is no indication of bradycardia, which would be characterized by a slow heart rate, or a normal heart rate, which would be within the normal range. Instead, the ECG specifically highlights the presence of sinus tachycardia, which is a type of arrhythmia marked by an abnormally rapid heart rate.",
+      "warning": null,
+      "notes": [],
+      "derived_ground_truth": {
+        "question_key": "rate_class",
+        "question_type": "multiclass_classification",
+        "report_labels": [
+          "sinus rhythm",
+          "right axis deviation",
+          "borderline ecg"
+        ],
+        "report_labels_non_generic": [
+          "sinus rhythm",
+          "right axis deviation"
+        ],
+        "scorable": true,
+        "weakly_scorable": false,
+        "warning": null,
+        "notes": [],
+        "true_class": "normal rate"
+      },
+      "evaluation": {
+        "scorable": true,
+        "warning": null,
+        "notes": [],
+        "predicted_class": "tachycardia",
+        "candidate_classes": [
+          "tachycardia",
+          "bradycardia",
+          "normal rate"
+        ],
+        "true_class": "normal rate",
+        "exact_match": 0.0,
+        "primary_score": 0.0
+      }
+    },
+    {
+      "study_id": 41149570,
+      "question_id": "41149570_q26",
+      "prompt": "Is there ST-segment depression present?",
+      "question_type": "binary_classification",
+      "modality": "image",
+      "answer": "Yes, there is ST-segment depression present. The ECG reveals ST-segment depression in leads I, II, aVF, V4, V5, and V6. This depression is non-specific, meaning it does not point to a specific diagnosis or condition. However, it is consistent with myocardial ischemia, which suggests that the heart muscle may not be receiving sufficient blood flow, leading to a lack of oxygen supply. The presence of ST-segment depression in these leads indicates that there may be an issue with the heart's electrical activity, which could be related to ischemia or other underlying conditions.",
+      "warning": null,
+      "notes": [
+        "Derived negative from absence of salient report finding."
+      ],
+      "derived_ground_truth": {
+        "question_key": "st_depression",
+        "question_type": "binary_classification",
+        "report_labels": [
+          "sinus rhythm",
+          "right axis deviation",
+          "borderline ecg"
+        ],
+        "report_labels_non_generic": [
+          "sinus rhythm",
+          "right axis deviation"
+        ],
+        "scorable": true,
+        "weakly_scorable": false,
+        "warning": null,
+        "notes": [
+          "Derived negative from absence of salient report finding."
+        ],
+        "true_class": "no"
+      },
+      "evaluation": {
+        "scorable": true,
+        "warning": null,
+        "notes": [],
+        "predicted_class": "yes",
+        "confidence": 1.0,
+        "true_class": "no",
+        "correctness": 0.0,
+        "primary_score": 0.0
+      }
+    },
+    {
+      "study_id": 41149570,
+      "question_id": "41149570_q27",
+      "prompt": "Are there T-wave inversions present?",
+      "question_type": "binary_classification",
+      "modality": "image",
+      "answer": "Yes, there are T-wave inversions present in leads V2 and V3. This inversion is a significant finding, as it suggests that there may be underlying cardiac pathology. The presence of T-wave inversions in these specific leads is consistent with myocardial ischemia, which is a condition where the heart muscle does not receive sufficient blood flow, leading to a lack of oxygen. This finding, in conjunction with the ST segment depression in leads V2-6, further supports the likelihood of myocardial ischemia.",
+      "warning": null,
+      "notes": [
+        "Derived negative from absence of salient report finding."
+      ],
+      "derived_ground_truth": {
+        "question_key": "t_wave_inversion",
+        "question_type": "binary_classification",
+        "report_labels": [
+          "sinus rhythm",
+          "right axis deviation",
+          "borderline ecg"
+        ],
+        "report_labels_non_generic": [
+          "sinus rhythm",
+          "right axis deviation"
+        ],
+        "scorable": true,
+        "weakly_scorable": false,
+        "warning": null,
+        "notes": [
+          "Derived negative from absence of salient report finding."
+        ],
+        "true_class": "no"
+      },
+      "evaluation": {
+        "scorable": true,
+        "warning": null,
+        "notes": [],
+        "predicted_class": "yes",
+        "confidence": 1.0,
+        "true_class": "no",
+        "correctness": 0.0,
+        "primary_score": 0.0
+      }
+    },
+    {
+      "study_id": 41149570,
+      "question_id": "41149570_q28",
+      "prompt": "Are there peaked T waves or other signs of hyperkalemia?",
+      "question_type": "binary_classification",
+      "modality": "image",
+      "answer": "Yes, there are signs of hyperkalemia in the ECG. Specifically, the T waves are peaked, which is a characteristic feature of hyperkalemia. This is evident in leads I, II, III, aVF, and V3-6, where the T waves exhibit this distinctive morphology. The presence of peaked T waves in these leads suggests that the patient may be experiencing hyperkalemia, which is a potentially life-threatening condition.",
+      "warning": null,
+      "notes": [
+        "Derived negative from absence of salient report finding."
+      ],
+      "derived_ground_truth": {
+        "question_key": "hyperkalemia_signs",
+        "question_type": "binary_classification",
+        "report_labels": [
+          "sinus rhythm",
+          "right axis deviation",
+          "borderline ecg"
+        ],
+        "report_labels_non_generic": [
+          "sinus rhythm",
+          "right axis deviation"
+        ],
+        "scorable": true,
+        "weakly_scorable": false,
+        "warning": null,
+        "notes": [
+          "Derived negative from absence of salient report finding."
+        ],
+        "true_class": "no"
+      },
+      "evaluation": {
+        "scorable": true,
+        "warning": null,
+        "notes": [],
+        "predicted_class": "yes",
+        "confidence": 1.0,
+        "true_class": "no",
+        "correctness": 0.0,
+        "primary_score": 0.0
+      }
+    },
+    {
+      "study_id": 41149570,
+      "question_id": "41149570_q30",
+      "prompt": "Are there signs of ventricular hypertrophy?",
+      "question_type": "binary_classification",
+      "modality": "image",
+      "answer": "Yes, there are signs of ventricular hypertrophy. Specifically, the ECG suggests left ventricular hypertrophy, which is indicated by the presence of certain characteristic patterns on the ECG tracing. This finding is significant because it may be related to the observed ST-T wave changes, which could be a result of either hypertrophy or ischaemia. The presence of left ventricular hypertrophy is a notable feature of this ECG, and it is an important aspect of the overall diagnostic picture.",
+      "warning": null,
+      "notes": [
+        "Derived negative from absence of salient report finding."
+      ],
+      "derived_ground_truth": {
+        "question_key": "ventricular_hypertrophy",
+        "question_type": "binary_classification",
+        "report_labels": [
+          "sinus rhythm",
+          "right axis deviation",
+          "borderline ecg"
+        ],
+        "report_labels_non_generic": [
+          "sinus rhythm",
+          "right axis deviation"
+        ],
+        "scorable": true,
+        "weakly_scorable": false,
+        "warning": null,
+        "notes": [
+          "Derived negative from absence of salient report finding."
+        ],
+        "true_class": "no"
+      },
+      "evaluation": {
+        "scorable": true,
+        "warning": null,
+        "notes": [],
+        "predicted_class": "yes",
+        "confidence": 1.0,
+        "true_class": "no",
+        "correctness": 0.0,
+        "primary_score": 0.0
+      }
+    },
+    {
+      "study_id": 41149570,
+      "question_id": "41149570_q32",
+      "prompt": "List the top 3 diagnostic considerations for this ECG.",
+      "question_type": "diagnosis_label",
+      "modality": "image",
+      "answer": "1. Atrial flutter with rapid ventricular response\n2. Right ventricular hypertrophy",
+      "warning": null,
+      "notes": [],
+      "derived_ground_truth": {
+        "question_key": "diagnostic_considerations",
+        "question_type": "diagnosis_label",
+        "report_labels": [
+          "sinus rhythm",
+          "right axis deviation",
+          "borderline ecg"
+        ],
+        "report_labels_non_generic": [
+          "sinus rhythm",
+          "right axis deviation"
+        ],
+        "scorable": true,
+        "weakly_scorable": false,
+        "warning": null,
+        "notes": [],
+        "true_labels": [
+          "sinus rhythm",
+          "right axis deviation"
+        ]
+      },
+      "evaluation": {
+        "scorable": true,
+        "warning": null,
+        "notes": [],
+        "predicted_labels": [
+          "atrial flutter"
+        ],
+        "true_labels": [
+          "sinus rhythm",
+          "right axis deviation"
+        ],
+        "tp": 0.0,
+        "fp": 1.0,
+        "fn": 2.0,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "jaccard": 0.0,
+        "sequence_similarity": 0.25196850393700787,
+        "primary_score": 0.0
+      }
+    },
+    {
+      "study_id": 41149570,
+      "question_id": "41149570_q33",
+      "prompt": "What are the key ECG findings supporting your interpretation?",
+      "question_type": "diagnosis_label",
+      "modality": "image",
+      "answer": "Upon analyzing the ECG, I observe a rapid heart rate, which is indicative of tachycardia. The P-wave morphology appears normal, but the PR interval is not explicitly measured. The QRS complexes exhibit a QS pattern in leads I and aVL, suggesting a possible lateral infarct. Furthermore, the ST-T changes in the inferior leads are consistent with myocardial injury or ischemia. The cardiac axis is deviated to the right, which may be related to the lateral infarct or other underlying cardiac conditions.",
+      "warning": null,
+      "notes": [],
+      "derived_ground_truth": {
+        "question_key": "key_findings",
+        "question_type": "diagnosis_label",
+        "report_labels": [
+          "sinus rhythm",
+          "right axis deviation",
+          "borderline ecg"
+        ],
+        "report_labels_non_generic": [
+          "sinus rhythm",
+          "right axis deviation"
+        ],
+        "scorable": true,
+        "weakly_scorable": false,
+        "warning": null,
+        "notes": [],
+        "true_labels": [
+          "sinus rhythm",
+          "right axis deviation"
+        ]
+      },
+      "evaluation": {
+        "scorable": true,
+        "warning": null,
+        "notes": [],
+        "predicted_labels": [
+          "lateral infarct",
+          "ischemia"
+        ],
+        "true_labels": [
+          "sinus rhythm",
+          "right axis deviation"
+        ],
+        "tp": 0.0,
+        "fp": 2.0,
+        "fn": 2.0,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "jaccard": 0.0,
+        "sequence_similarity": 0.0948905109489051,
+        "primary_score": 0.0
+      }
+    },
+    {
+      "study_id": 41423207,
+      "question_id": "41423207_q02",
+      "prompt": "Is the rhythm regular or irregular?",
+      "question_type": "binary_classification",
+      "modality": "image",
+      "answer": "The rhythm is irregular, specifically sinus tachycardia, which indicates that the heart is beating at a rapid rate, but the intervals between beats are not consistent. This irregularity is a key feature of the rhythm, distinguishing it from a regular rhythm such as a normal sinus rhythm. The presence of sinus tachycardia suggests that the heart's natural pacemaker, the sinoatrial node, is firing at an abnormally rapid rate, resulting in an irregular heartbeat.",
+      "warning": null,
+      "notes": [],
+      "derived_ground_truth": {
+        "question_key": "rhythm_regularity",
+        "question_type": "binary_classification",
+        "report_labels": [
+          "sinus rhythm",
+          "borderline ecg"
+        ],
+        "report_labels_non_generic": [
+          "sinus rhythm"
+        ],
+        "scorable": true,
+        "weakly_scorable": false,
+        "warning": null,
+        "notes": [],
+        "true_class": "regular"
+      },
+      "evaluation": {
+        "scorable": true,
+        "warning": null,
+        "notes": [],
+        "predicted_class": "irregular",
+        "confidence": 1.0,
+        "true_class": "regular",
+        "correctness": 0.0,
+        "primary_score": 0.0
+      }
+    },
+    {
+      "study_id": 41423207,
+      "question_id": "41423207_q03",
+      "prompt": "What is the most likely underlying rhythm?",
+      "question_type": "diagnosis_label",
+      "modality": "image",
+      "answer": "Sinus tachycardia",
+      "warning": null,
+      "notes": [],
+      "derived_ground_truth": {
+        "question_key": "underlying_rhythm",
+        "question_type": "diagnosis_label",
+        "report_labels": [
+          "sinus rhythm",
+          "borderline ecg"
+        ],
+        "report_labels_non_generic": [
+          "sinus rhythm"
+        ],
+        "scorable": true,
+        "weakly_scorable": false,
+        "warning": null,
+        "notes": [],
+        "true_labels": [
+          "sinus rhythm"
+        ]
+      },
+      "evaluation": {
+        "scorable": true,
+        "warning": null,
+        "notes": [],
+        "predicted_labels": [
+          "sinus tachycardia"
+        ],
+        "true_labels": [
+          "sinus rhythm"
+        ],
+        "tp": 0.0,
+        "fp": 1.0,
+        "fn": 1.0,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "jaccard": 0.3333333333333333,
+        "sequence_similarity": 0.32941176470588235,
+        "primary_score": 0.0
+      }
+    },
+    {
+      "study_id": 41423207,
+      "question_id": "41423207_q04",
+      "prompt": "Are P waves present before each QRS complex?",
+      "question_type": "binary_classification",
+      "modality": "image",
+      "answer": "No, P waves are not present before each QRS complex. In fact, the ECG reveals the presence of atrial fibrillation, which is characterized by the absence of P waves. Instead, the ECG shows a rapid ventricular response, indicating that the ventricles are contracting rapidly and irregularly, without the normal preceding P wave. This is a hallmark feature of atrial fibrillation, where the atria quiver or fibrillate instead of contracting normally, resulting in the absence of P waves.",
+      "warning": null,
+      "notes": [],
+      "derived_ground_truth": {
+        "question_key": "p_waves_before_qrs",
+        "question_type": "binary_classification",
+        "report_labels": [
+          "sinus rhythm",
+          "borderline ecg"
+        ],
+        "report_labels_non_generic": [
+          "sinus rhythm"
+        ],
+        "scorable": true,
+        "weakly_scorable": false,
+        "warning": null,
+        "notes": [],
+        "true_class": "yes"
+      },
+      "evaluation": {
+        "scorable": true,
+        "warning": null,
+        "notes": [],
+        "predicted_class": "no",
+        "confidence": 1.0,
+        "true_class": "yes",
+        "correctness": 0.0,
+        "primary_score": 0.0
+      }
+    },
+    {
+      "study_id": 41423207,
+      "question_id": "41423207_q05",
+      "prompt": "Is there evidence of sinus rhythm?",
+      "question_type": "binary_classification",
+      "modality": "image",
+      "answer": "There is no evidence of sinus rhythm in this ECG. Instead, the rhythm is characterized as atrial fibrillation, which is a type of abnormal heart rhythm. Atrial fibrillation is marked by rapid and irregular contractions of the atria, resulting in an irregular ventricular response. This is in contrast to a normal sinus rhythm, which is a regular heart rhythm originating from the sinoatrial node. The presence of atrial fibrillation indicates that the heart's normal pacemaker is not functioning, and the rhythm is being controlled by the atrial fibrillation itself.",
+      "warning": null,
+      "notes": [],
+      "derived_ground_truth": {
+        "question_key": "evidence_sinus_rhythm",
+        "question_type": "binary_classification",
+        "report_labels": [
+          "sinus rhythm",
+          "borderline ecg"
+        ],
+        "report_labels_non_generic": [
+          "sinus rhythm"
+        ],
+        "scorable": true,
+        "weakly_scorable": false,
+        "warning": null,
+        "notes": [],
+        "true_class": "yes"
+      },
+      "evaluation": {
+        "scorable": true,
+        "warning": null,
+        "notes": [],
+        "predicted_class": "no",
+        "confidence": 1.0,
+        "true_class": "yes",
+        "correctness": 0.0,
+        "primary_score": 0.0
+      }
+    },
+    {
+      "study_id": 41423207,
+      "question_id": "41423207_q08",
+      "prompt": "Are there premature beats present?",
+      "question_type": "binary_classification",
+      "modality": "image",
+      "answer": "Yes, there are premature beats present, specifically premature atrial contractions (PACs). The presence of PACs is indicated by the irregularity in the heart rhythm, which is characterized by a sinus tachycardia. This means that the heart is beating at a faster rate than normal, but with an irregular rhythm, and the PACs are contributing to this irregularity.",
+      "warning": null,
+      "notes": [
+        "Derived negative from absence of salient report finding."
+      ],
+      "derived_ground_truth": {
+        "question_key": "premature_beats",
+        "question_type": "binary_classification",
+        "report_labels": [
+          "sinus rhythm",
+          "borderline ecg"
+        ],
+        "report_labels_non_generic": [
+          "sinus rhythm"
+        ],
+        "scorable": true,
+        "weakly_scorable": false,
+        "warning": null,
+        "notes": [
+          "Derived negative from absence of salient report finding."
+        ],
+        "true_class": "no"
+      },
+      "evaluation": {
+        "scorable": true,
+        "warning": null,
+        "notes": [],
+        "predicted_class": "yes",
+        "confidence": 1.0,
+        "true_class": "no",
+        "correctness": 0.0,
+        "primary_score": 0.0
+      }
+    },
+    {
+      "study_id": 41423207,
+      "question_id": "41423207_q10",
+      "prompt": "Does this ECG suggest tachycardia, bradycardia, or a normal rate?",
+      "question_type": "multiclass_classification",
+      "modality": "image",
+      "answer": "This ECG suggests tachycardia, as indicated by the presence of sinus tachycardia. The heart rate is abnormally fast, which is a characteristic of tachycardia. There is no indication of bradycardia, which would be characterized by a slow heart rate, or a normal heart rate, which would be within the normal range. Instead, the ECG specifically highlights the presence of sinus tachycardia, which is a type of arrhythmia marked by an abnormally rapid heart rate.",
+      "warning": null,
+      "notes": [],
+      "derived_ground_truth": {
+        "question_key": "rate_class",
+        "question_type": "multiclass_classification",
+        "report_labels": [
+          "sinus rhythm",
+          "borderline ecg"
+        ],
+        "report_labels_non_generic": [
+          "sinus rhythm"
+        ],
+        "scorable": true,
+        "weakly_scorable": false,
+        "warning": null,
+        "notes": [],
+        "true_class": "normal rate"
+      },
+      "evaluation": {
+        "scorable": true,
+        "warning": null,
+        "notes": [],
+        "predicted_class": "tachycardia",
+        "candidate_classes": [
+          "tachycardia",
+          "bradycardia",
+          "normal rate"
+        ],
+        "true_class": "normal rate",
+        "exact_match": 0.0,
+        "primary_score": 0.0
+      }
+    },
+    {
+      "study_id": 41423207,
+      "question_id": "41423207_q24",
+      "prompt": "Is there poor R-wave progression?",
+      "question_type": "binary_classification",
+      "modality": "image",
+      "answer": "The ECG reveals poor R-wave progression, which is a significant finding. This abnormality is characterized by a lack of normal increase in R-wave amplitude from V1 to V3, indicating a disruption in the normal conduction of electrical impulses through the ventricles. The presence of poor R-wave progression suggests that there may be an underlying cardiac issue affecting the ventricular depolarization process. However, it is essential to note that this finding is not necessarily indicative of a pathological condition, as it can also be seen in normal individuals. Further evaluation and correlation with clinical symptoms and other diagnostic tests are necessary to determine the clinical significance of this finding.",
+      "warning": null,
+      "notes": [
+        "Derived negative from absence of salient report finding."
+      ],
+      "derived_ground_truth": {
+        "question_key": "poor_r_wave_progression",
+        "question_type": "binary_classification",
+        "report_labels": [
+          "sinus rhythm",
+          "borderline ecg"
+        ],
+        "report_labels_non_generic": [
+          "sinus rhythm"
+        ],
+        "scorable": true,
+        "weakly_scorable": false,
+        "warning": null,
+        "notes": [
+          "Derived negative from absence of salient report finding."
+        ],
+        "true_class": "no"
+      },
+      "evaluation": {
+        "scorable": true,
+        "warning": null,
+        "notes": [],
+        "predicted_class": "yes",
+        "confidence": 1.0,
+        "true_class": "no",
+        "correctness": 0.0,
+        "primary_score": 0.0
+      }
+    },
+    {
+      "study_id": 41423207,
+      "question_id": "41423207_q25",
+      "prompt": "Is there ST-segment elevation present?",
+      "question_type": "binary_classification",
+      "modality": "image",
+      "answer": "Yes, there is ST-segment elevation present. Specifically, the ST-segment elevation is observed in leads V1-3, indicating a possible myocardial infarction in the anteroseptal region. Additionally, ST-segment depression is noted in leads V4-6, which is likely a reciprocal change to the ST-segment elevation in the inferior leads. This suggests that the ST-segment elevation in the anteroseptal leads is accompanied by ST-segment depression in the lateral leads, which is a common pattern seen in myocardial infarction.",
+      "warning": null,
+      "notes": [
+        "Derived negative from absence of salient report finding."
+      ],
+      "derived_ground_truth": {
+        "question_key": "st_elevation",
+        "question_type": "binary_classification",
+        "report_labels": [
+          "sinus rhythm",
+          "borderline ecg"
+        ],
+        "report_labels_non_generic": [
+          "sinus rhythm"
+        ],
+        "scorable": true,
+        "weakly_scorable": false,
+        "warning": null,
+        "notes": [
+          "Derived negative from absence of salient report finding."
+        ],
+        "true_class": "no"
+      },
+      "evaluation": {
+        "scorable": true,
+        "warning": null,
+        "notes": [],
+        "predicted_class": "yes",
+        "confidence": 1.0,
+        "true_class": "no",
+        "correctness": 0.0,
+        "primary_score": 0.0
+      }
+    },
+    {
+      "study_id": 41423207,
+      "question_id": "41423207_q26",
+      "prompt": "Is there ST-segment depression present?",
+      "question_type": "binary_classification",
+      "modality": "image",
+      "answer": "Yes, there is ST-segment depression present. Specifically, the ST-segment depression is observed in leads V4-6, which suggests that there is a deviation of the ST segment from the isoelectric line in these leads. This depression may be indicative of left ventricular (LV) strain or ischaemia, although the exact underlying cause cannot be determined solely from this finding. The presence of ST-segment depression in these leads, along with the low or flat T waves in leads I, V4-6, and the sinus tachycardia, contributes to the overall abnormal ECG pattern.",
+      "warning": null,
+      "notes": [
+        "Derived negative from absence of salient report finding."
+      ],
+      "derived_ground_truth": {
+        "question_key": "st_depression",
+        "question_type": "binary_classification",
+        "report_labels": [
+          "sinus rhythm",
+          "borderline ecg"
+        ],
+        "report_labels_non_generic": [
+          "sinus rhythm"
+        ],
+        "scorable": true,
+        "weakly_scorable": false,
+        "warning": null,
+        "notes": [
+          "Derived negative from absence of salient report finding."
+        ],
+        "true_class": "no"
+      },
+      "evaluation": {
+        "scorable": true,
+        "warning": null,
+        "notes": [],
+        "predicted_class": "yes",
+        "confidence": 1.0,
+        "true_class": "no",
+        "correctness": 0.0,
+        "primary_score": 0.0
+      }
+    },
+    {
+      "study_id": 41423207,
+      "question_id": "41423207_q27",
+      "prompt": "Are there T-wave inversions present?",
+      "question_type": "binary_classification",
+      "modality": "image",
+      "answer": "Yes, there are T-wave inversions present. Specifically, the ECG reveals T-wave inversions in leads V2 and V3, indicating a notable abnormality in the ventricular repolarization process. This inversion is likely related to the underlying ischaemic heart disease, which is a common cause of such changes in the T-wave morphology. The presence of T-wave inversions in these leads suggests a significant alteration in the cardiac electrical activity, which may be contributing to the observed sinus tachycardia.",
+      "warning": null,
+      "notes": [
+        "Derived negative from absence of salient report finding."
+      ],
+      "derived_ground_truth": {
+        "question_key": "t_wave_inversion",
+        "question_type": "binary_classification",
+        "report_labels": [
+          "sinus rhythm",
+          "borderline ecg"
+        ],
+        "report_labels_non_generic": [
+          "sinus rhythm"
+        ],
+        "scorable": true,
+        "weakly_scorable": false,
+        "warning": null,
+        "notes": [
+          "Derived negative from absence of salient report finding."
+        ],
+        "true_class": "no"
+      },
+      "evaluation": {
+        "scorable": true,
+        "warning": null,
+        "notes": [],
+        "predicted_class": "yes",
+        "confidence": 1.0,
+        "true_class": "no",
+        "correctness": 0.0,
+        "primary_score": 0.0
+      }
+    },
+    {
+      "study_id": 41423207,
+      "question_id": "41423207_q29",
+      "prompt": "Are there U waves present?",
+      "question_type": "binary_classification",
+      "modality": "image",
+      "answer": "Actually, yes, there are U waves present. The ECG tracing exhibits U waves in leads V2-5, which is a significant finding. The presence of U waves in these specific leads suggests that there may be an underlying electrolyte disturbance, such as hypokalemia, which is likely. The U waves in these leads are a key indicator of this potential electrolyte imbalance, and their presence is a crucial aspect of the overall ECG interpretation.",
+      "warning": null,
+      "notes": [
+        "Derived negative from absence of salient report finding."
+      ],
+      "derived_ground_truth": {
+        "question_key": "u_waves",
+        "question_type": "binary_classification",
+        "report_labels": [
+          "sinus rhythm",
+          "borderline ecg"
+        ],
+        "report_labels_non_generic": [
+          "sinus rhythm"
+        ],
+        "scorable": true,
+        "weakly_scorable": false,
+        "warning": null,
+        "notes": [
+          "Derived negative from absence of salient report finding."
+        ],
+        "true_class": "no"
+      },
+      "evaluation": {
+        "scorable": true,
+        "warning": null,
+        "notes": [],
+        "predicted_class": "yes",
+        "confidence": 1.0,
+        "true_class": "no",
+        "correctness": 0.0,
+        "primary_score": 0.0
+      }
+    },
+    {
+      "study_id": 41423207,
+      "question_id": "41423207_q30",
+      "prompt": "Are there signs of ventricular hypertrophy?",
+      "question_type": "binary_classification",
+      "modality": "image",
+      "answer": "There are indications of possible ventricular hypertrophy, specifically in the left ventricle. The ECG reveals a normal QRS complex, but with some abnormalities. The presence of abnormal QRS (T) complexes suggests that there may be an issue with the ventricular depolarization process, which could be related to ventricular hypertrophy. Additionally, the ECG shows signs of anteroseptal myocardial damage, which is often associated with ventricular hypertrophy. However, it is essential to note that the ECG also suggests other possible causes, such as myocardial damage, which could be contributing to the observed abnormalities. Therefore, while there are hints of ventricular hypertrophy, further evaluation is necessary to confirm this diagnosis.",
+      "warning": null,
+      "notes": [
+        "Derived negative from absence of salient report finding."
+      ],
+      "derived_ground_truth": {
+        "question_key": "ventricular_hypertrophy",
+        "question_type": "binary_classification",
+        "report_labels": [
+          "sinus rhythm",
+          "borderline ecg"
+        ],
+        "report_labels_non_generic": [
+          "sinus rhythm"
+        ],
+        "scorable": true,
+        "weakly_scorable": false,
+        "warning": null,
+        "notes": [
+          "Derived negative from absence of salient report finding."
+        ],
+        "true_class": "no"
+      },
+      "evaluation": {
+        "scorable": true,
+        "warning": null,
+        "notes": [],
+        "predicted_class": "yes",
+        "confidence": 1.0,
+        "true_class": "no",
+        "correctness": 0.0,
+        "primary_score": 0.0
+      }
+    },
+    {
+      "study_id": 41423207,
+      "question_id": "41423207_q31",
+      "prompt": "What is the most likely primary diagnosis from this ECG?",
+      "question_type": "diagnosis_label",
+      "modality": "image",
+      "answer": "Atrial fibrillation",
+      "warning": null,
+      "notes": [],
+      "derived_ground_truth": {
+        "question_key": "primary_diagnosis",
+        "question_type": "diagnosis_label",
+        "report_labels": [
+          "sinus rhythm",
+          "borderline ecg"
+        ],
+        "report_labels_non_generic": [
+          "sinus rhythm"
+        ],
+        "scorable": true,
+        "weakly_scorable": false,
+        "warning": null,
+        "notes": [],
+        "true_labels": [
+          "sinus rhythm"
+        ]
+      },
+      "evaluation": {
+        "scorable": true,
+        "warning": null,
+        "notes": [],
+        "predicted_labels": [
+          "atrial fibrillation"
+        ],
+        "true_labels": [
+          "sinus rhythm"
+        ],
+        "tp": 0.0,
+        "fp": 1.0,
+        "fn": 1.0,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "jaccard": 0.0,
+        "sequence_similarity": 0.22988505747126436,
+        "primary_score": 0.0
+      }
+    },
+    {
+      "study_id": 41423207,
+      "question_id": "41423207_q32",
+      "prompt": "List the top 3 diagnostic considerations for this ECG.",
+      "question_type": "diagnosis_label",
+      "modality": "image",
+      "answer": "1. Atrial flutter with rapid ventricular response.\n2. Possible septal infarct of undetermined age.\n3. Lateral ST-T changes indicative of myocardial ischemia.",
+      "warning": null,
+      "notes": [],
+      "derived_ground_truth": {
+        "question_key": "diagnostic_considerations",
+        "question_type": "diagnosis_label",
+        "report_labels": [
+          "sinus rhythm",
+          "borderline ecg"
+        ],
+        "report_labels_non_generic": [
+          "sinus rhythm"
+        ],
+        "scorable": true,
+        "weakly_scorable": false,
+        "warning": null,
+        "notes": [],
+        "true_labels": [
+          "sinus rhythm"
+        ]
+      },
+      "evaluation": {
+        "scorable": true,
+        "warning": null,
+        "notes": [],
+        "predicted_labels": [
+          "atrial flutter",
+          "anterior infarct",
+          "ischemia"
+        ],
+        "true_labels": [
+          "sinus rhythm"
+        ],
+        "tp": 0.0,
+        "fp": 3.0,
+        "fn": 1.0,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "jaccard": 0.0,
+        "sequence_similarity": 0.27555555555555555,
+        "primary_score": 0.0
+      }
+    },
+    {
+      "study_id": 41423207,
+      "question_id": "41423207_q33",
+      "prompt": "What are the key ECG findings supporting your interpretation?",
+      "question_type": "diagnosis_label",
+      "modality": "image",
+      "answer": "Upon analyzing the ECG, I observe a sinus tachycardia with a heart rate exceeding 100 beats per minute. The cardiac axis appears to be normal. Notably, I see QS complexes in the septal leads (V1-V2), which may indicate a possible septal infarct, although the age of the infarct cannot be determined from this ECG alone. Additionally, I notice lateral ST-T changes, which could be suggestive of myocardial ischemia.",
+      "warning": null,
+      "notes": [],
+      "derived_ground_truth": {
+        "question_key": "key_findings",
+        "question_type": "diagnosis_label",
+        "report_labels": [
+          "sinus rhythm",
+          "borderline ecg"
+        ],
+        "report_labels_non_generic": [
+          "sinus rhythm"
+        ],
+        "scorable": true,
+        "weakly_scorable": false,
+        "warning": null,
+        "notes": [],
+        "true_labels": [
+          "sinus rhythm"
+        ]
+      },
+      "evaluation": {
+        "scorable": true,
+        "warning": null,
+        "notes": [],
+        "predicted_labels": [
+          "sinus tachycardia",
+          "anterior infarct",
+          "ischemia"
+        ],
+        "true_labels": [
+          "sinus rhythm"
+        ],
+        "tp": 0.0,
+        "fp": 3.0,
+        "fn": 1.0,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "jaccard": 0.16666666666666666,
+        "sequence_similarity": 0.17012448132780084,
+        "primary_score": 0.0
+      }
+    },
+    {
+      "study_id": 42149331,
+      "question_id": "42149331_q05",
+      "prompt": "Is there evidence of sinus rhythm?",
+      "question_type": "binary_classification",
+      "modality": "image",
+      "answer": "There is no evidence of sinus rhythm in this ECG. Instead, the rhythm is described as atrial fibrillation, which is a type of abnormal heart rhythm characterized by rapid and irregular contractions of the atria. This is in contrast to sinus rhythm, which is a normal heart rhythm originating from the sinoatrial node, the heart's natural pacemaker. The presence of atrial fibrillation indicates that the heart's electrical activity is not following a normal, regular pattern, and this can have implications for cardiac function and overall health.",
+      "warning": null,
+      "notes": [],
+      "derived_ground_truth": {
+        "question_key": "evidence_sinus_rhythm",
+        "question_type": "binary_classification",
+        "report_labels": [
+          "atrial fibrillation",
+          "sinus bradycardia",
+          "pvc",
+          "left axis deviation",
+          "anterior infarct",
+          "lvh",
+          "ischemia",
+          "abnormal ecg"
+        ],
+        "report_labels_non_generic": [
+          "atrial fibrillation",
+          "sinus bradycardia",
+          "pvc",
+          "left axis deviation",
+          "anterior infarct",
+          "lvh",
+          "ischemia"
+        ],
+        "scorable": true,
+        "weakly_scorable": false,
+        "warning": null,
+        "notes": [],
+        "true_class": "yes"
+      },
+      "evaluation": {
+        "scorable": true,
+        "warning": null,
+        "notes": [],
+        "predicted_class": "no",
+        "confidence": 1.0,
+        "true_class": "yes",
+        "correctness": 0.0,
+        "primary_score": 0.0
+      }
+    },
+    {
+      "study_id": 42149331,
+      "question_id": "42149331_q09",
+      "prompt": "Is there any pause or dropped beat visible?",
+      "question_type": "binary_classification",
+      "modality": "image",
+      "answer": "Yes, there are pauses visible in the ECG tracing. Specifically, the presence of interpolated ventricular extrasystoles indicates that there are abnormal heartbeats that occur between normal heartbeats, resulting in a pause. Additionally, the presence of supraventricular extrasystoles further supports the occurrence of pauses, as these extrasystoles can disrupt the normal heart rhythm. The fact that these extrasystoles are interpolated suggests that they do not significantly disrupt the overall heart rhythm, but they do introduce pauses that can be seen on the ECG tracing.",
+      "warning": null,
+      "notes": [
+        "Derived negative from absence of salient report finding."
+      ],
+      "derived_ground_truth": {
+        "question_key": "pause_or_dropped_beat",
+        "question_type": "binary_classification",
+        "report_labels": [
+          "atrial fibrillation",
+          "sinus bradycardia",
+          "pvc",
+          "left axis deviation",
+          "anterior infarct",
+          "lvh",
+          "ischemia",
+          "abnormal ecg"
+        ],
+        "report_labels_non_generic": [
+          "atrial fibrillation",
+          "sinus bradycardia",
+          "pvc",
+          "left axis deviation",
+          "anterior infarct",
+          "lvh",
+          "ischemia"
+        ],
+        "scorable": true,
+        "weakly_scorable": false,
+        "warning": null,
+        "notes": [
+          "Derived negative from absence of salient report finding."
+        ],
+        "true_class": "no"
+      },
+      "evaluation": {
+        "scorable": true,
+        "warning": null,
+        "notes": [],
+        "predicted_class": "yes",
+        "confidence": 1.0,
+        "true_class": "no",
+        "correctness": 0.0,
+        "primary_score": 0.0
+      }
+    },
+    {
+      "study_id": 42149331,
+      "question_id": "42149331_q10",
+      "prompt": "Does this ECG suggest tachycardia, bradycardia, or a normal rate?",
+      "question_type": "multiclass_classification",
+      "modality": "image",
+      "answer": "This ECG suggests tachycardia. The presence of atrial fibrillation with rapid ventricular response indicates that the heart rate is elevated, which is consistent with tachycardia. There is no indication of bradycardia, which would be characterized by a slow heart rate, typically less than 60 beats per minute. Instead, the rapid ventricular response suggests that the heart is beating at a faster rate, which is a hallmark of tachycardia.",
+      "warning": null,
+      "notes": [],
+      "derived_ground_truth": {
+        "question_key": "rate_class",
+        "question_type": "multiclass_classification",
+        "report_labels": [
+          "atrial fibrillation",
+          "sinus bradycardia",
+          "pvc",
+          "left axis deviation",
+          "anterior infarct",
+          "lvh",
+          "ischemia",
+          "abnormal ecg"
+        ],
+        "report_labels_non_generic": [
+          "atrial fibrillation",
+          "sinus bradycardia",
+          "pvc",
+          "left axis deviation",
+          "anterior infarct",
+          "lvh",
+          "ischemia"
+        ],
+        "scorable": true,
+        "weakly_scorable": false,
+        "warning": null,
+        "notes": [],
+        "true_class": "bradycardia"
+      },
+      "evaluation": {
+        "scorable": true,
+        "warning": null,
+        "notes": [],
+        "predicted_class": "tachycardia",
+        "candidate_classes": [
+          "tachycardia",
+          "bradycardia"
+        ],
+        "true_class": "bradycardia",
+        "exact_match": 0.0,
+        "primary_score": 0.0
+      }
+    },
+    {
+      "study_id": 42149331,
+      "question_id": "42149331_q19",
+      "prompt": "What is the likely frontal plane QRS axis: normal, left axis deviation, right axis deviation, or extreme axis deviation?",
+      "question_type": "multiclass_classification",
+      "modality": "image",
+      "answer": "normal",
+      "warning": null,
+      "notes": [],
+      "derived_ground_truth": {
+        "question_key": "axis_class",
+        "question_type": "multiclass_classification",
+        "report_labels": [
+          "atrial fibrillation",
+          "sinus bradycardia",
+          "pvc",
+          "left axis deviation",
+          "anterior infarct",
+          "lvh",
+          "ischemia",
+          "abnormal ecg"
+        ],
+        "report_labels_non_generic": [
+          "atrial fibrillation",
+          "sinus bradycardia",
+          "pvc",
+          "left axis deviation",
+          "anterior infarct",
+          "lvh",
+          "ischemia"
+        ],
+        "scorable": true,
+        "weakly_scorable": false,
+        "warning": null,
+        "notes": [],
+        "true_class": "left axis deviation"
+      },
+      "evaluation": {
+        "scorable": true,
+        "warning": null,
+        "notes": [],
+        "predicted_class": "normal",
+        "candidate_classes": [
+          "normal"
+        ],
+        "true_class": "left axis deviation",
+        "exact_match": 0.0,
+        "primary_score": 0.0
+      }
+    },
+    {
+      "study_id": 42149331,
+      "question_id": "42149331_q22",
+      "prompt": "Are there Q waves present, and if so are they pathologic?",
+      "question_type": "multiclass_classification",
+      "modality": "image",
+      "answer": "Yes, the ECG exhibits Q waves, which are considered pathologic. The presence of Q waves in leads V2 and V3 is indicative of an old anteroseptal myocardial infarction, suggesting that the individual has experienced a previous heart attack affecting the anteroseptal region of the heart. This finding is significant, as it may have implications for the individual's cardiovascular health and potential future cardiac events.",
+      "warning": null,
+      "notes": [],
+      "derived_ground_truth": {
+        "question_key": "q_waves",
+        "question_type": "multiclass_classification",
+        "report_labels": [
+          "atrial fibrillation",
+          "sinus bradycardia",
+          "pvc",
+          "left axis deviation",
+          "anterior infarct",
+          "lvh",
+          "ischemia",
+          "abnormal ecg"
+        ],
+        "report_labels_non_generic": [
+          "atrial fibrillation",
+          "sinus bradycardia",
+          "pvc",
+          "left axis deviation",
+          "anterior infarct",
+          "lvh",
+          "ischemia"
+        ],
+        "scorable": true,
+        "weakly_scorable": false,
+        "warning": null,
+        "notes": [],
+        "true_class": "pathologic q waves"
+      },
+      "evaluation": {
+        "scorable": true,
+        "warning": null,
+        "notes": [],
+        "predicted_class": "q waves present",
+        "candidate_classes": [
+          "q waves present"
+        ],
+        "true_class": "pathologic q waves",
+        "exact_match": 0.0,
+        "primary_score": 0.0
+      }
+    },
+    {
+      "study_id": 42149331,
+      "question_id": "42149331_q24",
+      "prompt": "Is there poor R-wave progression?",
+      "question_type": "binary_classification",
+      "modality": "image",
+      "answer": "The ECG reveals a sinus rhythm, which indicates a normal heart rhythm. However, it also shows a prolonged PR interval, suggesting a delay in the electrical conduction between the atria and ventricles. Furthermore, the ECG exhibits left axis deviation, which may indicate a potential issue with the heart's electrical conduction system.\n\nIn addition to these findings, the ECG also displays a non-specific intraventricular block, implying a disruption in the normal electrical conduction within the ventricles. Moreover, the ST segments are depressed in leads I, II, V5, and V6, which could be indicative of myocardial ischemia or injury. The T waves are flat in the limb leads and slightly inverted in leads V5 and V6, which may also suggest ischemia or injury.\n\nDespite these abnormalities, the ECG does not specifically indicate poor R-wave progression. The diagnosis focuses on other aspects of the ECG, such as the prolonged PR interval, left axis deviation, and ST-T wave changes, but does not provide evidence of poor R-wave progression.",
+      "warning": null,
+      "notes": [
+        "Derived negative from absence of salient report finding."
+      ],
+      "derived_ground_truth": {
+        "question_key": "poor_r_wave_progression",
+        "question_type": "binary_classification",
+        "report_labels": [
+          "atrial fibrillation",
+          "sinus bradycardia",
+          "pvc",
+          "left axis deviation",
+          "anterior infarct",
+          "lvh",
+          "ischemia",
+          "abnormal ecg"
+        ],
+        "report_labels_non_generic": [
+          "atrial fibrillation",
+          "sinus bradycardia",
+          "pvc",
+          "left axis deviation",
+          "anterior infarct",
+          "lvh",
+          "ischemia"
+        ],
+        "scorable": true,
+        "weakly_scorable": false,
+        "warning": null,
+        "notes": [
+          "Derived negative from absence of salient report finding."
+        ],
+        "true_class": "no"
+      },
+      "evaluation": {
+        "scorable": true,
+        "warning": null,
+        "notes": [],
+        "predicted_class": "yes",
+        "confidence": 1.0,
+        "true_class": "no",
+        "correctness": 0.0,
+        "primary_score": 0.0
+      }
+    },
+    {
+      "study_id": 42149331,
+      "question_id": "42149331_q25",
+      "prompt": "Is there ST-segment elevation present?",
+      "question_type": "binary_classification",
+      "modality": "image",
+      "answer": "Yes, there is ST-segment elevation present. Specifically, the ST-segment elevation is observed in leads V2 and V3, which is a significant finding. This elevation is not only limited to these leads but is also seen in the lateral leads, indicating a more widespread abnormality. The presence of ST-segment elevation in these leads, particularly in the lateral leads, is consistent with the diagnosis of ischemic heart disease.",
+      "warning": null,
+      "notes": [
+        "Derived negative from absence of salient report finding."
+      ],
+      "derived_ground_truth": {
+        "question_key": "st_elevation",
+        "question_type": "binary_classification",
+        "report_labels": [
+          "atrial fibrillation",
+          "sinus bradycardia",
+          "pvc",
+          "left axis deviation",
+          "anterior infarct",
+          "lvh",
+          "ischemia",
+          "abnormal ecg"
+        ],
+        "report_labels_non_generic": [
+          "atrial fibrillation",
+          "sinus bradycardia",
+          "pvc",
+          "left axis deviation",
+          "anterior infarct",
+          "lvh",
+          "ischemia"
+        ],
+        "scorable": true,
+        "weakly_scorable": false,
+        "warning": null,
+        "notes": [
+          "Derived negative from absence of salient report finding."
+        ],
+        "true_class": "no"
+      },
+      "evaluation": {
+        "scorable": true,
+        "warning": null,
+        "notes": [],
+        "predicted_class": "yes",
+        "confidence": 1.0,
+        "true_class": "no",
+        "correctness": 0.0,
+        "primary_score": 0.0
+      }
+    },
+    {
+      "study_id": 42149331,
+      "question_id": "42149331_q26",
+      "prompt": "Is there ST-segment depression present?",
+      "question_type": "binary_classification",
+      "modality": "image",
+      "answer": "Yes, there is ST-segment depression present. Specifically, the ST segments are depressed in leads I, II, aVL, V5, and V6. This depression may be indicative of left ventricular (LV) strain or ischaemia, although the exact cause cannot be determined solely from this finding. The presence of ST-segment depression in these leads suggests that there may be underlying cardiac pathology, but further evaluation would be necessary to determine the specific nature and significance of this finding.",
+      "warning": null,
+      "notes": [
+        "Derived negative from absence of salient report finding."
+      ],
+      "derived_ground_truth": {
+        "question_key": "st_depression",
+        "question_type": "binary_classification",
+        "report_labels": [
+          "atrial fibrillation",
+          "sinus bradycardia",
+          "pvc",
+          "left axis deviation",
+          "anterior infarct",
+          "lvh",
+          "ischemia",
+          "abnormal ecg"
+        ],
+        "report_labels_non_generic": [
+          "atrial fibrillation",
+          "sinus bradycardia",
+          "pvc",
+          "left axis deviation",
+          "anterior infarct",
+          "lvh",
+          "ischemia"
+        ],
+        "scorable": true,
+        "weakly_scorable": false,
+        "warning": null,
+        "notes": [
+          "Derived negative from absence of salient report finding."
+        ],
+        "true_class": "no"
+      },
+      "evaluation": {
+        "scorable": true,
+        "warning": null,
+        "notes": [],
+        "predicted_class": "yes",
+        "confidence": 1.0,
+        "true_class": "no",
+        "correctness": 0.0,
+        "primary_score": 0.0
+      }
+    },
+    {
+      "study_id": 42149331,
+      "question_id": "42149331_q27",
+      "prompt": "Are there T-wave inversions present?",
+      "question_type": "binary_classification",
+      "modality": "image",
+      "answer": "Yes, there are T-wave inversions present. Specifically, the ECG reveals T-wave inversions in leads I, aVL, V5, and V6. This inversion pattern is notable, as it may be indicative of left ventricular (LV) strain or ischaemia, although the exact underlying cause cannot be determined solely from this ECG. The presence of T-wave inversions in these specific leads suggests that there may be abnormalities in the electrical activity of the heart, which warrants further evaluation and consideration in the context of the patient's overall clinical presentation.",
+      "warning": null,
+      "notes": [
+        "Derived negative from absence of salient report finding."
+      ],
+      "derived_ground_truth": {
+        "question_key": "t_wave_inversion",
+        "question_type": "binary_classification",
+        "report_labels": [
+          "atrial fibrillation",
+          "sinus bradycardia",
+          "pvc",
+          "left axis deviation",
+          "anterior infarct",
+          "lvh",
+          "ischemia",
+          "abnormal ecg"
+        ],
+        "report_labels_non_generic": [
+          "atrial fibrillation",
+          "sinus bradycardia",
+          "pvc",
+          "left axis deviation",
+          "anterior infarct",
+          "lvh",
+          "ischemia"
+        ],
+        "scorable": true,
+        "weakly_scorable": false,
+        "warning": null,
+        "notes": [
+          "Derived negative from absence of salient report finding."
+        ],
+        "true_class": "no"
+      },
+      "evaluation": {
+        "scorable": true,
+        "warning": null,
+        "notes": [],
+        "predicted_class": "yes",
+        "confidence": 1.0,
+        "true_class": "no",
+        "correctness": 0.0,
+        "primary_score": 0.0
+      }
+    },
+    {
+      "study_id": 42149331,
+      "question_id": "42149331_q28",
+      "prompt": "Are there peaked T waves or other signs of hyperkalemia?",
+      "question_type": "binary_classification",
+      "modality": "image",
+      "answer": "Yes, there are signs of hyperkalemia in the ECG. Specifically, the T waves are peaked, which is a characteristic feature of hyperkalemia. This is evident in leads I, II, V4, V5, and V6, where the T waves exhibit this morphology. Additionally, the presence of a prolonged PR interval further supports the diagnosis of hyperkalemia. The combination of these ECG findings suggests that the patient may be experiencing hyperkalemia, which is a potentially life-threatening condition that requires immediate medical attention.",
+      "warning": null,
+      "notes": [
+        "Derived negative from absence of salient report finding."
+      ],
+      "derived_ground_truth": {
+        "question_key": "hyperkalemia_signs",
+        "question_type": "binary_classification",
+        "report_labels": [
+          "atrial fibrillation",
+          "sinus bradycardia",
+          "pvc",
+          "left axis deviation",
+          "anterior infarct",
+          "lvh",
+          "ischemia",
+          "abnormal ecg"
+        ],
+        "report_labels_non_generic": [
+          "atrial fibrillation",
+          "sinus bradycardia",
+          "pvc",
+          "left axis deviation",
+          "anterior infarct",
+          "lvh",
+          "ischemia"
+        ],
+        "scorable": true,
+        "weakly_scorable": false,
+        "warning": null,
+        "notes": [
+          "Derived negative from absence of salient report finding."
+        ],
+        "true_class": "no"
+      },
+      "evaluation": {
+        "scorable": true,
+        "warning": null,
+        "notes": [],
+        "predicted_class": "yes",
+        "confidence": 1.0,
+        "true_class": "no",
+        "correctness": 0.0,
+        "primary_score": 0.0
+      }
+    },
+    {
+      "study_id": 42149331,
+      "question_id": "42149331_q29",
+      "prompt": "Are there U waves present?",
+      "question_type": "binary_classification",
+      "modality": "image",
+      "answer": "Actually, yes, there are U waves present. The ECG tracing exhibits U waves in leads V2 and V3, which is a significant finding. The presence of U waves in these leads suggests that there may be an underlying electrolyte disturbance, such as hypokalemia, which is likely. The U waves in these leads are a key indicator of this potential electrolyte imbalance, and their presence is a crucial aspect of the overall ECG interpretation.",
+      "warning": null,
+      "notes": [
+        "Derived negative from absence of salient report finding."
+      ],
+      "derived_ground_truth": {
+        "question_key": "u_waves",
+        "question_type": "binary_classification",
+        "report_labels": [
+          "atrial fibrillation",
+          "sinus bradycardia",
+          "pvc",
+          "left axis deviation",
+          "anterior infarct",
+          "lvh",
+          "ischemia",
+          "abnormal ecg"
+        ],
+        "report_labels_non_generic": [
+          "atrial fibrillation",
+          "sinus bradycardia",
+          "pvc",
+          "left axis deviation",
+          "anterior infarct",
+          "lvh",
+          "ischemia"
+        ],
+        "scorable": true,
+        "weakly_scorable": false,
+        "warning": null,
+        "notes": [
+          "Derived negative from absence of salient report finding."
+        ],
+        "true_class": "no"
+      },
+      "evaluation": {
+        "scorable": true,
+        "warning": null,
+        "notes": [],
+        "predicted_class": "yes",
+        "confidence": 1.0,
+        "true_class": "no",
+        "correctness": 0.0,
+        "primary_score": 0.0
+      }
+    },
+    {
+      "study_id": 42149331,
+      "question_id": "42149331_q35",
+      "prompt": "Is there evidence of acute ischemia or infarction?",
+      "question_type": "binary_classification",
+      "modality": "image",
+      "answer": "There is no evidence of acute ischemia or infarction. The ECG shows ST segment depression, which is a non-specific finding that can be indicative of ischemia, but it is not diagnostic of an acute ischemic event. The presence of Q waves in leads V2 and V3 is consistent with an old anteroseptal myocardial infarction, but it does not suggest an acute ischemic process. The overall ECG pattern is consistent with an old myocardial infarction, but there are no signs of acute ischemia or infarction.",
+      "warning": null,
+      "notes": [
+        "Positive for ischemia/infarction, but acuity is ambiguous in report wording."
+      ],
+      "derived_ground_truth": {
+        "question_key": "acute_ischemia_or_infarction",
+        "question_type": "binary_classification",
+        "report_labels": [
+          "atrial fibrillation",
+          "sinus bradycardia",
+          "pvc",
+          "left axis deviation",
+          "anterior infarct",
+          "lvh",
+          "ischemia",
+          "abnormal ecg"
+        ],
+        "report_labels_non_generic": [
+          "atrial fibrillation",
+          "sinus bradycardia",
+          "pvc",
+          "left axis deviation",
+          "anterior infarct",
+          "lvh",
+          "ischemia"
+        ],
+        "scorable": true,
+        "weakly_scorable": false,
+        "warning": null,
+        "notes": [
+          "Positive for ischemia/infarction, but acuity is ambiguous in report wording."
+        ],
+        "true_class": "yes"
+      },
+      "evaluation": {
+        "scorable": true,
+        "warning": null,
+        "notes": [],
+        "predicted_class": "no",
+        "confidence": 1.0,
+        "true_class": "yes",
+        "correctness": 0.0,
+        "primary_score": 0.0
+      }
+    },
+    {
+      "study_id": 45854712,
+      "question_id": "45854712_q02",
+      "prompt": "Is the rhythm regular or irregular?",
+      "question_type": "binary_classification",
+      "modality": "image",
+      "answer": "The rhythm is irregular, as evidenced by the presence of premature ventricular contractions (PVCs). This irregularity is a key feature of the rhythm, indicating that the heartbeat is not following a regular pattern. The underlying rhythm, however, is sinus, which is a normal heart rhythm. Despite the irregularity introduced by the PVCs, the overall rhythm remains sinus in nature.",
+      "warning": null,
+      "notes": [],
+      "derived_ground_truth": {
+        "question_key": "rhythm_regularity",
+        "question_type": "binary_classification",
+        "report_labels": [
+          "sinus bradycardia",
+          "first degree av block",
+          "right axis deviation",
+          "intraventricular conduction delay",
+          "lateral infarct",
+          "ischemia",
+          "abnormal ecg"
+        ],
+        "report_labels_non_generic": [
+          "sinus bradycardia",
+          "first degree av block",
+          "right axis deviation",
+          "intraventricular conduction delay",
+          "lateral infarct",
+          "ischemia"
+        ],
+        "scorable": true,
+        "weakly_scorable": false,
+        "warning": null,
+        "notes": [],
+        "true_class": "regular"
+      },
+      "evaluation": {
+        "scorable": true,
+        "warning": null,
+        "notes": [],
+        "predicted_class": "irregular",
+        "confidence": 1.0,
+        "true_class": "regular",
+        "correctness": 0.0,
+        "primary_score": 0.0
+      }
+    },
+    {
+      "study_id": 45854712,
+      "question_id": "45854712_q03",
+      "prompt": "What is the most likely underlying rhythm?",
+      "question_type": "diagnosis_label",
+      "modality": "image",
+      "answer": "Atrial flutter",
+      "warning": null,
+      "notes": [],
+      "derived_ground_truth": {
+        "question_key": "underlying_rhythm",
+        "question_type": "diagnosis_label",
+        "report_labels": [
+          "sinus bradycardia",
+          "first degree av block",
+          "right axis deviation",
+          "intraventricular conduction delay",
+          "lateral infarct",
+          "ischemia",
+          "abnormal ecg"
+        ],
+        "report_labels_non_generic": [
+          "sinus bradycardia",
+          "first degree av block",
+          "right axis deviation",
+          "intraventricular conduction delay",
+          "lateral infarct",
+          "ischemia"
+        ],
+        "scorable": true,
+        "weakly_scorable": false,
+        "warning": null,
+        "notes": [],
+        "true_labels": [
+          "sinus bradycardia"
+        ]
+      },
+      "evaluation": {
+        "scorable": true,
+        "warning": null,
+        "notes": [],
+        "predicted_labels": [
+          "atrial flutter"
+        ],
+        "true_labels": [
+          "sinus bradycardia"
+        ],
+        "tp": 0.0,
+        "fp": 1.0,
+        "fn": 1.0,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "jaccard": 0.0,
+        "sequence_similarity": 0.0,
+        "primary_score": 0.0
+      }
+    },
+    {
+      "study_id": 45854712,
+      "question_id": "45854712_q04",
+      "prompt": "Are P waves present before each QRS complex?",
+      "question_type": "binary_classification",
+      "modality": "image",
+      "answer": "No, P waves are not present before each QRS complex. In fact, the ECG reveals the presence of atrial fibrillation, which is characterized by the absence of P waves. Instead, the atria contract rapidly and irregularly, resulting in a fibrillatory pattern. This is evident from the lack of P waves preceding each QRS complex, indicating that the atria are not generating a coordinated electrical signal. The presence of atrial fibrillation suggests that the P waves are absent or buried in the fibrillatory activity, making it impossible to identify them before each QRS complex.",
+      "warning": null,
+      "notes": [],
+      "derived_ground_truth": {
+        "question_key": "p_waves_before_qrs",
+        "question_type": "binary_classification",
+        "report_labels": [
+          "sinus bradycardia",
+          "first degree av block",
+          "right axis deviation",
+          "intraventricular conduction delay",
+          "lateral infarct",
+          "ischemia",
+          "abnormal ecg"
+        ],
+        "report_labels_non_generic": [
+          "sinus bradycardia",
+          "first degree av block",
+          "right axis deviation",
+          "intraventricular conduction delay",
+          "lateral infarct",
+          "ischemia"
+        ],
+        "scorable": true,
+        "weakly_scorable": false,
+        "warning": null,
+        "notes": [],
+        "true_class": "yes"
+      },
+      "evaluation": {
+        "scorable": true,
+        "warning": null,
+        "notes": [],
+        "predicted_class": "no",
+        "confidence": 1.0,
+        "true_class": "yes",
+        "correctness": 0.0,
+        "primary_score": 0.0
+      }
+    },
+    {
+      "study_id": 45854712,
+      "question_id": "45854712_q08",
+      "prompt": "Are there premature beats present?",
+      "question_type": "binary_classification",
+      "modality": "image",
+      "answer": "Yes, there are premature beats present, specifically premature ventricular contractions (PVCs). These PVCs are identified as abnormal beats that originate from the ventricles, occurring earlier than expected in the cardiac cycle. The presence of PVCs indicates that the heart is experiencing irregular contractions, which can be a sign of underlying cardiac issues.",
+      "warning": null,
+      "notes": [
+        "Derived negative from absence of salient report finding."
+      ],
+      "derived_ground_truth": {
+        "question_key": "premature_beats",
+        "question_type": "binary_classification",
+        "report_labels": [
+          "sinus bradycardia",
+          "first degree av block",
+          "right axis deviation",
+          "intraventricular conduction delay",
+          "lateral infarct",
+          "ischemia",
+          "abnormal ecg"
+        ],
+        "report_labels_non_generic": [
+          "sinus bradycardia",
+          "first degree av block",
+          "right axis deviation",
+          "intraventricular conduction delay",
+          "lateral infarct",
+          "ischemia"
+        ],
+        "scorable": true,
+        "weakly_scorable": false,
+        "warning": null,
+        "notes": [
+          "Derived negative from absence of salient report finding."
+        ],
+        "true_class": "no"
+      },
+      "evaluation": {
+        "scorable": true,
+        "warning": null,
+        "notes": [],
+        "predicted_class": "yes",
+        "confidence": 1.0,
+        "true_class": "no",
+        "correctness": 0.0,
+        "primary_score": 0.0
+      }
+    },
+    {
+      "study_id": 45854712,
+      "question_id": "45854712_q09",
+      "prompt": "Is there any pause or dropped beat visible?",
+      "question_type": "binary_classification",
+      "modality": "image",
+      "answer": "Yes, there is a pause visible in the ECG tracing. Specifically, the tracing exhibits a pause at the atrioventricular (AV) node, which is a critical component of the cardiac conduction system. This pause is likely related to the presence of an accelerated AV rhythm, which is an abnormal heart rhythm that originates from the AV node. The exact duration and significance of this pause cannot be determined without further evaluation and clinical correlation.",
+      "warning": null,
+      "notes": [
+        "Derived negative from absence of salient report finding."
+      ],
+      "derived_ground_truth": {
+        "question_key": "pause_or_dropped_beat",
+        "question_type": "binary_classification",
+        "report_labels": [
+          "sinus bradycardia",
+          "first degree av block",
+          "right axis deviation",
+          "intraventricular conduction delay",
+          "lateral infarct",
+          "ischemia",
+          "abnormal ecg"
+        ],
+        "report_labels_non_generic": [
+          "sinus bradycardia",
+          "first degree av block",
+          "right axis deviation",
+          "intraventricular conduction delay",
+          "lateral infarct",
+          "ischemia"
+        ],
+        "scorable": true,
+        "weakly_scorable": false,
+        "warning": null,
+        "notes": [
+          "Derived negative from absence of salient report finding."
+        ],
+        "true_class": "no"
+      },
+      "evaluation": {
+        "scorable": true,
+        "warning": null,
+        "notes": [],
+        "predicted_class": "yes",
+        "confidence": 1.0,
+        "true_class": "no",
+        "correctness": 0.0,
+        "primary_score": 0.0
+      }
+    },
+    {
+      "study_id": 45854712,
+      "question_id": "45854712_q10",
+      "prompt": "Does this ECG suggest tachycardia, bradycardia, or a normal rate?",
+      "question_type": "multiclass_classification",
+      "modality": "image",
+      "answer": "This ECG suggests tachycardia. The presence of sinus tachycardia indicates that the heart rate is elevated, exceeding the normal range. There is no indication of bradycardia, which would be characterized by a slower-than-normal heart rate. Instead, the ECG specifically highlights the rapid heart rate, consistent with tachycardia.",
+      "warning": null,
+      "notes": [],
+      "derived_ground_truth": {
+        "question_key": "rate_class",
+        "question_type": "multiclass_classification",
+        "report_labels": [
+          "sinus bradycardia",
+          "first degree av block",
+          "right axis deviation",
+          "intraventricular conduction delay",
+          "lateral infarct",
+          "ischemia",
+          "abnormal ecg"
+        ],
+        "report_labels_non_generic": [
+          "sinus bradycardia",
+          "first degree av block",
+          "right axis deviation",
+          "intraventricular conduction delay",
+          "lateral infarct",
+          "ischemia"
+        ],
+        "scorable": true,
+        "weakly_scorable": false,
+        "warning": null,
+        "notes": [],
+        "true_class": "bradycardia"
+      },
+      "evaluation": {
+        "scorable": true,
+        "warning": null,
+        "notes": [],
+        "predicted_class": "tachycardia",
+        "candidate_classes": [
+          "tachycardia",
+          "bradycardia",
+          "normal rate"
+        ],
+        "true_class": "bradycardia",
+        "exact_match": 0.0,
+        "primary_score": 0.0
+      }
+    },
+    {
+      "study_id": 45854712,
+      "question_id": "45854712_q14",
+      "prompt": "Is there evidence of first-degree AV block?",
+      "question_type": "binary_classification",
+      "modality": "image",
+      "answer": "There is no evidence of first-degree AV block. The ECG tracing reveals a sinus rhythm, which indicates that the heartbeat is originating from the sinoatrial (SA) node, the normal pacemaker of the heart. The presence of a sinus rhythm suggests that the electrical conduction system of the heart is functioning normally, without any significant delay or blockage in the atrioventricular (AV) node. The absence of any notation or comment regarding a prolonged PR interval or other signs of first-degree AV block further supports this conclusion.",
+      "warning": null,
+      "notes": [],
+      "derived_ground_truth": {
+        "question_key": "first_degree_av_block",
+        "question_type": "binary_classification",
+        "report_labels": [
+          "sinus bradycardia",
+          "first degree av block",
+          "right axis deviation",
+          "intraventricular conduction delay",
+          "lateral infarct",
+          "ischemia",
+          "abnormal ecg"
+        ],
+        "report_labels_non_generic": [
+          "sinus bradycardia",
+          "first degree av block",
+          "right axis deviation",
+          "intraventricular conduction delay",
+          "lateral infarct",
+          "ischemia"
+        ],
+        "scorable": true,
+        "weakly_scorable": false,
+        "warning": null,
+        "notes": [],
+        "true_class": "yes"
+      },
+      "evaluation": {
+        "scorable": true,
+        "warning": null,
+        "notes": [],
+        "predicted_class": "no",
+        "confidence": 1.0,
+        "true_class": "yes",
+        "correctness": 0.0,
+        "primary_score": 0.0
+      }
+    },
+    {
+      "study_id": 45854712,
+      "question_id": "45854712_q17",
+      "prompt": "Is there evidence of right bundle branch block?",
+      "question_type": "binary_classification",
+      "modality": "image",
+      "answer": "Yes, there is evidence of right bundle branch block. This is indicated by the presence of a right bundle branch block pattern in the ECG tracing. The specific characteristics of this block are not elaborated upon in the diagnostic information, but its presence is a notable feature of the ECG.",
+      "warning": null,
+      "notes": [
+        "Derived negative from absence of salient report finding."
+      ],
+      "derived_ground_truth": {
+        "question_key": "right_bundle_branch_block",
+        "question_type": "binary_classification",
+        "report_labels": [
+          "sinus bradycardia",
+          "first degree av block",
+          "right axis deviation",
+          "intraventricular conduction delay",
+          "lateral infarct",
+          "ischemia",
+          "abnormal ecg"
+        ],
+        "report_labels_non_generic": [
+          "sinus bradycardia",
+          "first degree av block",
+          "right axis deviation",
+          "intraventricular conduction delay",
+          "lateral infarct",
+          "ischemia"
+        ],
+        "scorable": true,
+        "weakly_scorable": false,
+        "warning": null,
+        "notes": [
+          "Derived negative from absence of salient report finding."
+        ],
+        "true_class": "no"
+      },
+      "evaluation": {
+        "scorable": true,
+        "warning": null,
+        "notes": [],
+        "predicted_class": "yes",
+        "confidence": 1.0,
+        "true_class": "no",
+        "correctness": 0.0,
+        "primary_score": 0.0
+      }
+    },
+    {
+      "study_id": 45854712,
+      "question_id": "45854712_q21",
+      "prompt": "Are there abnormal P-wave findings suggesting atrial enlargement?",
+      "question_type": "binary_classification",
+      "modality": "image",
+      "answer": "The ECG reveals a sinus rhythm, which indicates a normal heart rhythm originating from the sinoatrial node. However, the presence of a rightward axis suggests that there may be some abnormality in the electrical conduction of the heart. Specifically, the axis is deviated towards the right side, which could be indicative of right atrial overload or enlargement. Although the ECG does not explicitly confirm right atrial enlargement, the rightward axis is a subtle hint that warrants further investigation. Therefore, it can be inferred that there are abnormal P-wave findings, which may be related to right atrial enlargement.",
+      "warning": null,
+      "notes": [
+        "Derived negative from absence of salient report finding."
+      ],
+      "derived_ground_truth": {
+        "question_key": "atrial_enlargement",
+        "question_type": "binary_classification",
+        "report_labels": [
+          "sinus bradycardia",
+          "first degree av block",
+          "right axis deviation",
+          "intraventricular conduction delay",
+          "lateral infarct",
+          "ischemia",
+          "abnormal ecg"
+        ],
+        "report_labels_non_generic": [
+          "sinus bradycardia",
+          "first degree av block",
+          "right axis deviation",
+          "intraventricular conduction delay",
+          "lateral infarct",
+          "ischemia"
+        ],
+        "scorable": true,
+        "weakly_scorable": false,
+        "warning": null,
+        "notes": [
+          "Derived negative from absence of salient report finding."
+        ],
+        "true_class": "no"
+      },
+      "evaluation": {
+        "scorable": true,
+        "warning": null,
+        "notes": [],
+        "predicted_class": "yes",
+        "confidence": 1.0,
+        "true_class": "no",
+        "correctness": 0.0,
+        "primary_score": 0.0
+      }
+    },
+    {
+      "study_id": 45854712,
+      "question_id": "45854712_q25",
+      "prompt": "Is there ST-segment elevation present?",
+      "question_type": "binary_classification",
+      "modality": "image",
+      "answer": "Yes, there is ST-segment elevation present in leads V1-3, which is a significant finding. This elevation is considered pathologic, indicating that it is not a normal variant. The presence of ST-segment elevation in these leads suggests that there may be underlying cardiac pathology, although the exact nature of this pathology is not specified. The combination of ST-segment elevation with T-wave changes in the same leads (V1-3) further supports the possibility of cardiac disease.",
+      "warning": null,
+      "notes": [
+        "Derived negative from absence of salient report finding."
+      ],
+      "derived_ground_truth": {
+        "question_key": "st_elevation",
+        "question_type": "binary_classification",
+        "report_labels": [
+          "sinus bradycardia",
+          "first degree av block",
+          "right axis deviation",
+          "intraventricular conduction delay",
+          "lateral infarct",
+          "ischemia",
+          "abnormal ecg"
+        ],
+        "report_labels_non_generic": [
+          "sinus bradycardia",
+          "first degree av block",
+          "right axis deviation",
+          "intraventricular conduction delay",
+          "lateral infarct",
+          "ischemia"
+        ],
+        "scorable": true,
+        "weakly_scorable": false,
+        "warning": null,
+        "notes": [
+          "Derived negative from absence of salient report finding."
+        ],
+        "true_class": "no"
+      },
+      "evaluation": {
+        "scorable": true,
+        "warning": null,
+        "notes": [],
+        "predicted_class": "yes",
+        "confidence": 1.0,
+        "true_class": "no",
+        "correctness": 0.0,
+        "primary_score": 0.0
+      }
+    },
+    {
+      "study_id": 45854712,
+      "question_id": "45854712_q26",
+      "prompt": "Is there ST-segment depression present?",
+      "question_type": "binary_classification",
+      "modality": "image",
+      "answer": "Yes, there is ST-segment depression present. The ECG reveals ST-segment depression in leads I, II, aVL, V4, V5, and V6. This depression is accompanied by T-wave inversion in the same leads, which may be indicative of left ventricular (LV) strain or ischaemia. The presence of ST-segment depression in these leads suggests that there is a possibility of myocardial ischaemia or injury, although the exact cause cannot be determined solely based on this ECG.",
+      "warning": null,
+      "notes": [
+        "Derived negative from absence of salient report finding."
+      ],
+      "derived_ground_truth": {
+        "question_key": "st_depression",
+        "question_type": "binary_classification",
+        "report_labels": [
+          "sinus bradycardia",
+          "first degree av block",
+          "right axis deviation",
+          "intraventricular conduction delay",
+          "lateral infarct",
+          "ischemia",
+          "abnormal ecg"
+        ],
+        "report_labels_non_generic": [
+          "sinus bradycardia",
+          "first degree av block",
+          "right axis deviation",
+          "intraventricular conduction delay",
+          "lateral infarct",
+          "ischemia"
+        ],
+        "scorable": true,
+        "weakly_scorable": false,
+        "warning": null,
+        "notes": [
+          "Derived negative from absence of salient report finding."
+        ],
+        "true_class": "no"
+      },
+      "evaluation": {
+        "scorable": true,
+        "warning": null,
+        "notes": [],
+        "predicted_class": "yes",
+        "confidence": 1.0,
+        "true_class": "no",
+        "correctness": 0.0,
+        "primary_score": 0.0
+      }
+    },
+    {
+      "study_id": 45854712,
+      "question_id": "45854712_q27",
+      "prompt": "Are there T-wave inversions present?",
+      "question_type": "binary_classification",
+      "modality": "image",
+      "answer": "Yes, there are T-wave inversions present. Specifically, the ECG reveals T-wave inversions in leads V2 and V3, indicating a notable abnormality in the ventricular repolarization process. This finding, in conjunction with the ST segment depressions in leads I, II, aVL, V4, V5, and V6, suggests a strong likelihood of myocardial ischemia. The presence of these T-wave inversions in the specified leads is a significant indicator of cardiac dysfunction, which may be related to the underlying ischemic process.",
+      "warning": null,
+      "notes": [
+        "Derived negative from absence of salient report finding."
+      ],
+      "derived_ground_truth": {
+        "question_key": "t_wave_inversion",
+        "question_type": "binary_classification",
+        "report_labels": [
+          "sinus bradycardia",
+          "first degree av block",
+          "right axis deviation",
+          "intraventricular conduction delay",
+          "lateral infarct",
+          "ischemia",
+          "abnormal ecg"
+        ],
+        "report_labels_non_generic": [
+          "sinus bradycardia",
+          "first degree av block",
+          "right axis deviation",
+          "intraventricular conduction delay",
+          "lateral infarct",
+          "ischemia"
+        ],
+        "scorable": true,
+        "weakly_scorable": false,
+        "warning": null,
+        "notes": [
+          "Derived negative from absence of salient report finding."
+        ],
+        "true_class": "no"
+      },
+      "evaluation": {
+        "scorable": true,
+        "warning": null,
+        "notes": [],
+        "predicted_class": "yes",
+        "confidence": 1.0,
+        "true_class": "no",
+        "correctness": 0.0,
+        "primary_score": 0.0
+      }
+    },
+    {
+      "study_id": 45854712,
+      "question_id": "45854712_q28",
+      "prompt": "Are there peaked T waves or other signs of hyperkalemia?",
+      "question_type": "binary_classification",
+      "modality": "image",
+      "answer": "Yes, there are signs of hyperkalemia in the ECG. Specifically, the T waves are peaked, which is a characteristic feature of hyperkalemia. This is evident in leads I, II, aVL, V3-6, where the T waves exhibit this characteristic morphology. Additionally, the presence of a flattened P wave in these leads further supports the diagnosis of hyperkalemia. The combination of these ECG findings suggests that the patient may be experiencing hyperkalemia, which is a potentially life-threatening condition that requires immediate medical attention.",
+      "warning": null,
+      "notes": [
+        "Derived negative from absence of salient report finding."
+      ],
+      "derived_ground_truth": {
+        "question_key": "hyperkalemia_signs",
+        "question_type": "binary_classification",
+        "report_labels": [
+          "sinus bradycardia",
+          "first degree av block",
+          "right axis deviation",
+          "intraventricular conduction delay",
+          "lateral infarct",
+          "ischemia",
+          "abnormal ecg"
+        ],
+        "report_labels_non_generic": [
+          "sinus bradycardia",
+          "first degree av block",
+          "right axis deviation",
+          "intraventricular conduction delay",
+          "lateral infarct",
+          "ischemia"
+        ],
+        "scorable": true,
+        "weakly_scorable": false,
+        "warning": null,
+        "notes": [
+          "Derived negative from absence of salient report finding."
+        ],
+        "true_class": "no"
+      },
+      "evaluation": {
+        "scorable": true,
+        "warning": null,
+        "notes": [],
+        "predicted_class": "yes",
+        "confidence": 1.0,
+        "true_class": "no",
+        "correctness": 0.0,
+        "primary_score": 0.0
+      }
+    },
+    {
+      "study_id": 45854712,
+      "question_id": "45854712_q30",
+      "prompt": "Are there signs of ventricular hypertrophy?",
+      "question_type": "binary_classification",
+      "modality": "image",
+      "answer": "Yes, there are signs of ventricular hypertrophy. Specifically, the ECG suggests right ventricular hypertrophy, which is indicated by the presence of certain characteristic patterns on the ECG tracing. This finding is significant because it may be related to the observed ST-T wave changes in the inferolateral leads, which could be attributed to either hypertrophy or ischaemia. The presence of right ventricular hypertrophy is an important finding that should be considered in the context of the overall ECG interpretation and may have implications for further evaluation and management.",
+      "warning": null,
+      "notes": [
+        "Derived negative from absence of salient report finding."
+      ],
+      "derived_ground_truth": {
+        "question_key": "ventricular_hypertrophy",
+        "question_type": "binary_classification",
+        "report_labels": [
+          "sinus bradycardia",
+          "first degree av block",
+          "right axis deviation",
+          "intraventricular conduction delay",
+          "lateral infarct",
+          "ischemia",
+          "abnormal ecg"
+        ],
+        "report_labels_non_generic": [
+          "sinus bradycardia",
+          "first degree av block",
+          "right axis deviation",
+          "intraventricular conduction delay",
+          "lateral infarct",
+          "ischemia"
+        ],
+        "scorable": true,
+        "weakly_scorable": false,
+        "warning": null,
+        "notes": [
+          "Derived negative from absence of salient report finding."
+        ],
+        "true_class": "no"
+      },
+      "evaluation": {
+        "scorable": true,
+        "warning": null,
+        "notes": [],
+        "predicted_class": "yes",
+        "confidence": 1.0,
+        "true_class": "no",
+        "correctness": 0.0,
+        "primary_score": 0.0
+      }
+    },
+    {
+      "study_id": 45854712,
+      "question_id": "45854712_q31",
+      "prompt": "What is the most likely primary diagnosis from this ECG?",
+      "question_type": "diagnosis_label",
+      "modality": "image",
+      "answer": "Atrial fibrillation",
+      "warning": null,
+      "notes": [],
+      "derived_ground_truth": {
+        "question_key": "primary_diagnosis",
+        "question_type": "diagnosis_label",
+        "report_labels": [
+          "sinus bradycardia",
+          "first degree av block",
+          "right axis deviation",
+          "intraventricular conduction delay",
+          "lateral infarct",
+          "ischemia",
+          "abnormal ecg"
+        ],
+        "report_labels_non_generic": [
+          "sinus bradycardia",
+          "first degree av block",
+          "right axis deviation",
+          "intraventricular conduction delay",
+          "lateral infarct",
+          "ischemia"
+        ],
+        "scorable": true,
+        "weakly_scorable": false,
+        "warning": null,
+        "notes": [],
+        "true_labels": [
+          "sinus bradycardia"
+        ]
+      },
+      "evaluation": {
+        "scorable": true,
+        "warning": null,
+        "notes": [],
+        "predicted_labels": [
+          "atrial fibrillation"
+        ],
+        "true_labels": [
+          "sinus bradycardia"
+        ],
+        "tp": 0.0,
+        "fp": 1.0,
+        "fn": 1.0,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "jaccard": 0.0,
+        "sequence_similarity": 0.0,
+        "primary_score": 0.0
+      }
+    },
+    {
+      "study_id": 45854712,
+      "question_id": "45854712_q32",
+      "prompt": "List the top 3 diagnostic considerations for this ECG.",
+      "question_type": "diagnosis_label",
+      "modality": "image",
+      "answer": "1. Acute ST elevation MI\n2. Acute infarct\n3. Possible ectopic atrial rhythm",
+      "warning": null,
+      "notes": [],
+      "derived_ground_truth": {
+        "question_key": "diagnostic_considerations",
+        "question_type": "diagnosis_label",
+        "report_labels": [
+          "sinus bradycardia",
+          "first degree av block",
+          "right axis deviation",
+          "intraventricular conduction delay",
+          "lateral infarct",
+          "ischemia",
+          "abnormal ecg"
+        ],
+        "report_labels_non_generic": [
+          "sinus bradycardia",
+          "first degree av block",
+          "right axis deviation",
+          "intraventricular conduction delay",
+          "lateral infarct",
+          "ischemia"
+        ],
+        "scorable": true,
+        "weakly_scorable": false,
+        "warning": null,
+        "notes": [],
+        "true_labels": [
+          "sinus bradycardia",
+          "first degree av block",
+          "right axis deviation"
+        ]
+      },
+      "evaluation": {
+        "scorable": true,
+        "warning": null,
+        "notes": [],
+        "predicted_labels": [
+          "st elevation"
+        ],
+        "true_labels": [
+          "sinus bradycardia",
+          "first degree av block",
+          "right axis deviation"
+        ],
+        "tp": 0.0,
+        "fp": 1.0,
+        "fn": 3.0,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "jaccard": 0.0,
+        "sequence_similarity": 0.03205128205128205,
+        "primary_score": 0.0
+      }
+    },
+    {
+      "study_id": 45854712,
+      "question_id": "45854712_q35",
+      "prompt": "Is there evidence of acute ischemia or infarction?",
+      "question_type": "binary_classification",
+      "modality": "image",
+      "answer": "There is no evidence of acute ischemia or infarction. The ECG shows ST-T changes in the anteroseptal leads, which are consistent with a previous myocardial infarction, indicating that the damage to the heart muscle has already occurred. The changes are not indicative of an acute ischemic event. The presence of a lateral infarct of undetermined age further supports this conclusion, as it suggests that the infarction is not a recent occurrence. The ECG does not display any signs of ongoing ischemia, such as ST-segment elevation or depression, or T-wave inversion, which are typically seen in acute coronary syndromes. Therefore, based on the ECG findings, there is no indication of acute ischemia or infarction.",
+      "warning": null,
+      "notes": [
+        "Positive for ischemia/infarction, but acuity is ambiguous in report wording."
+      ],
+      "derived_ground_truth": {
+        "question_key": "acute_ischemia_or_infarction",
+        "question_type": "binary_classification",
+        "report_labels": [
+          "sinus bradycardia",
+          "first degree av block",
+          "right axis deviation",
+          "intraventricular conduction delay",
+          "lateral infarct",
+          "ischemia",
+          "abnormal ecg"
+        ],
+        "report_labels_non_generic": [
+          "sinus bradycardia",
+          "first degree av block",
+          "right axis deviation",
+          "intraventricular conduction delay",
+          "lateral infarct",
+          "ischemia"
+        ],
+        "scorable": true,
+        "weakly_scorable": false,
+        "warning": null,
+        "notes": [
+          "Positive for ischemia/infarction, but acuity is ambiguous in report wording."
+        ],
+        "true_class": "yes"
+      },
+      "evaluation": {
+        "scorable": true,
+        "warning": null,
+        "notes": [],
+        "predicted_class": "no",
+        "confidence": 1.0,
+        "true_class": "yes",
+        "correctness": 0.0,
+        "primary_score": 0.0
+      }
+    },
+    {
+      "study_id": 45854712,
+      "question_id": "45854712_q36",
+      "prompt": "If infarction is suspected, what territory is most likely involved?",
+      "question_type": "multiclass_classification",
+      "modality": "image",
+      "answer": "The territory most likely involved is the inferior and lateral regions, as suggested by the presence of inferior and lateral ST-T changes. These changes are indicative of myocardial ischemia, which may be related to a possible inferior myocardial infarction. The involvement of the lateral region is also possible, given the presence of lateral ST-T changes. However, it is essential to note that the age of the infarct is undetermined, which may impact the interpretation of these findings.",
+      "warning": null,
+      "notes": [],
+      "derived_ground_truth": {
+        "question_key": "infarction_territory",
+        "question_type": "multiclass_classification",
+        "report_labels": [
+          "sinus bradycardia",
+          "first degree av block",
+          "right axis deviation",
+          "intraventricular conduction delay",
+          "lateral infarct",
+          "ischemia",
+          "abnormal ecg"
+        ],
+        "report_labels_non_generic": [
+          "sinus bradycardia",
+          "first degree av block",
+          "right axis deviation",
+          "intraventricular conduction delay",
+          "lateral infarct",
+          "ischemia"
+        ],
+        "scorable": true,
+        "weakly_scorable": false,
+        "warning": null,
+        "notes": [],
+        "true_class": "lateral"
+      },
+      "evaluation": {
+        "scorable": true,
+        "warning": null,
+        "notes": [],
+        "predicted_class": "inferior",
+        "candidate_classes": [
+          "inferior",
+          "lateral"
+        ],
+        "true_class": "lateral",
+        "exact_match": 0.0,
+        "primary_score": 0.0
+      }
+    }
+  ]
+}

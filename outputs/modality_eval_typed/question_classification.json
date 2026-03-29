@@ -1,0 +1,242 @@
+{
+  "Are P waves present before each QRS complex?": {
+    "normalized_prompt": "are p waves present before each qrs complex?",
+    "question_key": "p_waves_before_qrs",
+    "question_type": "binary_classification",
+    "overridden": false
+  },
+  "Are there Q waves present, and if so are they pathologic?": {
+    "normalized_prompt": "are there q waves present, and if so are they pathologic?",
+    "question_key": "q_waves",
+    "question_type": "multiclass_classification",
+    "overridden": false
+  },
+  "Are there T-wave inversions present?": {
+    "normalized_prompt": "are there t-wave inversions present?",
+    "question_key": "t_wave_inversion",
+    "question_type": "binary_classification",
+    "overridden": false
+  },
+  "Are there U waves present?": {
+    "normalized_prompt": "are there u waves present?",
+    "question_key": "u_waves",
+    "question_type": "binary_classification",
+    "overridden": false
+  },
+  "Are there abnormal P-wave findings suggesting atrial enlargement?": {
+    "normalized_prompt": "are there abnormal p-wave findings suggesting atrial enlargement?",
+    "question_key": "atrial_enlargement",
+    "question_type": "binary_classification",
+    "overridden": false
+  },
+  "Are there peaked T waves or other signs of hyperkalemia?": {
+    "normalized_prompt": "are there peaked t waves or other signs of hyperkalemia?",
+    "question_key": "hyperkalemia_signs",
+    "question_type": "binary_classification",
+    "overridden": false
+  },
+  "Are there premature beats present?": {
+    "normalized_prompt": "are there premature beats present?",
+    "question_key": "premature_beats",
+    "question_type": "binary_classification",
+    "overridden": false
+  },
+  "Are there signs of ventricular hypertrophy?": {
+    "normalized_prompt": "are there signs of ventricular hypertrophy?",
+    "question_key": "ventricular_hypertrophy",
+    "question_type": "binary_classification",
+    "overridden": false
+  },
+  "Does this ECG appear normal or abnormal overall?": {
+    "normalized_prompt": "does this ecg appear normal or abnormal overall?",
+    "question_key": "overall_normal_abnormal",
+    "question_type": "binary_classification",
+    "overridden": false
+  },
+  "Does this ECG suggest tachycardia, bradycardia, or a normal rate?": {
+    "normalized_prompt": "does this ecg suggest tachycardia, bradycardia, or a normal rate?",
+    "question_key": "rate_class",
+    "question_type": "multiclass_classification",
+    "overridden": false
+  },
+  "Estimate the PR interval and state whether it is normal, short, or prolonged.": {
+    "normalized_prompt": "estimate the pr interval and state whether it is normal, short, or prolonged.",
+    "question_key": "pr_interval",
+    "question_type": "numeric",
+    "overridden": false
+  },
+  "Estimate the QRS duration and state whether it is narrow or wide.": {
+    "normalized_prompt": "estimate the qrs duration and state whether it is narrow or wide.",
+    "question_key": "qrs_duration",
+    "question_type": "numeric",
+    "overridden": false
+  },
+  "Estimate the QT interval or QTc and say whether it appears prolonged.": {
+    "normalized_prompt": "estimate the qt interval or qtc and say whether it appears prolonged.",
+    "question_key": "qt_interval",
+    "question_type": "numeric",
+    "overridden": false
+  },
+  "If infarction is suspected, what territory is most likely involved?": {
+    "normalized_prompt": "if infarction is suspected, what territory is most likely involved?",
+    "question_key": "infarction_territory",
+    "question_type": "multiclass_classification",
+    "overridden": false
+  },
+  "Is the rhythm regular or irregular?": {
+    "normalized_prompt": "is the rhythm regular or irregular?",
+    "question_key": "rhythm_regularity",
+    "question_type": "binary_classification",
+    "overridden": false
+  },
+  "Is there R-wave progression across the precordial leads, and is it normal?": {
+    "normalized_prompt": "is there r-wave progression across the precordial leads, and is it normal?",
+    "question_key": "r_wave_progression",
+    "question_type": "multiclass_classification",
+    "overridden": false
+  },
+  "Is there ST-segment depression present?": {
+    "normalized_prompt": "is there st-segment depression present?",
+    "question_key": "st_depression",
+    "question_type": "binary_classification",
+    "overridden": false
+  },
+  "Is there ST-segment elevation present?": {
+    "normalized_prompt": "is there st-segment elevation present?",
+    "question_key": "st_elevation",
+    "question_type": "binary_classification",
+    "overridden": false
+  },
+  "Is there any intraventricular conduction delay present?": {
+    "normalized_prompt": "is there any intraventricular conduction delay present?",
+    "question_key": "intraventricular_conduction_delay",
+    "question_type": "binary_classification",
+    "overridden": false
+  },
+  "Is there any pause or dropped beat visible?": {
+    "normalized_prompt": "is there any pause or dropped beat visible?",
+    "question_key": "pause_or_dropped_beat",
+    "question_type": "binary_classification",
+    "overridden": false
+  },
+  "Is there evidence of acute ischemia or infarction?": {
+    "normalized_prompt": "is there evidence of acute ischemia or infarction?",
+    "question_key": "acute_ischemia_or_infarction",
+    "question_type": "binary_classification",
+    "overridden": false
+  },
+  "Is there evidence of atrial fibrillation?": {
+    "normalized_prompt": "is there evidence of atrial fibrillation?",
+    "question_key": "evidence_atrial_fibrillation",
+    "question_type": "binary_classification",
+    "overridden": false
+  },
+  "Is there evidence of atrial flutter?": {
+    "normalized_prompt": "is there evidence of atrial flutter?",
+    "question_key": "evidence_atrial_flutter",
+    "question_type": "binary_classification",
+    "overridden": false
+  },
+  "Is there evidence of first-degree AV block?": {
+    "normalized_prompt": "is there evidence of first-degree av block?",
+    "question_key": "first_degree_av_block",
+    "question_type": "binary_classification",
+    "overridden": false
+  },
+  "Is there evidence of left bundle branch block?": {
+    "normalized_prompt": "is there evidence of left bundle branch block?",
+    "question_key": "left_bundle_branch_block",
+    "question_type": "binary_classification",
+    "overridden": false
+  },
+  "Is there evidence of right bundle branch block?": {
+    "normalized_prompt": "is there evidence of right bundle branch block?",
+    "question_key": "right_bundle_branch_block",
+    "question_type": "binary_classification",
+    "overridden": false
+  },
+  "Is there evidence of second-degree AV block?": {
+    "normalized_prompt": "is there evidence of second-degree av block?",
+    "question_key": "second_degree_av_block",
+    "question_type": "binary_classification",
+    "overridden": false
+  },
+  "Is there evidence of sinus rhythm?": {
+    "normalized_prompt": "is there evidence of sinus rhythm?",
+    "question_key": "evidence_sinus_rhythm",
+    "question_type": "binary_classification",
+    "overridden": false
+  },
+  "Is there evidence of third-degree AV block?": {
+    "normalized_prompt": "is there evidence of third-degree av block?",
+    "question_key": "third_degree_av_block",
+    "question_type": "binary_classification",
+    "overridden": false
+  },
+  "Is there poor R-wave progression?": {
+    "normalized_prompt": "is there poor r-wave progression?",
+    "question_key": "poor_r_wave_progression",
+    "question_type": "binary_classification",
+    "overridden": false
+  },
+  "Is this ECG more consistent with a supraventricular or ventricular process?": {
+    "normalized_prompt": "is this ecg more consistent with a supraventricular or ventricular process?",
+    "question_key": "supraventricular_vs_ventricular",
+    "question_type": "multiclass_classification",
+    "overridden": false
+  },
+  "List the top 3 diagnostic considerations for this ECG.": {
+    "normalized_prompt": "list the top 3 diagnostic considerations for this ecg.",
+    "question_key": "diagnostic_considerations",
+    "question_type": "diagnosis_label",
+    "overridden": false
+  },
+  "Provide a final impression as if writing an ECG report.": {
+    "normalized_prompt": "provide a final impression as if writing an ecg report.",
+    "question_key": "ecg_impression",
+    "question_type": "summary_generation",
+    "overridden": false
+  },
+  "Summarize this ECG in 3 to 5 concise clinical statements.": {
+    "normalized_prompt": "summarize this ecg in 3 to 5 concise clinical statements.",
+    "question_key": "ecg_summary",
+    "question_type": "summary_generation",
+    "overridden": false
+  },
+  "What are the key ECG findings supporting your interpretation?": {
+    "normalized_prompt": "what are the key ecg findings supporting your interpretation?",
+    "question_key": "key_findings",
+    "question_type": "diagnosis_label",
+    "overridden": false
+  },
+  "What is the heart rate in bpm?": {
+    "normalized_prompt": "what is the heart rate in bpm?",
+    "question_key": "heart_rate",
+    "question_type": "numeric",
+    "overridden": false
+  },
+  "What is the likely frontal plane QRS axis: normal, left axis deviation, right axis deviation, or extreme axis deviation?": {
+    "normalized_prompt": "what is the likely frontal plane qrs axis: normal, left axis deviation, right axis deviation, or extreme axis deviation?",
+    "question_key": "axis_class",
+    "question_type": "multiclass_classification",
+    "overridden": false
+  },
+  "What is the most likely primary diagnosis from this ECG?": {
+    "normalized_prompt": "what is the most likely primary diagnosis from this ecg?",
+    "question_key": "primary_diagnosis",
+    "question_type": "diagnosis_label",
+    "overridden": false
+  },
+  "What is the most likely underlying rhythm?": {
+    "normalized_prompt": "what is the most likely underlying rhythm?",
+    "question_key": "underlying_rhythm",
+    "question_type": "diagnosis_label",
+    "overridden": false
+  },
+  "Which leads contain the most important abnormal findings?": {
+    "normalized_prompt": "which leads contain the most important abnormal findings?",
+    "question_key": "lead_abnormalities",
+    "question_type": "lead_based",
+    "overridden": false
+  }
+}

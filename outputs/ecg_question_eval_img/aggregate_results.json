@@ -1,0 +1,110 @@
+{
+  "by_modality": {
+    "image": {
+      "overall": {
+        "sample_count": 160,
+        "scorable_count": 135,
+        "unscorable_count": 25
+      },
+      "by_question_type": {
+        "binary_classification": {
+          "scorable_count": 88,
+          "unscorable_count": 4,
+          "accuracy": 0.5454545454545454
+        },
+        "multiclass_classification": {
+          "scorable_count": 15,
+          "unscorable_count": 9,
+          "accuracy": 0.5333333333333333
+        },
+        "numeric": {
+          "scorable_count": 6,
+          "unscorable_count": 10,
+          "exact_match_rate": 0.0,
+          "exact_scorable_count": 5,
+          "tolerance_match_rate": 0.5
+        },
+        "lead_based": {
+          "scorable_count": 2,
+          "unscorable_count": 2,
+          "micro_precision": 0.36363636363636365,
+          "micro_recall": 0.3076923076923077,
+          "micro_f1": 0.33333333333333337,
+          "macro_precision": 0.5625,
+          "macro_recall": 0.38636363636363635,
+          "macro_f1": 0.3142857142857143
+        },
+        "diagnosis_label": {
+          "scorable_count": 16,
+          "unscorable_count": 0,
+          "micro_precision": 0.2222222222222222,
+          "micro_recall": 0.18181818181818182,
+          "micro_f1": 0.19999999999999998,
+          "macro_precision": 0.19791666666666666,
+          "macro_recall": 0.17559523809523808,
+          "macro_f1": 0.18333333333333335,
+          "avg_jaccard": 0.2320669934640523,
+          "avg_sequence_similarity": 0.16011270771750882
+        },
+        "summary_generation": {
+          "scorable_count": 8,
+          "unscorable_count": 0,
+          "avg_label_f1": 0.07777777777777778,
+          "avg_text_jaccard": 0.09465318124857598,
+          "avg_sequence_similarity": 0.06634846932072189
+        }
+      }
+    }
+  },
+  "by_question_type": {
+    "binary_classification": {
+      "scorable_count": 88,
+      "unscorable_count": 4,
+      "accuracy": 0.5454545454545454
+    },
+    "multiclass_classification": {
+      "scorable_count": 15,
+      "unscorable_count": 9,
+      "accuracy": 0.5333333333333333
+    },
+    "numeric": {
+      "scorable_count": 6,
+      "unscorable_count": 10,
+      "exact_match_rate": 0.0,
+      "exact_scorable_count": 5,
+      "tolerance_match_rate": 0.5
+    },
+    "lead_based": {
+      "scorable_count": 2,
+      "unscorable_count": 2,
+      "micro_precision": 0.36363636363636365,
+      "micro_recall": 0.3076923076923077,
+      "micro_f1": 0.33333333333333337,
+      "macro_precision": 0.5625,
+      "macro_recall": 0.38636363636363635,
+      "macro_f1": 0.3142857142857143
+    },
+    "diagnosis_label": {
+      "scorable_count": 16,
+      "unscorable_count": 0,
+      "micro_precision": 0.2222222222222222,
+      "micro_recall": 0.18181818181818182,
+      "micro_f1": 0.19999999999999998,
+      "macro_precision": 0.19791666666666666,
+      "macro_recall": 0.17559523809523808,
+      "macro_f1": 0.18333333333333335,
+      "avg_jaccard": 0.2320669934640523,
+      "avg_sequence_similarity": 0.16011270771750882
+    },
+    "summary_generation": {
+      "scorable_count": 8,
+      "unscorable_count": 0,
+      "avg_label_f1": 0.07777777777777778,
+      "avg_text_jaccard": 0.09465318124857598,
+      "avg_sequence_similarity": 0.06634846932072189
+    }
+  },
+  "optional_dependencies": {
+    "semantic_similarity": false
+  }
+}
