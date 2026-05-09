@@ -20,6 +20,68 @@ import wfdb
 import math
 
 
+# Default folder layout assumed when --single-question is set.
+# Folder must contain one .hea, .dat, and .png per record id (e.g. A00001.hea / A00001.dat / A00001.png).
+DEFAULT_RECORDS_FOLDER = "./records"
+
+# The single fixed question asked of every record, regardless of modality.
+SINGLE_QUESTION_TEXT = (
+    "Provide a clinical interpretation of this ECG. Include the rhythm, "
+    "any conduction abnormalities, ST or T-wave findings, and an overall classification."
+)
+
+
+def build_questions_from_records(records_folder, modality):
+    """Discover record ids in `records_folder` and build per-record question entries.
+
+    Each record is expected to have:
+      - <id>.hea / <id>.dat (signal, used by wfdb when modality in {ecg, both})
+      - <id>.png            (image, used when modality in {image, both})
+
+    For modality='both' we intersect the two sets so we only emit ids that have
+    BOTH the signal and the image. For ecg-only or image-only modalities we use
+    just the relevant file type.
+
+    Returns a list of dicts shaped to match the existing question-file path so
+    the rest of eval_model() doesn't need to special-case it.
+    """
+    if not os.path.isdir(records_folder):
+        raise FileNotFoundError(f"Records folder not found: {records_folder}")
+
+    files = os.listdir(records_folder)
+    hea_ids = {os.path.splitext(fn)[0] for fn in files if fn.endswith(".hea")}
+    png_ids = {os.path.splitext(fn)[0] for fn in files if fn.endswith(".png")}
+
+    if modality == "ecg":
+        record_ids = hea_ids
+    elif modality == "image":
+        record_ids = png_ids
+    else:  # both
+        record_ids = hea_ids & png_ids
+
+    record_ids = sorted(record_ids)
+
+    questions = []
+    for rid in record_ids:
+        # The existing eval loop expects:
+        #   image  -> path fragment joined with args.image_folder
+        #   ecg    -> path fragment joined with args.ecg_folder (wfdb uses base, no ext)
+        # When --single-question is set we point both folders at records_folder, so
+        # passing the bare record id for ecg and "<id>.png" for image works.
+        questions.append({
+            "question_id": rid,
+            "image": f"{rid}.png",
+            "ecg": rid,
+            "text": SINGLE_QUESTION_TEXT,
+            "ans": "",
+            "conversations": [
+                {"from": "human", "value": f"<image>\n{SINGLE_QUESTION_TEXT}"},
+                {"from": "gpt", "value": ""},
+            ],
+        })
+    return questions
+
+
 def split_list(lst, n):
     """Split a list into n (roughly) equal-sized chunks"""
     chunk_size = math.ceil(len(lst) / n)
@@ -133,32 +195,55 @@ def eval_model(args):
     model_name = get_model_name_from_path(model_path)
     tokenizer, model, image_processor, context_len = load_pretrained_model(model_path, args.model_base, model_name)
 
-    questions = []
-    with open(args.question_file, "r") as f:
-        json_data = json.load(f)
-        for line in json_data:
-            questions.append({
-                "question_id": line["id"],
-                "image": line["image"],
-                "text": line["conversations"][0]["value"].replace("<image>\n", ""),
-                "ans": line["conversations"][1]["value"],
-                "ecg": line["ecg"],
-                "conversations": line["conversations"],
-            })
+    if args.single_question:
+        # In single-question mode, discover records on disk and use a fixed prompt.
+        # Default both image-folder and ecg-folder to the records folder unless the
+        # user explicitly overrode them on the CLI (so files line up with the names
+        # we put in `image` / `ecg` inside build_questions_from_records).
+        if not args.image_folder:
+            args.image_folder = args.records_folder
+        if not args.ecg_folder:
+            args.ecg_folder = args.records_folder
+        questions = build_questions_from_records(args.records_folder, args.modality)
+        print(f"[single-question] Found {len(questions)} records under {args.records_folder} "
+              f"for modality={args.modality}")
+    else:
+        questions = []
+        with open(args.question_file, "r") as f:
+            json_data = json.load(f)
+            for line in json_data:
+                questions.append({
+                    "question_id": line["id"],
+                    "image": line["image"],
+                    "text": line["conversations"][0]["value"].replace("<image>\n", ""),
+                    "ans": line["conversations"][1]["value"],
+                    "ecg": line["ecg"],
+                    "conversations": line["conversations"],
+                })
 
-    existing_question_ids = set()
+    # Dedup by (question_id, modality) so multiple runs over the same JSONL
+    # (one per modality) don't skip each other.
+    existing_keys = set()
     if os.path.exists(args.answers_file):
         with open(args.answers_file, "r") as ans_file:
             for line in ans_file:
+                line = line.strip()
+                if not line:
+                    continue
                 existing_data = json.loads(line)
-                existing_question_ids.add(existing_data["question_id"])
+                prior_modality = existing_data.get("metadata", {}).get("modality", "")
+                existing_keys.add((existing_data["question_id"], prior_modality))
 
+    # Make sure the answers directory exists (the bash wrapper expects this).
+    answers_dir = os.path.dirname(args.answers_file)
+    if answers_dir:
+        os.makedirs(answers_dir, exist_ok=True)
     output_file = open(args.answers_file, "a")
 
     for line in tqdm(questions):
         idx = line["question_id"]
-        if idx in existing_question_ids:
-            print(f"Skipping question {idx}, already exists.")
+        if (idx, args.modality) in existing_keys:
+            print(f"Skipping question {idx} for modality {args.modality}, already exists.")
             continue
 
         image_file = line["image"]
@@ -204,6 +289,7 @@ def eval_model(args):
         ans_id = shortuuid.uuid()
         new_answer = {
             "question_id": idx,
+            "record_id": idx,
             "prompt": cur_prompt,
             "text": outputs,
             "answer_id": ans_id,
@@ -235,6 +321,21 @@ if __name__ == "__main__":
     parser.add_argument("--ecg_tower", type=str, default="")
     parser.add_argument("--open_clip_config", type=str, default="")
     parser.add_argument("--modality", type=str, default="both", choices=["both", "ecg", "image"])
+
+    # Single-question mode: skip --question-file, ask one fixed clinical-interpretation
+    # question for every record found under --records-folder. Output rows still carry
+    # the modality in metadata.modality so a downstream eval script can group by it.
+    parser.add_argument(
+        "--single-question",
+        action="store_true",
+        help="Discover records under --records-folder and ask SINGLE_QUESTION_TEXT for each.",
+    )
+    parser.add_argument(
+        "--records-folder",
+        type=str,
+        default=DEFAULT_RECORDS_FOLDER,
+        help="Folder containing <id>.hea/.dat/.png triples. Used when --single-question is set.",
+    )
 
     args = parser.parse_args()
     eval_model(args)
