@@ -140,9 +140,14 @@ def process_anyres_image(image, processor, grid_pinpoints):
     image_original_resize = image.resize((processor.size['shortest_edge'], processor.size['shortest_edge']))
 
     image_patches = [image_original_resize] + patches
-    image_patches = [processor.preprocess(image_patch, return_tensors='pt')['pixel_values'][0]
+    image_patches = [process_image_to_tensor(image_patch, processor)
                      for image_patch in image_patches]
     return torch.stack(image_patches, dim=0)
+
+
+def process_image_to_tensor(image, processor):
+    pixel_values = processor.preprocess(image, return_tensors=None)['pixel_values'][0]
+    return torch.tensor(pixel_values.tolist(), dtype=torch.float32)
 
 
 def load_image_from_base64(image):
@@ -169,14 +174,18 @@ def process_images(images, image_processor, model_cfg):
     if image_aspect_ratio == 'pad':
         for image in images:
             image = expand2square(image, tuple(int(x*255) for x in image_processor.image_mean))
-            image = image_processor.preprocess(image, return_tensors='pt')['pixel_values'][0]
+            image = process_image_to_tensor(image, image_processor)
             new_images.append(image)
     elif image_aspect_ratio == "anyres":
         for image in images:
             image = process_anyres_image(image, image_processor, model_cfg.image_grid_pinpoints)
             new_images.append(image)
     else:
-        return image_processor(images, return_tensors='pt')['pixel_values']
+        image_tensors = [
+            process_image_to_tensor(image, image_processor)
+            for image in images
+        ]
+        return torch.stack(image_tensors, dim=0)
     if all(x.shape == new_images[0].shape for x in new_images):
         new_images = torch.stack(new_images, dim=0)
     return new_images

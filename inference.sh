@@ -1,10 +1,11 @@
-CUDA_VISIBLE_DEVICES=0 python llava/eval/model_ecg_resume.py \
-  --model-path "/media/tower1/DATA21/Ram/models/GEM" \
-  --image-folder "/media/tower1/DATA21/Ram/sample" \
-  --question-file "/media/tower1/DATA21/Ram/GEM/questions.json" \
-  --answers-file "/media/tower1/DATA21/Ram/GEM/answer_img.jsonl" \
+cd "$(dirname "$0")"
+PYTHONPATH="$(pwd):${PYTHONPATH}" CUDA_VISIBLE_DEVICES=0 python llava/eval/model_ecg_resume.py \
+  --model-path "/home/ram/work/storage/GEM" \
+  --image-folder "/home/ram/work/storage/sample_ecg" \
+  --question-file "/home/ram/work/GEM/questions.json" \
+  --answers-file "/home/ram/work/GEM/answer_img2.jsonl" \
   --conv-mode llava_v1 \
-  --ecg-folder "/media/tower1/DATA21/Ram/sample/p1001" \
+  --ecg-folder "/home/ram/work/storage/sample_ecg" \
   --temperature 0 \
   --open_clip_config coca_ViT-B-32 \
   --num_beams 1 \

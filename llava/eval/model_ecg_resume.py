@@ -153,7 +153,7 @@ def eval_model(args):
                 existing_data = json.loads(line)
                 existing_question_ids.add(existing_data["question_id"])
 
-    output_file = open(args.answers_file, "w")
+    output_file = open(args.answers_file, "a")
 
     for line in tqdm(questions):
         idx = line["question_id"]
