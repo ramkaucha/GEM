@@ -1,26 +1,51 @@
 #!/bin/bash
 #PBS -l select=1:ncpus=12:mem=64gb:ngpus=3
-#PBS -l walltime=01:30:00
+#PBS -l walltime=01:45:00
 #PBS -N gem_sq_1k
 #PBS -j oe
+#
+# Run 1,000-record × 3-modality single-question inference concurrently on 3 GPUs.
+#
+# Walltime budget (measured on H200 from smoke test):
+#   image: ~1.5 s/gen × 1000 = ~25 min
+#   ecg  : ~3.5 s/gen × 1000 = ~58 min
+#   both : ~4.0 s/gen × 1000 = ~67 min   <- bottleneck
+# + ~20 s model load per process
+# + ~1 min for eval step
+# => ~70 min actual; 105 min walltime gives ~35 min safety margin.
+
 set -euo pipefail
 
 cd ~/ra/GEM
 source /srv/scratch/z5367751/miniconda3/bin/activate gem
 
-# ---- EDIT THESE -------------------------------------------------------------
-MODEL_PATH=/srv/scratch/z5367751/checkpoints/GEM-7B
-ECG_TOWER=/srv/scratch/z5367751/checkpoints/ecg_coca/cpt_wfep_epoch_20.pt
-RECORDS_FULL=/srv/scratch/z5367751/records_img
+# Quiet TensorFlow's import-time spam so logs are readable.
+export TF_CPP_MIN_LOG_LEVEL=3
+export TF_ENABLE_ONEDNN_OPTS=0
+
+# ---- EDIT IF NEEDED ---------------------------------------------------------
+MODEL_PATH=/srv/scratch/z5367751/GEM
+ECG_TOWER=/srv/scratch/z5367751/cpt_wfep_epoch_20.pt
+RECORDS_FULL=/srv/scratch/z5367751/records_v2
 N_SAMPLES=1000
 # -----------------------------------------------------------------------------
 
-OUT_DIR=eval_outputs/GEM-7B/single_question_1k
+OUT_DIR=eval_outputs/GEM/single_question_1k
 RECORDS_SUB=$OUT_DIR/records_1k
 mkdir -p "$OUT_DIR" "$RECORDS_SUB"
 
+# Send everything (orchestration echoes, eval output, errors) to a single
+# job-level log inside OUT_DIR. The PBS .o file will be empty after this point
+# -- inspect $OUT_DIR/job.log instead. Per-modality logs (image/ecg/both.log)
+# remain separate so you can tail any one of them in isolation.
+JOB_LOG="$OUT_DIR/job.log"
+echo "Logging to $JOB_LOG"
+exec > "$JOB_LOG" 2>&1
+echo "[1k] === job started $(date -Iseconds) ==="
+echo "[1k] PBS_JOBID=${PBS_JOBID:-(none)}  host=$(hostname)"
+
 # Build the 1k-record subset by symlinking ids that have all three files.
-# This is idempotent: re-running a failed job picks up the same 1k.
+# Idempotent: re-running picks up the same 1k.
 echo "[1k] Selecting first $N_SAMPLES records with .hea + .dat + .png..."
 count=0
 for hea in "$RECORDS_FULL"/*.hea; do
@@ -52,15 +77,20 @@ run_one () {
     > "$OUT_DIR/${mod}.log" 2>&1
 }
 
-echo "[1k] Launching 3 modalities in parallel..."
+echo "[1k] Launching 3 modalities in parallel on GPUs 0/1/2..."
+T0=$(date +%s)
+
 run_one 0 image &  PID_IMG=$!
 run_one 1 ecg   &  PID_ECG=$!
 run_one 2 both  &  PID_BOTH=$!
 
-# Wait individually so a single failure surfaces clearly.
+# Wait individually so a single failure surfaces clearly with which log to check.
 wait "$PID_IMG"  || { echo "image modality failed; see $OUT_DIR/image.log" >&2; exit 1; }
+echo "[1k] image done at +$(( $(date +%s) - T0 ))s"
 wait "$PID_ECG"  || { echo "ecg modality failed;   see $OUT_DIR/ecg.log"   >&2; exit 1; }
+echo "[1k] ecg done at +$(( $(date +%s) - T0 ))s"
 wait "$PID_BOTH" || { echo "both modality failed;  see $OUT_DIR/both.log"  >&2; exit 1; }
+echo "[1k] both done at +$(( $(date +%s) - T0 ))s"
 
 cat "$OUT_DIR"/answers_*.jsonl > "$OUT_DIR/answers.jsonl"
 echo "[1k] Combined rows: $(wc -l < "$OUT_DIR/answers.jsonl")"
@@ -71,4 +101,5 @@ python evaluation/eval_single_question.py \
   --output-csv  "$OUT_DIR/eval.csv" \
   --threshold 70
 
-echo "[1k] Done. Artifacts: $OUT_DIR"
+echo "[1k] Total elapsed: $(( $(date +%s) - T0 ))s"
+echo "[1k] Done. Artifacts in $OUT_DIR"
