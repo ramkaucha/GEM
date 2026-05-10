@@ -1,0 +1,74 @@
+#!/bin/bash
+#PBS -l select=1:ncpus=12:mem=64gb:ngpus=3
+#PBS -l walltime=01:30:00
+#PBS -N gem_sq_1k
+#PBS -j oe
+set -euo pipefail
+
+cd ~/ra/GEM
+source /srv/scratch/z5367751/miniconda3/bin/activate gem
+
+# ---- EDIT THESE -------------------------------------------------------------
+MODEL_PATH=/srv/scratch/z5367751/checkpoints/GEM-7B
+ECG_TOWER=/srv/scratch/z5367751/checkpoints/ecg_coca/cpt_wfep_epoch_20.pt
+RECORDS_FULL=/srv/scratch/z5367751/records_img
+N_SAMPLES=1000
+# -----------------------------------------------------------------------------
+
+OUT_DIR=eval_outputs/GEM-7B/single_question_1k
+RECORDS_SUB=$OUT_DIR/records_1k
+mkdir -p "$OUT_DIR" "$RECORDS_SUB"
+
+# Build the 1k-record subset by symlinking ids that have all three files.
+# This is idempotent: re-running a failed job picks up the same 1k.
+echo "[1k] Selecting first $N_SAMPLES records with .hea + .dat + .png..."
+count=0
+for hea in "$RECORDS_FULL"/*.hea; do
+  rid=$(basename "$hea" .hea)
+  if [[ -f "$RECORDS_FULL/$rid.dat" && -f "$RECORDS_FULL/$rid.png" ]]; then
+    ln -sf "$RECORDS_FULL/$rid.hea" "$RECORDS_SUB/$rid.hea"
+    ln -sf "$RECORDS_FULL/$rid.dat" "$RECORDS_SUB/$rid.dat"
+    ln -sf "$RECORDS_FULL/$rid.png" "$RECORDS_SUB/$rid.png"
+    count=$((count+1))
+    if (( count >= N_SAMPLES )); then break; fi
+  fi
+done
+echo "[1k] Linked $count records into $RECORDS_SUB"
+if (( count < N_SAMPLES )); then
+  echo "[1k] WARNING: only found $count records, wanted $N_SAMPLES" >&2
+fi
+
+run_one () {
+  local gpu="$1" mod="$2"
+  CUDA_VISIBLE_DEVICES="$gpu" python llava/eval/model_ecg_resume.py \
+    --model-path "$MODEL_PATH" \
+    --single-question \
+    --records-folder "$RECORDS_SUB" \
+    --modality "$mod" \
+    --answers-file "$OUT_DIR/answers_${mod}.jsonl" \
+    --conv-mode llava_v1 \
+    --ecg_tower "$ECG_TOWER" \
+    --open_clip_config coca_ViT-B-32 \
+    > "$OUT_DIR/${mod}.log" 2>&1
+}
+
+echo "[1k] Launching 3 modalities in parallel..."
+run_one 0 image &  PID_IMG=$!
+run_one 1 ecg   &  PID_ECG=$!
+run_one 2 both  &  PID_BOTH=$!
+
+# Wait individually so a single failure surfaces clearly.
+wait "$PID_IMG"  || { echo "image modality failed; see $OUT_DIR/image.log" >&2; exit 1; }
+wait "$PID_ECG"  || { echo "ecg modality failed;   see $OUT_DIR/ecg.log"   >&2; exit 1; }
+wait "$PID_BOTH" || { echo "both modality failed;  see $OUT_DIR/both.log"  >&2; exit 1; }
+
+cat "$OUT_DIR"/answers_*.jsonl > "$OUT_DIR/answers.jsonl"
+echo "[1k] Combined rows: $(wc -l < "$OUT_DIR/answers.jsonl")"
+
+python evaluation/eval_single_question.py \
+  --answers-file "$OUT_DIR/answers.jsonl" \
+  --metadata-csv preprocess/reference/metadata_with_description.csv \
+  --output-csv  "$OUT_DIR/eval.csv" \
+  --threshold 70
+
+echo "[1k] Done. Artifacts: $OUT_DIR"
