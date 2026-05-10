@@ -1,0 +1,2995 @@
+record_id,modality,best_score,matched_alt,reference,match
+A00001,both,100.00,sinus bradycardia,Sinus bradycardia OR Sinus arrhythmia,yes
+A00002,both,100.00,normal ecg,Normal ECG,yes
+A00003,both,100.00,normal ecg,Normal ECG,yes
+A00004,both,47.62,sinus arrhythmia,Sinus arrhythmia,no
+A00005,both,36.84,st deviation with t-wave change,ST deviation with T-wave change,no
+A00006,both,100.00,normal ecg,Normal ECG,yes
+A00007,both,61.11,right bundle-branch block,Right bundle-branch block,no
+A00008,both,100.00,normal ecg,Normal ECG,yes
+A00009,both,100.00,normal ecg,Normal ECG,yes
+A00010,both,100.00,normal ecg,Normal ECG,yes
+A00011,both,47.62,sinus arrhythmia,Sinus bradycardia OR Sinus arrhythmia,no
+A00012,both,100.00,normal ecg,Normal ECG,yes
+A00013,both,48.15,atrial premature complex(es) and frequent,Atrial premature complex(es) AND Frequent,no
+A00014,both,100.00,normal ecg,Normal ECG,yes
+A00015,both,45.45,sinus bradycardia,Sinus bradycardia OR T-wave abnormality,no
+A00016,both,100.00,normal ecg,Normal ECG,yes
+A00017,both,100.00,normal ecg,Normal ECG,yes
+A00018,both,77.78,ventricular premature complex(es),Ventricular premature complex(es),yes
+A00019,both,100.00,normal ecg,Normal ECG,yes
+A00020,both,72.73,atrial premature complex(es),Atrial premature complex(es),yes
+A00021,both,100.00,normal ecg,Normal ECG,yes
+A00022,both,72.73,prolonged pr interval,Low voltage OR Prolonged PR interval,yes
+A00023,both,75.86,incomplete right bundle-branch block,Incomplete right bundle-branch block,yes
+A00024,both,100.00,normal ecg,Normal ECG,yes
+A00025,both,100.00,normal ecg,Normal ECG,yes
+A00026,both,100.00,normal ecg,Normal ECG,yes
+A00027,both,100.00,normal ecg,Normal ECG,yes
+A00028,both,100.00,normal ecg,Normal ECG,yes
+A00029,both,46.81,incomplete right bundle-branch block,Incomplete right bundle-branch block,no
+A00030,both,45.45,sinus bradycardia,Sinus bradycardia,no
+A00031,both,100.00,normal ecg,Normal ECG,yes
+A00032,both,100.00,normal ecg,Normal ECG,yes
+A00033,both,100.00,normal ecg,Normal ECG,yes
+A00034,both,49.18,ventricular premature complex(es) and frequent,Ventricular premature complex(es) AND Frequent,no
+A00035,both,100.00,normal ecg,Normal ECG,yes
+A00036,both,47.62,sinus arrhythmia,Sinus arrhythmia,no
+A00037,both,8.28,right-axis deviation,Right-axis deviation,no
+A00038,both,100.00,normal ecg,Normal ECG,yes
+A00039,both,75.86,t-wave abnormality,[Unknown code: 30+310] OR T-wave abnormality,yes
+A00040,both,100.00,normal ecg,Normal ECG,yes
+A00041,both,100.00,sinus bradycardia,Sinus bradycardia,yes
+A00042,both,100.00,normal ecg,Normal ECG,yes
+A00043,both,100.00,normal ecg,Normal ECG,yes
+A00044,both,100.00,normal ecg,Normal ECG,yes
+A00045,both,100.00,normal ecg,Normal ECG,yes
+A00046,both,100.00,normal ecg,Normal ECG,yes
+A00047,both,100.00,normal ecg,Normal ECG,yes
+A00048,both,100.00,normal ecg,Normal ECG,yes
+A00049,both,47.62,sinus arrhythmia,Sinus bradycardia OR Sinus arrhythmia,no
+A00050,both,100.00,sinus bradycardia,Sinus bradycardia,yes
+A00051,both,45.45,sinus bradycardia,Sinus bradycardia OR ST deviation,no
+A00052,both,100.00,normal ecg,Normal ECG,yes
+A00053,both,47.62,sinus arrhythmia,Sinus bradycardia OR Sinus arrhythmia,no
+A00054,both,100.00,normal ecg,Normal ECG,yes
+A00055,both,50.00,t-wave abnormality,T-wave abnormality,no
+A00056,both,100.00,normal ecg,Normal ECG,yes
+A00057,both,45.45,sinus bradycardia,Sinus bradycardia,no
+A00058,both,100.00,normal ecg,Normal ECG,yes
+A00059,both,100.00,normal ecg,Normal ECG,yes
+A00060,both,100.00,normal ecg,Normal ECG,yes
+A00061,both,100.00,normal ecg,Normal ECG,yes
+A00062,both,100.00,normal ecg,Normal ECG,yes
+A00063,both,100.00,normal ecg,Normal ECG,yes
+A00064,both,100.00,normal ecg,Normal ECG,yes
+A00065,both,100.00,sinus bradycardia,Sinus bradycardia,yes
+A00066,both,100.00,normal ecg,Normal ECG,yes
+A00067,both,50.00,t-wave abnormality,T-wave abnormality,no
+A00068,both,100.00,normal ecg,Normal ECG,yes
+A00069,both,100.00,normal ecg,Normal ECG,yes
+A00070,both,42.86,low voltage,Low voltage,no
+A00071,both,100.00,normal ecg,Normal ECG,yes
+A00072,both,100.00,normal ecg,Normal ECG,yes
+A00073,both,100.00,normal ecg,Normal ECG,yes
+A00074,both,45.45,sinus bradycardia,Sinus bradycardia,no
+A00075,both,45.45,sinus bradycardia,Sinus bradycardia OR [Unknown code: 145+362],no
+A00076,both,100.00,normal ecg,Normal ECG,yes
+A00077,both,100.00,normal ecg,Normal ECG,yes
+A00078,both,100.00,normal ecg,Normal ECG,yes
+A00079,both,62.07,right-axis deviation,Right-axis deviation,no
+A00080,both,100.00,normal ecg,Normal ECG,yes
+A00081,both,45.45,sinus bradycardia,Sinus bradycardia,no
+A00082,both,100.00,normal ecg,Normal ECG,yes
+A00083,both,100.00,t-wave abnormality,T-wave abnormality,yes
+A00084,both,100.00,normal ecg,Normal ECG,yes
+A00085,both,45.45,sinus tachycardia,Sinus tachycardia,no
+A00086,both,7.26,atrial premature complex(es),Atrial premature complex(es) OR Low voltage,no
+A00087,both,100.00,normal ecg,Normal ECG,yes
+A00088,both,100.00,normal ecg,Normal ECG,yes
+A00089,both,100.00,normal ecg,Normal ECG,yes
+A00090,both,45.45,sinus bradycardia,Sinus bradycardia,no
+A00091,both,75.86,incomplete right bundle-branch block,Incomplete right bundle-branch block,yes
+A00092,both,100.00,normal ecg,Normal ECG,yes
+A00093,both,100.00,normal ecg,Normal ECG,yes
+A00094,both,5.48,early repolarization,Early repolarization,no
+A00095,both,100.00,normal ecg,Normal ECG,yes
+A00096,both,100.00,normal ecg,Normal ECG,yes
+A00097,both,100.00,normal ecg,Normal ECG,yes
+A00098,both,100.00,normal ecg,Normal ECG,yes
+A00099,both,36.36,st deviation and depression,ST deviation AND Depression,no
+A00100,both,100.00,normal ecg,Normal ECG,yes
+A00101,both,47.62,sinus arrhythmia,Sinus arrhythmia,no
+A00102,both,62.22,st deviation with t-wave change,[Unknown code: 60+308] OR ST deviation with T-wave change,no
+A00103,both,23.08,anteroseptal mi and old,Anteroseptal MI AND Old,no
+A00104,both,100.00,sinus tachycardia,Sinus tachycardia OR Left atrial enlargement,yes
+A00105,both,100.00,normal ecg,Normal ECG,yes
+A00106,both,100.00,normal ecg,Normal ECG,yes
+A00107,both,100.00,normal ecg,Normal ECG,yes
+A00108,both,45.45,sinus bradycardia,Sinus bradycardia,no
+A00109,both,100.00,normal ecg,Normal ECG,yes
+A00110,both,45.45,sinus bradycardia,Sinus bradycardia,no
+A00111,both,100.00,normal ecg,Normal ECG,yes
+A00112,both,70.83,st deviation with t-wave change,Anterior MI OR [Unknown code: 60+310] OR ST deviation with T-wave change,yes
+A00113,both,100.00,t-wave abnormality,T-wave abnormality,yes
+A00114,both,100.00,normal ecg,Normal ECG,yes
+A00115,both,100.00,normal ecg,Normal ECG,yes
+A00116,both,72.73,left ventricular hypertrophy,Left ventricular hypertrophy OR T-wave abnormality,yes
+A00117,both,100.00,normal ecg,Normal ECG,yes
+A00118,both,100.00,normal ecg,Normal ECG,yes
+A00119,both,50.00,ventricular premature complex(es),Ventricular premature complex(es),no
+A00120,both,100.00,normal ecg,Normal ECG,yes
+A00121,both,100.00,normal ecg,Normal ECG,yes
+A00122,both,100.00,normal ecg,Normal ECG,yes
+A00123,both,65.57,atrial premature complex(es) and frequent,Atrial premature complex(es) AND Frequent,no
+A00124,both,100.00,t-wave abnormality,T-wave abnormality,yes
+A00125,both,72.73,prolonged pr interval,Prolonged PR interval OR Right bundle-branch block,yes
+A00126,both,75.86,incomplete right bundle-branch block,Sinus bradycardia OR ST deviation OR Incomplete right bundle-branch block,yes
+A00127,both,100.00,normal ecg,Normal ECG,yes
+A00128,both,76.92,t-wave abnormality and inversion,T-wave abnormality AND Inversion,yes
+A00129,both,45.45,sinus bradycardia,Sinus bradycardia,no
+A00130,both,100.00,normal ecg,Normal ECG,yes
+A00131,both,100.00,normal ecg,Normal ECG,yes
+A00132,both,100.00,normal ecg,Normal ECG,yes
+A00133,both,100.00,normal ecg,Normal ECG,yes
+A00134,both,45.45,sinus bradycardia,Sinus bradycardia,no
+A00135,both,61.11,ventricular preexcitation,Ventricular preexcitation,no
+A00136,both,48.00,atrial fibrillation,Atrial fibrillation,no
+A00137,both,61.11,right bundle-branch block,Right bundle-branch block,no
+A00138,both,100.00,normal ecg,Normal ECG,yes
+A00139,both,36.84,st deviation with t-wave change,ST deviation with T-wave change,no
+A00140,both,100.00,normal ecg,Normal ECG,yes
+A00141,both,100.00,normal ecg,Normal ECG,yes
+A00142,both,100.00,normal ecg,Normal ECG,yes
+A00143,both,100.00,normal ecg,Normal ECG,yes
+A00144,both,75.86,t-wave abnormality,T-wave abnormality,yes
+A00145,both,45.45,sinus bradycardia,Sinus bradycardia,no
+A00146,both,45.45,sinus bradycardia,Sinus bradycardia,no
+A00147,both,100.00,normal ecg,Normal ECG,yes
+A00148,both,45.45,sinus tachycardia,Sinus tachycardia OR [Unknown code: 147+367],no
+A00149,both,47.62,sinus arrhythmia,[Unknown code: 145+362] OR Sinus arrhythmia,no
+A00150,both,45.45,sinus bradycardia,Sinus bradycardia,no
+A00151,both,100.00,normal ecg,Normal ECG,yes
+A00152,both,100.00,normal ecg,Normal ECG,yes
+A00153,both,100.00,normal ecg,Normal ECG,yes
+A00154,both,46.81,incomplete right bundle-branch block,Incomplete right bundle-branch block,no
+A00155,both,75.86,t-wave abnormality,T-wave abnormality,yes
+A00156,both,100.00,normal ecg,Normal ECG,yes
+A00157,both,65.00,st deviation and depression,ST deviation AND Depression,no
+A00158,both,47.62,sinus arrhythmia,Sinus arrhythmia,no
+A00159,both,45.45,sinus tachycardia,Sinus tachycardia OR ST deviation with T-wave change,no
+A00160,both,100.00,t-wave abnormality,T-wave abnormality,yes
+A00161,both,100.00,normal ecg,Normal ECG,yes
+A00162,both,45.45,sinus bradycardia,Sinus bradycardia,no
+A00163,both,100.00,sinus tachycardia,Sinus tachycardia OR T-wave abnormality,yes
+A00164,both,100.00,normal ecg,Normal ECG,yes
+A00165,both,100.00,normal ecg,Normal ECG,yes
+A00166,both,100.00,normal ecg,Normal ECG,yes
+A00167,both,100.00,sinus tachycardia,Sinus tachycardia OR T-wave abnormality,yes
+A00168,both,62.07,right-axis deviation,Right-axis deviation,no
+A00169,both,45.45,sinus bradycardia,Sinus bradycardia OR [Unknown code: 161+332],no
+A00170,both,100.00,normal ecg,Normal ECG,yes
+A00171,both,77.78,ventricular premature complex(es),Sinus tachycardia OR Ventricular premature complex(es),yes
+A00172,both,45.45,sinus bradycardia,Sinus bradycardia,no
+A00173,both,100.00,normal ecg,Normal ECG,yes
+A00174,both,100.00,normal ecg,Normal ECG,yes
+A00175,both,100.00,normal ecg,Normal ECG,yes
+A00176,both,100.00,normal ecg,Normal ECG,yes
+A00177,both,75.86,t-wave abnormality,T-wave abnormality,yes
+A00178,both,100.00,normal ecg,Normal ECG,yes
+A00179,both,100.00,normal ecg,Normal ECG,yes
+A00180,both,72.73,left ventricular hypertrophy,Sinus bradycardia OR Left ventricular hypertrophy OR ST-T change due to ventricular hypertrophy,yes
+A00181,both,100.00,normal ecg,Normal ECG,yes
+A00182,both,100.00,t-wave abnormality,T-wave abnormality,yes
+A00183,both,68.49,ventricular premature complex(es) and occasional,Ventricular premature complex(es) AND Occasional,no
+A00184,both,100.00,normal ecg,Normal ECG,yes
+A00185,both,100.00,normal ecg,Normal ECG,yes
+A00186,both,100.00,normal ecg,Normal ECG,yes
+A00187,both,47.62,sinus arrhythmia,Sinus arrhythmia OR Incomplete right bundle-branch block,no
+A00188,both,100.00,normal ecg,Normal ECG,yes
+A00189,both,61.11,right bundle-branch block,Right bundle-branch block,no
+A00190,both,45.45,sinus bradycardia,Sinus bradycardia,no
+A00191,both,45.45,sinus tachycardia,Sinus tachycardia OR Incomplete right bundle-branch block OR [Unknown code: 145+362],no
+A00192,both,100.00,normal ecg,Normal ECG,yes
+A00193,both,66.67,ventricular premature complex(es) and in a bigeminal pattern,Ventricular premature complex(es) AND In a bigeminal pattern,no
+A00194,both,100.00,st deviation,ST deviation,yes
+A00195,both,100.00,st deviation,ST deviation,yes
+A00196,both,2.91,st deviation,ST deviation,no
+A00197,both,46.81,incomplete right bundle-branch block,Incomplete right bundle-branch block,no
+A00198,both,65.00,st deviation and depression,ST deviation AND Depression,no
+A00199,both,100.00,normal ecg,Normal ECG,yes
+A00200,both,100.00,normal ecg,Normal ECG,yes
+A00201,both,100.00,normal ecg,Normal ECG,yes
+A00202,both,45.45,sinus bradycardia,Sinus bradycardia,no
+A00203,both,50.00,t-wave abnormality,T-wave abnormality,no
+A00204,both,100.00,normal ecg,Normal ECG,yes
+A00205,both,100.00,normal ecg,Normal ECG,yes
+A00206,both,100.00,normal ecg,Normal ECG,yes
+A00207,both,45.45,sinus bradycardia,Sinus bradycardia OR ST deviation with T-wave change,no
+A00208,both,62.22,st deviation with t-wave change,ST deviation with T-wave change,no
+A00209,both,47.62,sinus arrhythmia,Sinus arrhythmia,no
+A00210,both,45.45,sinus bradycardia,Sinus bradycardia OR [Unknown code: 145+362],no
+A00211,both,72.73,atrial premature complex(es),Atrial premature complex(es) OR T-wave abnormality,yes
+A00212,both,100.00,normal ecg,Normal ECG,yes
+A00213,both,100.00,normal ecg,Normal ECG,yes
+A00215,both,43.90,junctional premature complex(es),Junctional premature complex(es),no
+A00216,both,37.14,atrial fibrillation and with a rapid ventricular response,Atrial fibrillation AND With a rapid ventricular response,no
+A00217,both,100.00,normal ecg,Normal ECG,yes
+A00218,both,100.00,normal ecg,Normal ECG,yes
+A00219,both,100.00,t-wave abnormality,Atrial fibrillation OR Incomplete right bundle-branch block OR T-wave abnormality,yes
+A00220,both,100.00,normal ecg,Normal ECG,yes
+A00221,both,100.00,sinus tachycardia,Sinus tachycardia,yes
+A00222,both,100.00,normal ecg,Normal ECG,yes
+A00223,both,100.00,normal ecg,Normal ECG,yes
+A00224,both,45.45,sinus bradycardia,Sinus bradycardia,no
+A00225,both,47.62,sinus arrhythmia,Sinus arrhythmia,no
+A00226,both,28.57,st deviation,ST deviation,no
+A00227,both,100.00,normal ecg,Normal ECG,yes
+A00228,both,45.45,sinus bradycardia,Sinus bradycardia OR Low voltage,no
+A00229,both,100.00,sinus bradycardia,Sinus bradycardia,yes
+A00230,both,45.45,sinus bradycardia,Sinus bradycardia,no
+A00231,both,28.57,st deviation,ST deviation,no
+A00232,both,100.00,normal ecg,Normal ECG,yes
+A00233,both,100.00,normal ecg,Normal ECG,yes
+A00234,both,100.00,normal ecg,Normal ECG,yes
+A00235,both,100.00,sinus tachycardia,Sinus tachycardia,yes
+A00236,both,100.00,normal ecg,Normal ECG,yes
+A00237,both,100.00,normal ecg,Normal ECG,yes
+A00238,both,100.00,normal ecg,Normal ECG,yes
+A00239,both,100.00,normal ecg,Normal ECG,yes
+A00240,both,100.00,normal ecg,Normal ECG,yes
+A00241,both,100.00,normal ecg,Normal ECG,yes
+A00242,both,100.00,normal ecg,Normal ECG,yes
+A00243,both,45.45,sinus bradycardia,Sinus bradycardia,no
+A00244,both,60.00,prolonged qt interval,[Unknown code: 147+367] OR Prolonged QT interval,no
+A00245,both,45.45,sinus bradycardia,Sinus bradycardia,no
+A00246,both,52.38,st deviation with t-wave change,Sinus bradycardia OR ST deviation with T-wave change,no
+A00247,both,47.62,sinus arrhythmia,Sinus arrhythmia OR [Unknown code: 30+308] OR [Unknown code: 147+367],no
+A00248,both,77.78,ventricular premature complex(es),Ventricular premature complex(es),yes
+A00249,both,45.45,sinus bradycardia,Sinus bradycardia OR T-wave abnormality,no
+A00250,both,100.00,normal ecg,Normal ECG,yes
+A00251,both,100.00,normal ecg,Normal ECG,yes
+A00252,both,50.00,t-wave abnormality,T-wave abnormality,no
+A00253,both,100.00,st deviation,ST deviation,yes
+A00254,both,50.00,t-wave abnormality,T-wave abnormality,no
+A00255,both,100.00,normal ecg,Normal ECG,yes
+A00256,both,47.62,sinus arrhythmia,Sinus arrhythmia,no
+A00257,both,50.00,t-wave abnormality,T-wave abnormality,no
+A00258,both,100.00,normal ecg,Normal ECG,yes
+A00259,both,45.45,sinus bradycardia,Sinus bradycardia,no
+A00260,both,55.81,st deviation with t-wave change,Ventricular premature complex(es) OR ST deviation with T-wave change,no
+A00261,both,100.00,normal ecg,Normal ECG,yes
+A00262,both,45.45,sinus bradycardia,Sinus bradycardia,no
+A00263,both,36.84,st deviation with t-wave change,ST deviation with T-wave change,no
+A00264,both,50.00,t-wave abnormality,T-wave abnormality,no
+A00265,both,100.00,normal ecg,Normal ECG,yes
+A00266,both,100.00,normal ecg,Normal ECG,yes
+A00267,both,100.00,normal ecg,Normal ECG,yes
+A00268,both,100.00,normal ecg,Normal ECG,yes
+A00269,both,47.62,sinus arrhythmia,Sinus arrhythmia,no
+A00270,both,72.73,left ventricular hypertrophy,Left ventricular hypertrophy OR ST deviation with T-wave change OR [Unknown code: 60+310],yes
+A00271,both,91.43,atrial fibrillation and with a rapid ventricular response,Atrial fibrillation AND With a rapid ventricular response,yes
+A00272,both,33.33,right bundle-branch block,Right bundle-branch block,no
+A00273,both,100.00,normal ecg,Normal ECG,yes
+A00274,both,77.78,ventricular premature complex(es),Ventricular premature complex(es) OR T-wave abnormality,yes
+A00275,both,100.00,normal ecg,Normal ECG,yes
+A00276,both,45.45,sinus bradycardia,Sinus bradycardia,no
+A00277,both,62.22,st deviation with t-wave change,Sinus bradycardia OR [Unknown code: 30+310] OR [Unknown code: 165+330] OR Left bundle-branch block OR ST deviation with T-wave change,no
+A00278,both,100.00,normal ecg,Normal ECG,yes
+A00279,both,100.00,st deviation,ST deviation,yes
+A00280,both,72.73,prolonged pr interval,Prolonged PR interval,yes
+A00281,both,45.45,sinus bradycardia,Sinus bradycardia,no
+A00282,both,45.45,sinus bradycardia,Sinus bradycardia OR ST deviation with T-wave change,no
+A00283,both,100.00,normal ecg,Normal ECG,yes
+A00284,both,100.00,normal ecg,Normal ECG,yes
+A00285,both,48.00,atrial fibrillation,Atrial fibrillation OR Incomplete right bundle-branch block,no
+A00286,both,37.50,st deviation and elevation,ST deviation AND Elevation,no
+A00287,both,100.00,normal ecg,Normal ECG,yes
+A00288,both,100.00,normal ecg,Normal ECG,yes
+A00289,both,100.00,normal ecg,Normal ECG,yes
+A00290,both,100.00,normal ecg,Normal ECG,yes
+A00291,both,100.00,normal ecg,Normal ECG,yes
+A00292,both,47.62,sinus arrhythmia,Sinus arrhythmia,no
+A00293,both,100.00,normal ecg,Normal ECG,yes
+A00294,both,47.62,t-wave abnormality and inversion,T-wave abnormality AND Inversion,no
+A00295,both,100.00,normal ecg,Normal ECG,yes
+A00296,both,100.00,normal ecg,Normal ECG,yes
+A00297,both,100.00,normal ecg,Normal ECG,yes
+A00298,both,47.62,sinus arrhythmia,Sinus arrhythmia,no
+A00299,both,100.00,normal ecg,Normal ECG,yes
+A00300,both,100.00,normal ecg,Normal ECG,yes
+A00301,both,22.86,st deviation with t-wave change,ST deviation with T-wave change,no
+A00302,both,77.55,ventricular premature complex(es) and in a bigeminal pattern,Ventricular premature complex(es) AND In a bigeminal pattern,yes
+A00303,both,75.86,t-wave abnormality,T-wave abnormality,yes
+A00304,both,45.45,sinus bradycardia,Sinus bradycardia,no
+A00305,both,3.68,[unknown code: 30+310],[Unknown code: 30+310] OR [Unknown code: 60+308],no
+A00306,both,100.00,normal ecg,Normal ECG,yes
+A00307,both,46.15,normal ecg,Normal ECG,no
+A00308,both,100.00,normal ecg,Normal ECG,yes
+A00309,both,4.36,junctional tachycardia,Junctional tachycardia,no
+A00310,both,61.54,incomplete right bundle-branch block,Incomplete right bundle-branch block,no
+A00311,both,100.00,normal ecg,Normal ECG,yes
+A00312,both,47.62,sinus arrhythmia,Sinus bradycardia OR Sinus arrhythmia,no
+A00313,both,4.00,t-wave abnormality,T-wave abnormality,no
+A00314,both,62.07,right-axis deviation,Right-axis deviation,no
+A00315,both,70.83,st deviation with t-wave change,ST deviation with T-wave change,yes
+A00316,both,100.00,normal ecg,Normal ECG,yes
+A00317,both,100.00,normal ecg,Normal ECG,yes
+A00318,both,45.45,sinus tachycardia,Sinus tachycardia,no
+A00319,both,45.45,sinus tachycardia,Sinus tachycardia OR ST deviation,no
+A00320,both,100.00,normal ecg,Normal ECG,yes
+A00321,both,100.00,normal ecg,Normal ECG,yes
+A00322,both,100.00,normal ecg,Normal ECG,yes
+A00323,both,100.00,normal ecg,Normal ECG,yes
+A00324,both,100.00,normal ecg,Normal ECG,yes
+A00325,both,50.00,t-wave abnormality,T-wave abnormality,no
+A00326,both,72.73,prolonged pr interval,Prolonged PR interval,yes
+A00327,both,100.00,normal ecg,Normal ECG,yes
+A00328,both,100.00,normal ecg,Normal ECG,yes
+A00329,both,45.45,sinus bradycardia,Sinus bradycardia,no
+A00330,both,100.00,normal ecg,Normal ECG,yes
+A00331,both,87.27,st deviation with t-wave change,[Unknown code: 50+346] OR ST deviation with T-wave change,yes
+A00332,both,100.00,normal ecg,Normal ECG,yes
+A00333,both,100.00,normal ecg,Normal ECG,yes
+A00334,both,100.00,normal ecg,Normal ECG,yes
+A00335,both,100.00,normal ecg,Normal ECG,yes
+A00336,both,100.00,normal ecg,Normal ECG,yes
+A00337,both,100.00,normal ecg,Normal ECG,yes
+A00338,both,45.45,sinus bradycardia,Sinus bradycardia,no
+A00339,both,100.00,normal ecg,Normal ECG,yes
+A00340,both,45.45,sinus bradycardia,Sinus bradycardia OR [Unknown code: 147+367] OR [Unknown code: 145+362],no
+A00341,both,100.00,normal ecg,Normal ECG,yes
+A00342,both,100.00,sinus bradycardia,Sinus bradycardia,yes
+A00343,both,47.62,sinus arrhythmia,Sinus arrhythmia,no
+A00344,both,100.00,normal ecg,Normal ECG,yes
+A00345,both,75.86,t-wave abnormality,T-wave abnormality,yes
+A00346,both,75.86,incomplete right bundle-branch block,Incomplete right bundle-branch block,yes
+A00347,both,100.00,normal ecg,Normal ECG,yes
+A00348,both,100.00,normal ecg,Normal ECG,yes
+A00349,both,36.84,st deviation with t-wave change,ST deviation with T-wave change,no
+A00350,both,52.38,st deviation with t-wave change,ST deviation with T-wave change,no
+A00351,both,100.00,normal ecg,Normal ECG,yes
+A00352,both,100.00,normal ecg,Normal ECG,yes
+A00353,both,75.86,t-wave abnormality,T-wave abnormality,yes
+A00354,both,100.00,normal ecg,Normal ECG,yes
+A00355,both,100.00,normal ecg,Normal ECG,yes
+A00356,both,100.00,normal ecg,Normal ECG,yes
+A00357,both,75.86,t-wave abnormality,[Unknown code: 30+308] OR T-wave abnormality,yes
+A00358,both,100.00,normal ecg,Normal ECG,yes
+A00359,both,100.00,normal ecg,Normal ECG,yes
+A00360,both,45.45,sinus bradycardia,Sinus bradycardia,no
+A00361,both,100.00,normal ecg,Normal ECG,yes
+A00362,both,100.00,normal ecg,Normal ECG,yes
+A00363,both,100.00,normal ecg,Normal ECG,yes
+A00364,both,100.00,normal ecg,Normal ECG,yes
+A00365,both,36.36,st deviation and depression,ST deviation AND Depression,no
+A00366,both,100.00,normal ecg,Normal ECG,yes
+A00367,both,75.00,normal ecg,Normal ECG,yes
+A00368,both,100.00,normal ecg,Normal ECG,yes
+A00369,both,47.62,sinus arrhythmia,Sinus arrhythmia,no
+A00370,both,100.00,normal ecg,Normal ECG,yes
+A00371,both,24.39,incomplete right bundle-branch block,Incomplete right bundle-branch block,no
+A00372,both,45.45,sinus bradycardia,Sinus bradycardia,no
+A00373,both,65.00,st deviation and depression,ST deviation AND Depression,no
+A00374,both,45.45,sinus tachycardia,Sinus tachycardia OR [Unknown code: 145+362],no
+A00375,both,45.45,sinus bradycardia,Sinus bradycardia,no
+A00376,both,45.45,sinus bradycardia,Sinus bradycardia OR [Unknown code: 165+332] OR [Unknown code: 145+363],no
+A00377,both,75.86,t-wave abnormality,T-wave abnormality,yes
+A00378,both,100.00,normal ecg,Normal ECG,yes
+A00379,both,100.00,normal ecg,Normal ECG,yes
+A00380,both,100.00,sinus arrhythmia,Sinus arrhythmia OR [Unknown code: 60+310] OR Sinus bradycardia,yes
+A00381,both,100.00,normal ecg,Normal ECG,yes
+A00382,both,28.57,st deviation,ST deviation,no
+A00383,both,100.00,normal ecg,Normal ECG,yes
+A00384,both,91.43,atrial fibrillation and with a rapid ventricular response,Atrial fibrillation AND With a rapid ventricular response,yes
+A00385,both,45.45,sinus tachycardia,Sinus tachycardia,no
+A00386,both,100.00,normal ecg,Normal ECG,yes
+A00387,both,100.00,normal ecg,Normal ECG,yes
+A00388,both,75.86,t-wave abnormality,T-wave abnormality,yes
+A00389,both,47.62,sinus arrhythmia,Sinus bradycardia OR Sinus arrhythmia,no
+A00390,both,100.00,normal ecg,Normal ECG,yes
+A00391,both,45.45,sinus bradycardia,Sinus bradycardia OR [Unknown code: 30+308],no
+A00392,both,100.00,normal ecg,Normal ECG,yes
+A00393,both,100.00,normal ecg,Normal ECG,yes
+A00394,both,46.81,incomplete right bundle-branch block,Incomplete right bundle-branch block,no
+A00395,both,100.00,sinus bradycardia,Sinus bradycardia,yes
+A00396,both,100.00,atrial fibrillation,Atrial fibrillation,yes
+A00397,both,100.00,normal ecg,Normal ECG,yes
+A00398,both,47.62,sinus arrhythmia,Sinus arrhythmia,no
+A00399,both,100.00,normal ecg,Normal ECG,yes
+A00400,both,91.43,atrial fibrillation and with a rapid ventricular response,Atrial fibrillation AND With a rapid ventricular response,yes
+A00401,both,25.00,left ventricular hypertrophy,Left ventricular hypertrophy,no
+A00402,both,100.00,normal ecg,Normal ECG,yes
+A00403,both,100.00,normal ecg,Normal ECG,yes
+A00404,both,100.00,normal ecg,Normal ECG,yes
+A00405,both,50.00,t-wave abnormality,T-wave abnormality,no
+A00406,both,4.20,[unknown code: 60+310],[Unknown code: 60+310] OR [Unknown code: 60+341],no
+A00407,both,70.83,st deviation with t-wave change,Left-axis deviation OR ST deviation with T-wave change,yes
+A00408,both,75.86,t-wave abnormality,T-wave abnormality,yes
+A00409,both,100.00,normal ecg,Normal ECG,yes
+A00410,both,47.62,sinus arrhythmia,Sinus arrhythmia,no
+A00411,both,100.00,normal ecg,Normal ECG,yes
+A00412,both,100.00,normal ecg,Normal ECG,yes
+A00413,both,3.03,st deviation,Low voltage OR ST deviation,no
+A00414,both,50.00,ventricular premature complex(es),[Unknown code: 50+346] OR Ventricular premature complex(es) OR ST deviation with T-wave change,no
+A00415,both,100.00,normal ecg,Normal ECG,yes
+A00416,both,100.00,normal ecg,Normal ECG,yes
+A00417,both,100.00,normal ecg,Normal ECG,yes
+A00418,both,100.00,normal ecg,Normal ECG,yes
+A00419,both,75.86,t-wave abnormality,Sinus tachycardia OR T-wave abnormality,yes
+A00420,both,3.95,right-axis deviation,Right-axis deviation,no
+A00421,both,100.00,normal ecg,Normal ECG,yes
+A00422,both,61.54,incomplete right bundle-branch block,Incomplete right bundle-branch block OR T-wave abnormality,no
+A00423,both,100.00,normal ecg,Normal ECG,yes
+A00424,both,61.11,right bundle-branch block,Sinus bradycardia OR Right bundle-branch block,no
+A00425,both,100.00,normal ecg,Normal ECG,yes
+A00426,both,100.00,normal ecg,Normal ECG,yes
+A00427,both,45.45,sinus tachycardia,Sinus tachycardia,no
+A00428,both,100.00,normal ecg,Normal ECG,yes
+A00429,both,100.00,normal ecg,Normal ECG,yes
+A00430,both,100.00,normal ecg,Normal ECG,yes
+A00431,both,15.05,incomplete right bundle-branch block,Incomplete right bundle-branch block,no
+A00432,both,100.00,t-wave abnormality,T-wave abnormality OR Incomplete right bundle-branch block,yes
+A00433,both,61.11,right bundle-branch block,Right bundle-branch block,no
+A00434,both,50.00,t-wave abnormality,T-wave abnormality,no
+A00435,both,100.00,normal ecg,Normal ECG,yes
+A00436,both,100.00,normal ecg,Normal ECG,yes
+A00437,both,47.62,sinus arrhythmia,Sinus arrhythmia,no
+A00438,both,100.00,normal ecg,Normal ECG,yes
+A00439,both,61.11,right bundle-branch block,Right bundle-branch block,no
+A00440,both,36.36,st deviation and depression,ST deviation AND Depression,no
+A00441,both,3.21,t-wave abnormality,T-wave abnormality OR [Unknown code: 145+362],no
+A00442,both,45.45,sinus bradycardia,Sinus bradycardia,no
+A00443,both,100.00,st deviation,Left ventricular hypertrophy OR ST deviation,yes
+A00444,both,100.00,normal ecg,Normal ECG,yes
+A00445,both,100.00,normal ecg,Normal ECG,yes
+A00446,both,100.00,normal ecg,Normal ECG,yes
+A00447,both,100.00,normal ecg,Normal ECG,yes
+A00448,both,70.42,ventricular premature complex(es) and frequent,Ventricular premature complex(es) AND Frequent,yes
+A00449,both,100.00,normal ecg,Normal ECG,yes
+A00450,both,100.00,normal ecg,Normal ECG,yes
+A00451,both,100.00,normal ecg,Normal ECG,yes
+A00452,both,100.00,normal ecg,Normal ECG,yes
+A00453,both,46.81,incomplete right bundle-branch block,Incomplete right bundle-branch block,no
+A00454,both,100.00,normal ecg,Normal ECG,yes
+A00455,both,28.57,st deviation,[Unknown code: 50+347] OR ST deviation,no
+A00456,both,100.00,normal ecg,Normal ECG,yes
+A00457,both,100.00,normal ecg,Normal ECG,yes
+A00458,both,75.86,t-wave abnormality,T-wave abnormality,yes
+A00459,both,45.45,sinus bradycardia,Sinus bradycardia,no
+A00460,both,28.57,st deviation,ST deviation,no
+A00461,both,36.36,st deviation and depression,ST deviation AND Depression,no
+A00462,both,100.00,left anterior fascicular block,[Unknown code: 165+332] OR Left anterior fascicular block,yes
+A00463,both,2.71,[unknown code: 30+310],[Unknown code: 30+310] OR [Unknown code: 145+362],no
+A00464,both,3.26,t-wave abnormality,T-wave abnormality,no
+A00465,both,77.78,ventricular premature complex(es),Ventricular premature complex(es),yes
+A00466,both,100.00,normal ecg,Normal ECG,yes
+A00467,both,100.00,normal ecg,Normal ECG,yes
+A00468,both,100.00,sinus bradycardia,Sinus bradycardia,yes
+A00469,both,100.00,normal ecg,Normal ECG,yes
+A00470,both,100.00,normal ecg,Normal ECG,yes
+A00471,both,100.00,normal ecg,Normal ECG,yes
+A00472,both,100.00,normal ecg,Normal ECG,yes
+A00473,both,100.00,normal ecg,Normal ECG,yes
+A00474,both,4.05,short pr interval,Short PR interval,no
+A00475,both,70.42,ventricular premature complex(es) and frequent,Ventricular premature complex(es) AND Frequent,yes
+A00476,both,100.00,normal ecg,Normal ECG,yes
+A00477,both,45.45,sinus bradycardia,Sinus bradycardia OR Low voltage,no
+A00478,both,100.00,normal ecg,Normal ECG,yes
+A00479,both,100.00,normal ecg,Normal ECG,yes
+A00480,both,100.00,normal ecg,Normal ECG,yes
+A00481,both,100.00,normal ecg,Normal ECG,yes
+A00482,both,100.00,left ventricular hypertrophy,Left ventricular hypertrophy OR ST-T change due to ventricular hypertrophy OR Ventricular premature complex(es),yes
+A00483,both,80.77,st deviation with t-wave change,ST deviation with T-wave change,yes
+A00484,both,100.00,normal ecg,Normal ECG,yes
+A00485,both,75.86,t-wave abnormality,[Unknown code: 161+331] OR T-wave abnormality,yes
+A00486,both,100.00,sinus bradycardia,Sinus bradycardia,yes
+A00487,both,81.48,t-wave abnormality and inversion,T-wave abnormality AND Inversion,yes
+A00488,both,100.00,normal ecg,Normal ECG,yes
+A00489,both,75.86,t-wave abnormality,T-wave abnormality,yes
+A00490,both,100.00,normal ecg,Normal ECG,yes
+A00491,both,47.62,sinus arrhythmia,Sinus arrhythmia,no
+A00492,both,100.00,low voltage,Low voltage OR T-wave abnormality,yes
+A00493,both,100.00,normal ecg,Normal ECG,yes
+A00494,both,45.45,sinus bradycardia,Sinus bradycardia,no
+A00495,both,61.11,right bundle-branch block,Right bundle-branch block,no
+A00496,both,100.00,normal ecg,Normal ECG,yes
+A00497,both,100.00,normal ecg,Normal ECG,yes
+A00498,both,100.00,normal ecg,Normal ECG,yes
+A00499,both,75.86,t-wave abnormality,Sinus arrhythmia OR T-wave abnormality,yes
+A00500,both,3.38,t-wave abnormality,T-wave abnormality,no
+A00501,both,100.00,normal ecg,Normal ECG,yes
+A00502,both,100.00,normal ecg,Normal ECG,yes
+A00503,both,100.00,normal ecg,Normal ECG,yes
+A00504,both,20.00,st deviation and depression,ST deviation AND Depression,no
+A00505,both,100.00,normal ecg,Normal ECG,yes
+A00506,both,100.00,normal ecg,Normal ECG,yes
+A00507,both,61.11,right bundle-branch block,Right bundle-branch block,no
+A00508,both,87.27,st deviation with t-wave change,ST deviation with T-wave change,yes
+A00509,both,47.62,sinus arrhythmia,Sinus bradycardia OR Sinus arrhythmia,no
+A00510,both,100.00,sinus tachycardia,Sinus tachycardia,yes
+A00511,both,64.29,left-axis deviation,Left-axis deviation,no
+A00512,both,42.86,low voltage,Low voltage,no
+A00513,both,100.00,st deviation,ST deviation,yes
+A00514,both,45.45,sinus bradycardia,Sinus bradycardia,no
+A00515,both,100.00,normal ecg,Normal ECG,yes
+A00516,both,100.00,normal ecg,Normal ECG,yes
+A00517,both,100.00,normal ecg,Normal ECG,yes
+A00518,both,100.00,normal ecg,Normal ECG,yes
+A00519,both,100.00,normal ecg,Normal ECG,yes
+A00520,both,22.86,st deviation with t-wave change,[Unknown code: 165+332] OR ST deviation with T-wave change,no
+A00521,both,100.00,normal ecg,Normal ECG,yes
+A00522,both,100.00,normal ecg,Normal ECG,yes
+A00523,both,100.00,normal ecg,Normal ECG,yes
+A00524,both,100.00,normal ecg,Normal ECG,yes
+A00525,both,100.00,normal ecg,Normal ECG,yes
+A00526,both,100.00,normal ecg,Normal ECG,yes
+A00527,both,91.43,atrial fibrillation and with a rapid ventricular response,Atrial fibrillation AND With a rapid ventricular response,yes
+A00528,both,100.00,normal ecg,Normal ECG,yes
+A00529,both,100.00,normal ecg,Normal ECG,yes
+A00530,both,100.00,normal ecg,Normal ECG,yes
+A00531,both,100.00,normal ecg,Normal ECG,yes
+A00532,both,100.00,normal ecg,Normal ECG,yes
+A00533,both,100.00,normal ecg,Normal ECG,yes
+A00534,both,61.11,right bundle-branch block,Right bundle-branch block,no
+A00535,both,100.00,normal ecg,Normal ECG,yes
+A00536,both,100.00,normal ecg,Normal ECG,yes
+A00537,both,100.00,normal ecg,Normal ECG,yes
+A00538,both,100.00,normal ecg,Normal ECG,yes
+A00539,both,100.00,normal ecg,Normal ECG,yes
+A00540,both,50.00,t-wave abnormality,T-wave abnormality,no
+A00541,both,61.11,right bundle-branch block,Right bundle-branch block,no
+A00542,both,100.00,t-wave abnormality,T-wave abnormality,yes
+A00543,both,45.45,sinus bradycardia,Sinus bradycardia,no
+A00544,both,100.00,normal ecg,Normal ECG,yes
+A00545,both,100.00,normal ecg,Normal ECG,yes
+A00546,both,45.45,sinus bradycardia,Sinus bradycardia,no
+A00547,both,75.86,t-wave abnormality,T-wave abnormality,yes
+A00548,both,100.00,normal ecg,Normal ECG,yes
+A00549,both,100.00,normal ecg,Normal ECG,yes
+A00550,both,47.62,sinus arrhythmia,Sinus bradycardia OR Sinus arrhythmia,no
+A00551,both,75.86,incomplete right bundle-branch block,[Unknown code: 161+332] OR Incomplete right bundle-branch block OR T-wave abnormality,yes
+A00552,both,100.00,normal ecg,Normal ECG,yes
+A00553,both,100.00,normal ecg,Normal ECG,yes
+A00554,both,100.00,normal ecg,Normal ECG,yes
+A00555,both,100.00,normal ecg,Normal ECG,yes
+A00556,both,100.00,normal ecg,Normal ECG,yes
+A00557,both,62.22,st deviation with t-wave change,Sinus bradycardia OR ST deviation with T-wave change,no
+A00558,both,45.45,sinus tachycardia,Sinus tachycardia,no
+A00559,both,61.54,incomplete right bundle-branch block,Incomplete right bundle-branch block OR Junctional premature complex(es) OR [Unknown code: 145+362] OR Prolonged PR interval,no
+A00560,both,100.00,normal ecg,Normal ECG,yes
+A00561,both,100.00,normal ecg,Normal ECG,yes
+A00562,both,100.00,normal ecg,Normal ECG,yes
+A00563,both,100.00,normal ecg,Normal ECG,yes
+A00564,both,46.15,normal ecg,Normal ECG,no
+A00565,both,61.11,right bundle-branch block,Sinus bradycardia OR Right bundle-branch block,no
+A00566,both,100.00,normal ecg,Normal ECG,yes
+A00567,both,45.45,sinus tachycardia,Sinus tachycardia,no
+A00568,both,100.00,normal ecg,Normal ECG,yes
+A00569,both,100.00,normal ecg,Normal ECG,yes
+A00570,both,100.00,normal ecg,Normal ECG,yes
+A00571,both,100.00,sinus tachycardia,Sinus tachycardia,yes
+A00572,both,100.00,normal ecg,Normal ECG,yes
+A00573,both,28.57,st deviation,ST deviation,no
+A00574,both,75.86,incomplete right bundle-branch block,Sinus bradycardia OR Incomplete right bundle-branch block,yes
+A00575,both,45.45,sinus bradycardia,Sinus bradycardia,no
+A00576,both,100.00,normal ecg,Normal ECG,yes
+A00577,both,100.00,normal ecg,Normal ECG,yes
+A00578,both,100.00,normal ecg,Normal ECG,yes
+A00579,both,47.62,sinus arrhythmia,Sinus arrhythmia,no
+A00580,both,91.43,atrial fibrillation and with a rapid ventricular response,Atrial fibrillation AND With a rapid ventricular response,yes
+A00581,both,45.45,sinus bradycardia,Sinus bradycardia,no
+A00582,both,100.00,normal ecg,Normal ECG,yes
+A00583,both,45.45,sinus bradycardia,Sinus bradycardia,no
+A00584,both,100.00,normal ecg,Normal ECG,yes
+A00585,both,77.78,ventricular premature complex(es),Right bundle-branch block OR Ventricular premature complex(es),yes
+A00586,both,100.00,normal ecg,Normal ECG,yes
+A00587,both,45.45,sinus bradycardia,Sinus bradycardia,no
+A00588,both,100.00,normal ecg,Normal ECG,yes
+A00589,both,45.45,sinus bradycardia,Sinus bradycardia,no
+A00590,both,100.00,normal ecg,Normal ECG,yes
+A00591,both,100.00,t-wave abnormality,T-wave abnormality,yes
+A00592,both,100.00,normal ecg,Normal ECG,yes
+A00593,both,3.95,t-wave abnormality,T-wave abnormality,no
+A00594,both,47.62,sinus arrhythmia,Sinus arrhythmia OR T-wave abnormality,no
+A00595,both,80.77,st deviation with t-wave change,ST deviation with T-wave change,yes
+A00596,both,45.45,sinus tachycardia,Sinus tachycardia,no
+A00597,both,100.00,normal ecg,Normal ECG,yes
+A00598,both,20.00,st deviation and depression,ST deviation AND Depression,no
+A00599,both,42.86,low voltage,[Unknown code: 60+308] OR [Unknown code: 160+332] OR [Unknown code: 161+332] OR Low voltage,no
+A00600,both,100.00,normal ecg,Normal ECG,yes
+A00601,both,45.45,sinus bradycardia,Sinus bradycardia,no
+A00602,both,100.00,normal ecg,Normal ECG,yes
+A00603,both,37.74,atrial premature complex(es) and occasional,Atrial premature complex(es) AND Occasional,no
+A00604,both,100.00,normal ecg,Normal ECG,yes
+A00605,both,100.00,normal ecg,Normal ECG,yes
+A00606,both,28.57,st deviation,ST deviation,no
+A00607,both,100.00,normal ecg,Normal ECG,yes
+A00608,both,100.00,normal ecg,Normal ECG,yes
+A00609,both,100.00,normal ecg,Normal ECG,yes
+A00610,both,100.00,normal ecg,Normal ECG,yes
+A00611,both,100.00,normal ecg,Normal ECG,yes
+A00612,both,4.18,t-wave abnormality,T-wave abnormality,no
+A00613,both,27.27,inferior mi and old,Inferior MI AND Old,no
+A00614,both,45.45,sinus bradycardia,Sinus bradycardia,no
+A00615,both,30.77,"av block, complete (third-degree)","AV block, complete (third-degree) OR [Unknown code: 145+362]",no
+A00616,both,100.00,normal ecg,Normal ECG,yes
+A00617,both,100.00,normal ecg,Normal ECG,yes
+A00618,both,100.00,normal ecg,Normal ECG,yes
+A00619,both,100.00,normal ecg,Normal ECG,yes
+A00620,both,65.57,atrial premature complex(es) and frequent,Atrial premature complex(es) AND Frequent,no
+A00621,both,72.73,left ventricular hypertrophy,[Unknown code: 60+310] OR Left ventricular hypertrophy,yes
+A00622,both,45.45,sinus bradycardia,Sinus bradycardia,no
+A00623,both,77.78,ventricular premature complex(es),Ventricular premature complex(es),yes
+A00624,both,100.00,normal ecg,Normal ECG,yes
+A00625,both,100.00,normal ecg,Normal ECG,yes
+A00626,both,45.45,sinus bradycardia,Sinus bradycardia,no
+A00627,both,100.00,normal ecg,Normal ECG,yes
+A00628,both,28.57,st deviation,ST deviation,no
+A00629,both,45.45,sinus bradycardia,Sinus bradycardia,no
+A00630,both,100.00,normal ecg,Normal ECG,yes
+A00631,both,61.11,right bundle-branch block,Right bundle-branch block,no
+A00632,both,70.42,ventricular premature complex(es) and frequent,Ventricular premature complex(es) AND Frequent,yes
+A00633,both,100.00,normal ecg,Normal ECG,yes
+A00634,both,100.00,normal ecg,Normal ECG,yes
+A00635,both,77.78,ventricular premature complex(es),Sinus bradycardia OR Ventricular premature complex(es) OR ST deviation with T-wave change,yes
+A00636,both,100.00,normal ecg,Normal ECG,yes
+A00637,both,50.00,t-wave abnormality,T-wave abnormality,no
+A00638,both,100.00,sinus bradycardia,Sinus bradycardia,yes
+A00639,both,100.00,normal ecg,Normal ECG,yes
+A00640,both,45.45,sinus bradycardia,Sinus bradycardia OR ST deviation with T-wave change,no
+A00641,both,100.00,normal ecg,Normal ECG,yes
+A00642,both,45.45,sinus bradycardia,Sinus bradycardia,no
+A00643,both,100.00,sinus arrhythmia,Sinus arrhythmia OR [Unknown code: 60+310] OR ST deviation with T-wave change,yes
+A00644,both,77.78,ventricular premature complex(es),Sinus bradycardia OR Ventricular premature complex(es) OR ST deviation,yes
+A00645,both,100.00,normal ecg,Normal ECG,yes
+A00646,both,46.15,normal ecg,Normal ECG,no
+A00647,both,100.00,normal ecg,Normal ECG,yes
+A00648,both,75.86,t-wave abnormality,T-wave abnormality,yes
+A00649,both,61.11,right bundle-branch block,Sinus bradycardia OR Right bundle-branch block,no
+A00650,both,50.00,t-wave abnormality,T-wave abnormality,no
+A00651,both,100.00,normal ecg,Normal ECG,yes
+A00652,both,46.81,incomplete right bundle-branch block,Incomplete right bundle-branch block,no
+A00653,both,100.00,t-wave abnormality,Sinus bradycardia OR T-wave abnormality,yes
+A00654,both,100.00,normal ecg,Normal ECG,yes
+A00655,both,100.00,normal ecg,Normal ECG,yes
+A00656,both,48.00,atrial fibrillation,Atrial fibrillation,no
+A00657,both,45.45,sinus bradycardia,Sinus bradycardia OR [Unknown code: 147+367],no
+A00658,both,66.67,ventricular premature complex(es) and in a bigeminal pattern,Ventricular premature complex(es) AND In a bigeminal pattern,no
+A00659,both,75.86,t-wave abnormality,Sinus bradycardia OR Sinus arrhythmia OR T-wave abnormality,yes
+A00660,both,100.00,normal ecg,Normal ECG,yes
+A00661,both,100.00,normal ecg,Normal ECG,yes
+A00662,both,46.81,incomplete right bundle-branch block,Sinus bradycardia OR Low voltage OR Incomplete right bundle-branch block,no
+A00663,both,46.81,incomplete right bundle-branch block,Incomplete right bundle-branch block,no
+A00664,both,45.45,sinus bradycardia,Sinus bradycardia OR ST deviation,no
+A00665,both,100.00,normal ecg,Normal ECG,yes
+A00666,both,75.00,normal ecg,Normal ECG,yes
+A00667,both,91.43,atrial fibrillation and with a rapid ventricular response,Atrial fibrillation AND With a rapid ventricular response,yes
+A00668,both,58.82,left bundle-branch block,[Unknown code: 50+346] OR Left bundle-branch block,no
+A00669,both,62.07,right-axis deviation,Right-axis deviation,no
+A00670,both,100.00,sinus tachycardia,Sinus tachycardia,yes
+A00671,both,100.00,normal ecg,Normal ECG,yes
+A00672,both,100.00,normal ecg,Normal ECG,yes
+A00673,both,45.45,sinus bradycardia,Sinus bradycardia OR Low voltage,no
+A00674,both,100.00,normal ecg,Normal ECG,yes
+A00675,both,50.00,ventricular premature complex(es),Sinus tachycardia OR Ventricular premature complex(es),no
+A00676,both,100.00,normal ecg,Normal ECG,yes
+A00677,both,47.62,sinus arrhythmia,Sinus arrhythmia,no
+A00678,both,75.86,incomplete right bundle-branch block,Incomplete right bundle-branch block,yes
+A00679,both,100.00,normal ecg,Normal ECG,yes
+A00680,both,66.67,ventricular premature complex(es) and in a bigeminal pattern,Ventricular premature complex(es) AND In a bigeminal pattern,no
+A00681,both,100.00,normal ecg,Normal ECG,yes
+A00682,both,100.00,normal ecg,Normal ECG,yes
+A00683,both,62.07,right-axis deviation,Right-axis deviation,no
+A00684,both,100.00,normal ecg,Normal ECG,yes
+A00685,both,100.00,sinus bradycardia,Sinus bradycardia OR T-wave abnormality,yes
+A00686,both,100.00,normal ecg,Normal ECG,yes
+A00687,both,77.55,left anterior fascicular block,Left anterior fascicular block,yes
+A00688,both,36.36,st deviation and depression,ST deviation AND Depression,no
+A00689,both,100.00,t-wave abnormality,T-wave abnormality,yes
+A00690,both,60.00,prolonged pr interval,Sinus tachycardia OR Prolonged PR interval OR [Unknown code: 145+362],no
+A00691,both,70.83,st deviation with t-wave change,Sinus bradycardia OR ST deviation with T-wave change,yes
+A00692,both,47.62,sinus arrhythmia,Sinus arrhythmia,no
+A00693,both,45.45,sinus tachycardia,Sinus tachycardia,no
+A00694,both,100.00,normal ecg,Normal ECG,yes
+A00695,both,45.45,sinus bradycardia,Sinus bradycardia,no
+A00696,both,100.00,left ventricular hypertrophy,[Unknown code: 50+346] OR Left ventricular hypertrophy OR ST deviation with T-wave change,yes
+A00697,both,100.00,normal ecg,Normal ECG,yes
+A00698,both,72.73,left ventricular hypertrophy,Left ventricular hypertrophy OR ST-T change due to ventricular hypertrophy,yes
+A00699,both,100.00,left anterior fascicular block,Left anterior fascicular block,yes
+A00700,both,3.53,t-wave abnormality,T-wave abnormality,no
+A00701,both,100.00,normal ecg,Normal ECG,yes
+A00702,both,100.00,normal ecg,Normal ECG,yes
+A00703,both,100.00,st deviation,ST deviation,yes
+A00704,both,77.78,ventricular premature complex(es),Ventricular premature complex(es),yes
+A00705,both,100.00,normal ecg,Normal ECG,yes
+A00706,both,75.00,normal ecg,Normal ECG,yes
+A00707,both,8.45,right-axis deviation,Right-axis deviation,no
+A00708,both,100.00,normal ecg,Normal ECG,yes
+A00709,both,65.93,ventricular premature complex(es) and in a trigeminal pattern,Ventricular premature complex(es) AND In a trigeminal pattern,no
+A00710,both,100.00,normal ecg,Normal ECG,yes
+A00711,both,100.00,normal ecg,Normal ECG,yes
+A00712,both,47.62,sinus arrhythmia,Sinus arrhythmia,no
+A00713,both,74.42,st deviation and depression,ST deviation AND Depression,yes
+A00714,both,85.71,st deviation,[Unknown code: 60+310] OR ST deviation,yes
+A00715,both,36.36,st deviation and depression,ST deviation AND Depression,no
+A00716,both,100.00,normal ecg,Normal ECG,yes
+A00717,both,52.38,st deviation with t-wave change,ST deviation with T-wave change,no
+A00718,both,47.62,sinus arrhythmia,Sinus arrhythmia,no
+A00719,both,100.00,normal ecg,Normal ECG,yes
+A00720,both,100.00,normal ecg,Normal ECG,yes
+A00721,both,36.84,st deviation with t-wave change,ST deviation with T-wave change,no
+A00722,both,100.00,t-wave abnormality,Sinus bradycardia OR T-wave abnormality,yes
+A00723,both,45.45,sinus bradycardia,Sinus bradycardia,no
+A00724,both,100.00,normal ecg,Normal ECG,yes
+A00725,both,100.00,normal ecg,Normal ECG,yes
+A00726,both,70.83,st deviation with t-wave change,ST deviation with T-wave change,yes
+A00727,both,45.45,sinus bradycardia,Sinus bradycardia,no
+A00728,both,100.00,normal ecg,Normal ECG,yes
+A00729,both,33.33,right bundle-branch block,Right bundle-branch block OR [Unknown code: 147+367],no
+A00730,both,100.00,normal ecg,Normal ECG,yes
+A00731,both,100.00,normal ecg,Normal ECG,yes
+A00732,both,65.57,atrial premature complex(es) and frequent,Atrial premature complex(es) AND Frequent,no
+A00733,both,100.00,normal ecg,Normal ECG,yes
+A00734,both,75.86,t-wave abnormality,Sinus bradycardia OR T-wave abnormality,yes
+A00735,both,48.00,atrial fibrillation,Atrial fibrillation,no
+A00736,both,45.45,sinus bradycardia,Sinus bradycardia,no
+A00737,both,100.00,normal ecg,Normal ECG,yes
+A00738,both,100.00,normal ecg,Normal ECG,yes
+A00739,both,100.00,normal ecg,Normal ECG,yes
+A00740,both,100.00,normal ecg,Normal ECG,yes
+A00741,both,45.45,sinus bradycardia,Sinus bradycardia,no
+A00742,both,5.04,t-wave abnormality,T-wave abnormality,no
+A00743,both,100.00,normal ecg,Normal ECG,yes
+A00744,both,36.84,st deviation with t-wave change,ST deviation with T-wave change,no
+A00745,both,45.45,sinus tachycardia,Sinus tachycardia OR ST deviation with T-wave change,no
+A00746,both,100.00,normal ecg,Normal ECG,yes
+A00747,both,77.27,st deviation and depression,ST deviation AND Depression,yes
+A00748,both,100.00,normal ecg,Normal ECG,yes
+A00749,both,36.36,st deviation and depression,ST deviation AND Depression,no
+A00750,both,100.00,normal ecg,Normal ECG,yes
+A00751,both,100.00,normal ecg,Normal ECG,yes
+A00752,both,47.62,sinus arrhythmia,Sinus arrhythmia,no
+A00753,both,63.83,t-wave abnormality and inversion,T-wave abnormality AND Inversion,no
+A00754,both,100.00,normal ecg,Normal ECG,yes
+A00755,both,100.00,normal ecg,Normal ECG,yes
+A00756,both,100.00,normal ecg,Normal ECG,yes
+A00757,both,100.00,t-wave abnormality,[Unknown code: 50+346] OR T-wave abnormality OR [Unknown code: 145+362],yes
+A00758,both,46.15,normal ecg,Normal ECG,no
+A00759,both,100.00,normal ecg,Normal ECG,yes
+A00760,both,100.00,normal ecg,Normal ECG,yes
+A00761,both,50.00,t-wave abnormality,T-wave abnormality,no
+A00762,both,47.62,sinus arrhythmia,Sinus arrhythmia,no
+A00763,both,100.00,normal ecg,Normal ECG,yes
+A00764,both,100.00,normal ecg,Normal ECG,yes
+A00765,both,100.00,t-wave abnormality,Sinus arrhythmia OR Prolonged PR interval OR T-wave abnormality,yes
+A00766,both,100.00,normal ecg,Normal ECG,yes
+A00767,both,100.00,normal ecg,Normal ECG,yes
+A00768,both,100.00,normal ecg,Normal ECG,yes
+A00769,both,61.11,right bundle-branch block,Right bundle-branch block OR Atrial premature complex(es),no
+A00770,both,100.00,normal ecg,Normal ECG,yes
+A00771,both,100.00,normal ecg,Normal ECG,yes
+A00772,both,100.00,normal ecg,Normal ECG,yes
+A00773,both,45.45,sinus bradycardia,Sinus bradycardia,no
+A00774,both,100.00,normal ecg,Normal ECG,yes
+A00775,both,100.00,sinus tachycardia,Sinus tachycardia OR Incomplete right bundle-branch block OR T-wave abnormality,yes
+A00776,both,100.00,normal ecg,Normal ECG,yes
+A00777,both,100.00,normal ecg,Normal ECG,yes
+A00778,both,45.45,sinus bradycardia,Sinus bradycardia,no
+A00779,both,100.00,normal ecg,Normal ECG,yes
+A00780,both,100.00,sinus tachycardia,Sinus tachycardia OR [Unknown code: 145+362],yes
+A00781,both,100.00,st deviation,ST deviation,yes
+A00782,both,75.86,t-wave abnormality,T-wave abnormality,yes
+A00783,both,100.00,normal ecg,Normal ECG,yes
+A00784,both,58.82,left bundle-branch block,Left bundle-branch block,no
+A00785,both,5.06,junctional tachycardia,Junctional tachycardia,no
+A00786,both,77.78,ventricular premature complex(es),Ventricular premature complex(es),yes
+A00787,both,45.45,sinus bradycardia,Sinus bradycardia OR T-wave abnormality,no
+A00788,both,100.00,normal ecg,Normal ECG,yes
+A00789,both,77.42,anterior mi and old,Anterior MI AND Old,yes
+A00790,both,45.45,sinus bradycardia,Sinus bradycardia OR Low voltage,no
+A00791,both,75.86,incomplete right bundle-branch block,Incomplete right bundle-branch block,yes
+A00792,both,100.00,normal ecg,Normal ECG,yes
+A00793,both,100.00,normal ecg,Normal ECG,yes
+A00794,both,61.54,incomplete right bundle-branch block,Incomplete right bundle-branch block,no
+A00795,both,4.04,right-axis deviation,Right-axis deviation,no
+A00796,both,100.00,st deviation,Low voltage OR ST deviation,yes
+A00798,both,100.00,normal ecg,Normal ECG,yes
+A00799,both,100.00,normal ecg,Normal ECG,yes
+A00800,both,100.00,st deviation,ST deviation,yes
+A00801,both,45.45,sinus bradycardia,Sinus bradycardia,no
+A00802,both,47.62,sinus arrhythmia,Sinus bradycardia OR Sinus arrhythmia,no
+A00803,both,100.00,normal ecg,Normal ECG,yes
+A00804,both,45.45,sinus bradycardia,Sinus bradycardia,no
+A00805,both,100.00,normal ecg,Normal ECG,yes
+A00806,both,65.00,st deviation and depression,ST deviation AND Depression,no
+A00807,both,61.11,right bundle-branch block,Sinus bradycardia OR Right bundle-branch block OR Prolonged PR interval,no
+A00808,both,77.27,st deviation and depression,ST deviation AND Depression,yes
+A00809,both,28.57,st deviation,ST deviation,no
+A00810,both,77.78,ventricular premature complex(es),Ventricular premature complex(es) OR T-wave abnormality,yes
+A00811,both,100.00,normal ecg,Normal ECG,yes
+A00812,both,33.33,right bundle-branch block,Right bundle-branch block,no
+A00813,both,100.00,normal ecg,Normal ECG,yes
+A00814,both,100.00,normal ecg,Normal ECG,yes
+A00815,both,46.81,incomplete right bundle-branch block,Incomplete right bundle-branch block,no
+A00816,both,75.86,incomplete right bundle-branch block,Sinus bradycardia OR Incomplete right bundle-branch block,yes
+A00817,both,100.00,normal ecg,Normal ECG,yes
+A00818,both,100.00,normal ecg,Normal ECG,yes
+A00819,both,100.00,normal ecg,Normal ECG,yes
+A00820,both,62.22,st deviation with t-wave change,ST deviation with T-wave change OR Atrial premature complex(es),no
+A00821,both,100.00,normal ecg,Normal ECG,yes
+A00822,both,100.00,normal ecg,Normal ECG,yes
+A00823,both,100.00,normal ecg,Normal ECG,yes
+A00824,both,100.00,normal ecg,Normal ECG,yes
+A00825,both,100.00,normal ecg,Normal ECG,yes
+A00826,both,100.00,normal ecg,Normal ECG,yes
+A00827,both,100.00,normal ecg,Normal ECG,yes
+A00828,both,50.00,t-wave abnormality,T-wave abnormality,no
+A00829,both,100.00,normal ecg,Normal ECG,yes
+A00830,both,77.78,ventricular premature complex(es),Ventricular premature complex(es),yes
+A00831,both,77.55,left anterior fascicular block,[Unknown code: 160+332] OR Left anterior fascicular block OR T-wave abnormality,yes
+A00832,both,100.00,normal ecg,Normal ECG,yes
+A00833,both,47.62,sinus arrhythmia,Sinus arrhythmia,no
+A00834,both,100.00,normal ecg,Normal ECG,yes
+A00835,both,100.00,normal ecg,Normal ECG,yes
+A00836,both,45.45,sinus tachycardia,Sinus tachycardia OR ST deviation with T-wave change,no
+A00837,both,60.47,left anterior fascicular block,Left anterior fascicular block OR Sinus arrhythmia,no
+A00838,both,100.00,normal ecg,Normal ECG,yes
+A00839,both,100.00,normal ecg,Normal ECG,yes
+A00840,both,100.00,normal ecg,Normal ECG,yes
+A00841,both,45.45,sinus bradycardia,Sinus bradycardia,no
+A00842,both,100.00,normal ecg,Normal ECG,yes
+A00843,both,100.00,prolonged pr interval,Sinus tachycardia OR Prolonged PR interval OR Low voltage,yes
+A00844,both,100.00,normal ecg,Normal ECG,yes
+A00845,both,100.00,normal ecg,Normal ECG,yes
+A00846,both,100.00,normal ecg,Normal ECG,yes
+A00847,both,100.00,sinus tachycardia,Sinus tachycardia OR [Unknown code: 60+310],yes
+A00848,both,100.00,st deviation,[Unknown code: 50+346] OR Incomplete right bundle-branch block OR ST deviation,yes
+A00849,both,36.84,st deviation with t-wave change,[Unknown code: 50+346] OR ST deviation with T-wave change,no
+A00850,both,100.00,normal ecg,Normal ECG,yes
+A00851,both,75.86,t-wave abnormality,T-wave abnormality,yes
+A00852,both,100.00,normal ecg,Normal ECG,yes
+A00853,both,66.67,ventricular premature complex(es) and in a bigeminal pattern,Ventricular premature complex(es) AND In a bigeminal pattern,no
+A00854,both,62.22,st deviation with t-wave change,Low voltage OR Left atrial enlargement OR ST deviation with T-wave change OR Right-axis deviation,no
+A00855,both,100.00,sinus bradycardia,Sinus bradycardia OR Prolonged QT interval,yes
+A00856,both,100.00,normal ecg,Normal ECG,yes
+A00857,both,12.56,st deviation with t-wave change,ST deviation with T-wave change,no
+A00858,both,100.00,normal ecg,Normal ECG,yes
+A00859,both,100.00,sinus bradycardia,Sinus bradycardia,yes
+A00860,both,75.86,t-wave abnormality,T-wave abnormality,yes
+A00861,both,100.00,normal ecg,Normal ECG,yes
+A00862,both,100.00,normal ecg,Normal ECG,yes
+A00863,both,100.00,normal ecg,Normal ECG,yes
+A00864,both,100.00,normal ecg,Normal ECG,yes
+A00865,both,45.45,sinus bradycardia,Sinus bradycardia,no
+A00866,both,100.00,normal ecg,Normal ECG,yes
+A00867,both,100.00,normal ecg,Normal ECG,yes
+A00868,both,100.00,normal ecg,Normal ECG,yes
+A00869,both,100.00,t-wave abnormality,Sinus bradycardia OR Sinus arrhythmia OR T-wave abnormality,yes
+A00870,both,47.62,sinus arrhythmia,Sinus bradycardia OR Sinus arrhythmia,no
+A00871,both,100.00,normal ecg,Normal ECG,yes
+A00872,both,100.00,normal ecg,Normal ECG,yes
+A00873,both,75.86,incomplete right bundle-branch block,Incomplete right bundle-branch block,yes
+A00874,both,100.00,normal ecg,Normal ECG,yes
+A00875,both,47.62,sinus arrhythmia,Sinus bradycardia OR Sinus arrhythmia,no
+A00876,both,100.00,normal ecg,Normal ECG,yes
+A00877,both,100.00,normal ecg,Normal ECG,yes
+A00878,both,100.00,sinus bradycardia,Sinus bradycardia,yes
+A00879,both,47.62,sinus arrhythmia,Sinus bradycardia OR Sinus arrhythmia OR Incomplete right bundle-branch block,no
+A00880,both,100.00,t-wave abnormality,Left bundle-branch block OR T-wave abnormality,yes
+A00881,both,100.00,normal ecg,Normal ECG,yes
+A00882,both,100.00,normal ecg,Normal ECG,yes
+A00883,both,100.00,sinus tachycardia,Sinus tachycardia,yes
+A00884,both,45.45,sinus bradycardia,Sinus bradycardia,no
+A00885,both,100.00,normal ecg,Normal ECG,yes
+A00886,both,100.00,t-wave abnormality,Sinus bradycardia OR T-wave abnormality,yes
+A00887,both,100.00,normal ecg,Normal ECG,yes
+A00888,both,100.00,normal ecg,Normal ECG,yes
+A00889,both,85.71,st deviation,ST deviation,yes
+A00890,both,100.00,normal ecg,Normal ECG,yes
+A00891,both,100.00,normal ecg,Normal ECG,yes
+A00892,both,100.00,normal ecg,Normal ECG,yes
+A00893,both,68.49,ventricular premature complex(es) and occasional,Ventricular premature complex(es) AND Occasional,no
+A00894,both,100.00,normal ecg,Normal ECG,yes
+A00895,both,100.00,normal ecg,Normal ECG,yes
+A00896,both,100.00,normal ecg,Normal ECG,yes
+A00897,both,50.00,t-wave abnormality,Sinus bradycardia OR T-wave abnormality,no
+A00898,both,100.00,normal ecg,Normal ECG,yes
+A00899,both,100.00,normal ecg,Normal ECG,yes
+A00900,both,100.00,normal ecg,Normal ECG,yes
+A00901,both,45.45,sinus bradycardia,Sinus bradycardia,no
+A00902,both,100.00,normal ecg,Normal ECG,yes
+A00903,both,100.00,normal ecg,Normal ECG,yes
+A00904,both,45.45,sinus bradycardia,Sinus bradycardia OR T-wave abnormality,no
+A00905,both,100.00,normal ecg,Normal ECG,yes
+A00906,both,75.86,incomplete right bundle-branch block,Incomplete right bundle-branch block OR [Unknown code: 145+362],yes
+A00907,both,76.92,t-wave abnormality and inversion,T-wave abnormality AND Inversion,yes
+A00908,both,100.00,normal ecg,Normal ECG,yes
+A00909,both,64.29,left-axis deviation,Left-axis deviation,no
+A00910,both,2.94,sinus bradycardia,Sinus bradycardia,no
+A00911,both,45.45,sinus bradycardia,Sinus bradycardia,no
+A00912,both,100.00,normal ecg,Normal ECG,yes
+A00913,both,100.00,normal ecg,Normal ECG,yes
+A00914,both,100.00,normal ecg,Normal ECG,yes
+A00915,both,60.47,left anterior fascicular block,Left anterior fascicular block,no
+A00916,both,100.00,normal ecg,Normal ECG,yes
+A00917,both,100.00,normal ecg,Normal ECG,yes
+A00918,both,47.62,sinus arrhythmia,Sinus arrhythmia,no
+A00919,both,100.00,normal ecg,Normal ECG,yes
+A00920,both,47.62,sinus arrhythmia,Sinus arrhythmia,no
+A00921,both,8.02,incomplete right bundle-branch block,Incomplete right bundle-branch block,no
+A00922,both,100.00,normal ecg,Normal ECG,yes
+A00923,both,100.00,normal ecg,Normal ECG,yes
+A00924,both,100.00,normal ecg,Normal ECG,yes
+A00925,both,100.00,normal ecg,Normal ECG,yes
+A00926,both,45.45,sinus bradycardia,Sinus bradycardia,no
+A00927,both,100.00,normal ecg,Normal ECG,yes
+A00928,both,100.00,sinus tachycardia,Sinus tachycardia,yes
+A00929,both,91.43,atrial fibrillation and with a rapid ventricular response,Atrial fibrillation AND With a rapid ventricular response,yes
+A00930,both,100.00,normal ecg,Normal ECG,yes
+A00931,both,100.00,normal ecg,Normal ECG,yes
+A00932,both,100.00,normal ecg,Normal ECG,yes
+A00933,both,100.00,normal ecg,Normal ECG,yes
+A00934,both,100.00,normal ecg,Normal ECG,yes
+A00935,both,2.12,low voltage,Low voltage,no
+A00936,both,75.86,t-wave abnormality,T-wave abnormality,yes
+A00937,both,100.00,normal ecg,Normal ECG,yes
+A00938,both,24.39,incomplete right bundle-branch block,Incomplete right bundle-branch block,no
+A00939,both,100.00,normal ecg,Normal ECG,yes
+A00940,both,75.86,t-wave abnormality,Sinus bradycardia OR T-wave abnormality,yes
+A00941,both,77.42,atrial fibrillation and with a rapid ventricular response,Atrial fibrillation AND With a rapid ventricular response,yes
+A00942,both,100.00,normal ecg,Normal ECG,yes
+A00943,both,65.00,st deviation and depression,ST deviation AND Depression,no
+A00944,both,100.00,normal ecg,Normal ECG,yes
+A00945,both,47.62,sinus arrhythmia,Sinus bradycardia OR Sinus arrhythmia,no
+A00946,both,100.00,normal ecg,Normal ECG,yes
+A00947,both,100.00,normal ecg,Normal ECG,yes
+A00948,both,100.00,normal ecg,Normal ECG,yes
+A00949,both,62.07,right-axis deviation,Right-axis deviation,no
+A00950,both,100.00,normal ecg,Normal ECG,yes
+A00951,both,42.86,low voltage,Low voltage,no
+A00952,both,100.00,t-wave abnormality,T-wave abnormality OR [Unknown code: 145+362],yes
+A00953,both,100.00,normal ecg,Normal ECG,yes
+A00954,both,100.00,normal ecg,Normal ECG,yes
+A00955,both,100.00,normal ecg,Normal ECG,yes
+A00956,both,100.00,t-wave abnormality,T-wave abnormality,yes
+A00957,both,100.00,normal ecg,Normal ECG,yes
+A00958,both,47.62,sinus arrhythmia,Sinus arrhythmia,no
+A00959,both,100.00,t-wave abnormality,Sinus bradycardia OR T-wave abnormality,yes
+A00960,both,100.00,normal ecg,Normal ECG,yes
+A00961,both,45.45,sinus bradycardia,Sinus bradycardia,no
+A00962,both,47.62,sinus arrhythmia,Sinus arrhythmia OR ST deviation,no
+A00963,both,100.00,t-wave abnormality,T-wave abnormality,yes
+A00964,both,100.00,normal ecg,Normal ECG,yes
+A00965,both,100.00,normal ecg,Normal ECG,yes
+A00966,both,45.45,sinus bradycardia,Sinus bradycardia,no
+A00967,both,28.57,st deviation,ST deviation,no
+A00968,both,36.36,st deviation and depression,ST deviation AND Depression,no
+A00969,both,100.00,normal ecg,Normal ECG,yes
+A00970,both,100.00,normal ecg,Normal ECG,yes
+A00971,both,100.00,normal ecg,Normal ECG,yes
+A00972,both,45.45,sinus bradycardia,Sinus bradycardia,no
+A00973,both,45.45,sinus bradycardia,Sinus bradycardia,no
+A00974,both,100.00,atrial fibrillation,Atrial fibrillation OR ST deviation with T-wave change,yes
+A00975,both,48.78,left posterior fascicular block,Left posterior fascicular block,no
+A00976,both,100.00,normal ecg,Normal ECG,yes
+A00977,both,100.00,normal ecg,Normal ECG,yes
+A00978,both,100.00,normal ecg,Normal ECG,yes
+A00979,both,100.00,normal ecg,Normal ECG,yes
+A00980,both,28.57,st deviation,ST deviation,no
+A00981,both,100.00,normal ecg,Normal ECG,yes
+A00982,both,100.00,normal ecg,Normal ECG,yes
+A00983,both,100.00,normal ecg,Normal ECG,yes
+A00984,both,100.00,normal ecg,Normal ECG,yes
+A00985,both,100.00,normal ecg,Normal ECG,yes
+A00986,both,100.00,normal ecg,Normal ECG,yes
+A00987,both,100.00,normal ecg,Normal ECG,yes
+A00988,both,100.00,sinus tachycardia,Sinus tachycardia OR [Unknown code: 147+367],yes
+A00989,both,74.42,st deviation and depression,ST deviation AND Depression,yes
+A00990,both,100.00,normal ecg,Normal ECG,yes
+A00991,both,100.00,normal ecg,Normal ECG,yes
+A00992,both,36.84,st deviation with t-wave change,Atrial premature complex(es) OR ST deviation with T-wave change,no
+A00993,both,75.86,incomplete right bundle-branch block,Incomplete right bundle-branch block,yes
+A00994,both,47.62,sinus arrhythmia,Sinus arrhythmia,no
+A00995,both,100.00,normal ecg,Normal ECG,yes
+A00996,both,61.11,right bundle-branch block,Right bundle-branch block,no
+A00997,both,46.15,normal ecg,Normal ECG,no
+A00998,both,100.00,normal ecg,Normal ECG,yes
+A00999,both,100.00,normal ecg,Normal ECG,yes
+A01000,both,13.78,incomplete right bundle-branch block,Incomplete right bundle-branch block,no
+A00001,ecg,100.00,sinus bradycardia,Sinus bradycardia OR Sinus arrhythmia,yes
+A00002,ecg,100.00,normal ecg,Normal ECG,yes
+A00003,ecg,100.00,normal ecg,Normal ECG,yes
+A00004,ecg,47.62,sinus arrhythmia,Sinus arrhythmia,no
+A00005,ecg,13.43,st deviation with t-wave change,ST deviation with T-wave change,no
+A00006,ecg,100.00,normal ecg,Normal ECG,yes
+A00007,ecg,33.33,right bundle-branch block,Right bundle-branch block,no
+A00008,ecg,100.00,normal ecg,Normal ECG,yes
+A00009,ecg,100.00,normal ecg,Normal ECG,yes
+A00010,ecg,100.00,normal ecg,Normal ECG,yes
+A00011,ecg,47.62,sinus arrhythmia,Sinus bradycardia OR Sinus arrhythmia,no
+A00012,ecg,100.00,normal ecg,Normal ECG,yes
+A00013,ecg,65.57,atrial premature complex(es) and frequent,Atrial premature complex(es) AND Frequent,no
+A00014,ecg,100.00,normal ecg,Normal ECG,yes
+A00015,ecg,45.45,sinus bradycardia,Sinus bradycardia OR T-wave abnormality,no
+A00016,ecg,100.00,normal ecg,Normal ECG,yes
+A00017,ecg,100.00,normal ecg,Normal ECG,yes
+A00018,ecg,77.78,ventricular premature complex(es),Ventricular premature complex(es),yes
+A00019,ecg,100.00,normal ecg,Normal ECG,yes
+A00020,ecg,5.29,atrial premature complex(es),Atrial premature complex(es),no
+A00021,ecg,100.00,normal ecg,Normal ECG,yes
+A00022,ecg,100.00,prolonged pr interval,Low voltage OR Prolonged PR interval,yes
+A00023,ecg,24.39,incomplete right bundle-branch block,Incomplete right bundle-branch block,no
+A00024,ecg,100.00,normal ecg,Normal ECG,yes
+A00025,ecg,100.00,normal ecg,Normal ECG,yes
+A00026,ecg,100.00,normal ecg,Normal ECG,yes
+A00027,ecg,100.00,normal ecg,Normal ECG,yes
+A00028,ecg,100.00,normal ecg,Normal ECG,yes
+A00029,ecg,24.39,incomplete right bundle-branch block,Incomplete right bundle-branch block,no
+A00030,ecg,45.45,sinus bradycardia,Sinus bradycardia,no
+A00031,ecg,100.00,normal ecg,Normal ECG,yes
+A00032,ecg,100.00,normal ecg,Normal ECG,yes
+A00033,ecg,100.00,normal ecg,Normal ECG,yes
+A00034,ecg,70.42,ventricular premature complex(es) and frequent,Ventricular premature complex(es) AND Frequent,yes
+A00035,ecg,100.00,normal ecg,Normal ECG,yes
+A00036,ecg,47.62,sinus arrhythmia,Sinus arrhythmia,no
+A00037,ecg,3.71,right-axis deviation,Right-axis deviation,no
+A00038,ecg,100.00,normal ecg,Normal ECG,yes
+A00039,ecg,100.00,t-wave abnormality,[Unknown code: 30+310] OR T-wave abnormality,yes
+A00040,ecg,100.00,normal ecg,Normal ECG,yes
+A00041,ecg,45.45,sinus bradycardia,Sinus bradycardia,no
+A00042,ecg,100.00,normal ecg,Normal ECG,yes
+A00043,ecg,100.00,normal ecg,Normal ECG,yes
+A00044,ecg,100.00,normal ecg,Normal ECG,yes
+A00045,ecg,100.00,normal ecg,Normal ECG,yes
+A00046,ecg,100.00,normal ecg,Normal ECG,yes
+A00047,ecg,100.00,normal ecg,Normal ECG,yes
+A00048,ecg,100.00,normal ecg,Normal ECG,yes
+A00049,ecg,47.62,sinus arrhythmia,Sinus bradycardia OR Sinus arrhythmia,no
+A00050,ecg,100.00,sinus bradycardia,Sinus bradycardia,yes
+A00051,ecg,45.45,sinus bradycardia,Sinus bradycardia OR ST deviation,no
+A00052,ecg,100.00,normal ecg,Normal ECG,yes
+A00053,ecg,47.62,sinus arrhythmia,Sinus bradycardia OR Sinus arrhythmia,no
+A00054,ecg,100.00,normal ecg,Normal ECG,yes
+A00055,ecg,100.00,t-wave abnormality,T-wave abnormality,yes
+A00056,ecg,100.00,normal ecg,Normal ECG,yes
+A00057,ecg,45.45,sinus bradycardia,Sinus bradycardia,no
+A00058,ecg,100.00,normal ecg,Normal ECG,yes
+A00059,ecg,100.00,normal ecg,Normal ECG,yes
+A00060,ecg,100.00,normal ecg,Normal ECG,yes
+A00061,ecg,100.00,normal ecg,Normal ECG,yes
+A00062,ecg,100.00,normal ecg,Normal ECG,yes
+A00063,ecg,100.00,normal ecg,Normal ECG,yes
+A00064,ecg,100.00,normal ecg,Normal ECG,yes
+A00065,ecg,100.00,sinus bradycardia,Sinus bradycardia,yes
+A00066,ecg,100.00,normal ecg,Normal ECG,yes
+A00067,ecg,75.86,t-wave abnormality,T-wave abnormality,yes
+A00068,ecg,100.00,normal ecg,Normal ECG,yes
+A00069,ecg,100.00,normal ecg,Normal ECG,yes
+A00070,ecg,1.97,low voltage,Low voltage,no
+A00071,ecg,100.00,normal ecg,Normal ECG,yes
+A00072,ecg,100.00,normal ecg,Normal ECG,yes
+A00073,ecg,100.00,normal ecg,Normal ECG,yes
+A00074,ecg,45.45,sinus bradycardia,Sinus bradycardia,no
+A00075,ecg,45.45,sinus bradycardia,Sinus bradycardia OR [Unknown code: 145+362],no
+A00076,ecg,100.00,normal ecg,Normal ECG,yes
+A00077,ecg,100.00,normal ecg,Normal ECG,yes
+A00078,ecg,100.00,normal ecg,Normal ECG,yes
+A00079,ecg,3.90,right-axis deviation,Right-axis deviation,no
+A00080,ecg,100.00,normal ecg,Normal ECG,yes
+A00081,ecg,45.45,sinus bradycardia,Sinus bradycardia,no
+A00082,ecg,100.00,normal ecg,Normal ECG,yes
+A00083,ecg,50.00,t-wave abnormality,T-wave abnormality,no
+A00084,ecg,100.00,normal ecg,Normal ECG,yes
+A00085,ecg,45.45,sinus tachycardia,Sinus tachycardia,no
+A00086,ecg,4.51,atrial premature complex(es),Atrial premature complex(es) OR Low voltage,no
+A00087,ecg,100.00,normal ecg,Normal ECG,yes
+A00088,ecg,100.00,normal ecg,Normal ECG,yes
+A00089,ecg,75.00,normal ecg,Normal ECG,yes
+A00090,ecg,45.45,sinus bradycardia,Sinus bradycardia,no
+A00091,ecg,24.39,incomplete right bundle-branch block,Incomplete right bundle-branch block,no
+A00092,ecg,100.00,normal ecg,Normal ECG,yes
+A00093,ecg,100.00,normal ecg,Normal ECG,yes
+A00094,ecg,3.50,early repolarization,Early repolarization,no
+A00095,ecg,100.00,normal ecg,Normal ECG,yes
+A00096,ecg,100.00,normal ecg,Normal ECG,yes
+A00097,ecg,100.00,normal ecg,Normal ECG,yes
+A00098,ecg,100.00,normal ecg,Normal ECG,yes
+A00099,ecg,20.00,st deviation and depression,ST deviation AND Depression,no
+A00100,ecg,100.00,normal ecg,Normal ECG,yes
+A00101,ecg,47.62,sinus arrhythmia,Sinus arrhythmia,no
+A00102,ecg,62.22,st deviation with t-wave change,[Unknown code: 60+308] OR ST deviation with T-wave change,no
+A00103,ecg,23.08,anteroseptal mi and old,Anteroseptal MI AND Old,no
+A00104,ecg,45.45,sinus tachycardia,Sinus tachycardia OR Left atrial enlargement,no
+A00105,ecg,100.00,normal ecg,Normal ECG,yes
+A00106,ecg,100.00,normal ecg,Normal ECG,yes
+A00107,ecg,100.00,normal ecg,Normal ECG,yes
+A00108,ecg,45.45,sinus bradycardia,Sinus bradycardia,no
+A00109,ecg,100.00,normal ecg,Normal ECG,yes
+A00110,ecg,45.45,sinus bradycardia,Sinus bradycardia,no
+A00111,ecg,100.00,normal ecg,Normal ECG,yes
+A00112,ecg,62.22,st deviation with t-wave change,Anterior MI OR [Unknown code: 60+310] OR ST deviation with T-wave change,no
+A00113,ecg,4.02,t-wave abnormality,T-wave abnormality,no
+A00114,ecg,100.00,normal ecg,Normal ECG,yes
+A00115,ecg,100.00,normal ecg,Normal ECG,yes
+A00116,ecg,50.00,t-wave abnormality,Left ventricular hypertrophy OR T-wave abnormality,no
+A00117,ecg,100.00,normal ecg,Normal ECG,yes
+A00118,ecg,100.00,normal ecg,Normal ECG,yes
+A00119,ecg,6.67,ventricular premature complex(es),Ventricular premature complex(es),no
+A00120,ecg,100.00,normal ecg,Normal ECG,yes
+A00121,ecg,100.00,normal ecg,Normal ECG,yes
+A00122,ecg,100.00,normal ecg,Normal ECG,yes
+A00123,ecg,65.57,atrial premature complex(es) and frequent,Atrial premature complex(es) AND Frequent,no
+A00124,ecg,50.00,t-wave abnormality,T-wave abnormality,no
+A00125,ecg,72.73,prolonged pr interval,Prolonged PR interval OR Right bundle-branch block,yes
+A00126,ecg,75.86,incomplete right bundle-branch block,Sinus bradycardia OR ST deviation OR Incomplete right bundle-branch block,yes
+A00127,ecg,100.00,normal ecg,Normal ECG,yes
+A00128,ecg,17.14,t-wave abnormality and inversion,T-wave abnormality AND Inversion,no
+A00129,ecg,45.45,sinus bradycardia,Sinus bradycardia,no
+A00130,ecg,100.00,normal ecg,Normal ECG,yes
+A00131,ecg,100.00,normal ecg,Normal ECG,yes
+A00132,ecg,100.00,normal ecg,Normal ECG,yes
+A00133,ecg,100.00,normal ecg,Normal ECG,yes
+A00134,ecg,100.00,sinus bradycardia,Sinus bradycardia,yes
+A00135,ecg,4.72,ventricular preexcitation,Ventricular preexcitation,no
+A00136,ecg,48.00,atrial fibrillation,Atrial fibrillation,no
+A00137,ecg,61.11,right bundle-branch block,Right bundle-branch block,no
+A00138,ecg,100.00,normal ecg,Normal ECG,yes
+A00139,ecg,22.86,st deviation with t-wave change,ST deviation with T-wave change,no
+A00140,ecg,100.00,normal ecg,Normal ECG,yes
+A00141,ecg,100.00,normal ecg,Normal ECG,yes
+A00142,ecg,100.00,normal ecg,Normal ECG,yes
+A00143,ecg,100.00,normal ecg,Normal ECG,yes
+A00144,ecg,50.00,t-wave abnormality,T-wave abnormality,no
+A00145,ecg,45.45,sinus bradycardia,Sinus bradycardia,no
+A00146,ecg,45.45,sinus bradycardia,Sinus bradycardia,no
+A00147,ecg,100.00,normal ecg,Normal ECG,yes
+A00148,ecg,45.45,sinus tachycardia,Sinus tachycardia OR [Unknown code: 147+367],no
+A00149,ecg,47.62,sinus arrhythmia,[Unknown code: 145+362] OR Sinus arrhythmia,no
+A00150,ecg,45.45,sinus bradycardia,Sinus bradycardia,no
+A00151,ecg,100.00,normal ecg,Normal ECG,yes
+A00152,ecg,100.00,normal ecg,Normal ECG,yes
+A00153,ecg,100.00,normal ecg,Normal ECG,yes
+A00154,ecg,75.86,incomplete right bundle-branch block,Incomplete right bundle-branch block,yes
+A00155,ecg,50.00,t-wave abnormality,T-wave abnormality,no
+A00156,ecg,100.00,normal ecg,Normal ECG,yes
+A00157,ecg,36.36,st deviation and depression,ST deviation AND Depression,no
+A00158,ecg,47.62,sinus arrhythmia,Sinus arrhythmia,no
+A00159,ecg,100.00,sinus tachycardia,Sinus tachycardia OR ST deviation with T-wave change,yes
+A00160,ecg,75.86,t-wave abnormality,T-wave abnormality,yes
+A00161,ecg,100.00,normal ecg,Normal ECG,yes
+A00162,ecg,45.45,sinus bradycardia,Sinus bradycardia,no
+A00163,ecg,100.00,sinus tachycardia,Sinus tachycardia OR T-wave abnormality,yes
+A00164,ecg,100.00,normal ecg,Normal ECG,yes
+A00165,ecg,100.00,normal ecg,Normal ECG,yes
+A00166,ecg,100.00,normal ecg,Normal ECG,yes
+A00167,ecg,100.00,t-wave abnormality,Sinus tachycardia OR T-wave abnormality,yes
+A00168,ecg,3.35,right-axis deviation,Right-axis deviation,no
+A00169,ecg,45.45,sinus bradycardia,Sinus bradycardia OR [Unknown code: 161+332],no
+A00170,ecg,100.00,normal ecg,Normal ECG,yes
+A00171,ecg,77.78,ventricular premature complex(es),Sinus tachycardia OR Ventricular premature complex(es),yes
+A00172,ecg,45.45,sinus bradycardia,Sinus bradycardia,no
+A00173,ecg,100.00,normal ecg,Normal ECG,yes
+A00174,ecg,100.00,normal ecg,Normal ECG,yes
+A00175,ecg,100.00,normal ecg,Normal ECG,yes
+A00176,ecg,100.00,normal ecg,Normal ECG,yes
+A00177,ecg,75.86,t-wave abnormality,T-wave abnormality,yes
+A00178,ecg,100.00,normal ecg,Normal ECG,yes
+A00179,ecg,100.00,normal ecg,Normal ECG,yes
+A00180,ecg,72.73,left ventricular hypertrophy,Sinus bradycardia OR Left ventricular hypertrophy OR ST-T change due to ventricular hypertrophy,yes
+A00181,ecg,100.00,normal ecg,Normal ECG,yes
+A00182,ecg,75.86,t-wave abnormality,T-wave abnormality,yes
+A00183,ecg,68.49,ventricular premature complex(es) and occasional,Ventricular premature complex(es) AND Occasional,no
+A00184,ecg,100.00,normal ecg,Normal ECG,yes
+A00185,ecg,100.00,normal ecg,Normal ECG,yes
+A00186,ecg,100.00,normal ecg,Normal ECG,yes
+A00187,ecg,47.62,sinus arrhythmia,Sinus arrhythmia OR Incomplete right bundle-branch block,no
+A00188,ecg,100.00,normal ecg,Normal ECG,yes
+A00189,ecg,61.11,right bundle-branch block,Right bundle-branch block,no
+A00190,ecg,100.00,sinus bradycardia,Sinus bradycardia,yes
+A00191,ecg,100.00,sinus tachycardia,Sinus tachycardia OR Incomplete right bundle-branch block OR [Unknown code: 145+362],yes
+A00192,ecg,100.00,normal ecg,Normal ECG,yes
+A00193,ecg,66.67,ventricular premature complex(es) and in a bigeminal pattern,Ventricular premature complex(es) AND In a bigeminal pattern,no
+A00194,ecg,2.62,st deviation,ST deviation,no
+A00195,ecg,100.00,st deviation,ST deviation,yes
+A00196,ecg,3.54,st deviation,ST deviation,no
+A00197,ecg,24.39,incomplete right bundle-branch block,Incomplete right bundle-branch block,no
+A00198,ecg,20.00,st deviation and depression,ST deviation AND Depression,no
+A00199,ecg,100.00,normal ecg,Normal ECG,yes
+A00200,ecg,100.00,normal ecg,Normal ECG,yes
+A00201,ecg,100.00,normal ecg,Normal ECG,yes
+A00202,ecg,45.45,sinus bradycardia,Sinus bradycardia,no
+A00203,ecg,100.00,t-wave abnormality,T-wave abnormality,yes
+A00204,ecg,100.00,normal ecg,Normal ECG,yes
+A00205,ecg,100.00,normal ecg,Normal ECG,yes
+A00206,ecg,100.00,normal ecg,Normal ECG,yes
+A00207,ecg,100.00,sinus bradycardia,Sinus bradycardia OR ST deviation with T-wave change,yes
+A00208,ecg,87.27,st deviation with t-wave change,ST deviation with T-wave change,yes
+A00209,ecg,47.62,sinus arrhythmia,Sinus arrhythmia,no
+A00210,ecg,45.45,sinus bradycardia,Sinus bradycardia OR [Unknown code: 145+362],no
+A00211,ecg,10.57,atrial premature complex(es),Atrial premature complex(es) OR T-wave abnormality,no
+A00212,ecg,100.00,normal ecg,Normal ECG,yes
+A00213,ecg,100.00,normal ecg,Normal ECG,yes
+A00215,ecg,6.36,junctional premature complex(es),Junctional premature complex(es),no
+A00216,ecg,100.00,atrial fibrillation and with a rapid ventricular response,Atrial fibrillation AND With a rapid ventricular response,yes
+A00217,ecg,100.00,normal ecg,Normal ECG,yes
+A00218,ecg,100.00,normal ecg,Normal ECG,yes
+A00219,ecg,100.00,atrial fibrillation,Atrial fibrillation OR Incomplete right bundle-branch block OR T-wave abnormality,yes
+A00220,ecg,100.00,normal ecg,Normal ECG,yes
+A00221,ecg,100.00,sinus tachycardia,Sinus tachycardia,yes
+A00222,ecg,100.00,normal ecg,Normal ECG,yes
+A00223,ecg,100.00,normal ecg,Normal ECG,yes
+A00224,ecg,100.00,sinus bradycardia,Sinus bradycardia,yes
+A00225,ecg,47.62,sinus arrhythmia,Sinus arrhythmia,no
+A00226,ecg,28.57,st deviation,ST deviation,no
+A00227,ecg,100.00,normal ecg,Normal ECG,yes
+A00228,ecg,45.45,sinus bradycardia,Sinus bradycardia OR Low voltage,no
+A00229,ecg,100.00,sinus bradycardia,Sinus bradycardia,yes
+A00230,ecg,45.45,sinus bradycardia,Sinus bradycardia,no
+A00231,ecg,28.57,st deviation,ST deviation,no
+A00232,ecg,100.00,normal ecg,Normal ECG,yes
+A00233,ecg,100.00,normal ecg,Normal ECG,yes
+A00234,ecg,100.00,normal ecg,Normal ECG,yes
+A00235,ecg,45.45,sinus tachycardia,Sinus tachycardia,no
+A00236,ecg,100.00,normal ecg,Normal ECG,yes
+A00237,ecg,100.00,normal ecg,Normal ECG,yes
+A00238,ecg,100.00,normal ecg,Normal ECG,yes
+A00239,ecg,100.00,normal ecg,Normal ECG,yes
+A00240,ecg,100.00,normal ecg,Normal ECG,yes
+A00241,ecg,100.00,normal ecg,Normal ECG,yes
+A00242,ecg,100.00,normal ecg,Normal ECG,yes
+A00243,ecg,45.45,sinus bradycardia,Sinus bradycardia,no
+A00244,ecg,60.00,prolonged qt interval,[Unknown code: 147+367] OR Prolonged QT interval,no
+A00245,ecg,45.45,sinus bradycardia,Sinus bradycardia,no
+A00246,ecg,87.27,st deviation with t-wave change,Sinus bradycardia OR ST deviation with T-wave change,yes
+A00247,ecg,47.62,sinus arrhythmia,Sinus arrhythmia OR [Unknown code: 30+308] OR [Unknown code: 147+367],no
+A00248,ecg,77.78,ventricular premature complex(es),Ventricular premature complex(es),yes
+A00249,ecg,45.45,sinus bradycardia,Sinus bradycardia OR T-wave abnormality,no
+A00250,ecg,100.00,normal ecg,Normal ECG,yes
+A00251,ecg,100.00,normal ecg,Normal ECG,yes
+A00252,ecg,50.00,t-wave abnormality,T-wave abnormality,no
+A00253,ecg,28.57,st deviation,ST deviation,no
+A00254,ecg,8.70,t-wave abnormality,T-wave abnormality,no
+A00255,ecg,100.00,normal ecg,Normal ECG,yes
+A00256,ecg,47.62,sinus arrhythmia,Sinus arrhythmia,no
+A00257,ecg,100.00,t-wave abnormality,T-wave abnormality,yes
+A00258,ecg,100.00,normal ecg,Normal ECG,yes
+A00259,ecg,45.45,sinus bradycardia,Sinus bradycardia,no
+A00260,ecg,77.78,ventricular premature complex(es),Ventricular premature complex(es) OR ST deviation with T-wave change,yes
+A00261,ecg,100.00,normal ecg,Normal ECG,yes
+A00262,ecg,45.45,sinus bradycardia,Sinus bradycardia,no
+A00263,ecg,62.22,st deviation with t-wave change,ST deviation with T-wave change,no
+A00264,ecg,50.00,t-wave abnormality,T-wave abnormality,no
+A00265,ecg,100.00,normal ecg,Normal ECG,yes
+A00266,ecg,100.00,normal ecg,Normal ECG,yes
+A00267,ecg,100.00,normal ecg,Normal ECG,yes
+A00268,ecg,100.00,normal ecg,Normal ECG,yes
+A00269,ecg,47.62,sinus arrhythmia,Sinus arrhythmia,no
+A00270,ecg,72.73,left ventricular hypertrophy,Left ventricular hypertrophy OR ST deviation with T-wave change OR [Unknown code: 60+310],yes
+A00271,ecg,91.43,atrial fibrillation and with a rapid ventricular response,Atrial fibrillation AND With a rapid ventricular response,yes
+A00272,ecg,33.33,right bundle-branch block,Right bundle-branch block,no
+A00273,ecg,100.00,normal ecg,Normal ECG,yes
+A00274,ecg,100.00,t-wave abnormality,Ventricular premature complex(es) OR T-wave abnormality,yes
+A00275,ecg,100.00,normal ecg,Normal ECG,yes
+A00276,ecg,45.45,sinus bradycardia,Sinus bradycardia,no
+A00277,ecg,62.22,st deviation with t-wave change,Sinus bradycardia OR [Unknown code: 30+310] OR [Unknown code: 165+330] OR Left bundle-branch block OR ST deviation with T-wave change,no
+A00278,ecg,100.00,normal ecg,Normal ECG,yes
+A00279,ecg,2.72,st deviation,ST deviation,no
+A00280,ecg,72.73,prolonged pr interval,Prolonged PR interval,yes
+A00281,ecg,45.45,sinus bradycardia,Sinus bradycardia,no
+A00282,ecg,62.22,st deviation with t-wave change,Sinus bradycardia OR ST deviation with T-wave change,no
+A00283,ecg,100.00,normal ecg,Normal ECG,yes
+A00284,ecg,100.00,normal ecg,Normal ECG,yes
+A00285,ecg,24.39,incomplete right bundle-branch block,Atrial fibrillation OR Incomplete right bundle-branch block,no
+A00286,ecg,76.19,st deviation and elevation,ST deviation AND Elevation,yes
+A00287,ecg,75.00,normal ecg,Normal ECG,yes
+A00288,ecg,100.00,normal ecg,Normal ECG,yes
+A00289,ecg,100.00,normal ecg,Normal ECG,yes
+A00290,ecg,100.00,normal ecg,Normal ECG,yes
+A00291,ecg,100.00,normal ecg,Normal ECG,yes
+A00292,ecg,47.62,sinus arrhythmia,Sinus arrhythmia,no
+A00293,ecg,100.00,normal ecg,Normal ECG,yes
+A00294,ecg,63.83,t-wave abnormality and inversion,T-wave abnormality AND Inversion,no
+A00295,ecg,100.00,normal ecg,Normal ECG,yes
+A00296,ecg,100.00,normal ecg,Normal ECG,yes
+A00297,ecg,100.00,normal ecg,Normal ECG,yes
+A00298,ecg,47.62,sinus arrhythmia,Sinus arrhythmia,no
+A00299,ecg,100.00,normal ecg,Normal ECG,yes
+A00300,ecg,100.00,normal ecg,Normal ECG,yes
+A00301,ecg,22.86,st deviation with t-wave change,ST deviation with T-wave change,no
+A00302,ecg,66.67,ventricular premature complex(es) and in a bigeminal pattern,Ventricular premature complex(es) AND In a bigeminal pattern,no
+A00303,ecg,50.00,t-wave abnormality,T-wave abnormality,no
+A00304,ecg,45.45,sinus bradycardia,Sinus bradycardia,no
+A00305,ecg,3.02,[unknown code: 30+310],[Unknown code: 30+310] OR [Unknown code: 60+308],no
+A00306,ecg,100.00,normal ecg,Normal ECG,yes
+A00307,ecg,100.00,normal ecg,Normal ECG,yes
+A00308,ecg,100.00,normal ecg,Normal ECG,yes
+A00309,ecg,4.59,junctional tachycardia,Junctional tachycardia,no
+A00310,ecg,24.39,incomplete right bundle-branch block,Incomplete right bundle-branch block,no
+A00311,ecg,100.00,normal ecg,Normal ECG,yes
+A00312,ecg,47.62,sinus arrhythmia,Sinus bradycardia OR Sinus arrhythmia,no
+A00313,ecg,50.00,t-wave abnormality,T-wave abnormality,no
+A00314,ecg,62.07,right-axis deviation,Right-axis deviation,no
+A00315,ecg,62.22,st deviation with t-wave change,ST deviation with T-wave change,no
+A00316,ecg,100.00,normal ecg,Normal ECG,yes
+A00317,ecg,100.00,normal ecg,Normal ECG,yes
+A00318,ecg,45.45,sinus tachycardia,Sinus tachycardia,no
+A00319,ecg,45.45,sinus tachycardia,Sinus tachycardia OR ST deviation,no
+A00320,ecg,100.00,normal ecg,Normal ECG,yes
+A00321,ecg,100.00,normal ecg,Normal ECG,yes
+A00322,ecg,100.00,normal ecg,Normal ECG,yes
+A00323,ecg,100.00,normal ecg,Normal ECG,yes
+A00324,ecg,100.00,normal ecg,Normal ECG,yes
+A00325,ecg,50.00,t-wave abnormality,T-wave abnormality,no
+A00326,ecg,100.00,prolonged pr interval,Prolonged PR interval,yes
+A00327,ecg,100.00,normal ecg,Normal ECG,yes
+A00328,ecg,100.00,normal ecg,Normal ECG,yes
+A00329,ecg,45.45,sinus bradycardia,Sinus bradycardia,no
+A00330,ecg,100.00,normal ecg,Normal ECG,yes
+A00331,ecg,62.22,st deviation with t-wave change,[Unknown code: 50+346] OR ST deviation with T-wave change,no
+A00332,ecg,100.00,normal ecg,Normal ECG,yes
+A00333,ecg,100.00,normal ecg,Normal ECG,yes
+A00334,ecg,100.00,normal ecg,Normal ECG,yes
+A00335,ecg,100.00,normal ecg,Normal ECG,yes
+A00336,ecg,100.00,normal ecg,Normal ECG,yes
+A00337,ecg,100.00,normal ecg,Normal ECG,yes
+A00338,ecg,45.45,sinus bradycardia,Sinus bradycardia,no
+A00339,ecg,100.00,normal ecg,Normal ECG,yes
+A00340,ecg,45.45,sinus bradycardia,Sinus bradycardia OR [Unknown code: 147+367] OR [Unknown code: 145+362],no
+A00341,ecg,100.00,normal ecg,Normal ECG,yes
+A00342,ecg,45.45,sinus bradycardia,Sinus bradycardia,no
+A00343,ecg,47.62,sinus arrhythmia,Sinus arrhythmia,no
+A00344,ecg,100.00,normal ecg,Normal ECG,yes
+A00345,ecg,4.25,t-wave abnormality,T-wave abnormality,no
+A00346,ecg,75.86,incomplete right bundle-branch block,Incomplete right bundle-branch block,yes
+A00347,ecg,100.00,normal ecg,Normal ECG,yes
+A00348,ecg,100.00,normal ecg,Normal ECG,yes
+A00349,ecg,22.86,st deviation with t-wave change,ST deviation with T-wave change,no
+A00350,ecg,62.22,st deviation with t-wave change,ST deviation with T-wave change,no
+A00351,ecg,100.00,normal ecg,Normal ECG,yes
+A00352,ecg,100.00,normal ecg,Normal ECG,yes
+A00353,ecg,50.00,t-wave abnormality,T-wave abnormality,no
+A00354,ecg,100.00,normal ecg,Normal ECG,yes
+A00355,ecg,100.00,normal ecg,Normal ECG,yes
+A00356,ecg,100.00,normal ecg,Normal ECG,yes
+A00357,ecg,50.00,t-wave abnormality,[Unknown code: 30+308] OR T-wave abnormality,no
+A00358,ecg,100.00,normal ecg,Normal ECG,yes
+A00359,ecg,100.00,normal ecg,Normal ECG,yes
+A00360,ecg,45.45,sinus bradycardia,Sinus bradycardia,no
+A00361,ecg,100.00,normal ecg,Normal ECG,yes
+A00362,ecg,100.00,normal ecg,Normal ECG,yes
+A00363,ecg,100.00,normal ecg,Normal ECG,yes
+A00364,ecg,100.00,normal ecg,Normal ECG,yes
+A00365,ecg,20.00,st deviation and depression,ST deviation AND Depression,no
+A00366,ecg,100.00,normal ecg,Normal ECG,yes
+A00367,ecg,100.00,normal ecg,Normal ECG,yes
+A00368,ecg,100.00,normal ecg,Normal ECG,yes
+A00369,ecg,47.62,sinus arrhythmia,Sinus arrhythmia,no
+A00370,ecg,100.00,normal ecg,Normal ECG,yes
+A00371,ecg,24.39,incomplete right bundle-branch block,Incomplete right bundle-branch block,no
+A00372,ecg,45.45,sinus bradycardia,Sinus bradycardia,no
+A00373,ecg,20.00,st deviation and depression,ST deviation AND Depression,no
+A00374,ecg,100.00,sinus tachycardia,Sinus tachycardia OR [Unknown code: 145+362],yes
+A00375,ecg,45.45,sinus bradycardia,Sinus bradycardia,no
+A00376,ecg,45.45,sinus bradycardia,Sinus bradycardia OR [Unknown code: 165+332] OR [Unknown code: 145+363],no
+A00377,ecg,7.73,t-wave abnormality,T-wave abnormality,no
+A00378,ecg,100.00,normal ecg,Normal ECG,yes
+A00379,ecg,100.00,normal ecg,Normal ECG,yes
+A00380,ecg,47.62,sinus arrhythmia,Sinus arrhythmia OR [Unknown code: 60+310] OR Sinus bradycardia,no
+A00381,ecg,100.00,normal ecg,Normal ECG,yes
+A00382,ecg,100.00,st deviation,ST deviation,yes
+A00383,ecg,100.00,normal ecg,Normal ECG,yes
+A00384,ecg,91.43,atrial fibrillation and with a rapid ventricular response,Atrial fibrillation AND With a rapid ventricular response,yes
+A00385,ecg,100.00,sinus tachycardia,Sinus tachycardia,yes
+A00386,ecg,100.00,normal ecg,Normal ECG,yes
+A00387,ecg,100.00,normal ecg,Normal ECG,yes
+A00388,ecg,3.96,t-wave abnormality,T-wave abnormality,no
+A00389,ecg,47.62,sinus arrhythmia,Sinus bradycardia OR Sinus arrhythmia,no
+A00390,ecg,100.00,normal ecg,Normal ECG,yes
+A00391,ecg,45.45,sinus bradycardia,Sinus bradycardia OR [Unknown code: 30+308],no
+A00392,ecg,100.00,normal ecg,Normal ECG,yes
+A00393,ecg,100.00,normal ecg,Normal ECG,yes
+A00394,ecg,24.39,incomplete right bundle-branch block,Incomplete right bundle-branch block,no
+A00395,ecg,100.00,sinus bradycardia,Sinus bradycardia,yes
+A00396,ecg,100.00,atrial fibrillation,Atrial fibrillation,yes
+A00397,ecg,100.00,normal ecg,Normal ECG,yes
+A00398,ecg,47.62,sinus arrhythmia,Sinus arrhythmia,no
+A00399,ecg,100.00,normal ecg,Normal ECG,yes
+A00400,ecg,65.88,atrial fibrillation and with a rapid ventricular response,Atrial fibrillation AND With a rapid ventricular response,no
+A00401,ecg,5.79,left ventricular hypertrophy,Left ventricular hypertrophy,no
+A00402,ecg,100.00,normal ecg,Normal ECG,yes
+A00403,ecg,100.00,normal ecg,Normal ECG,yes
+A00404,ecg,100.00,normal ecg,Normal ECG,yes
+A00405,ecg,100.00,t-wave abnormality,T-wave abnormality,yes
+A00406,ecg,2.56,[unknown code: 60+310],[Unknown code: 60+310] OR [Unknown code: 60+341],no
+A00407,ecg,62.22,st deviation with t-wave change,Left-axis deviation OR ST deviation with T-wave change,no
+A00408,ecg,75.86,t-wave abnormality,T-wave abnormality,yes
+A00409,ecg,100.00,normal ecg,Normal ECG,yes
+A00410,ecg,47.62,sinus arrhythmia,Sinus arrhythmia,no
+A00411,ecg,100.00,normal ecg,Normal ECG,yes
+A00412,ecg,100.00,normal ecg,Normal ECG,yes
+A00413,ecg,100.00,st deviation,Low voltage OR ST deviation,yes
+A00414,ecg,50.00,ventricular premature complex(es),[Unknown code: 50+346] OR Ventricular premature complex(es) OR ST deviation with T-wave change,no
+A00415,ecg,100.00,normal ecg,Normal ECG,yes
+A00416,ecg,100.00,normal ecg,Normal ECG,yes
+A00417,ecg,100.00,normal ecg,Normal ECG,yes
+A00418,ecg,100.00,normal ecg,Normal ECG,yes
+A00419,ecg,50.00,t-wave abnormality,Sinus tachycardia OR T-wave abnormality,no
+A00420,ecg,62.07,right-axis deviation,Right-axis deviation,no
+A00421,ecg,100.00,normal ecg,Normal ECG,yes
+A00422,ecg,50.00,t-wave abnormality,Incomplete right bundle-branch block OR T-wave abnormality,no
+A00423,ecg,100.00,normal ecg,Normal ECG,yes
+A00424,ecg,45.45,sinus bradycardia,Sinus bradycardia OR Right bundle-branch block,no
+A00425,ecg,100.00,normal ecg,Normal ECG,yes
+A00426,ecg,100.00,normal ecg,Normal ECG,yes
+A00427,ecg,100.00,sinus tachycardia,Sinus tachycardia,yes
+A00428,ecg,100.00,normal ecg,Normal ECG,yes
+A00429,ecg,100.00,normal ecg,Normal ECG,yes
+A00430,ecg,100.00,normal ecg,Normal ECG,yes
+A00431,ecg,12.65,incomplete right bundle-branch block,Incomplete right bundle-branch block,no
+A00432,ecg,24.39,incomplete right bundle-branch block,T-wave abnormality OR Incomplete right bundle-branch block,no
+A00433,ecg,33.33,right bundle-branch block,Right bundle-branch block,no
+A00434,ecg,4.25,t-wave abnormality,T-wave abnormality,no
+A00435,ecg,100.00,normal ecg,Normal ECG,yes
+A00436,ecg,100.00,normal ecg,Normal ECG,yes
+A00437,ecg,47.62,sinus arrhythmia,Sinus arrhythmia,no
+A00438,ecg,100.00,normal ecg,Normal ECG,yes
+A00439,ecg,33.33,right bundle-branch block,Right bundle-branch block,no
+A00440,ecg,20.00,st deviation and depression,ST deviation AND Depression,no
+A00441,ecg,50.00,t-wave abnormality,T-wave abnormality OR [Unknown code: 145+362],no
+A00442,ecg,45.45,sinus bradycardia,Sinus bradycardia,no
+A00443,ecg,28.57,st deviation,Left ventricular hypertrophy OR ST deviation,no
+A00444,ecg,100.00,normal ecg,Normal ECG,yes
+A00445,ecg,100.00,normal ecg,Normal ECG,yes
+A00446,ecg,100.00,normal ecg,Normal ECG,yes
+A00447,ecg,100.00,normal ecg,Normal ECG,yes
+A00448,ecg,70.42,ventricular premature complex(es) and frequent,Ventricular premature complex(es) AND Frequent,yes
+A00449,ecg,100.00,normal ecg,Normal ECG,yes
+A00450,ecg,100.00,normal ecg,Normal ECG,yes
+A00451,ecg,100.00,normal ecg,Normal ECG,yes
+A00452,ecg,100.00,normal ecg,Normal ECG,yes
+A00453,ecg,24.39,incomplete right bundle-branch block,Incomplete right bundle-branch block,no
+A00454,ecg,100.00,normal ecg,Normal ECG,yes
+A00455,ecg,28.57,st deviation,[Unknown code: 50+347] OR ST deviation,no
+A00456,ecg,100.00,normal ecg,Normal ECG,yes
+A00457,ecg,100.00,normal ecg,Normal ECG,yes
+A00458,ecg,3.83,t-wave abnormality,T-wave abnormality,no
+A00459,ecg,45.45,sinus bradycardia,Sinus bradycardia,no
+A00460,ecg,5.03,st deviation,ST deviation,no
+A00461,ecg,20.00,st deviation and depression,ST deviation AND Depression,no
+A00462,ecg,77.55,left anterior fascicular block,[Unknown code: 165+332] OR Left anterior fascicular block,yes
+A00463,ecg,3.30,[unknown code: 30+310],[Unknown code: 30+310] OR [Unknown code: 145+362],no
+A00464,ecg,8.06,t-wave abnormality,T-wave abnormality,no
+A00465,ecg,77.78,ventricular premature complex(es),Ventricular premature complex(es),yes
+A00466,ecg,100.00,normal ecg,Normal ECG,yes
+A00467,ecg,100.00,normal ecg,Normal ECG,yes
+A00468,ecg,100.00,sinus bradycardia,Sinus bradycardia,yes
+A00469,ecg,46.15,normal ecg,Normal ECG,no
+A00470,ecg,100.00,normal ecg,Normal ECG,yes
+A00471,ecg,100.00,normal ecg,Normal ECG,yes
+A00472,ecg,100.00,normal ecg,Normal ECG,yes
+A00473,ecg,46.15,normal ecg,Normal ECG,no
+A00474,ecg,4.54,short pr interval,Short PR interval,no
+A00475,ecg,70.42,ventricular premature complex(es) and frequent,Ventricular premature complex(es) AND Frequent,yes
+A00476,ecg,100.00,normal ecg,Normal ECG,yes
+A00477,ecg,100.00,sinus bradycardia,Sinus bradycardia OR Low voltage,yes
+A00478,ecg,100.00,normal ecg,Normal ECG,yes
+A00479,ecg,100.00,normal ecg,Normal ECG,yes
+A00480,ecg,100.00,normal ecg,Normal ECG,yes
+A00481,ecg,100.00,normal ecg,Normal ECG,yes
+A00482,ecg,77.78,ventricular premature complex(es),Left ventricular hypertrophy OR ST-T change due to ventricular hypertrophy OR Ventricular premature complex(es),yes
+A00483,ecg,87.27,st deviation with t-wave change,ST deviation with T-wave change,yes
+A00484,ecg,100.00,normal ecg,Normal ECG,yes
+A00485,ecg,3.83,t-wave abnormality,[Unknown code: 161+331] OR T-wave abnormality,no
+A00486,ecg,100.00,sinus bradycardia,Sinus bradycardia,yes
+A00487,ecg,81.48,t-wave abnormality and inversion,T-wave abnormality AND Inversion,yes
+A00488,ecg,100.00,normal ecg,Normal ECG,yes
+A00489,ecg,3.83,t-wave abnormality,T-wave abnormality,no
+A00490,ecg,100.00,normal ecg,Normal ECG,yes
+A00491,ecg,47.62,sinus arrhythmia,Sinus arrhythmia,no
+A00492,ecg,3.78,t-wave abnormality,Low voltage OR T-wave abnormality,no
+A00493,ecg,100.00,normal ecg,Normal ECG,yes
+A00494,ecg,45.45,sinus bradycardia,Sinus bradycardia,no
+A00495,ecg,7.78,right bundle-branch block,Right bundle-branch block,no
+A00496,ecg,100.00,normal ecg,Normal ECG,yes
+A00497,ecg,100.00,normal ecg,Normal ECG,yes
+A00498,ecg,100.00,normal ecg,Normal ECG,yes
+A00499,ecg,47.62,sinus arrhythmia,Sinus arrhythmia OR T-wave abnormality,no
+A00500,ecg,4.25,t-wave abnormality,T-wave abnormality,no
+A00501,ecg,100.00,normal ecg,Normal ECG,yes
+A00502,ecg,100.00,normal ecg,Normal ECG,yes
+A00503,ecg,100.00,normal ecg,Normal ECG,yes
+A00504,ecg,74.42,st deviation and depression,ST deviation AND Depression,yes
+A00505,ecg,100.00,normal ecg,Normal ECG,yes
+A00506,ecg,100.00,normal ecg,Normal ECG,yes
+A00507,ecg,61.11,right bundle-branch block,Right bundle-branch block,no
+A00508,ecg,36.84,st deviation with t-wave change,ST deviation with T-wave change,no
+A00509,ecg,100.00,sinus bradycardia,Sinus bradycardia OR Sinus arrhythmia,yes
+A00510,ecg,100.00,sinus tachycardia,Sinus tachycardia,yes
+A00511,ecg,3.78,left-axis deviation,Left-axis deviation,no
+A00512,ecg,2.36,low voltage,Low voltage,no
+A00513,ecg,100.00,st deviation,ST deviation,yes
+A00514,ecg,45.45,sinus bradycardia,Sinus bradycardia,no
+A00515,ecg,100.00,normal ecg,Normal ECG,yes
+A00516,ecg,100.00,normal ecg,Normal ECG,yes
+A00517,ecg,100.00,normal ecg,Normal ECG,yes
+A00518,ecg,100.00,normal ecg,Normal ECG,yes
+A00519,ecg,100.00,normal ecg,Normal ECG,yes
+A00520,ecg,22.86,st deviation with t-wave change,[Unknown code: 165+332] OR ST deviation with T-wave change,no
+A00521,ecg,100.00,normal ecg,Normal ECG,yes
+A00522,ecg,100.00,normal ecg,Normal ECG,yes
+A00523,ecg,100.00,normal ecg,Normal ECG,yes
+A00524,ecg,100.00,normal ecg,Normal ECG,yes
+A00525,ecg,100.00,normal ecg,Normal ECG,yes
+A00526,ecg,100.00,normal ecg,Normal ECG,yes
+A00527,ecg,91.43,atrial fibrillation and with a rapid ventricular response,Atrial fibrillation AND With a rapid ventricular response,yes
+A00528,ecg,100.00,normal ecg,Normal ECG,yes
+A00529,ecg,100.00,normal ecg,Normal ECG,yes
+A00530,ecg,100.00,normal ecg,Normal ECG,yes
+A00531,ecg,100.00,normal ecg,Normal ECG,yes
+A00532,ecg,100.00,normal ecg,Normal ECG,yes
+A00533,ecg,100.00,normal ecg,Normal ECG,yes
+A00534,ecg,61.11,right bundle-branch block,Right bundle-branch block,no
+A00535,ecg,100.00,normal ecg,Normal ECG,yes
+A00536,ecg,100.00,normal ecg,Normal ECG,yes
+A00537,ecg,100.00,normal ecg,Normal ECG,yes
+A00538,ecg,100.00,normal ecg,Normal ECG,yes
+A00539,ecg,100.00,normal ecg,Normal ECG,yes
+A00540,ecg,50.00,t-wave abnormality,T-wave abnormality,no
+A00541,ecg,11.48,right bundle-branch block,Right bundle-branch block,no
+A00542,ecg,3.55,t-wave abnormality,T-wave abnormality,no
+A00543,ecg,45.45,sinus bradycardia,Sinus bradycardia,no
+A00544,ecg,100.00,normal ecg,Normal ECG,yes
+A00545,ecg,100.00,normal ecg,Normal ECG,yes
+A00546,ecg,45.45,sinus bradycardia,Sinus bradycardia,no
+A00547,ecg,4.19,t-wave abnormality,T-wave abnormality,no
+A00548,ecg,100.00,normal ecg,Normal ECG,yes
+A00549,ecg,100.00,normal ecg,Normal ECG,yes
+A00550,ecg,47.62,sinus arrhythmia,Sinus bradycardia OR Sinus arrhythmia,no
+A00551,ecg,24.39,incomplete right bundle-branch block,[Unknown code: 161+332] OR Incomplete right bundle-branch block OR T-wave abnormality,no
+A00552,ecg,100.00,normal ecg,Normal ECG,yes
+A00553,ecg,100.00,normal ecg,Normal ECG,yes
+A00554,ecg,100.00,normal ecg,Normal ECG,yes
+A00555,ecg,100.00,normal ecg,Normal ECG,yes
+A00556,ecg,100.00,normal ecg,Normal ECG,yes
+A00557,ecg,100.00,sinus bradycardia,Sinus bradycardia OR ST deviation with T-wave change,yes
+A00558,ecg,45.45,sinus tachycardia,Sinus tachycardia,no
+A00559,ecg,72.73,prolonged pr interval,Incomplete right bundle-branch block OR Junctional premature complex(es) OR [Unknown code: 145+362] OR Prolonged PR interval,yes
+A00560,ecg,100.00,normal ecg,Normal ECG,yes
+A00561,ecg,100.00,normal ecg,Normal ECG,yes
+A00562,ecg,100.00,normal ecg,Normal ECG,yes
+A00563,ecg,100.00,normal ecg,Normal ECG,yes
+A00564,ecg,100.00,normal ecg,Normal ECG,yes
+A00565,ecg,61.11,right bundle-branch block,Sinus bradycardia OR Right bundle-branch block,no
+A00566,ecg,100.00,normal ecg,Normal ECG,yes
+A00567,ecg,100.00,sinus tachycardia,Sinus tachycardia,yes
+A00568,ecg,100.00,normal ecg,Normal ECG,yes
+A00569,ecg,100.00,normal ecg,Normal ECG,yes
+A00570,ecg,100.00,normal ecg,Normal ECG,yes
+A00571,ecg,45.45,sinus tachycardia,Sinus tachycardia,no
+A00572,ecg,100.00,normal ecg,Normal ECG,yes
+A00573,ecg,28.57,st deviation,ST deviation,no
+A00574,ecg,75.86,incomplete right bundle-branch block,Sinus bradycardia OR Incomplete right bundle-branch block,yes
+A00575,ecg,45.45,sinus bradycardia,Sinus bradycardia,no
+A00576,ecg,100.00,normal ecg,Normal ECG,yes
+A00577,ecg,100.00,normal ecg,Normal ECG,yes
+A00578,ecg,100.00,normal ecg,Normal ECG,yes
+A00579,ecg,47.62,sinus arrhythmia,Sinus arrhythmia,no
+A00580,ecg,91.43,atrial fibrillation and with a rapid ventricular response,Atrial fibrillation AND With a rapid ventricular response,yes
+A00581,ecg,45.45,sinus bradycardia,Sinus bradycardia,no
+A00582,ecg,100.00,normal ecg,Normal ECG,yes
+A00583,ecg,45.45,sinus bradycardia,Sinus bradycardia,no
+A00584,ecg,100.00,normal ecg,Normal ECG,yes
+A00585,ecg,77.78,ventricular premature complex(es),Right bundle-branch block OR Ventricular premature complex(es),yes
+A00586,ecg,100.00,normal ecg,Normal ECG,yes
+A00587,ecg,45.45,sinus bradycardia,Sinus bradycardia,no
+A00588,ecg,100.00,normal ecg,Normal ECG,yes
+A00589,ecg,45.45,sinus bradycardia,Sinus bradycardia,no
+A00590,ecg,100.00,normal ecg,Normal ECG,yes
+A00591,ecg,100.00,t-wave abnormality,T-wave abnormality,yes
+A00592,ecg,100.00,normal ecg,Normal ECG,yes
+A00593,ecg,4.25,t-wave abnormality,T-wave abnormality,no
+A00594,ecg,50.00,t-wave abnormality,Sinus arrhythmia OR T-wave abnormality,no
+A00595,ecg,87.27,st deviation with t-wave change,ST deviation with T-wave change,yes
+A00596,ecg,100.00,sinus tachycardia,Sinus tachycardia,yes
+A00597,ecg,100.00,normal ecg,Normal ECG,yes
+A00598,ecg,20.00,st deviation and depression,ST deviation AND Depression,no
+A00599,ecg,3.07,[unknown code: 60+308],[Unknown code: 60+308] OR [Unknown code: 160+332] OR [Unknown code: 161+332] OR Low voltage,no
+A00600,ecg,100.00,normal ecg,Normal ECG,yes
+A00601,ecg,45.45,sinus bradycardia,Sinus bradycardia,no
+A00602,ecg,100.00,normal ecg,Normal ECG,yes
+A00603,ecg,13.04,atrial premature complex(es) and occasional,Atrial premature complex(es) AND Occasional,no
+A00604,ecg,100.00,normal ecg,Normal ECG,yes
+A00605,ecg,100.00,normal ecg,Normal ECG,yes
+A00606,ecg,100.00,st deviation,ST deviation,yes
+A00607,ecg,100.00,normal ecg,Normal ECG,yes
+A00608,ecg,100.00,normal ecg,Normal ECG,yes
+A00609,ecg,100.00,normal ecg,Normal ECG,yes
+A00610,ecg,100.00,normal ecg,Normal ECG,yes
+A00611,ecg,100.00,normal ecg,Normal ECG,yes
+A00612,ecg,50.00,t-wave abnormality,T-wave abnormality,no
+A00613,ecg,27.27,inferior mi and old,Inferior MI AND Old,no
+A00614,ecg,45.45,sinus bradycardia,Sinus bradycardia,no
+A00615,ecg,6.59,"av block, complete (third-degree)","AV block, complete (third-degree) OR [Unknown code: 145+362]",no
+A00616,ecg,100.00,normal ecg,Normal ECG,yes
+A00617,ecg,100.00,normal ecg,Normal ECG,yes
+A00618,ecg,100.00,normal ecg,Normal ECG,yes
+A00619,ecg,100.00,normal ecg,Normal ECG,yes
+A00620,ecg,48.15,atrial premature complex(es) and frequent,Atrial premature complex(es) AND Frequent,no
+A00621,ecg,72.73,left ventricular hypertrophy,[Unknown code: 60+310] OR Left ventricular hypertrophy,yes
+A00622,ecg,45.45,sinus bradycardia,Sinus bradycardia,no
+A00623,ecg,77.78,ventricular premature complex(es),Ventricular premature complex(es),yes
+A00624,ecg,100.00,normal ecg,Normal ECG,yes
+A00625,ecg,100.00,normal ecg,Normal ECG,yes
+A00626,ecg,45.45,sinus bradycardia,Sinus bradycardia,no
+A00627,ecg,100.00,normal ecg,Normal ECG,yes
+A00628,ecg,28.57,st deviation,ST deviation,no
+A00629,ecg,45.45,sinus bradycardia,Sinus bradycardia,no
+A00630,ecg,100.00,normal ecg,Normal ECG,yes
+A00631,ecg,33.33,right bundle-branch block,Right bundle-branch block,no
+A00632,ecg,70.42,ventricular premature complex(es) and frequent,Ventricular premature complex(es) AND Frequent,yes
+A00633,ecg,100.00,normal ecg,Normal ECG,yes
+A00634,ecg,100.00,normal ecg,Normal ECG,yes
+A00635,ecg,77.78,ventricular premature complex(es),Sinus bradycardia OR Ventricular premature complex(es) OR ST deviation with T-wave change,yes
+A00636,ecg,100.00,normal ecg,Normal ECG,yes
+A00637,ecg,100.00,t-wave abnormality,T-wave abnormality,yes
+A00638,ecg,45.45,sinus bradycardia,Sinus bradycardia,no
+A00639,ecg,100.00,normal ecg,Normal ECG,yes
+A00640,ecg,45.45,sinus bradycardia,Sinus bradycardia OR ST deviation with T-wave change,no
+A00641,ecg,100.00,normal ecg,Normal ECG,yes
+A00642,ecg,45.45,sinus bradycardia,Sinus bradycardia,no
+A00643,ecg,100.00,sinus arrhythmia,Sinus arrhythmia OR [Unknown code: 60+310] OR ST deviation with T-wave change,yes
+A00644,ecg,77.78,ventricular premature complex(es),Sinus bradycardia OR Ventricular premature complex(es) OR ST deviation,yes
+A00645,ecg,100.00,normal ecg,Normal ECG,yes
+A00646,ecg,100.00,normal ecg,Normal ECG,yes
+A00647,ecg,100.00,normal ecg,Normal ECG,yes
+A00648,ecg,75.86,t-wave abnormality,T-wave abnormality,yes
+A00649,ecg,45.45,sinus bradycardia,Sinus bradycardia OR Right bundle-branch block,no
+A00650,ecg,100.00,t-wave abnormality,T-wave abnormality,yes
+A00651,ecg,100.00,normal ecg,Normal ECG,yes
+A00652,ecg,24.39,incomplete right bundle-branch block,Incomplete right bundle-branch block,no
+A00653,ecg,100.00,t-wave abnormality,Sinus bradycardia OR T-wave abnormality,yes
+A00654,ecg,100.00,normal ecg,Normal ECG,yes
+A00655,ecg,100.00,normal ecg,Normal ECG,yes
+A00656,ecg,100.00,atrial fibrillation,Atrial fibrillation,yes
+A00657,ecg,45.45,sinus bradycardia,Sinus bradycardia OR [Unknown code: 147+367],no
+A00658,ecg,66.67,ventricular premature complex(es) and in a bigeminal pattern,Ventricular premature complex(es) AND In a bigeminal pattern,no
+A00659,ecg,100.00,t-wave abnormality,Sinus bradycardia OR Sinus arrhythmia OR T-wave abnormality,yes
+A00660,ecg,100.00,normal ecg,Normal ECG,yes
+A00661,ecg,100.00,normal ecg,Normal ECG,yes
+A00662,ecg,45.45,sinus bradycardia,Sinus bradycardia OR Low voltage OR Incomplete right bundle-branch block,no
+A00663,ecg,75.86,incomplete right bundle-branch block,Incomplete right bundle-branch block,yes
+A00664,ecg,45.45,sinus bradycardia,Sinus bradycardia OR ST deviation,no
+A00665,ecg,100.00,normal ecg,Normal ECG,yes
+A00666,ecg,100.00,normal ecg,Normal ECG,yes
+A00667,ecg,91.43,atrial fibrillation and with a rapid ventricular response,Atrial fibrillation AND With a rapid ventricular response,yes
+A00668,ecg,5.32,left bundle-branch block,[Unknown code: 50+346] OR Left bundle-branch block,no
+A00669,ecg,3.96,right-axis deviation,Right-axis deviation,no
+A00670,ecg,100.00,sinus tachycardia,Sinus tachycardia,yes
+A00671,ecg,100.00,normal ecg,Normal ECG,yes
+A00672,ecg,100.00,normal ecg,Normal ECG,yes
+A00673,ecg,45.45,sinus bradycardia,Sinus bradycardia OR Low voltage,no
+A00674,ecg,100.00,normal ecg,Normal ECG,yes
+A00675,ecg,100.00,sinus tachycardia,Sinus tachycardia OR Ventricular premature complex(es),yes
+A00676,ecg,100.00,normal ecg,Normal ECG,yes
+A00677,ecg,47.62,sinus arrhythmia,Sinus arrhythmia,no
+A00678,ecg,24.39,incomplete right bundle-branch block,Incomplete right bundle-branch block,no
+A00679,ecg,100.00,normal ecg,Normal ECG,yes
+A00680,ecg,66.67,ventricular premature complex(es) and in a bigeminal pattern,Ventricular premature complex(es) AND In a bigeminal pattern,no
+A00681,ecg,100.00,normal ecg,Normal ECG,yes
+A00682,ecg,100.00,normal ecg,Normal ECG,yes
+A00683,ecg,3.45,right-axis deviation,Right-axis deviation,no
+A00684,ecg,100.00,normal ecg,Normal ECG,yes
+A00685,ecg,50.00,t-wave abnormality,Sinus bradycardia OR T-wave abnormality,no
+A00686,ecg,100.00,normal ecg,Normal ECG,yes
+A00687,ecg,77.55,left anterior fascicular block,Left anterior fascicular block,yes
+A00688,ecg,36.36,st deviation and depression,ST deviation AND Depression,no
+A00689,ecg,100.00,t-wave abnormality,T-wave abnormality,yes
+A00690,ecg,68.75,prolonged pr interval,Sinus tachycardia OR Prolonged PR interval OR [Unknown code: 145+362],no
+A00691,ecg,45.45,sinus bradycardia,Sinus bradycardia OR ST deviation with T-wave change,no
+A00692,ecg,47.62,sinus arrhythmia,Sinus arrhythmia,no
+A00693,ecg,45.45,sinus tachycardia,Sinus tachycardia,no
+A00694,ecg,100.00,normal ecg,Normal ECG,yes
+A00695,ecg,45.45,sinus bradycardia,Sinus bradycardia,no
+A00696,ecg,72.73,left ventricular hypertrophy,[Unknown code: 50+346] OR Left ventricular hypertrophy OR ST deviation with T-wave change,yes
+A00697,ecg,100.00,normal ecg,Normal ECG,yes
+A00698,ecg,25.00,left ventricular hypertrophy,Left ventricular hypertrophy OR ST-T change due to ventricular hypertrophy,no
+A00699,ecg,63.64,left anterior fascicular block,Left anterior fascicular block,no
+A00700,ecg,3.33,t-wave abnormality,T-wave abnormality,no
+A00701,ecg,100.00,normal ecg,Normal ECG,yes
+A00702,ecg,100.00,normal ecg,Normal ECG,yes
+A00703,ecg,28.57,st deviation,ST deviation,no
+A00704,ecg,77.78,ventricular premature complex(es),Ventricular premature complex(es),yes
+A00705,ecg,100.00,normal ecg,Normal ECG,yes
+A00706,ecg,100.00,normal ecg,Normal ECG,yes
+A00707,ecg,8.35,right-axis deviation,Right-axis deviation,no
+A00708,ecg,100.00,normal ecg,Normal ECG,yes
+A00709,ecg,65.93,ventricular premature complex(es) and in a trigeminal pattern,Ventricular premature complex(es) AND In a trigeminal pattern,no
+A00710,ecg,100.00,normal ecg,Normal ECG,yes
+A00711,ecg,100.00,normal ecg,Normal ECG,yes
+A00712,ecg,47.62,sinus arrhythmia,Sinus arrhythmia,no
+A00713,ecg,20.00,st deviation and depression,ST deviation AND Depression,no
+A00714,ecg,2.72,st deviation,[Unknown code: 60+310] OR ST deviation,no
+A00715,ecg,77.27,st deviation and depression,ST deviation AND Depression,yes
+A00716,ecg,100.00,normal ecg,Normal ECG,yes
+A00717,ecg,87.27,st deviation with t-wave change,ST deviation with T-wave change,yes
+A00718,ecg,47.62,sinus arrhythmia,Sinus arrhythmia,no
+A00719,ecg,100.00,normal ecg,Normal ECG,yes
+A00720,ecg,100.00,normal ecg,Normal ECG,yes
+A00721,ecg,87.27,st deviation with t-wave change,ST deviation with T-wave change,yes
+A00722,ecg,100.00,t-wave abnormality,Sinus bradycardia OR T-wave abnormality,yes
+A00723,ecg,45.45,sinus bradycardia,Sinus bradycardia,no
+A00724,ecg,100.00,normal ecg,Normal ECG,yes
+A00725,ecg,100.00,normal ecg,Normal ECG,yes
+A00726,ecg,13.88,st deviation with t-wave change,ST deviation with T-wave change,no
+A00727,ecg,45.45,sinus bradycardia,Sinus bradycardia,no
+A00728,ecg,100.00,normal ecg,Normal ECG,yes
+A00729,ecg,33.33,right bundle-branch block,Right bundle-branch block OR [Unknown code: 147+367],no
+A00730,ecg,100.00,normal ecg,Normal ECG,yes
+A00731,ecg,75.00,normal ecg,Normal ECG,yes
+A00732,ecg,13.64,atrial premature complex(es) and frequent,Atrial premature complex(es) AND Frequent,no
+A00733,ecg,100.00,normal ecg,Normal ECG,yes
+A00734,ecg,100.00,sinus bradycardia,Sinus bradycardia OR T-wave abnormality,yes
+A00735,ecg,100.00,atrial fibrillation,Atrial fibrillation,yes
+A00736,ecg,45.45,sinus bradycardia,Sinus bradycardia,no
+A00737,ecg,100.00,normal ecg,Normal ECG,yes
+A00738,ecg,100.00,normal ecg,Normal ECG,yes
+A00739,ecg,100.00,normal ecg,Normal ECG,yes
+A00740,ecg,100.00,normal ecg,Normal ECG,yes
+A00741,ecg,45.45,sinus bradycardia,Sinus bradycardia,no
+A00742,ecg,7.67,t-wave abnormality,T-wave abnormality,no
+A00743,ecg,100.00,normal ecg,Normal ECG,yes
+A00744,ecg,62.22,st deviation with t-wave change,ST deviation with T-wave change,no
+A00745,ecg,100.00,sinus tachycardia,Sinus tachycardia OR ST deviation with T-wave change,yes
+A00746,ecg,75.00,normal ecg,Normal ECG,yes
+A00747,ecg,36.36,st deviation and depression,ST deviation AND Depression,no
+A00748,ecg,100.00,normal ecg,Normal ECG,yes
+A00749,ecg,61.54,st deviation and depression,ST deviation AND Depression,no
+A00750,ecg,100.00,normal ecg,Normal ECG,yes
+A00751,ecg,100.00,normal ecg,Normal ECG,yes
+A00752,ecg,47.62,sinus arrhythmia,Sinus arrhythmia,no
+A00753,ecg,47.62,t-wave abnormality and inversion,T-wave abnormality AND Inversion,no
+A00754,ecg,100.00,normal ecg,Normal ECG,yes
+A00755,ecg,100.00,normal ecg,Normal ECG,yes
+A00756,ecg,100.00,normal ecg,Normal ECG,yes
+A00757,ecg,75.86,t-wave abnormality,[Unknown code: 50+346] OR T-wave abnormality OR [Unknown code: 145+362],yes
+A00758,ecg,100.00,normal ecg,Normal ECG,yes
+A00759,ecg,100.00,normal ecg,Normal ECG,yes
+A00760,ecg,100.00,normal ecg,Normal ECG,yes
+A00761,ecg,3.83,t-wave abnormality,T-wave abnormality,no
+A00762,ecg,47.62,sinus arrhythmia,Sinus arrhythmia,no
+A00763,ecg,100.00,normal ecg,Normal ECG,yes
+A00764,ecg,100.00,normal ecg,Normal ECG,yes
+A00765,ecg,100.00,prolonged pr interval,Sinus arrhythmia OR Prolonged PR interval OR T-wave abnormality,yes
+A00766,ecg,100.00,normal ecg,Normal ECG,yes
+A00767,ecg,100.00,normal ecg,Normal ECG,yes
+A00768,ecg,100.00,normal ecg,Normal ECG,yes
+A00769,ecg,33.33,right bundle-branch block,Right bundle-branch block OR Atrial premature complex(es),no
+A00770,ecg,100.00,normal ecg,Normal ECG,yes
+A00771,ecg,100.00,normal ecg,Normal ECG,yes
+A00772,ecg,100.00,normal ecg,Normal ECG,yes
+A00773,ecg,45.45,sinus bradycardia,Sinus bradycardia,no
+A00774,ecg,100.00,normal ecg,Normal ECG,yes
+A00775,ecg,100.00,sinus tachycardia,Sinus tachycardia OR Incomplete right bundle-branch block OR T-wave abnormality,yes
+A00776,ecg,100.00,normal ecg,Normal ECG,yes
+A00777,ecg,100.00,normal ecg,Normal ECG,yes
+A00778,ecg,45.45,sinus bradycardia,Sinus bradycardia,no
+A00779,ecg,100.00,normal ecg,Normal ECG,yes
+A00780,ecg,100.00,sinus tachycardia,Sinus tachycardia OR [Unknown code: 145+362],yes
+A00781,ecg,100.00,st deviation,ST deviation,yes
+A00782,ecg,8.42,t-wave abnormality,T-wave abnormality,no
+A00783,ecg,100.00,normal ecg,Normal ECG,yes
+A00784,ecg,58.82,left bundle-branch block,Left bundle-branch block,no
+A00785,ecg,5.15,junctional tachycardia,Junctional tachycardia,no
+A00786,ecg,77.78,ventricular premature complex(es),Ventricular premature complex(es),yes
+A00787,ecg,50.00,t-wave abnormality,Sinus bradycardia OR T-wave abnormality,no
+A00788,ecg,100.00,normal ecg,Normal ECG,yes
+A00789,ecg,77.42,anterior mi and old,Anterior MI AND Old,yes
+A00790,ecg,45.45,sinus bradycardia,Sinus bradycardia OR Low voltage,no
+A00791,ecg,75.86,incomplete right bundle-branch block,Incomplete right bundle-branch block,yes
+A00792,ecg,100.00,normal ecg,Normal ECG,yes
+A00793,ecg,100.00,normal ecg,Normal ECG,yes
+A00794,ecg,24.39,incomplete right bundle-branch block,Incomplete right bundle-branch block,no
+A00795,ecg,9.02,right-axis deviation,Right-axis deviation,no
+A00796,ecg,3.54,st deviation,Low voltage OR ST deviation,no
+A00798,ecg,100.00,normal ecg,Normal ECG,yes
+A00799,ecg,100.00,normal ecg,Normal ECG,yes
+A00800,ecg,100.00,st deviation,ST deviation,yes
+A00801,ecg,45.45,sinus bradycardia,Sinus bradycardia,no
+A00802,ecg,47.62,sinus arrhythmia,Sinus bradycardia OR Sinus arrhythmia,no
+A00803,ecg,100.00,normal ecg,Normal ECG,yes
+A00804,ecg,45.45,sinus bradycardia,Sinus bradycardia,no
+A00805,ecg,100.00,normal ecg,Normal ECG,yes
+A00806,ecg,20.00,st deviation and depression,ST deviation AND Depression,no
+A00807,ecg,72.73,prolonged pr interval,Sinus bradycardia OR Right bundle-branch block OR Prolonged PR interval,yes
+A00808,ecg,77.27,st deviation and depression,ST deviation AND Depression,yes
+A00809,ecg,28.57,st deviation,ST deviation,no
+A00810,ecg,100.00,t-wave abnormality,Ventricular premature complex(es) OR T-wave abnormality,yes
+A00811,ecg,100.00,normal ecg,Normal ECG,yes
+A00812,ecg,33.33,right bundle-branch block,Right bundle-branch block,no
+A00813,ecg,100.00,normal ecg,Normal ECG,yes
+A00814,ecg,100.00,normal ecg,Normal ECG,yes
+A00815,ecg,75.86,incomplete right bundle-branch block,Incomplete right bundle-branch block,yes
+A00816,ecg,45.45,sinus bradycardia,Sinus bradycardia OR Incomplete right bundle-branch block,no
+A00817,ecg,100.00,normal ecg,Normal ECG,yes
+A00818,ecg,100.00,normal ecg,Normal ECG,yes
+A00819,ecg,100.00,normal ecg,Normal ECG,yes
+A00820,ecg,62.22,st deviation with t-wave change,ST deviation with T-wave change OR Atrial premature complex(es),no
+A00821,ecg,100.00,normal ecg,Normal ECG,yes
+A00822,ecg,100.00,normal ecg,Normal ECG,yes
+A00823,ecg,100.00,normal ecg,Normal ECG,yes
+A00824,ecg,100.00,normal ecg,Normal ECG,yes
+A00825,ecg,100.00,normal ecg,Normal ECG,yes
+A00826,ecg,100.00,normal ecg,Normal ECG,yes
+A00827,ecg,100.00,normal ecg,Normal ECG,yes
+A00828,ecg,100.00,t-wave abnormality,T-wave abnormality,yes
+A00829,ecg,100.00,normal ecg,Normal ECG,yes
+A00830,ecg,77.78,ventricular premature complex(es),Ventricular premature complex(es),yes
+A00831,ecg,77.55,left anterior fascicular block,[Unknown code: 160+332] OR Left anterior fascicular block OR T-wave abnormality,yes
+A00832,ecg,100.00,normal ecg,Normal ECG,yes
+A00833,ecg,47.62,sinus arrhythmia,Sinus arrhythmia,no
+A00834,ecg,100.00,normal ecg,Normal ECG,yes
+A00835,ecg,100.00,normal ecg,Normal ECG,yes
+A00836,ecg,70.83,st deviation with t-wave change,Sinus tachycardia OR ST deviation with T-wave change,yes
+A00837,ecg,77.55,left anterior fascicular block,Left anterior fascicular block OR Sinus arrhythmia,yes
+A00838,ecg,100.00,normal ecg,Normal ECG,yes
+A00839,ecg,100.00,normal ecg,Normal ECG,yes
+A00840,ecg,100.00,normal ecg,Normal ECG,yes
+A00841,ecg,45.45,sinus bradycardia,Sinus bradycardia,no
+A00842,ecg,100.00,normal ecg,Normal ECG,yes
+A00843,ecg,68.75,prolonged pr interval,Sinus tachycardia OR Prolonged PR interval OR Low voltage,no
+A00844,ecg,100.00,normal ecg,Normal ECG,yes
+A00845,ecg,100.00,normal ecg,Normal ECG,yes
+A00846,ecg,100.00,normal ecg,Normal ECG,yes
+A00847,ecg,45.45,sinus tachycardia,Sinus tachycardia OR [Unknown code: 60+310],no
+A00848,ecg,28.57,st deviation,[Unknown code: 50+346] OR Incomplete right bundle-branch block OR ST deviation,no
+A00849,ecg,87.27,st deviation with t-wave change,[Unknown code: 50+346] OR ST deviation with T-wave change,yes
+A00850,ecg,100.00,normal ecg,Normal ECG,yes
+A00851,ecg,100.00,t-wave abnormality,T-wave abnormality,yes
+A00852,ecg,100.00,normal ecg,Normal ECG,yes
+A00853,ecg,66.67,ventricular premature complex(es) and in a bigeminal pattern,Ventricular premature complex(es) AND In a bigeminal pattern,no
+A00854,ecg,22.86,st deviation with t-wave change,Low voltage OR Left atrial enlargement OR ST deviation with T-wave change OR Right-axis deviation,no
+A00855,ecg,100.00,sinus bradycardia,Sinus bradycardia OR Prolonged QT interval,yes
+A00856,ecg,100.00,normal ecg,Normal ECG,yes
+A00857,ecg,87.27,st deviation with t-wave change,ST deviation with T-wave change,yes
+A00858,ecg,100.00,normal ecg,Normal ECG,yes
+A00859,ecg,45.45,sinus bradycardia,Sinus bradycardia,no
+A00860,ecg,75.86,t-wave abnormality,T-wave abnormality,yes
+A00861,ecg,100.00,normal ecg,Normal ECG,yes
+A00862,ecg,100.00,normal ecg,Normal ECG,yes
+A00863,ecg,100.00,normal ecg,Normal ECG,yes
+A00864,ecg,100.00,normal ecg,Normal ECG,yes
+A00865,ecg,45.45,sinus bradycardia,Sinus bradycardia,no
+A00866,ecg,100.00,normal ecg,Normal ECG,yes
+A00867,ecg,100.00,normal ecg,Normal ECG,yes
+A00868,ecg,100.00,normal ecg,Normal ECG,yes
+A00869,ecg,47.62,sinus arrhythmia,Sinus bradycardia OR Sinus arrhythmia OR T-wave abnormality,no
+A00870,ecg,47.62,sinus arrhythmia,Sinus bradycardia OR Sinus arrhythmia,no
+A00871,ecg,100.00,normal ecg,Normal ECG,yes
+A00872,ecg,100.00,normal ecg,Normal ECG,yes
+A00873,ecg,75.86,incomplete right bundle-branch block,Incomplete right bundle-branch block,yes
+A00874,ecg,100.00,normal ecg,Normal ECG,yes
+A00875,ecg,100.00,sinus bradycardia,Sinus bradycardia OR Sinus arrhythmia,yes
+A00876,ecg,100.00,normal ecg,Normal ECG,yes
+A00877,ecg,100.00,normal ecg,Normal ECG,yes
+A00878,ecg,45.45,sinus bradycardia,Sinus bradycardia,no
+A00879,ecg,75.86,incomplete right bundle-branch block,Sinus bradycardia OR Sinus arrhythmia OR Incomplete right bundle-branch block,yes
+A00880,ecg,58.82,left bundle-branch block,Left bundle-branch block OR T-wave abnormality,no
+A00881,ecg,100.00,normal ecg,Normal ECG,yes
+A00882,ecg,100.00,normal ecg,Normal ECG,yes
+A00883,ecg,100.00,sinus tachycardia,Sinus tachycardia,yes
+A00884,ecg,45.45,sinus bradycardia,Sinus bradycardia,no
+A00885,ecg,100.00,normal ecg,Normal ECG,yes
+A00886,ecg,45.45,sinus bradycardia,Sinus bradycardia OR T-wave abnormality,no
+A00887,ecg,100.00,normal ecg,Normal ECG,yes
+A00888,ecg,100.00,normal ecg,Normal ECG,yes
+A00889,ecg,28.57,st deviation,ST deviation,no
+A00890,ecg,100.00,normal ecg,Normal ECG,yes
+A00891,ecg,100.00,normal ecg,Normal ECG,yes
+A00892,ecg,100.00,normal ecg,Normal ECG,yes
+A00893,ecg,68.49,ventricular premature complex(es) and occasional,Ventricular premature complex(es) AND Occasional,no
+A00894,ecg,100.00,normal ecg,Normal ECG,yes
+A00895,ecg,100.00,normal ecg,Normal ECG,yes
+A00896,ecg,100.00,normal ecg,Normal ECG,yes
+A00897,ecg,100.00,sinus bradycardia,Sinus bradycardia OR T-wave abnormality,yes
+A00898,ecg,100.00,normal ecg,Normal ECG,yes
+A00899,ecg,100.00,normal ecg,Normal ECG,yes
+A00900,ecg,100.00,normal ecg,Normal ECG,yes
+A00901,ecg,100.00,sinus bradycardia,Sinus bradycardia,yes
+A00902,ecg,100.00,normal ecg,Normal ECG,yes
+A00903,ecg,100.00,normal ecg,Normal ECG,yes
+A00904,ecg,45.45,sinus bradycardia,Sinus bradycardia OR T-wave abnormality,no
+A00905,ecg,100.00,normal ecg,Normal ECG,yes
+A00906,ecg,24.39,incomplete right bundle-branch block,Incomplete right bundle-branch block OR [Unknown code: 145+362],no
+A00907,ecg,63.83,t-wave abnormality and inversion,T-wave abnormality AND Inversion,no
+A00908,ecg,100.00,normal ecg,Normal ECG,yes
+A00909,ecg,3.28,left-axis deviation,Left-axis deviation,no
+A00910,ecg,45.45,sinus bradycardia,Sinus bradycardia,no
+A00911,ecg,45.45,sinus bradycardia,Sinus bradycardia,no
+A00912,ecg,100.00,normal ecg,Normal ECG,yes
+A00913,ecg,100.00,normal ecg,Normal ECG,yes
+A00914,ecg,100.00,normal ecg,Normal ECG,yes
+A00915,ecg,77.55,left anterior fascicular block,Left anterior fascicular block,yes
+A00916,ecg,100.00,normal ecg,Normal ECG,yes
+A00917,ecg,100.00,normal ecg,Normal ECG,yes
+A00918,ecg,47.62,sinus arrhythmia,Sinus arrhythmia,no
+A00919,ecg,100.00,normal ecg,Normal ECG,yes
+A00920,ecg,47.62,sinus arrhythmia,Sinus arrhythmia,no
+A00921,ecg,14.71,incomplete right bundle-branch block,Incomplete right bundle-branch block,no
+A00922,ecg,100.00,normal ecg,Normal ECG,yes
+A00923,ecg,100.00,normal ecg,Normal ECG,yes
+A00924,ecg,100.00,normal ecg,Normal ECG,yes
+A00925,ecg,100.00,normal ecg,Normal ECG,yes
+A00926,ecg,45.45,sinus bradycardia,Sinus bradycardia,no
+A00927,ecg,100.00,normal ecg,Normal ECG,yes
+A00928,ecg,100.00,sinus tachycardia,Sinus tachycardia,yes
+A00929,ecg,67.44,atrial fibrillation and with a rapid ventricular response,Atrial fibrillation AND With a rapid ventricular response,no
+A00930,ecg,100.00,normal ecg,Normal ECG,yes
+A00931,ecg,100.00,normal ecg,Normal ECG,yes
+A00932,ecg,100.00,normal ecg,Normal ECG,yes
+A00933,ecg,100.00,normal ecg,Normal ECG,yes
+A00934,ecg,100.00,normal ecg,Normal ECG,yes
+A00935,ecg,2.47,low voltage,Low voltage,no
+A00936,ecg,75.86,t-wave abnormality,T-wave abnormality,yes
+A00937,ecg,100.00,normal ecg,Normal ECG,yes
+A00938,ecg,24.39,incomplete right bundle-branch block,Incomplete right bundle-branch block,no
+A00939,ecg,100.00,normal ecg,Normal ECG,yes
+A00940,ecg,100.00,sinus bradycardia,Sinus bradycardia OR T-wave abnormality,yes
+A00941,ecg,65.88,atrial fibrillation and with a rapid ventricular response,Atrial fibrillation AND With a rapid ventricular response,no
+A00942,ecg,100.00,normal ecg,Normal ECG,yes
+A00943,ecg,36.36,st deviation and depression,ST deviation AND Depression,no
+A00944,ecg,100.00,normal ecg,Normal ECG,yes
+A00945,ecg,47.62,sinus arrhythmia,Sinus bradycardia OR Sinus arrhythmia,no
+A00946,ecg,100.00,normal ecg,Normal ECG,yes
+A00947,ecg,100.00,normal ecg,Normal ECG,yes
+A00948,ecg,100.00,normal ecg,Normal ECG,yes
+A00949,ecg,4.74,right-axis deviation,Right-axis deviation,no
+A00950,ecg,100.00,normal ecg,Normal ECG,yes
+A00951,ecg,2.37,low voltage,Low voltage,no
+A00952,ecg,4.19,t-wave abnormality,T-wave abnormality OR [Unknown code: 145+362],no
+A00953,ecg,100.00,normal ecg,Normal ECG,yes
+A00954,ecg,100.00,normal ecg,Normal ECG,yes
+A00955,ecg,100.00,normal ecg,Normal ECG,yes
+A00956,ecg,100.00,t-wave abnormality,T-wave abnormality,yes
+A00957,ecg,100.00,normal ecg,Normal ECG,yes
+A00958,ecg,47.62,sinus arrhythmia,Sinus arrhythmia,no
+A00959,ecg,50.00,t-wave abnormality,Sinus bradycardia OR T-wave abnormality,no
+A00960,ecg,100.00,normal ecg,Normal ECG,yes
+A00961,ecg,45.45,sinus bradycardia,Sinus bradycardia,no
+A00962,ecg,47.62,sinus arrhythmia,Sinus arrhythmia OR ST deviation,no
+A00963,ecg,75.86,t-wave abnormality,T-wave abnormality,yes
+A00964,ecg,100.00,normal ecg,Normal ECG,yes
+A00965,ecg,100.00,normal ecg,Normal ECG,yes
+A00966,ecg,45.45,sinus bradycardia,Sinus bradycardia,no
+A00967,ecg,100.00,st deviation,ST deviation,yes
+A00968,ecg,61.54,st deviation and depression,ST deviation AND Depression,no
+A00969,ecg,100.00,normal ecg,Normal ECG,yes
+A00970,ecg,100.00,normal ecg,Normal ECG,yes
+A00971,ecg,100.00,normal ecg,Normal ECG,yes
+A00972,ecg,100.00,sinus bradycardia,Sinus bradycardia,yes
+A00973,ecg,45.45,sinus bradycardia,Sinus bradycardia,no
+A00974,ecg,100.00,atrial fibrillation,Atrial fibrillation OR ST deviation with T-wave change,yes
+A00975,ecg,27.78,left posterior fascicular block,Left posterior fascicular block,no
+A00976,ecg,100.00,normal ecg,Normal ECG,yes
+A00977,ecg,100.00,normal ecg,Normal ECG,yes
+A00978,ecg,100.00,normal ecg,Normal ECG,yes
+A00979,ecg,100.00,normal ecg,Normal ECG,yes
+A00980,ecg,2.52,st deviation,ST deviation,no
+A00981,ecg,100.00,normal ecg,Normal ECG,yes
+A00982,ecg,100.00,normal ecg,Normal ECG,yes
+A00983,ecg,100.00,normal ecg,Normal ECG,yes
+A00984,ecg,100.00,normal ecg,Normal ECG,yes
+A00985,ecg,100.00,normal ecg,Normal ECG,yes
+A00986,ecg,100.00,normal ecg,Normal ECG,yes
+A00987,ecg,100.00,normal ecg,Normal ECG,yes
+A00988,ecg,100.00,sinus tachycardia,Sinus tachycardia OR [Unknown code: 147+367],yes
+A00989,ecg,77.27,st deviation and depression,ST deviation AND Depression,yes
+A00990,ecg,100.00,normal ecg,Normal ECG,yes
+A00991,ecg,100.00,normal ecg,Normal ECG,yes
+A00992,ecg,62.22,st deviation with t-wave change,Atrial premature complex(es) OR ST deviation with T-wave change,no
+A00993,ecg,75.86,incomplete right bundle-branch block,Incomplete right bundle-branch block,yes
+A00994,ecg,47.62,sinus arrhythmia,Sinus arrhythmia,no
+A00995,ecg,100.00,normal ecg,Normal ECG,yes
+A00996,ecg,33.33,right bundle-branch block,Right bundle-branch block,no
+A00997,ecg,100.00,normal ecg,Normal ECG,yes
+A00998,ecg,100.00,normal ecg,Normal ECG,yes
+A00999,ecg,100.00,normal ecg,Normal ECG,yes
+A01000,ecg,24.39,incomplete right bundle-branch block,Incomplete right bundle-branch block,no
+A00001,image,47.62,sinus arrhythmia,Sinus bradycardia OR Sinus arrhythmia,no
+A00002,image,100.00,normal ecg,Normal ECG,yes
+A00003,image,100.00,normal ecg,Normal ECG,yes
+A00004,image,47.62,sinus arrhythmia,Sinus arrhythmia,no
+A00005,image,22.86,st deviation with t-wave change,ST deviation with T-wave change,no
+A00006,image,100.00,normal ecg,Normal ECG,yes
+A00007,image,61.11,right bundle-branch block,Right bundle-branch block,no
+A00008,image,100.00,normal ecg,Normal ECG,yes
+A00009,image,100.00,normal ecg,Normal ECG,yes
+A00010,image,100.00,normal ecg,Normal ECG,yes
+A00011,image,47.62,sinus arrhythmia,Sinus bradycardia OR Sinus arrhythmia,no
+A00012,image,100.00,normal ecg,Normal ECG,yes
+A00013,image,56.14,atrial premature complex(es) and frequent,Atrial premature complex(es) AND Frequent,no
+A00014,image,100.00,normal ecg,Normal ECG,yes
+A00015,image,100.00,t-wave abnormality,Sinus bradycardia OR T-wave abnormality,yes
+A00016,image,100.00,normal ecg,Normal ECG,yes
+A00017,image,100.00,normal ecg,Normal ECG,yes
+A00018,image,77.78,ventricular premature complex(es),Ventricular premature complex(es),yes
+A00019,image,100.00,normal ecg,Normal ECG,yes
+A00020,image,48.65,atrial premature complex(es),Atrial premature complex(es),no
+A00021,image,100.00,normal ecg,Normal ECG,yes
+A00022,image,68.75,prolonged pr interval,Low voltage OR Prolonged PR interval,no
+A00023,image,75.86,incomplete right bundle-branch block,Incomplete right bundle-branch block,yes
+A00024,image,100.00,normal ecg,Normal ECG,yes
+A00025,image,100.00,normal ecg,Normal ECG,yes
+A00026,image,100.00,normal ecg,Normal ECG,yes
+A00027,image,100.00,normal ecg,Normal ECG,yes
+A00028,image,100.00,normal ecg,Normal ECG,yes
+A00029,image,46.81,incomplete right bundle-branch block,Incomplete right bundle-branch block,no
+A00030,image,45.45,sinus bradycardia,Sinus bradycardia,no
+A00031,image,100.00,normal ecg,Normal ECG,yes
+A00032,image,100.00,normal ecg,Normal ECG,yes
+A00033,image,100.00,normal ecg,Normal ECG,yes
+A00034,image,70.42,ventricular premature complex(es) and frequent,Ventricular premature complex(es) AND Frequent,yes
+A00035,image,100.00,normal ecg,Normal ECG,yes
+A00036,image,47.62,sinus arrhythmia,Sinus arrhythmia,no
+A00037,image,6.26,right-axis deviation,Right-axis deviation,no
+A00038,image,100.00,normal ecg,Normal ECG,yes
+A00039,image,6.59,t-wave abnormality,[Unknown code: 30+310] OR T-wave abnormality,no
+A00040,image,100.00,normal ecg,Normal ECG,yes
+A00041,image,45.45,sinus bradycardia,Sinus bradycardia,no
+A00042,image,100.00,normal ecg,Normal ECG,yes
+A00043,image,100.00,normal ecg,Normal ECG,yes
+A00044,image,100.00,normal ecg,Normal ECG,yes
+A00045,image,100.00,normal ecg,Normal ECG,yes
+A00046,image,100.00,normal ecg,Normal ECG,yes
+A00047,image,100.00,normal ecg,Normal ECG,yes
+A00048,image,100.00,normal ecg,Normal ECG,yes
+A00049,image,47.62,sinus arrhythmia,Sinus bradycardia OR Sinus arrhythmia,no
+A00050,image,45.45,sinus bradycardia,Sinus bradycardia,no
+A00051,image,45.45,sinus bradycardia,Sinus bradycardia OR ST deviation,no
+A00052,image,100.00,normal ecg,Normal ECG,yes
+A00053,image,47.62,sinus arrhythmia,Sinus bradycardia OR Sinus arrhythmia,no
+A00054,image,75.00,normal ecg,Normal ECG,yes
+A00055,image,75.86,t-wave abnormality,T-wave abnormality,yes
+A00056,image,100.00,normal ecg,Normal ECG,yes
+A00057,image,45.45,sinus bradycardia,Sinus bradycardia,no
+A00058,image,100.00,normal ecg,Normal ECG,yes
+A00059,image,100.00,normal ecg,Normal ECG,yes
+A00060,image,100.00,normal ecg,Normal ECG,yes
+A00061,image,100.00,normal ecg,Normal ECG,yes
+A00062,image,100.00,normal ecg,Normal ECG,yes
+A00063,image,100.00,normal ecg,Normal ECG,yes
+A00064,image,100.00,normal ecg,Normal ECG,yes
+A00065,image,45.45,sinus bradycardia,Sinus bradycardia,no
+A00066,image,100.00,normal ecg,Normal ECG,yes
+A00067,image,6.22,t-wave abnormality,T-wave abnormality,no
+A00068,image,100.00,normal ecg,Normal ECG,yes
+A00069,image,100.00,normal ecg,Normal ECG,yes
+A00070,image,3.38,low voltage,Low voltage,no
+A00071,image,100.00,normal ecg,Normal ECG,yes
+A00072,image,100.00,normal ecg,Normal ECG,yes
+A00073,image,100.00,normal ecg,Normal ECG,yes
+A00074,image,45.45,sinus bradycardia,Sinus bradycardia,no
+A00075,image,45.45,sinus bradycardia,Sinus bradycardia OR [Unknown code: 145+362],no
+A00076,image,100.00,normal ecg,Normal ECG,yes
+A00077,image,100.00,normal ecg,Normal ECG,yes
+A00078,image,100.00,normal ecg,Normal ECG,yes
+A00079,image,8.31,right-axis deviation,Right-axis deviation,no
+A00080,image,100.00,normal ecg,Normal ECG,yes
+A00081,image,45.45,sinus bradycardia,Sinus bradycardia,no
+A00082,image,100.00,normal ecg,Normal ECG,yes
+A00083,image,5.28,t-wave abnormality,T-wave abnormality,no
+A00084,image,100.00,normal ecg,Normal ECG,yes
+A00085,image,45.45,sinus tachycardia,Sinus tachycardia,no
+A00086,image,11.88,atrial premature complex(es),Atrial premature complex(es) OR Low voltage,no
+A00087,image,100.00,normal ecg,Normal ECG,yes
+A00088,image,100.00,normal ecg,Normal ECG,yes
+A00089,image,100.00,normal ecg,Normal ECG,yes
+A00090,image,45.45,sinus bradycardia,Sinus bradycardia,no
+A00091,image,10.73,incomplete right bundle-branch block,Incomplete right bundle-branch block,no
+A00092,image,100.00,normal ecg,Normal ECG,yes
+A00093,image,100.00,normal ecg,Normal ECG,yes
+A00094,image,9.47,early repolarization,Early repolarization,no
+A00095,image,100.00,normal ecg,Normal ECG,yes
+A00096,image,100.00,normal ecg,Normal ECG,yes
+A00097,image,100.00,normal ecg,Normal ECG,yes
+A00098,image,100.00,normal ecg,Normal ECG,yes
+A00099,image,20.00,st deviation and depression,ST deviation AND Depression,no
+A00100,image,100.00,normal ecg,Normal ECG,yes
+A00101,image,47.62,sinus arrhythmia,Sinus arrhythmia,no
+A00102,image,9.38,st deviation with t-wave change,[Unknown code: 60+308] OR ST deviation with T-wave change,no
+A00103,image,93.02,anteroseptal mi and old,Anteroseptal MI AND Old,yes
+A00104,image,45.45,sinus tachycardia,Sinus tachycardia OR Left atrial enlargement,no
+A00105,image,100.00,normal ecg,Normal ECG,yes
+A00106,image,100.00,normal ecg,Normal ECG,yes
+A00107,image,75.00,normal ecg,Normal ECG,yes
+A00108,image,45.45,sinus bradycardia,Sinus bradycardia,no
+A00109,image,100.00,normal ecg,Normal ECG,yes
+A00110,image,45.45,sinus bradycardia,Sinus bradycardia,no
+A00111,image,100.00,normal ecg,Normal ECG,yes
+A00112,image,10.45,st deviation with t-wave change,Anterior MI OR [Unknown code: 60+310] OR ST deviation with T-wave change,no
+A00113,image,75.86,t-wave abnormality,T-wave abnormality,yes
+A00114,image,100.00,normal ecg,Normal ECG,yes
+A00115,image,100.00,normal ecg,Normal ECG,yes
+A00116,image,100.00,t-wave abnormality,Left ventricular hypertrophy OR T-wave abnormality,yes
+A00117,image,100.00,normal ecg,Normal ECG,yes
+A00118,image,100.00,normal ecg,Normal ECG,yes
+A00119,image,12.17,ventricular premature complex(es),Ventricular premature complex(es),no
+A00120,image,100.00,normal ecg,Normal ECG,yes
+A00121,image,100.00,normal ecg,Normal ECG,yes
+A00122,image,100.00,normal ecg,Normal ECG,yes
+A00123,image,48.15,atrial premature complex(es) and frequent,Atrial premature complex(es) AND Frequent,no
+A00124,image,100.00,t-wave abnormality,T-wave abnormality,yes
+A00125,image,33.33,right bundle-branch block,Prolonged PR interval OR Right bundle-branch block,no
+A00126,image,45.45,sinus bradycardia,Sinus bradycardia OR ST deviation OR Incomplete right bundle-branch block,no
+A00127,image,75.00,normal ecg,Normal ECG,yes
+A00128,image,17.14,t-wave abnormality and inversion,T-wave abnormality AND Inversion,no
+A00129,image,45.45,sinus bradycardia,Sinus bradycardia,no
+A00130,image,100.00,normal ecg,Normal ECG,yes
+A00131,image,100.00,normal ecg,Normal ECG,yes
+A00132,image,100.00,normal ecg,Normal ECG,yes
+A00133,image,100.00,normal ecg,Normal ECG,yes
+A00134,image,45.45,sinus bradycardia,Sinus bradycardia,no
+A00135,image,9.89,ventricular preexcitation,Ventricular preexcitation,no
+A00136,image,48.00,atrial fibrillation,Atrial fibrillation,no
+A00137,image,61.11,right bundle-branch block,Right bundle-branch block,no
+A00138,image,100.00,normal ecg,Normal ECG,yes
+A00139,image,22.86,st deviation with t-wave change,ST deviation with T-wave change,no
+A00140,image,100.00,normal ecg,Normal ECG,yes
+A00141,image,100.00,normal ecg,Normal ECG,yes
+A00142,image,75.00,normal ecg,Normal ECG,yes
+A00143,image,100.00,normal ecg,Normal ECG,yes
+A00144,image,75.86,t-wave abnormality,T-wave abnormality,yes
+A00145,image,45.45,sinus bradycardia,Sinus bradycardia,no
+A00146,image,45.45,sinus bradycardia,Sinus bradycardia,no
+A00147,image,100.00,normal ecg,Normal ECG,yes
+A00148,image,45.45,sinus tachycardia,Sinus tachycardia OR [Unknown code: 147+367],no
+A00149,image,47.62,sinus arrhythmia,[Unknown code: 145+362] OR Sinus arrhythmia,no
+A00150,image,45.45,sinus bradycardia,Sinus bradycardia,no
+A00151,image,100.00,normal ecg,Normal ECG,yes
+A00152,image,100.00,normal ecg,Normal ECG,yes
+A00153,image,100.00,normal ecg,Normal ECG,yes
+A00154,image,13.87,incomplete right bundle-branch block,Incomplete right bundle-branch block,no
+A00155,image,75.86,t-wave abnormality,T-wave abnormality,yes
+A00156,image,100.00,normal ecg,Normal ECG,yes
+A00157,image,36.36,st deviation and depression,ST deviation AND Depression,no
+A00158,image,47.62,sinus arrhythmia,Sinus arrhythmia,no
+A00159,image,100.00,sinus tachycardia,Sinus tachycardia OR ST deviation with T-wave change,yes
+A00160,image,50.00,t-wave abnormality,T-wave abnormality,no
+A00161,image,100.00,normal ecg,Normal ECG,yes
+A00162,image,45.45,sinus bradycardia,Sinus bradycardia,no
+A00163,image,100.00,sinus tachycardia,Sinus tachycardia OR T-wave abnormality,yes
+A00164,image,100.00,normal ecg,Normal ECG,yes
+A00165,image,5.57,normal ecg,Normal ECG,no
+A00166,image,100.00,normal ecg,Normal ECG,yes
+A00167,image,100.00,t-wave abnormality,Sinus tachycardia OR T-wave abnormality,yes
+A00168,image,7.61,right-axis deviation,Right-axis deviation,no
+A00169,image,45.45,sinus bradycardia,Sinus bradycardia OR [Unknown code: 161+332],no
+A00170,image,100.00,normal ecg,Normal ECG,yes
+A00171,image,77.78,ventricular premature complex(es),Sinus tachycardia OR Ventricular premature complex(es),yes
+A00172,image,45.45,sinus bradycardia,Sinus bradycardia,no
+A00173,image,100.00,normal ecg,Normal ECG,yes
+A00174,image,100.00,normal ecg,Normal ECG,yes
+A00175,image,100.00,normal ecg,Normal ECG,yes
+A00176,image,100.00,normal ecg,Normal ECG,yes
+A00177,image,7.13,t-wave abnormality,T-wave abnormality,no
+A00178,image,100.00,normal ecg,Normal ECG,yes
+A00179,image,100.00,normal ecg,Normal ECG,yes
+A00180,image,72.73,left ventricular hypertrophy,Sinus bradycardia OR Left ventricular hypertrophy OR ST-T change due to ventricular hypertrophy,yes
+A00181,image,100.00,normal ecg,Normal ECG,yes
+A00182,image,50.00,t-wave abnormality,T-wave abnormality,no
+A00183,image,19.31,ventricular premature complex(es) and occasional,Ventricular premature complex(es) AND Occasional,no
+A00184,image,100.00,normal ecg,Normal ECG,yes
+A00185,image,100.00,normal ecg,Normal ECG,yes
+A00186,image,100.00,normal ecg,Normal ECG,yes
+A00187,image,47.62,sinus arrhythmia,Sinus arrhythmia OR Incomplete right bundle-branch block,no
+A00188,image,100.00,normal ecg,Normal ECG,yes
+A00189,image,61.11,right bundle-branch block,Right bundle-branch block,no
+A00190,image,45.45,sinus bradycardia,Sinus bradycardia,no
+A00191,image,46.81,incomplete right bundle-branch block,Sinus tachycardia OR Incomplete right bundle-branch block OR [Unknown code: 145+362],no
+A00192,image,100.00,normal ecg,Normal ECG,yes
+A00193,image,66.67,ventricular premature complex(es) and in a bigeminal pattern,Ventricular premature complex(es) AND In a bigeminal pattern,no
+A00194,image,3.60,st deviation,ST deviation,no
+A00195,image,28.57,st deviation,ST deviation,no
+A00196,image,28.57,st deviation,ST deviation,no
+A00197,image,15.16,incomplete right bundle-branch block,Incomplete right bundle-branch block,no
+A00198,image,36.36,st deviation and depression,ST deviation AND Depression,no
+A00199,image,100.00,normal ecg,Normal ECG,yes
+A00200,image,100.00,normal ecg,Normal ECG,yes
+A00201,image,100.00,normal ecg,Normal ECG,yes
+A00202,image,45.45,sinus bradycardia,Sinus bradycardia,no
+A00203,image,75.86,t-wave abnormality,T-wave abnormality,yes
+A00204,image,100.00,normal ecg,Normal ECG,yes
+A00205,image,100.00,normal ecg,Normal ECG,yes
+A00206,image,100.00,normal ecg,Normal ECG,yes
+A00207,image,45.45,sinus bradycardia,Sinus bradycardia OR ST deviation with T-wave change,no
+A00208,image,32.43,st deviation with t-wave change,ST deviation with T-wave change,no
+A00209,image,47.62,sinus arrhythmia,Sinus arrhythmia,no
+A00210,image,45.45,sinus bradycardia,Sinus bradycardia OR [Unknown code: 145+362],no
+A00211,image,8.17,atrial premature complex(es),Atrial premature complex(es) OR T-wave abnormality,no
+A00212,image,100.00,normal ecg,Normal ECG,yes
+A00213,image,100.00,normal ecg,Normal ECG,yes
+A00215,image,43.90,junctional premature complex(es),Junctional premature complex(es),no
+A00216,image,91.43,atrial fibrillation and with a rapid ventricular response,Atrial fibrillation AND With a rapid ventricular response,yes
+A00217,image,100.00,normal ecg,Normal ECG,yes
+A00218,image,100.00,normal ecg,Normal ECG,yes
+A00219,image,100.00,atrial fibrillation,Atrial fibrillation OR Incomplete right bundle-branch block OR T-wave abnormality,yes
+A00220,image,100.00,normal ecg,Normal ECG,yes
+A00221,image,45.45,sinus tachycardia,Sinus tachycardia,no
+A00222,image,100.00,normal ecg,Normal ECG,yes
+A00223,image,100.00,normal ecg,Normal ECG,yes
+A00224,image,45.45,sinus bradycardia,Sinus bradycardia,no
+A00225,image,47.62,sinus arrhythmia,Sinus arrhythmia,no
+A00226,image,6.09,st deviation,ST deviation,no
+A00227,image,75.00,normal ecg,Normal ECG,yes
+A00228,image,45.45,sinus bradycardia,Sinus bradycardia OR Low voltage,no
+A00229,image,45.45,sinus bradycardia,Sinus bradycardia,no
+A00230,image,45.45,sinus bradycardia,Sinus bradycardia,no
+A00231,image,28.57,st deviation,ST deviation,no
+A00232,image,100.00,normal ecg,Normal ECG,yes
+A00233,image,100.00,normal ecg,Normal ECG,yes
+A00234,image,100.00,normal ecg,Normal ECG,yes
+A00235,image,100.00,sinus tachycardia,Sinus tachycardia,yes
+A00236,image,100.00,normal ecg,Normal ECG,yes
+A00237,image,100.00,normal ecg,Normal ECG,yes
+A00238,image,100.00,normal ecg,Normal ECG,yes
+A00239,image,100.00,normal ecg,Normal ECG,yes
+A00240,image,100.00,normal ecg,Normal ECG,yes
+A00241,image,100.00,normal ecg,Normal ECG,yes
+A00242,image,100.00,normal ecg,Normal ECG,yes
+A00243,image,45.45,sinus bradycardia,Sinus bradycardia,no
+A00244,image,8.24,prolonged qt interval,[Unknown code: 147+367] OR Prolonged QT interval,no
+A00245,image,45.45,sinus bradycardia,Sinus bradycardia,no
+A00246,image,45.45,sinus bradycardia,Sinus bradycardia OR ST deviation with T-wave change,no
+A00247,image,47.62,sinus arrhythmia,Sinus arrhythmia OR [Unknown code: 30+308] OR [Unknown code: 147+367],no
+A00248,image,77.78,ventricular premature complex(es),Ventricular premature complex(es),yes
+A00249,image,45.45,sinus bradycardia,Sinus bradycardia OR T-wave abnormality,no
+A00250,image,100.00,normal ecg,Normal ECG,yes
+A00251,image,100.00,normal ecg,Normal ECG,yes
+A00252,image,100.00,t-wave abnormality,T-wave abnormality,yes
+A00253,image,6.23,st deviation,ST deviation,no
+A00254,image,100.00,t-wave abnormality,T-wave abnormality,yes
+A00255,image,100.00,normal ecg,Normal ECG,yes
+A00256,image,47.62,sinus arrhythmia,Sinus arrhythmia,no
+A00257,image,100.00,t-wave abnormality,T-wave abnormality,yes
+A00258,image,100.00,normal ecg,Normal ECG,yes
+A00259,image,45.45,sinus bradycardia,Sinus bradycardia,no
+A00260,image,77.78,ventricular premature complex(es),Ventricular premature complex(es) OR ST deviation with T-wave change,yes
+A00261,image,75.00,normal ecg,Normal ECG,yes
+A00262,image,45.45,sinus bradycardia,Sinus bradycardia,no
+A00263,image,22.86,st deviation with t-wave change,ST deviation with T-wave change,no
+A00264,image,75.86,t-wave abnormality,T-wave abnormality,yes
+A00265,image,100.00,normal ecg,Normal ECG,yes
+A00266,image,100.00,normal ecg,Normal ECG,yes
+A00267,image,100.00,normal ecg,Normal ECG,yes
+A00268,image,100.00,normal ecg,Normal ECG,yes
+A00269,image,47.62,sinus arrhythmia,Sinus arrhythmia,no
+A00270,image,90.20,left ventricular hypertrophy,Left ventricular hypertrophy OR ST deviation with T-wave change OR [Unknown code: 60+310],yes
+A00271,image,50.00,atrial fibrillation and with a rapid ventricular response,Atrial fibrillation AND With a rapid ventricular response,no
+A00272,image,61.11,right bundle-branch block,Right bundle-branch block,no
+A00273,image,100.00,normal ecg,Normal ECG,yes
+A00274,image,77.78,ventricular premature complex(es),Ventricular premature complex(es) OR T-wave abnormality,yes
+A00275,image,100.00,normal ecg,Normal ECG,yes
+A00276,image,45.45,sinus bradycardia,Sinus bradycardia,no
+A00277,image,58.82,left bundle-branch block,Sinus bradycardia OR [Unknown code: 30+310] OR [Unknown code: 165+330] OR Left bundle-branch block OR ST deviation with T-wave change,no
+A00278,image,100.00,normal ecg,Normal ECG,yes
+A00279,image,5.44,st deviation,ST deviation,no
+A00280,image,68.75,prolonged pr interval,Prolonged PR interval,no
+A00281,image,45.45,sinus bradycardia,Sinus bradycardia,no
+A00282,image,45.45,sinus bradycardia,Sinus bradycardia OR ST deviation with T-wave change,no
+A00283,image,100.00,normal ecg,Normal ECG,yes
+A00284,image,100.00,normal ecg,Normal ECG,yes
+A00285,image,46.81,incomplete right bundle-branch block,Atrial fibrillation OR Incomplete right bundle-branch block,no
+A00286,image,20.69,st deviation and elevation,ST deviation AND Elevation,no
+A00287,image,100.00,normal ecg,Normal ECG,yes
+A00288,image,100.00,normal ecg,Normal ECG,yes
+A00289,image,100.00,normal ecg,Normal ECG,yes
+A00290,image,100.00,normal ecg,Normal ECG,yes
+A00291,image,100.00,normal ecg,Normal ECG,yes
+A00292,image,47.62,sinus arrhythmia,Sinus arrhythmia,no
+A00293,image,100.00,normal ecg,Normal ECG,yes
+A00294,image,17.14,t-wave abnormality and inversion,T-wave abnormality AND Inversion,no
+A00295,image,100.00,normal ecg,Normal ECG,yes
+A00296,image,100.00,normal ecg,Normal ECG,yes
+A00297,image,100.00,normal ecg,Normal ECG,yes
+A00298,image,47.62,sinus arrhythmia,Sinus arrhythmia,no
+A00299,image,100.00,normal ecg,Normal ECG,yes
+A00300,image,100.00,normal ecg,Normal ECG,yes
+A00301,image,52.38,st deviation with t-wave change,ST deviation with T-wave change,no
+A00302,image,66.67,ventricular premature complex(es) and in a bigeminal pattern,Ventricular premature complex(es) AND In a bigeminal pattern,no
+A00303,image,75.86,t-wave abnormality,T-wave abnormality,yes
+A00304,image,45.45,sinus bradycardia,Sinus bradycardia,no
+A00305,image,3.46,[unknown code: 30+310],[Unknown code: 30+310] OR [Unknown code: 60+308],no
+A00306,image,100.00,normal ecg,Normal ECG,yes
+A00307,image,100.00,normal ecg,Normal ECG,yes
+A00308,image,100.00,normal ecg,Normal ECG,yes
+A00309,image,8.33,junctional tachycardia,Junctional tachycardia,no
+A00310,image,46.81,incomplete right bundle-branch block,Incomplete right bundle-branch block,no
+A00311,image,100.00,normal ecg,Normal ECG,yes
+A00312,image,47.62,sinus arrhythmia,Sinus bradycardia OR Sinus arrhythmia,no
+A00313,image,50.00,t-wave abnormality,T-wave abnormality,no
+A00314,image,9.21,right-axis deviation,Right-axis deviation,no
+A00315,image,32.43,st deviation with t-wave change,ST deviation with T-wave change,no
+A00316,image,100.00,normal ecg,Normal ECG,yes
+A00317,image,100.00,normal ecg,Normal ECG,yes
+A00318,image,45.45,sinus tachycardia,Sinus tachycardia,no
+A00319,image,45.45,sinus tachycardia,Sinus tachycardia OR ST deviation,no
+A00320,image,100.00,normal ecg,Normal ECG,yes
+A00321,image,100.00,normal ecg,Normal ECG,yes
+A00322,image,100.00,normal ecg,Normal ECG,yes
+A00323,image,100.00,normal ecg,Normal ECG,yes
+A00324,image,100.00,normal ecg,Normal ECG,yes
+A00325,image,75.86,t-wave abnormality,T-wave abnormality,yes
+A00326,image,8.93,prolonged pr interval,Prolonged PR interval,no
+A00327,image,100.00,normal ecg,Normal ECG,yes
+A00328,image,100.00,normal ecg,Normal ECG,yes
+A00329,image,45.45,sinus bradycardia,Sinus bradycardia,no
+A00330,image,100.00,normal ecg,Normal ECG,yes
+A00331,image,36.84,st deviation with t-wave change,[Unknown code: 50+346] OR ST deviation with T-wave change,no
+A00332,image,100.00,normal ecg,Normal ECG,yes
+A00333,image,100.00,normal ecg,Normal ECG,yes
+A00334,image,100.00,normal ecg,Normal ECG,yes
+A00335,image,100.00,normal ecg,Normal ECG,yes
+A00336,image,100.00,normal ecg,Normal ECG,yes
+A00337,image,100.00,normal ecg,Normal ECG,yes
+A00338,image,45.45,sinus bradycardia,Sinus bradycardia,no
+A00339,image,100.00,normal ecg,Normal ECG,yes
+A00340,image,45.45,sinus bradycardia,Sinus bradycardia OR [Unknown code: 147+367] OR [Unknown code: 145+362],no
+A00341,image,100.00,normal ecg,Normal ECG,yes
+A00342,image,45.45,sinus bradycardia,Sinus bradycardia,no
+A00343,image,47.62,sinus arrhythmia,Sinus arrhythmia,no
+A00344,image,100.00,normal ecg,Normal ECG,yes
+A00345,image,100.00,t-wave abnormality,T-wave abnormality,yes
+A00346,image,46.81,incomplete right bundle-branch block,Incomplete right bundle-branch block,no
+A00347,image,100.00,normal ecg,Normal ECG,yes
+A00348,image,100.00,normal ecg,Normal ECG,yes
+A00349,image,36.84,st deviation with t-wave change,ST deviation with T-wave change,no
+A00350,image,22.86,st deviation with t-wave change,ST deviation with T-wave change,no
+A00351,image,100.00,normal ecg,Normal ECG,yes
+A00352,image,100.00,normal ecg,Normal ECG,yes
+A00353,image,100.00,t-wave abnormality,T-wave abnormality,yes
+A00354,image,100.00,normal ecg,Normal ECG,yes
+A00355,image,100.00,normal ecg,Normal ECG,yes
+A00356,image,100.00,normal ecg,Normal ECG,yes
+A00357,image,7.47,t-wave abnormality,[Unknown code: 30+308] OR T-wave abnormality,no
+A00358,image,100.00,normal ecg,Normal ECG,yes
+A00359,image,100.00,normal ecg,Normal ECG,yes
+A00360,image,45.45,sinus bradycardia,Sinus bradycardia,no
+A00361,image,100.00,normal ecg,Normal ECG,yes
+A00362,image,100.00,normal ecg,Normal ECG,yes
+A00363,image,100.00,normal ecg,Normal ECG,yes
+A00364,image,100.00,normal ecg,Normal ECG,yes
+A00365,image,36.36,st deviation and depression,ST deviation AND Depression,no
+A00366,image,100.00,normal ecg,Normal ECG,yes
+A00367,image,100.00,normal ecg,Normal ECG,yes
+A00368,image,100.00,normal ecg,Normal ECG,yes
+A00369,image,47.62,sinus arrhythmia,Sinus arrhythmia,no
+A00370,image,100.00,normal ecg,Normal ECG,yes
+A00371,image,10.75,incomplete right bundle-branch block,Incomplete right bundle-branch block,no
+A00372,image,45.45,sinus bradycardia,Sinus bradycardia,no
+A00373,image,20.00,st deviation and depression,ST deviation AND Depression,no
+A00374,image,100.00,sinus tachycardia,Sinus tachycardia OR [Unknown code: 145+362],yes
+A00375,image,45.45,sinus bradycardia,Sinus bradycardia,no
+A00376,image,45.45,sinus bradycardia,Sinus bradycardia OR [Unknown code: 165+332] OR [Unknown code: 145+363],no
+A00377,image,6.97,t-wave abnormality,T-wave abnormality,no
+A00378,image,100.00,normal ecg,Normal ECG,yes
+A00379,image,100.00,normal ecg,Normal ECG,yes
+A00380,image,47.62,sinus arrhythmia,Sinus arrhythmia OR [Unknown code: 60+310] OR Sinus bradycardia,no
+A00381,image,100.00,normal ecg,Normal ECG,yes
+A00382,image,28.57,st deviation,ST deviation,no
+A00383,image,100.00,normal ecg,Normal ECG,yes
+A00384,image,37.14,atrial fibrillation and with a rapid ventricular response,Atrial fibrillation AND With a rapid ventricular response,no
+A00385,image,100.00,sinus tachycardia,Sinus tachycardia,yes
+A00386,image,100.00,normal ecg,Normal ECG,yes
+A00387,image,100.00,normal ecg,Normal ECG,yes
+A00388,image,50.00,t-wave abnormality,T-wave abnormality,no
+A00389,image,47.62,sinus arrhythmia,Sinus bradycardia OR Sinus arrhythmia,no
+A00390,image,100.00,normal ecg,Normal ECG,yes
+A00391,image,45.45,sinus bradycardia,Sinus bradycardia OR [Unknown code: 30+308],no
+A00392,image,100.00,normal ecg,Normal ECG,yes
+A00393,image,100.00,normal ecg,Normal ECG,yes
+A00394,image,13.63,incomplete right bundle-branch block,Incomplete right bundle-branch block,no
+A00395,image,45.45,sinus bradycardia,Sinus bradycardia,no
+A00396,image,48.00,atrial fibrillation,Atrial fibrillation,no
+A00397,image,100.00,normal ecg,Normal ECG,yes
+A00398,image,47.62,sinus arrhythmia,Sinus arrhythmia,no
+A00399,image,100.00,normal ecg,Normal ECG,yes
+A00400,image,91.43,atrial fibrillation and with a rapid ventricular response,Atrial fibrillation AND With a rapid ventricular response,yes
+A00401,image,72.73,left ventricular hypertrophy,Left ventricular hypertrophy,yes
+A00402,image,75.00,normal ecg,Normal ECG,yes
+A00403,image,100.00,normal ecg,Normal ECG,yes
+A00404,image,100.00,normal ecg,Normal ECG,yes
+A00405,image,75.86,t-wave abnormality,T-wave abnormality,yes
+A00406,image,4.49,[unknown code: 60+310],[Unknown code: 60+310] OR [Unknown code: 60+341],no
+A00407,image,15.22,st deviation with t-wave change,Left-axis deviation OR ST deviation with T-wave change,no
+A00408,image,75.86,t-wave abnormality,T-wave abnormality,yes
+A00409,image,100.00,normal ecg,Normal ECG,yes
+A00410,image,47.62,sinus arrhythmia,Sinus arrhythmia,no
+A00411,image,100.00,normal ecg,Normal ECG,yes
+A00412,image,75.00,normal ecg,Normal ECG,yes
+A00413,image,4.03,st deviation,Low voltage OR ST deviation,no
+A00414,image,36.84,st deviation with t-wave change,[Unknown code: 50+346] OR Ventricular premature complex(es) OR ST deviation with T-wave change,no
+A00415,image,100.00,normal ecg,Normal ECG,yes
+A00416,image,100.00,normal ecg,Normal ECG,yes
+A00417,image,100.00,normal ecg,Normal ECG,yes
+A00418,image,100.00,normal ecg,Normal ECG,yes
+A00419,image,100.00,t-wave abnormality,Sinus tachycardia OR T-wave abnormality,yes
+A00420,image,6.40,right-axis deviation,Right-axis deviation,no
+A00421,image,100.00,normal ecg,Normal ECG,yes
+A00422,image,100.00,t-wave abnormality,Incomplete right bundle-branch block OR T-wave abnormality,yes
+A00423,image,100.00,normal ecg,Normal ECG,yes
+A00424,image,45.45,sinus bradycardia,Sinus bradycardia OR Right bundle-branch block,no
+A00425,image,100.00,normal ecg,Normal ECG,yes
+A00426,image,100.00,normal ecg,Normal ECG,yes
+A00427,image,45.45,sinus tachycardia,Sinus tachycardia,no
+A00428,image,100.00,normal ecg,Normal ECG,yes
+A00429,image,100.00,normal ecg,Normal ECG,yes
+A00430,image,100.00,normal ecg,Normal ECG,yes
+A00431,image,13.78,incomplete right bundle-branch block,Incomplete right bundle-branch block,no
+A00432,image,75.86,incomplete right bundle-branch block,T-wave abnormality OR Incomplete right bundle-branch block,yes
+A00433,image,33.33,right bundle-branch block,Right bundle-branch block,no
+A00434,image,50.00,t-wave abnormality,T-wave abnormality,no
+A00435,image,100.00,normal ecg,Normal ECG,yes
+A00436,image,100.00,normal ecg,Normal ECG,yes
+A00437,image,47.62,sinus arrhythmia,Sinus arrhythmia,no
+A00438,image,100.00,normal ecg,Normal ECG,yes
+A00439,image,33.33,right bundle-branch block,Right bundle-branch block,no
+A00440,image,20.00,st deviation and depression,ST deviation AND Depression,no
+A00441,image,6.19,t-wave abnormality,T-wave abnormality OR [Unknown code: 145+362],no
+A00442,image,45.45,sinus bradycardia,Sinus bradycardia,no
+A00443,image,72.73,left ventricular hypertrophy,Left ventricular hypertrophy OR ST deviation,yes
+A00444,image,100.00,normal ecg,Normal ECG,yes
+A00445,image,100.00,normal ecg,Normal ECG,yes
+A00446,image,100.00,normal ecg,Normal ECG,yes
+A00447,image,100.00,normal ecg,Normal ECG,yes
+A00448,image,70.42,ventricular premature complex(es) and frequent,Ventricular premature complex(es) AND Frequent,yes
+A00449,image,100.00,normal ecg,Normal ECG,yes
+A00450,image,100.00,normal ecg,Normal ECG,yes
+A00451,image,100.00,normal ecg,Normal ECG,yes
+A00452,image,100.00,normal ecg,Normal ECG,yes
+A00453,image,10.96,incomplete right bundle-branch block,Incomplete right bundle-branch block,no
+A00454,image,100.00,normal ecg,Normal ECG,yes
+A00455,image,100.00,st deviation,[Unknown code: 50+347] OR ST deviation,yes
+A00456,image,100.00,normal ecg,Normal ECG,yes
+A00457,image,100.00,normal ecg,Normal ECG,yes
+A00458,image,50.00,t-wave abnormality,T-wave abnormality,no
+A00459,image,45.45,sinus bradycardia,Sinus bradycardia,no
+A00460,image,4.07,st deviation,ST deviation,no
+A00461,image,20.00,st deviation and depression,ST deviation AND Depression,no
+A00462,image,88.89,left anterior fascicular block,[Unknown code: 165+332] OR Left anterior fascicular block,yes
+A00463,image,4.04,[unknown code: 30+310],[Unknown code: 30+310] OR [Unknown code: 145+362],no
+A00464,image,75.86,t-wave abnormality,T-wave abnormality,yes
+A00465,image,77.78,ventricular premature complex(es),Ventricular premature complex(es),yes
+A00466,image,100.00,normal ecg,Normal ECG,yes
+A00467,image,100.00,normal ecg,Normal ECG,yes
+A00468,image,45.45,sinus bradycardia,Sinus bradycardia,no
+A00469,image,100.00,normal ecg,Normal ECG,yes
+A00470,image,100.00,normal ecg,Normal ECG,yes
+A00471,image,100.00,normal ecg,Normal ECG,yes
+A00472,image,100.00,normal ecg,Normal ECG,yes
+A00473,image,100.00,normal ecg,Normal ECG,yes
+A00474,image,5.99,short pr interval,Short PR interval,no
+A00475,image,70.42,ventricular premature complex(es) and frequent,Ventricular premature complex(es) AND Frequent,yes
+A00476,image,75.00,normal ecg,Normal ECG,yes
+A00477,image,45.45,sinus bradycardia,Sinus bradycardia OR Low voltage,no
+A00478,image,100.00,normal ecg,Normal ECG,yes
+A00479,image,100.00,normal ecg,Normal ECG,yes
+A00480,image,100.00,normal ecg,Normal ECG,yes
+A00481,image,100.00,normal ecg,Normal ECG,yes
+A00482,image,100.00,left ventricular hypertrophy,Left ventricular hypertrophy OR ST-T change due to ventricular hypertrophy OR Ventricular premature complex(es),yes
+A00483,image,36.84,st deviation with t-wave change,ST deviation with T-wave change,no
+A00484,image,100.00,normal ecg,Normal ECG,yes
+A00485,image,50.00,t-wave abnormality,[Unknown code: 161+331] OR T-wave abnormality,no
+A00486,image,100.00,sinus bradycardia,Sinus bradycardia,yes
+A00487,image,47.62,t-wave abnormality and inversion,T-wave abnormality AND Inversion,no
+A00488,image,100.00,normal ecg,Normal ECG,yes
+A00489,image,100.00,t-wave abnormality,T-wave abnormality,yes
+A00490,image,100.00,normal ecg,Normal ECG,yes
+A00491,image,47.62,sinus arrhythmia,Sinus arrhythmia,no
+A00492,image,75.86,t-wave abnormality,Low voltage OR T-wave abnormality,yes
+A00493,image,100.00,normal ecg,Normal ECG,yes
+A00494,image,45.45,sinus bradycardia,Sinus bradycardia,no
+A00495,image,33.33,right bundle-branch block,Right bundle-branch block,no
+A00496,image,100.00,normal ecg,Normal ECG,yes
+A00497,image,100.00,normal ecg,Normal ECG,yes
+A00498,image,100.00,normal ecg,Normal ECG,yes
+A00499,image,75.86,t-wave abnormality,Sinus arrhythmia OR T-wave abnormality,yes
+A00500,image,50.00,t-wave abnormality,T-wave abnormality,no
+A00501,image,100.00,normal ecg,Normal ECG,yes
+A00502,image,100.00,normal ecg,Normal ECG,yes
+A00503,image,100.00,normal ecg,Normal ECG,yes
+A00504,image,20.00,st deviation and depression,ST deviation AND Depression,no
+A00505,image,100.00,normal ecg,Normal ECG,yes
+A00506,image,100.00,normal ecg,Normal ECG,yes
+A00507,image,33.33,right bundle-branch block,Right bundle-branch block,no
+A00508,image,62.22,st deviation with t-wave change,ST deviation with T-wave change,no
+A00509,image,47.62,sinus arrhythmia,Sinus bradycardia OR Sinus arrhythmia,no
+A00510,image,45.45,sinus tachycardia,Sinus tachycardia,no
+A00511,image,6.47,left-axis deviation,Left-axis deviation,no
+A00512,image,100.00,low voltage,Low voltage,yes
+A00513,image,28.57,st deviation,ST deviation,no
+A00514,image,45.45,sinus bradycardia,Sinus bradycardia,no
+A00515,image,100.00,normal ecg,Normal ECG,yes
+A00516,image,100.00,normal ecg,Normal ECG,yes
+A00517,image,100.00,normal ecg,Normal ECG,yes
+A00518,image,75.00,normal ecg,Normal ECG,yes
+A00519,image,100.00,normal ecg,Normal ECG,yes
+A00520,image,22.86,st deviation with t-wave change,[Unknown code: 165+332] OR ST deviation with T-wave change,no
+A00521,image,100.00,normal ecg,Normal ECG,yes
+A00522,image,100.00,normal ecg,Normal ECG,yes
+A00523,image,100.00,normal ecg,Normal ECG,yes
+A00524,image,100.00,normal ecg,Normal ECG,yes
+A00525,image,100.00,normal ecg,Normal ECG,yes
+A00526,image,100.00,normal ecg,Normal ECG,yes
+A00527,image,84.85,atrial fibrillation and with a rapid ventricular response,Atrial fibrillation AND With a rapid ventricular response,yes
+A00528,image,100.00,normal ecg,Normal ECG,yes
+A00529,image,100.00,normal ecg,Normal ECG,yes
+A00530,image,100.00,normal ecg,Normal ECG,yes
+A00531,image,100.00,normal ecg,Normal ECG,yes
+A00532,image,100.00,normal ecg,Normal ECG,yes
+A00533,image,100.00,normal ecg,Normal ECG,yes
+A00534,image,61.11,right bundle-branch block,Right bundle-branch block,no
+A00535,image,100.00,normal ecg,Normal ECG,yes
+A00536,image,100.00,normal ecg,Normal ECG,yes
+A00537,image,75.00,normal ecg,Normal ECG,yes
+A00538,image,100.00,normal ecg,Normal ECG,yes
+A00539,image,100.00,normal ecg,Normal ECG,yes
+A00540,image,50.00,t-wave abnormality,T-wave abnormality,no
+A00541,image,61.11,right bundle-branch block,Right bundle-branch block,no
+A00542,image,6.58,t-wave abnormality,T-wave abnormality,no
+A00543,image,45.45,sinus bradycardia,Sinus bradycardia,no
+A00544,image,100.00,normal ecg,Normal ECG,yes
+A00545,image,100.00,normal ecg,Normal ECG,yes
+A00546,image,45.45,sinus bradycardia,Sinus bradycardia,no
+A00547,image,75.86,t-wave abnormality,T-wave abnormality,yes
+A00548,image,100.00,normal ecg,Normal ECG,yes
+A00549,image,100.00,normal ecg,Normal ECG,yes
+A00550,image,47.62,sinus arrhythmia,Sinus bradycardia OR Sinus arrhythmia,no
+A00551,image,100.00,t-wave abnormality,[Unknown code: 161+332] OR Incomplete right bundle-branch block OR T-wave abnormality,yes
+A00552,image,100.00,normal ecg,Normal ECG,yes
+A00553,image,100.00,normal ecg,Normal ECG,yes
+A00554,image,100.00,normal ecg,Normal ECG,yes
+A00555,image,100.00,normal ecg,Normal ECG,yes
+A00556,image,100.00,normal ecg,Normal ECG,yes
+A00557,image,45.45,sinus bradycardia,Sinus bradycardia OR ST deviation with T-wave change,no
+A00558,image,45.45,sinus tachycardia,Sinus tachycardia,no
+A00559,image,55.17,prolonged pr interval,Incomplete right bundle-branch block OR Junctional premature complex(es) OR [Unknown code: 145+362] OR Prolonged PR interval,no
+A00560,image,100.00,normal ecg,Normal ECG,yes
+A00561,image,100.00,normal ecg,Normal ECG,yes
+A00562,image,100.00,normal ecg,Normal ECG,yes
+A00563,image,100.00,normal ecg,Normal ECG,yes
+A00564,image,100.00,normal ecg,Normal ECG,yes
+A00565,image,45.45,sinus bradycardia,Sinus bradycardia OR Right bundle-branch block,no
+A00566,image,100.00,normal ecg,Normal ECG,yes
+A00567,image,45.45,sinus tachycardia,Sinus tachycardia,no
+A00568,image,100.00,normal ecg,Normal ECG,yes
+A00569,image,100.00,normal ecg,Normal ECG,yes
+A00570,image,100.00,normal ecg,Normal ECG,yes
+A00571,image,45.45,sinus tachycardia,Sinus tachycardia,no
+A00572,image,100.00,normal ecg,Normal ECG,yes
+A00573,image,28.57,st deviation,ST deviation,no
+A00574,image,45.45,sinus bradycardia,Sinus bradycardia OR Incomplete right bundle-branch block,no
+A00575,image,45.45,sinus bradycardia,Sinus bradycardia,no
+A00576,image,100.00,normal ecg,Normal ECG,yes
+A00577,image,100.00,normal ecg,Normal ECG,yes
+A00578,image,100.00,normal ecg,Normal ECG,yes
+A00579,image,47.62,sinus arrhythmia,Sinus arrhythmia,no
+A00580,image,80.00,atrial fibrillation and with a rapid ventricular response,Atrial fibrillation AND With a rapid ventricular response,yes
+A00581,image,45.45,sinus bradycardia,Sinus bradycardia,no
+A00582,image,100.00,normal ecg,Normal ECG,yes
+A00583,image,45.45,sinus bradycardia,Sinus bradycardia,no
+A00584,image,100.00,normal ecg,Normal ECG,yes
+A00585,image,77.78,ventricular premature complex(es),Right bundle-branch block OR Ventricular premature complex(es),yes
+A00586,image,100.00,normal ecg,Normal ECG,yes
+A00587,image,45.45,sinus bradycardia,Sinus bradycardia,no
+A00588,image,100.00,normal ecg,Normal ECG,yes
+A00589,image,45.45,sinus bradycardia,Sinus bradycardia,no
+A00590,image,100.00,normal ecg,Normal ECG,yes
+A00591,image,8.59,t-wave abnormality,T-wave abnormality,no
+A00592,image,100.00,normal ecg,Normal ECG,yes
+A00593,image,50.00,t-wave abnormality,T-wave abnormality,no
+A00594,image,75.86,t-wave abnormality,Sinus arrhythmia OR T-wave abnormality,yes
+A00595,image,52.38,st deviation with t-wave change,ST deviation with T-wave change,no
+A00596,image,45.45,sinus tachycardia,Sinus tachycardia,no
+A00597,image,100.00,normal ecg,Normal ECG,yes
+A00598,image,77.27,st deviation and depression,ST deviation AND Depression,yes
+A00599,image,4.77,[unknown code: 60+308],[Unknown code: 60+308] OR [Unknown code: 160+332] OR [Unknown code: 161+332] OR Low voltage,no
+A00600,image,100.00,normal ecg,Normal ECG,yes
+A00601,image,45.45,sinus bradycardia,Sinus bradycardia,no
+A00602,image,100.00,normal ecg,Normal ECG,yes
+A00603,image,13.04,atrial premature complex(es) and occasional,Atrial premature complex(es) AND Occasional,no
+A00604,image,100.00,normal ecg,Normal ECG,yes
+A00605,image,100.00,normal ecg,Normal ECG,yes
+A00606,image,5.31,st deviation,ST deviation,no
+A00607,image,100.00,normal ecg,Normal ECG,yes
+A00608,image,100.00,normal ecg,Normal ECG,yes
+A00609,image,100.00,normal ecg,Normal ECG,yes
+A00610,image,100.00,normal ecg,Normal ECG,yes
+A00611,image,100.00,normal ecg,Normal ECG,yes
+A00612,image,6.57,t-wave abnormality,T-wave abnormality,no
+A00613,image,27.27,inferior mi and old,Inferior MI AND Old,no
+A00614,image,45.45,sinus bradycardia,Sinus bradycardia,no
+A00615,image,8.99,"av block, complete (third-degree)","AV block, complete (third-degree) OR [Unknown code: 145+362]",no
+A00616,image,100.00,normal ecg,Normal ECG,yes
+A00617,image,100.00,normal ecg,Normal ECG,yes
+A00618,image,100.00,normal ecg,Normal ECG,yes
+A00619,image,100.00,normal ecg,Normal ECG,yes
+A00620,image,65.57,atrial premature complex(es) and frequent,Atrial premature complex(es) AND Frequent,no
+A00621,image,100.00,left ventricular hypertrophy,[Unknown code: 60+310] OR Left ventricular hypertrophy,yes
+A00622,image,45.45,sinus bradycardia,Sinus bradycardia,no
+A00623,image,13.16,ventricular premature complex(es),Ventricular premature complex(es),no
+A00624,image,100.00,normal ecg,Normal ECG,yes
+A00625,image,100.00,normal ecg,Normal ECG,yes
+A00626,image,45.45,sinus bradycardia,Sinus bradycardia,no
+A00627,image,100.00,normal ecg,Normal ECG,yes
+A00628,image,5.31,st deviation,ST deviation,no
+A00629,image,45.45,sinus bradycardia,Sinus bradycardia,no
+A00630,image,100.00,normal ecg,Normal ECG,yes
+A00631,image,33.33,right bundle-branch block,Right bundle-branch block,no
+A00632,image,70.42,ventricular premature complex(es) and frequent,Ventricular premature complex(es) AND Frequent,yes
+A00633,image,100.00,normal ecg,Normal ECG,yes
+A00634,image,100.00,normal ecg,Normal ECG,yes
+A00635,image,77.78,ventricular premature complex(es),Sinus bradycardia OR Ventricular premature complex(es) OR ST deviation with T-wave change,yes
+A00636,image,100.00,normal ecg,Normal ECG,yes
+A00637,image,50.00,t-wave abnormality,T-wave abnormality,no
+A00638,image,45.45,sinus bradycardia,Sinus bradycardia,no
+A00639,image,100.00,normal ecg,Normal ECG,yes
+A00640,image,45.45,sinus bradycardia,Sinus bradycardia OR ST deviation with T-wave change,no
+A00641,image,100.00,normal ecg,Normal ECG,yes
+A00642,image,45.45,sinus bradycardia,Sinus bradycardia,no
+A00643,image,76.92,sinus arrhythmia,Sinus arrhythmia OR [Unknown code: 60+310] OR ST deviation with T-wave change,yes
+A00644,image,45.45,sinus bradycardia,Sinus bradycardia OR Ventricular premature complex(es) OR ST deviation,no
+A00645,image,100.00,normal ecg,Normal ECG,yes
+A00646,image,100.00,normal ecg,Normal ECG,yes
+A00647,image,100.00,normal ecg,Normal ECG,yes
+A00648,image,100.00,t-wave abnormality,T-wave abnormality,yes
+A00649,image,61.11,right bundle-branch block,Sinus bradycardia OR Right bundle-branch block,no
+A00650,image,50.00,t-wave abnormality,T-wave abnormality,no
+A00651,image,100.00,normal ecg,Normal ECG,yes
+A00652,image,13.69,incomplete right bundle-branch block,Incomplete right bundle-branch block,no
+A00653,image,100.00,t-wave abnormality,Sinus bradycardia OR T-wave abnormality,yes
+A00654,image,100.00,normal ecg,Normal ECG,yes
+A00655,image,100.00,normal ecg,Normal ECG,yes
+A00656,image,48.00,atrial fibrillation,Atrial fibrillation,no
+A00657,image,45.45,sinus bradycardia,Sinus bradycardia OR [Unknown code: 147+367],no
+A00658,image,62.07,ventricular premature complex(es) and in a bigeminal pattern,Ventricular premature complex(es) AND In a bigeminal pattern,no
+A00659,image,47.62,sinus arrhythmia,Sinus bradycardia OR Sinus arrhythmia OR T-wave abnormality,no
+A00660,image,100.00,normal ecg,Normal ECG,yes
+A00661,image,100.00,normal ecg,Normal ECG,yes
+A00662,image,100.00,low voltage,Sinus bradycardia OR Low voltage OR Incomplete right bundle-branch block,yes
+A00663,image,13.39,incomplete right bundle-branch block,Incomplete right bundle-branch block,no
+A00664,image,45.45,sinus bradycardia,Sinus bradycardia OR ST deviation,no
+A00665,image,100.00,normal ecg,Normal ECG,yes
+A00666,image,100.00,normal ecg,Normal ECG,yes
+A00667,image,76.09,atrial fibrillation and with a rapid ventricular response,Atrial fibrillation AND With a rapid ventricular response,yes
+A00668,image,58.82,left bundle-branch block,[Unknown code: 50+346] OR Left bundle-branch block,no
+A00669,image,8.29,right-axis deviation,Right-axis deviation,no
+A00670,image,45.45,sinus tachycardia,Sinus tachycardia,no
+A00671,image,100.00,normal ecg,Normal ECG,yes
+A00672,image,100.00,normal ecg,Normal ECG,yes
+A00673,image,45.45,sinus bradycardia,Sinus bradycardia OR Low voltage,no
+A00674,image,100.00,normal ecg,Normal ECG,yes
+A00675,image,77.78,ventricular premature complex(es),Sinus tachycardia OR Ventricular premature complex(es),yes
+A00676,image,100.00,normal ecg,Normal ECG,yes
+A00677,image,47.62,sinus arrhythmia,Sinus arrhythmia,no
+A00678,image,46.81,incomplete right bundle-branch block,Incomplete right bundle-branch block,no
+A00679,image,100.00,normal ecg,Normal ECG,yes
+A00680,image,66.67,ventricular premature complex(es) and in a bigeminal pattern,Ventricular premature complex(es) AND In a bigeminal pattern,no
+A00681,image,100.00,normal ecg,Normal ECG,yes
+A00682,image,100.00,normal ecg,Normal ECG,yes
+A00683,image,6.82,right-axis deviation,Right-axis deviation,no
+A00684,image,100.00,normal ecg,Normal ECG,yes
+A00685,image,45.45,sinus bradycardia,Sinus bradycardia OR T-wave abnormality,no
+A00686,image,100.00,normal ecg,Normal ECG,yes
+A00687,image,60.47,left anterior fascicular block,Left anterior fascicular block,no
+A00688,image,77.27,st deviation and depression,ST deviation AND Depression,yes
+A00689,image,75.86,t-wave abnormality,T-wave abnormality,yes
+A00690,image,100.00,sinus tachycardia,Sinus tachycardia OR Prolonged PR interval OR [Unknown code: 145+362],yes
+A00691,image,45.45,sinus bradycardia,Sinus bradycardia OR ST deviation with T-wave change,no
+A00692,image,47.62,sinus arrhythmia,Sinus arrhythmia,no
+A00693,image,45.45,sinus tachycardia,Sinus tachycardia,no
+A00694,image,100.00,normal ecg,Normal ECG,yes
+A00695,image,45.45,sinus bradycardia,Sinus bradycardia,no
+A00696,image,56.41,left ventricular hypertrophy,[Unknown code: 50+346] OR Left ventricular hypertrophy OR ST deviation with T-wave change,no
+A00697,image,100.00,normal ecg,Normal ECG,yes
+A00698,image,25.00,left ventricular hypertrophy,Left ventricular hypertrophy OR ST-T change due to ventricular hypertrophy,no
+A00699,image,60.47,left anterior fascicular block,Left anterior fascicular block,no
+A00700,image,100.00,t-wave abnormality,T-wave abnormality,yes
+A00701,image,100.00,normal ecg,Normal ECG,yes
+A00702,image,100.00,normal ecg,Normal ECG,yes
+A00703,image,3.63,st deviation,ST deviation,no
+A00704,image,77.78,ventricular premature complex(es),Ventricular premature complex(es),yes
+A00705,image,100.00,normal ecg,Normal ECG,yes
+A00706,image,100.00,normal ecg,Normal ECG,yes
+A00707,image,7.83,right-axis deviation,Right-axis deviation,no
+A00708,image,100.00,normal ecg,Normal ECG,yes
+A00709,image,65.93,ventricular premature complex(es) and in a trigeminal pattern,Ventricular premature complex(es) AND In a trigeminal pattern,no
+A00710,image,100.00,normal ecg,Normal ECG,yes
+A00711,image,100.00,normal ecg,Normal ECG,yes
+A00712,image,47.62,sinus arrhythmia,Sinus arrhythmia,no
+A00713,image,77.27,st deviation and depression,ST deviation AND Depression,yes
+A00714,image,28.57,st deviation,[Unknown code: 60+310] OR ST deviation,no
+A00715,image,77.27,st deviation and depression,ST deviation AND Depression,yes
+A00716,image,100.00,normal ecg,Normal ECG,yes
+A00717,image,12.12,st deviation with t-wave change,ST deviation with T-wave change,no
+A00718,image,47.62,sinus arrhythmia,Sinus arrhythmia,no
+A00719,image,100.00,normal ecg,Normal ECG,yes
+A00720,image,100.00,normal ecg,Normal ECG,yes
+A00721,image,22.86,st deviation with t-wave change,ST deviation with T-wave change,no
+A00722,image,50.00,t-wave abnormality,Sinus bradycardia OR T-wave abnormality,no
+A00723,image,45.45,sinus bradycardia,Sinus bradycardia,no
+A00724,image,100.00,normal ecg,Normal ECG,yes
+A00725,image,75.00,normal ecg,Normal ECG,yes
+A00726,image,12.12,st deviation with t-wave change,ST deviation with T-wave change,no
+A00727,image,45.45,sinus bradycardia,Sinus bradycardia,no
+A00728,image,100.00,normal ecg,Normal ECG,yes
+A00729,image,61.11,right bundle-branch block,Right bundle-branch block OR [Unknown code: 147+367],no
+A00730,image,100.00,normal ecg,Normal ECG,yes
+A00731,image,100.00,normal ecg,Normal ECG,yes
+A00732,image,65.57,atrial premature complex(es) and frequent,Atrial premature complex(es) AND Frequent,no
+A00733,image,100.00,normal ecg,Normal ECG,yes
+A00734,image,45.45,sinus bradycardia,Sinus bradycardia OR T-wave abnormality,no
+A00735,image,7.05,atrial fibrillation,Atrial fibrillation,no
+A00736,image,45.45,sinus bradycardia,Sinus bradycardia,no
+A00737,image,100.00,normal ecg,Normal ECG,yes
+A00738,image,100.00,normal ecg,Normal ECG,yes
+A00739,image,100.00,normal ecg,Normal ECG,yes
+A00740,image,100.00,normal ecg,Normal ECG,yes
+A00741,image,45.45,sinus bradycardia,Sinus bradycardia,no
+A00742,image,7.76,t-wave abnormality,T-wave abnormality,no
+A00743,image,100.00,normal ecg,Normal ECG,yes
+A00744,image,10.64,st deviation with t-wave change,ST deviation with T-wave change,no
+A00745,image,45.45,sinus tachycardia,Sinus tachycardia OR ST deviation with T-wave change,no
+A00746,image,100.00,normal ecg,Normal ECG,yes
+A00747,image,36.36,st deviation and depression,ST deviation AND Depression,no
+A00748,image,100.00,normal ecg,Normal ECG,yes
+A00749,image,20.00,st deviation and depression,ST deviation AND Depression,no
+A00750,image,100.00,normal ecg,Normal ECG,yes
+A00751,image,100.00,normal ecg,Normal ECG,yes
+A00752,image,47.62,sinus arrhythmia,Sinus arrhythmia,no
+A00753,image,17.14,t-wave abnormality and inversion,T-wave abnormality AND Inversion,no
+A00754,image,100.00,normal ecg,Normal ECG,yes
+A00755,image,100.00,normal ecg,Normal ECG,yes
+A00756,image,100.00,normal ecg,Normal ECG,yes
+A00757,image,7.76,t-wave abnormality,[Unknown code: 50+346] OR T-wave abnormality OR [Unknown code: 145+362],no
+A00758,image,100.00,normal ecg,Normal ECG,yes
+A00759,image,75.00,normal ecg,Normal ECG,yes
+A00760,image,100.00,normal ecg,Normal ECG,yes
+A00761,image,75.86,t-wave abnormality,T-wave abnormality,yes
+A00762,image,47.62,sinus arrhythmia,Sinus arrhythmia,no
+A00763,image,100.00,normal ecg,Normal ECG,yes
+A00764,image,100.00,normal ecg,Normal ECG,yes
+A00765,image,100.00,t-wave abnormality,Sinus arrhythmia OR Prolonged PR interval OR T-wave abnormality,yes
+A00766,image,100.00,normal ecg,Normal ECG,yes
+A00767,image,100.00,normal ecg,Normal ECG,yes
+A00768,image,100.00,normal ecg,Normal ECG,yes
+A00769,image,72.73,atrial premature complex(es),Right bundle-branch block OR Atrial premature complex(es),yes
+A00770,image,100.00,normal ecg,Normal ECG,yes
+A00771,image,100.00,normal ecg,Normal ECG,yes
+A00772,image,100.00,normal ecg,Normal ECG,yes
+A00773,image,45.45,sinus bradycardia,Sinus bradycardia,no
+A00774,image,100.00,normal ecg,Normal ECG,yes
+A00775,image,75.86,t-wave abnormality,Sinus tachycardia OR Incomplete right bundle-branch block OR T-wave abnormality,yes
+A00776,image,100.00,normal ecg,Normal ECG,yes
+A00777,image,100.00,normal ecg,Normal ECG,yes
+A00778,image,45.45,sinus bradycardia,Sinus bradycardia,no
+A00779,image,100.00,normal ecg,Normal ECG,yes
+A00780,image,45.45,sinus tachycardia,Sinus tachycardia OR [Unknown code: 145+362],no
+A00781,image,3.43,st deviation,ST deviation,no
+A00782,image,50.00,t-wave abnormality,T-wave abnormality,no
+A00783,image,100.00,normal ecg,Normal ECG,yes
+A00784,image,58.82,left bundle-branch block,Left bundle-branch block,no
+A00785,image,7.43,junctional tachycardia,Junctional tachycardia,no
+A00786,image,77.78,ventricular premature complex(es),Ventricular premature complex(es),yes
+A00787,image,50.00,t-wave abnormality,Sinus bradycardia OR T-wave abnormality,no
+A00788,image,100.00,normal ecg,Normal ECG,yes
+A00789,image,53.85,anterior mi and old,Anterior MI AND Old,no
+A00790,image,9.29,sinus bradycardia,Sinus bradycardia OR Low voltage,no
+A00791,image,11.17,incomplete right bundle-branch block,Incomplete right bundle-branch block,no
+A00792,image,100.00,normal ecg,Normal ECG,yes
+A00793,image,100.00,normal ecg,Normal ECG,yes
+A00794,image,46.81,incomplete right bundle-branch block,Incomplete right bundle-branch block,no
+A00795,image,7.84,right-axis deviation,Right-axis deviation,no
+A00796,image,28.57,st deviation,Low voltage OR ST deviation,no
+A00798,image,100.00,normal ecg,Normal ECG,yes
+A00799,image,100.00,normal ecg,Normal ECG,yes
+A00800,image,5.57,st deviation,ST deviation,no
+A00801,image,45.45,sinus bradycardia,Sinus bradycardia,no
+A00802,image,47.62,sinus arrhythmia,Sinus bradycardia OR Sinus arrhythmia,no
+A00803,image,100.00,normal ecg,Normal ECG,yes
+A00804,image,45.45,sinus bradycardia,Sinus bradycardia,no
+A00805,image,100.00,normal ecg,Normal ECG,yes
+A00806,image,20.00,st deviation and depression,ST deviation AND Depression,no
+A00807,image,45.45,sinus bradycardia,Sinus bradycardia OR Right bundle-branch block OR Prolonged PR interval,no
+A00808,image,77.27,st deviation and depression,ST deviation AND Depression,yes
+A00809,image,5.31,st deviation,ST deviation,no
+A00810,image,100.00,t-wave abnormality,Ventricular premature complex(es) OR T-wave abnormality,yes
+A00811,image,100.00,normal ecg,Normal ECG,yes
+A00812,image,9.78,right bundle-branch block,Right bundle-branch block,no
+A00813,image,100.00,normal ecg,Normal ECG,yes
+A00814,image,100.00,normal ecg,Normal ECG,yes
+A00815,image,13.02,incomplete right bundle-branch block,Incomplete right bundle-branch block,no
+A00816,image,46.81,incomplete right bundle-branch block,Sinus bradycardia OR Incomplete right bundle-branch block,no
+A00817,image,100.00,normal ecg,Normal ECG,yes
+A00818,image,100.00,normal ecg,Normal ECG,yes
+A00819,image,100.00,normal ecg,Normal ECG,yes
+A00820,image,22.86,st deviation with t-wave change,ST deviation with T-wave change OR Atrial premature complex(es),no
+A00821,image,100.00,normal ecg,Normal ECG,yes
+A00822,image,100.00,normal ecg,Normal ECG,yes
+A00823,image,100.00,normal ecg,Normal ECG,yes
+A00824,image,100.00,normal ecg,Normal ECG,yes
+A00825,image,100.00,normal ecg,Normal ECG,yes
+A00826,image,100.00,normal ecg,Normal ECG,yes
+A00827,image,100.00,normal ecg,Normal ECG,yes
+A00828,image,100.00,t-wave abnormality,T-wave abnormality,yes
+A00829,image,100.00,normal ecg,Normal ECG,yes
+A00830,image,50.00,ventricular premature complex(es),Ventricular premature complex(es),no
+A00831,image,88.89,left anterior fascicular block,[Unknown code: 160+332] OR Left anterior fascicular block OR T-wave abnormality,yes
+A00832,image,100.00,normal ecg,Normal ECG,yes
+A00833,image,47.62,sinus arrhythmia,Sinus arrhythmia,no
+A00834,image,100.00,normal ecg,Normal ECG,yes
+A00835,image,100.00,normal ecg,Normal ECG,yes
+A00836,image,52.38,st deviation with t-wave change,Sinus tachycardia OR ST deviation with T-wave change,no
+A00837,image,100.00,left anterior fascicular block,Left anterior fascicular block OR Sinus arrhythmia,yes
+A00838,image,100.00,normal ecg,Normal ECG,yes
+A00839,image,100.00,normal ecg,Normal ECG,yes
+A00840,image,100.00,normal ecg,Normal ECG,yes
+A00841,image,45.45,sinus bradycardia,Sinus bradycardia,no
+A00842,image,100.00,normal ecg,Normal ECG,yes
+A00843,image,45.45,sinus tachycardia,Sinus tachycardia OR Prolonged PR interval OR Low voltage,no
+A00844,image,100.00,normal ecg,Normal ECG,yes
+A00845,image,100.00,normal ecg,Normal ECG,yes
+A00846,image,100.00,normal ecg,Normal ECG,yes
+A00847,image,45.45,sinus tachycardia,Sinus tachycardia OR [Unknown code: 60+310],no
+A00848,image,46.81,incomplete right bundle-branch block,[Unknown code: 50+346] OR Incomplete right bundle-branch block OR ST deviation,no
+A00849,image,22.86,st deviation with t-wave change,[Unknown code: 50+346] OR ST deviation with T-wave change,no
+A00850,image,100.00,normal ecg,Normal ECG,yes
+A00851,image,100.00,t-wave abnormality,T-wave abnormality,yes
+A00852,image,100.00,normal ecg,Normal ECG,yes
+A00853,image,66.67,ventricular premature complex(es) and in a bigeminal pattern,Ventricular premature complex(es) AND In a bigeminal pattern,no
+A00854,image,64.71,left atrial enlargement,Low voltage OR Left atrial enlargement OR ST deviation with T-wave change OR Right-axis deviation,no
+A00855,image,45.45,sinus bradycardia,Sinus bradycardia OR Prolonged QT interval,no
+A00856,image,100.00,normal ecg,Normal ECG,yes
+A00857,image,62.22,st deviation with t-wave change,ST deviation with T-wave change,no
+A00858,image,100.00,normal ecg,Normal ECG,yes
+A00859,image,45.45,sinus bradycardia,Sinus bradycardia,no
+A00860,image,50.00,t-wave abnormality,T-wave abnormality,no
+A00861,image,100.00,normal ecg,Normal ECG,yes
+A00862,image,100.00,normal ecg,Normal ECG,yes
+A00863,image,100.00,normal ecg,Normal ECG,yes
+A00864,image,100.00,normal ecg,Normal ECG,yes
+A00865,image,45.45,sinus bradycardia,Sinus bradycardia,no
+A00866,image,100.00,normal ecg,Normal ECG,yes
+A00867,image,100.00,normal ecg,Normal ECG,yes
+A00868,image,100.00,normal ecg,Normal ECG,yes
+A00869,image,75.86,t-wave abnormality,Sinus bradycardia OR Sinus arrhythmia OR T-wave abnormality,yes
+A00870,image,47.62,sinus arrhythmia,Sinus bradycardia OR Sinus arrhythmia,no
+A00871,image,100.00,normal ecg,Normal ECG,yes
+A00872,image,100.00,normal ecg,Normal ECG,yes
+A00873,image,10.73,incomplete right bundle-branch block,Incomplete right bundle-branch block,no
+A00874,image,100.00,normal ecg,Normal ECG,yes
+A00875,image,47.62,sinus arrhythmia,Sinus bradycardia OR Sinus arrhythmia,no
+A00876,image,100.00,normal ecg,Normal ECG,yes
+A00877,image,100.00,normal ecg,Normal ECG,yes
+A00878,image,45.45,sinus bradycardia,Sinus bradycardia,no
+A00879,image,47.62,sinus arrhythmia,Sinus bradycardia OR Sinus arrhythmia OR Incomplete right bundle-branch block,no
+A00880,image,58.82,left bundle-branch block,Left bundle-branch block OR T-wave abnormality,no
+A00881,image,100.00,normal ecg,Normal ECG,yes
+A00882,image,100.00,normal ecg,Normal ECG,yes
+A00883,image,45.45,sinus tachycardia,Sinus tachycardia,no
+A00884,image,45.45,sinus bradycardia,Sinus bradycardia,no
+A00885,image,100.00,normal ecg,Normal ECG,yes
+A00886,image,50.00,t-wave abnormality,Sinus bradycardia OR T-wave abnormality,no
+A00887,image,100.00,normal ecg,Normal ECG,yes
+A00888,image,100.00,normal ecg,Normal ECG,yes
+A00889,image,28.57,st deviation,ST deviation,no
+A00890,image,100.00,normal ecg,Normal ECG,yes
+A00891,image,100.00,normal ecg,Normal ECG,yes
+A00892,image,100.00,normal ecg,Normal ECG,yes
+A00893,image,47.62,ventricular premature complex(es) and occasional,Ventricular premature complex(es) AND Occasional,no
+A00894,image,100.00,normal ecg,Normal ECG,yes
+A00895,image,100.00,normal ecg,Normal ECG,yes
+A00896,image,100.00,normal ecg,Normal ECG,yes
+A00897,image,75.86,t-wave abnormality,Sinus bradycardia OR T-wave abnormality,yes
+A00898,image,100.00,normal ecg,Normal ECG,yes
+A00899,image,100.00,normal ecg,Normal ECG,yes
+A00900,image,100.00,normal ecg,Normal ECG,yes
+A00901,image,45.45,sinus bradycardia,Sinus bradycardia,no
+A00902,image,100.00,normal ecg,Normal ECG,yes
+A00903,image,100.00,normal ecg,Normal ECG,yes
+A00904,image,45.45,sinus bradycardia,Sinus bradycardia OR T-wave abnormality,no
+A00905,image,100.00,normal ecg,Normal ECG,yes
+A00906,image,15.42,incomplete right bundle-branch block,Incomplete right bundle-branch block OR [Unknown code: 145+362],no
+A00907,image,81.48,t-wave abnormality and inversion,T-wave abnormality AND Inversion,yes
+A00908,image,100.00,normal ecg,Normal ECG,yes
+A00909,image,6.05,left-axis deviation,Left-axis deviation,no
+A00910,image,45.45,sinus bradycardia,Sinus bradycardia,no
+A00911,image,45.45,sinus bradycardia,Sinus bradycardia,no
+A00912,image,100.00,normal ecg,Normal ECG,yes
+A00913,image,100.00,normal ecg,Normal ECG,yes
+A00914,image,100.00,normal ecg,Normal ECG,yes
+A00915,image,12.89,left anterior fascicular block,Left anterior fascicular block,no
+A00916,image,100.00,normal ecg,Normal ECG,yes
+A00917,image,100.00,normal ecg,Normal ECG,yes
+A00918,image,47.62,sinus arrhythmia,Sinus arrhythmia,no
+A00919,image,100.00,normal ecg,Normal ECG,yes
+A00920,image,47.62,sinus arrhythmia,Sinus arrhythmia,no
+A00921,image,9.15,incomplete right bundle-branch block,Incomplete right bundle-branch block,no
+A00922,image,100.00,normal ecg,Normal ECG,yes
+A00923,image,100.00,normal ecg,Normal ECG,yes
+A00924,image,100.00,normal ecg,Normal ECG,yes
+A00925,image,100.00,normal ecg,Normal ECG,yes
+A00926,image,45.45,sinus bradycardia,Sinus bradycardia,no
+A00927,image,100.00,normal ecg,Normal ECG,yes
+A00928,image,45.45,sinus tachycardia,Sinus tachycardia,no
+A00929,image,45.95,atrial fibrillation and with a rapid ventricular response,Atrial fibrillation AND With a rapid ventricular response,no
+A00930,image,100.00,normal ecg,Normal ECG,yes
+A00931,image,100.00,normal ecg,Normal ECG,yes
+A00932,image,100.00,normal ecg,Normal ECG,yes
+A00933,image,100.00,normal ecg,Normal ECG,yes
+A00934,image,100.00,normal ecg,Normal ECG,yes
+A00935,image,4.77,low voltage,Low voltage,no
+A00936,image,6.59,t-wave abnormality,T-wave abnormality,no
+A00937,image,100.00,normal ecg,Normal ECG,yes
+A00938,image,16.23,incomplete right bundle-branch block,Incomplete right bundle-branch block,no
+A00939,image,100.00,normal ecg,Normal ECG,yes
+A00940,image,75.86,t-wave abnormality,Sinus bradycardia OR T-wave abnormality,yes
+A00941,image,60.98,atrial fibrillation and with a rapid ventricular response,Atrial fibrillation AND With a rapid ventricular response,no
+A00942,image,100.00,normal ecg,Normal ECG,yes
+A00943,image,20.00,st deviation and depression,ST deviation AND Depression,no
+A00944,image,100.00,normal ecg,Normal ECG,yes
+A00945,image,47.62,sinus arrhythmia,Sinus bradycardia OR Sinus arrhythmia,no
+A00946,image,100.00,normal ecg,Normal ECG,yes
+A00947,image,100.00,normal ecg,Normal ECG,yes
+A00948,image,100.00,normal ecg,Normal ECG,yes
+A00949,image,7.83,right-axis deviation,Right-axis deviation,no
+A00950,image,100.00,normal ecg,Normal ECG,yes
+A00951,image,3.94,low voltage,Low voltage,no
+A00952,image,8.18,t-wave abnormality,T-wave abnormality OR [Unknown code: 145+362],no
+A00953,image,100.00,normal ecg,Normal ECG,yes
+A00954,image,100.00,normal ecg,Normal ECG,yes
+A00955,image,100.00,normal ecg,Normal ECG,yes
+A00956,image,100.00,t-wave abnormality,T-wave abnormality,yes
+A00957,image,100.00,normal ecg,Normal ECG,yes
+A00958,image,47.62,sinus arrhythmia,Sinus arrhythmia,no
+A00959,image,45.45,sinus bradycardia,Sinus bradycardia OR T-wave abnormality,no
+A00960,image,100.00,normal ecg,Normal ECG,yes
+A00961,image,45.45,sinus bradycardia,Sinus bradycardia,no
+A00962,image,47.62,sinus arrhythmia,Sinus arrhythmia OR ST deviation,no
+A00963,image,50.00,t-wave abnormality,T-wave abnormality,no
+A00964,image,75.00,normal ecg,Normal ECG,yes
+A00965,image,100.00,normal ecg,Normal ECG,yes
+A00966,image,45.45,sinus bradycardia,Sinus bradycardia,no
+A00967,image,4.34,st deviation,ST deviation,no
+A00968,image,77.27,st deviation and depression,ST deviation AND Depression,yes
+A00969,image,100.00,normal ecg,Normal ECG,yes
+A00970,image,100.00,normal ecg,Normal ECG,yes
+A00971,image,100.00,normal ecg,Normal ECG,yes
+A00972,image,45.45,sinus bradycardia,Sinus bradycardia,no
+A00973,image,45.45,sinus bradycardia,Sinus bradycardia,no
+A00974,image,100.00,atrial fibrillation,Atrial fibrillation OR ST deviation with T-wave change,yes
+A00975,image,100.00,left posterior fascicular block,Left posterior fascicular block,yes
+A00976,image,100.00,normal ecg,Normal ECG,yes
+A00977,image,100.00,normal ecg,Normal ECG,yes
+A00978,image,100.00,normal ecg,Normal ECG,yes
+A00979,image,100.00,normal ecg,Normal ECG,yes
+A00980,image,4.51,st deviation,ST deviation,no
+A00981,image,100.00,normal ecg,Normal ECG,yes
+A00982,image,100.00,normal ecg,Normal ECG,yes
+A00983,image,100.00,normal ecg,Normal ECG,yes
+A00984,image,100.00,normal ecg,Normal ECG,yes
+A00985,image,100.00,normal ecg,Normal ECG,yes
+A00986,image,100.00,normal ecg,Normal ECG,yes
+A00987,image,100.00,normal ecg,Normal ECG,yes
+A00988,image,45.45,sinus tachycardia,Sinus tachycardia OR [Unknown code: 147+367],no
+A00989,image,36.36,st deviation and depression,ST deviation AND Depression,no
+A00990,image,100.00,normal ecg,Normal ECG,yes
+A00991,image,100.00,normal ecg,Normal ECG,yes
+A00992,image,62.22,st deviation with t-wave change,Atrial premature complex(es) OR ST deviation with T-wave change,no
+A00993,image,13.66,incomplete right bundle-branch block,Incomplete right bundle-branch block,no
+A00994,image,47.62,sinus arrhythmia,Sinus arrhythmia,no
+A00995,image,100.00,normal ecg,Normal ECG,yes
+A00996,image,61.11,right bundle-branch block,Right bundle-branch block,no
+A00997,image,100.00,normal ecg,Normal ECG,yes
+A00998,image,100.00,normal ecg,Normal ECG,yes
+A00999,image,100.00,normal ecg,Normal ECG,yes
+A01000,image,13.23,incomplete right bundle-branch block,Incomplete right bundle-branch block,no
